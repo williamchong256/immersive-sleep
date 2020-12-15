@@ -22,10 +22,30 @@ export const Testing = () => {
     );
 }
 
-export const TestingButton = () => {
-    const [isClicked, setClicked] = useState(false);
+export class TestingButton extends React.Component {
+    constructor(props) {
+        super(props);
+        this.state = {
+            value: 0
+        };
+    }
 
+    setValue = () => {
+        const apiURL = `http://${manifest.debuggerHost.split(':').shift()}:4000/counter`;
+        fetch(apiURL, {
+            method: 'POST',
+            headers: { 'Content-Type': 'application/json' },
+            body: JSON.stringify(this.state)
+        })
+        .then(response => response.json())
+        .then(json => this.setState({ value: json.value }))
+        .catch(err => console.log(err));
+
+    }
+
+    render() {
     return (
-        <Button onPress={() => setClicked(!isClicked)} title={isClicked ? 'True' : 'False'} />
+        <Button onPress={() => this.setValue()} title={this.state.value.toString()} />
     )
+    }
 }

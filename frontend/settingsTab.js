@@ -10,8 +10,8 @@ function Settings({ navigation }) {
         <View style={[styles.settings, {
             backgroundColor: darkMode ? '#000' : '#fff',
         }]}>
-            <Button onPress={() => navigation.navigate('Preferences')} title='Preferences' />
             <Button onPress={() => navigation.navigate('Profile')} title='Profile' />
+            <Button onPress={() => navigation.navigate('Preferences')} title='Preferences' />
             <View style={styles.darkMode}>
                 <Text style={[styles.darkModeText, {
                     color: darkMode ? '#fff' : '#000'
@@ -26,18 +26,19 @@ function Settings({ navigation }) {
     );
 }
 
-function Preferences() {
-    return (
-        <View style={styles.container}>
-            <Text>Boilerplate for Preferences</Text>
-        </View>
-    );
-}
 
 function Profile() {
     return (
         <View style={styles.container}>
             <Text>Boilerplate for Profile</Text>
+        </View>
+    );
+}
+
+function Preferences() {
+    return (
+        <View style={styles.container}>
+            <Text>Boilerplate for Preferences</Text>
         </View>
     );
 }

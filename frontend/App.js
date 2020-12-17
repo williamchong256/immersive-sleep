@@ -10,16 +10,19 @@ function HomeTabs() {
   return (
     <Tab.Navigator initialRouteName="Home" screenOptions={({ route }) => ({
       tabBarIcon: ({ focused, color, size }) => {
-        if (route.name === "Diagnostics") {
-          return <MaterialCommunityIcons name="hospital" size={size} color={color} />;
-        } else if (route.name === "Data") {
-          return <MaterialCommunityIcons name="waveform" size={size} color={color} />;
-        } else if (route.name === "Home") {
-          return <Ionicons name="ios-globe-outline" size={size} color={color} />;
-        } else if (route.name === "Ambiance") {
-          return <FontAwesome5 name="lightbulb" size={size} color={color} />;
-        } else if (route.name === "Settings") {
-          return <Ionicons name="settings-outline" size={size} color={color} />;
+        switch (route.name) {
+          case "Diagnostics":
+            return <MaterialCommunityIcons name="hospital" size={size} color={color} />;
+          case "Data":
+            return <MaterialCommunityIcons name="waveform" size={size} color={color} />;
+          case "Home":
+            return <Ionicons name="ios-globe-outline" size={size} color={color} />;
+          case "Ambiance":
+            return <FontAwesome5 name="lightbulb" size={size} color={color} />;
+          case "Settings":
+            return <Ionicons name="settings-outline" size={size} color={color} />;
+          default:
+            return;
         }
       }
     })}>

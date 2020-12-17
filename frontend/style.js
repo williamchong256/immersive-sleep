@@ -7,4 +7,29 @@ export const styles = StyleSheet.create({
     alignItems: 'center',
     justifyContent: 'center',
   },
+
+  settings: {
+    flex: 1,
+    backgroundColor: '#fff',
+    alignItems: 'flex-start',
+    justifyContent: 'flex-start',
+    padding: 20,
+  },
+
+  darkMode: {
+    flexDirection: 'row',
+    alignItems: 'center',
+    justifyContent: 'center',
+  },
+
+  darkModeToggleView: {
+    flex: 1,
+    alignItems: 'flex-end',
+  },
+
+  darkModeText: {
+    flex: 1,
+    paddingLeft: 7,
+    fontSize: 17,
+  }
 });

@@ -2,7 +2,8 @@ import * as React from 'react';
 import { NavigationContainer } from '@react-navigation/native';
 import { createStackNavigator } from '@react-navigation/stack';
 import { createBottomTabNavigator } from '@react-navigation/bottom-tabs';
-import { DiagnosticsTab, DataTab, HomeTab, AmbianceTab, SettingsTab, Start } from './homeTabs.js';
+import { DiagnosticsTab, DataTab, HomeTab, AmbianceTab, Start } from './homeTabs';
+import SettingsTab from './settingsTab';
 
 function HomeTabs() {
   return (

@@ -42,11 +42,3 @@ export function AmbianceTab() {
         </View>
     );
 }
-
-export function SettingsTab() {
-    return (
-        <View style={styles.container}>
-            <Text>Boilerplate for SettingsTab</Text>
-        </View>
-    );
-}

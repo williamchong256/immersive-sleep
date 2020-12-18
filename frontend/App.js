@@ -3,8 +3,9 @@ import { NavigationContainer } from '@react-navigation/native';
 import { createStackNavigator } from '@react-navigation/stack';
 import { createBottomTabNavigator } from '@react-navigation/bottom-tabs';
 import { MaterialCommunityIcons, Ionicons, FontAwesome5 } from '@expo/vector-icons';
-import { DiagnosticsTab, DataTab, HomeTab, AmbianceTab, Start } from './homeTabs';
+import { DiagnosticsTab, HomeTab, AmbianceTab, Start } from './homeTabs';
 import SettingsTab from './settingsTab';
+import DataTab from './dataTab';
 
 function HomeTabs() {
   return (

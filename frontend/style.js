@@ -31,5 +31,21 @@ export const styles = StyleSheet.create({
     flex: 1,
     paddingLeft: 7,
     fontSize: 17,
+  },
+
+  scroll: {
+    flex: 1,
+    backgroundColor: '#fff',
+    padding: 20,
+    alignItems: 'flex-start',
+    justifyContent: 'center',
+  },
+
+  scrollView: {
+    flex: 1,
+    backgroundColor: '#fff',
+    padding: 20,
+    alignItems: 'stretch',
+    justifyContent: 'center',
   }
 });

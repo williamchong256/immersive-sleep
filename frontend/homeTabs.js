@@ -18,14 +18,6 @@ export function DiagnosticsTab() {
     );
 }
 
-export function DataTab() {
-    return (
-        <View style={styles.container}>
-            <Text>Boilerplate for DataTab</Text>
-        </View>
-    );
-}
-
 export function HomeTab({ navigation }) {
     return (
         <View style={styles.container}>

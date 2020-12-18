@@ -2,6 +2,7 @@ import * as React from 'react';
 import { View, SafeAreaView, Text, FlatList } from 'react-native';
 import { styles } from './style';
 
+// Sample data for displaying FlatList
 const sampleData = [
     {
         key: '12/3',
@@ -47,12 +48,15 @@ const sampleData = [
     },
 ];
 
+// Returns a component that is rendered as the
+// header of the Data tab
 function header() {
     return (
         <Text style={{ alignSelf: 'center', padding: 10 }}>Header</Text>
     );
 }
 
+// Handles the rendering of each item in data of FlatList
 function renderData({ item }) {
     return (
         <View style={styles.scroll}>
@@ -81,6 +85,7 @@ function renderData({ item }) {
     )
 }
 
+// The Data tab where the FlatList is returned
 function DataTab() {
     return (
         <SafeAreaView style={styles.scrollView}>

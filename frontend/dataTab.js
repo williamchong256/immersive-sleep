@@ -62,7 +62,9 @@ function header() {
 function renderData({ item }, navigation) {
     return (
         <View style={styles.scroll}>
-            <Pressable onPress={() => navigation.navigate("DetailedData")}>
+            <Pressable onPress={() => navigation.navigate("DetailedData", {
+                item
+            })}>
                 <Text style={{ alignSelf: 'center' }}>{item.key}</Text>
 
                 <View style={{ flexDirection: 'row', justifyContent: 'space-between' }}>

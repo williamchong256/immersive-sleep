@@ -62,6 +62,10 @@ function header() {
 function renderData({ item }, navigation) {
     return (
         <View style={styles.scroll}>
+            {/*
+            Passing the item prop to our Detailed Data component
+            when we call navigate
+            */}
             <Pressable onPress={() => navigation.navigate("DetailedData", {
                 item
             })}>
@@ -91,9 +95,14 @@ function renderData({ item }, navigation) {
     )
 }
 
+// The Data tab where the FlatList is returned
 function Data({ navigation }) {
     return (
         <SafeAreaView style={styles.scrollView}>
+            {/*
+            Pass the navigation prop to renderData so that
+            we can navigate to the Detailed Data page
+            */}
             <FlatList data={sampleData} renderItem={(item) => renderData(item, navigation)} ListHeaderComponent={header} />
         </SafeAreaView>
     );
@@ -101,9 +110,9 @@ function Data({ navigation }) {
 
 const DataStack = createStackNavigator();
 
-// The Data tab where the FlatList is returned
 function DataTab() {
     return (
+        // Implement a StackNavigator for the Detailed Data page
         <DataStack.Navigator initialRouteName="Data">
             <DataStack.Screen name="Data" component={Data} />
             <DataStack.Screen name="DetailedData" component={DetailedData} />

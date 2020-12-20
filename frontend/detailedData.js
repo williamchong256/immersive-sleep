@@ -3,8 +3,10 @@ import { View, Text } from 'react-native';
 import { styles } from './style';
 
 function DetailedData({ route }) {
+    // Retrieve our item in route.params
     const { item } = route.params;
     return (
+        // Simple example of displaying data based in route
         <View style={styles.scroll}>
             <Text style={{ alignSelf: 'center' }}>{item.key}</Text>
 

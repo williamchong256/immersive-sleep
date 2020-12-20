@@ -63,7 +63,6 @@ function App() {
       */}
       <Stack.Navigator initialRouteName="Home">
         <Stack.Screen name="Start" component={Start} />
-        <Stack.Screen name="DetailedData" component={DetailedData} />
         <Stack.Screen name="Home" component={HomeTabs} options={{ headerShown: false }} />
       </Stack.Navigator>
     </NavigationContainer>

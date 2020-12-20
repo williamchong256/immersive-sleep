@@ -1,6 +1,8 @@
 import * as React from 'react';
 import { View, SafeAreaView, Text, FlatList, Pressable } from 'react-native';
 import { styles } from './style';
+import { createStackNavigator } from '@react-navigation/stack';
+import DetailedData from './detailedData';
 
 // Sample data for displaying FlatList
 const sampleData = [
@@ -87,12 +89,23 @@ function renderData({ item }, navigation) {
     )
 }
 
-// The Data tab where the FlatList is returned
-function DataTab({ navigation }) {
+function Data({ navigation }) {
     return (
         <SafeAreaView style={styles.scrollView}>
-            <FlatList data={sampleData} renderItem={(item) => renderData(item, navigation)} ListHeaderComponent={header}/>
+            <FlatList data={sampleData} renderItem={(item) => renderData(item, navigation)} ListHeaderComponent={header} />
         </SafeAreaView>
+    );
+}
+
+const DataStack = createStackNavigator();
+
+// The Data tab where the FlatList is returned
+function DataTab() {
+    return (
+        <DataStack.Navigator initialRouteName="Data">
+            <DataStack.Screen name="Data" component={Data} />
+            <DataStack.Screen name="DetailedData" component={DetailedData} />
+        </DataStack.Navigator>
     );
 }
 

@@ -6,6 +6,7 @@ import { MaterialCommunityIcons, Ionicons, FontAwesome5 } from '@expo/vector-ico
 import { DiagnosticsTab, HomeTab, AmbianceTab, Start } from './homeTabs';
 import SettingsTab from './settingsTab';
 import DataTab from './dataTab';
+import DetailedData from './detailedData';
 
 // Implements the bottom tab navigation
 // Tab icons are implemented in the tabBarIcon option in the TabNavigator,
@@ -62,6 +63,7 @@ function App() {
       */}
       <Stack.Navigator initialRouteName="Home">
         <Stack.Screen name="Start" component={Start} />
+        <Stack.Screen name="DetailedData" component={DetailedData} />
         <Stack.Screen name="Home" component={HomeTabs} options={{ headerShown: false }} />
       </Stack.Navigator>
     </NavigationContainer>

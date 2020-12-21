@@ -1,26 +1,36 @@
-import React, { useEffect, useState } from 'react';
-import { Text, Button } from 'react-native';
+import React from 'react';
+import { Button } from 'react-native';
 import Constants from 'expo-constants';
 
 const { manifest } = Constants;
 
-export const Testing = () => {
-  const [response, setResponse] = useState({});
-
-  useEffect(() => {
-    const apiURL = `http://${manifest.debuggerHost.split(':').shift()}:4000`;
-    fetch(apiURL, {
-      method: 'GET',
-    })
-      .then((backendResponse) => backendResponse.json())
-      .then((json) => setResponse(json))
-      .catch((err) => setResponse(err));
-  });
-
-  return (
-    <Text>{response.text}</Text>
-  );
+const pushBackend = () => {
+  const apiURL = `http://${manifest.debuggerHost.split(':').shift()}:4000/push`;
+  fetch(apiURL, {
+    method: 'POST',
+  })
+    .then((response) => response.json())
+    .then((json) => console.log(json))
+    .catch((err) => console.log(err));
 };
+
+const registerPush = (expoPushToken) => {
+  const apiURL = `http://${manifest.debuggerHost.split(':').shift()}:4000/pushToken`;
+  fetch(apiURL, {
+    method: 'POST',
+    headers: { 'Content-Type': 'application/json' },
+    body: JSON.stringify({ expoPushToken }),
+  })
+    .then((response) => response.json())
+    .then((json) => console.log('Success: ', json))
+    .catch((err) => console.log(err));
+};
+
+export function RegisterPushButton(props) {
+  return (
+    <Button onPress={() => registerPush(props.expoPushToken)} title="Register Push" />
+  );
+}
 
 export class TestingButton extends React.Component {
   constructor(props) {
@@ -42,11 +52,10 @@ export class TestingButton extends React.Component {
         // eslint-disable-next-line no-console
         .catch((err) => console.log(err));
     }
+}
 
-    render() {
-      const { value } = this.state;
-      return (
-        <Button onPress={this.setValue} title={value.toString()} />
-      );
-    }
+export function PushButton() {
+  return (
+    <Button onPress={pushBackend} title="Send Push" />
+  );
 }

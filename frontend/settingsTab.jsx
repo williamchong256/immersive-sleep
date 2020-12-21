@@ -9,6 +9,7 @@ import styles from './style';
 import {
   BoilerplateView, PageTitle, PageView, PressableButton,
 } from './Themes';
+import NotificationsExample from './Notifications';
 
 // TODO: Implement Dark Mode at an app level
 
@@ -65,7 +66,7 @@ function Preferences() {
 function Notifications() {
   return (
     <BoilerplateView>
-      <Text>Boilerplate for Notifications</Text>
+      <NotificationsExample />
     </BoilerplateView>
   );
 }

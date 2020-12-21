@@ -10,6 +10,7 @@
   },
   "author": "",
   "dependencies": {
+    "expo-server-sdk": "^3.6.0",
     "express": "^4.17.1"
   },
   "devDependencies": {

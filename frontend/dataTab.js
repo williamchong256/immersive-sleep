@@ -50,14 +50,6 @@ const sampleData = [
     },
 ];
 
-// Returns a component that is rendered as the
-// header of the Data tab
-function header() {
-    return (
-        <Text style={{ alignSelf: 'center', padding: 10 }}>Header</Text>
-    );
-}
-
 // Handles the rendering of each item in data of FlatList
 function renderData({ item }, navigation) {
     return (
@@ -103,7 +95,7 @@ function Data({ navigation }) {
             Pass the navigation prop to renderData so that
             we can navigate to the Detailed Data page
             */}
-            <FlatList data={sampleData} renderItem={(item) => renderData(item, navigation)} ListHeaderComponent={header} />
+            <FlatList data={sampleData} renderItem={(item) => renderData(item, navigation)} />
         </SafeAreaView>
     );
 }

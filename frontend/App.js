@@ -6,7 +6,6 @@ import { MaterialCommunityIcons, Ionicons, FontAwesome5 } from '@expo/vector-ico
 import { DiagnosticsTab, HomeTab, AmbianceTab, Start } from './homeTabs';
 import SettingsTab from './settingsTab';
 import DataTab from './dataTab';
-import DetailedData from './detailedData';
 
 // Implements the bottom tab navigation
 // Tab icons are implemented in the tabBarIcon option in the TabNavigator,

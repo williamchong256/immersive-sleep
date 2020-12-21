@@ -30,15 +30,12 @@ app.post('/push', (req, res) => {
     data: { withSome: 'data' },
   }];
 
-  (async () => {
-    try {
-      const ticket = await expo.sendPushNotificationsAsync(messages);
+  expo.sendPushNotificationsAsync(messages)
+    .then((ticket) => {
       console.log(ticket);
       res.json(ticket);
-    } catch (error) {
-      console.log(error);
-    }
-  })();
+    })
+    .catch((err) => console.log(err));
 });
 
 app.listen(PORT, () => {

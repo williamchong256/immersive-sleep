@@ -22,7 +22,7 @@ const registerPush = (expoPushToken) => {
     body: JSON.stringify({ expoPushToken }),
   })
     .then((response) => response.json())
-    .then((json) => console.log('Success: ', json))
+    .then((json) => console.log('Success:', json))
     .catch((err) => console.log(err));
 };
 

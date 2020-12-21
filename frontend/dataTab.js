@@ -1,6 +1,8 @@
 import * as React from 'react';
-import { View, SafeAreaView, Text, FlatList } from 'react-native';
+import { View, SafeAreaView, Text, FlatList, Pressable } from 'react-native';
 import { styles } from './style';
+import { createStackNavigator } from '@react-navigation/stack';
+import DetailedData from './detailedData';
 
 // Sample data for displaying FlatList
 const sampleData = [
@@ -48,49 +50,65 @@ const sampleData = [
     },
 ];
 
-// Returns a component that is rendered as the
-// header of the Data tab
-function header() {
-    return (
-        <Text style={{ alignSelf: 'center', padding: 10 }}>Header</Text>
-    );
-}
-
 // Handles the rendering of each item in data of FlatList
-function renderData({ item }) {
+function renderData({ item }, navigation) {
     return (
         <View style={styles.scroll}>
-            <Text style={{ alignSelf: 'center' }}>{item.key}</Text>
+            {/*
+            Passing the item prop to our Detailed Data component
+            when we call navigate
+            */}
+            <Pressable onPress={() => navigation.navigate("DetailedData", {
+                item
+            })}>
+                <Text style={{ alignSelf: 'center' }}>{item.key}</Text>
 
-            <View style={{ flexDirection: 'row', justifyContent: 'space-between' }}>
-                <Text style={{ textAlign: 'left' }}>Duration:</Text>
-                <Text style={{ textAlign: 'right' }}>{item.duration}</Text>
-            </View>
+                <View style={{ flexDirection: 'row', justifyContent: 'space-between' }}>
+                    <Text style={{ textAlign: 'left' }}>Duration:</Text>
+                    <Text style={{ textAlign: 'right' }}>{item.duration}</Text>
+                </View>
 
-            <View style={{ flexDirection: 'row', justifyContent: 'space-between' }}>
-                <Text style={{ textAlign: 'left' }}>Heart Rate:</Text>
-                <Text style={{ textAlign: 'right' }}>{item.heartRate}</Text>
-            </View>
+                <View style={{ flexDirection: 'row', justifyContent: 'space-between' }}>
+                    <Text style={{ textAlign: 'left' }}>Heart Rate:</Text>
+                    <Text style={{ textAlign: 'right' }}>{item.heartRate}</Text>
+                </View>
 
-            <View style={{ flexDirection: 'row', justifyContent: 'space-between' }}>
-                <Text style={{ textAlign: 'left' }}>Breathing:</Text>
-                <Text style={{ textAlign: 'right' }}>{item.breathing}</Text>
-            </View>
+                <View style={{ flexDirection: 'row', justifyContent: 'space-between' }}>
+                    <Text style={{ textAlign: 'left' }}>Breathing:</Text>
+                    <Text style={{ textAlign: 'right' }}>{item.breathing}</Text>
+                </View>
 
-            <View style={{ flexDirection: 'row', justifyContent: 'space-between' }}>
-                <Text style={{ textAlign: 'left' }}>Efficiency:</Text>
-                <Text style={{ textAlign: 'right' }}>{item.efficiency}</Text>
-            </View>
+                <View style={{ flexDirection: 'row', justifyContent: 'space-between' }}>
+                    <Text style={{ textAlign: 'left' }}>Efficiency:</Text>
+                    <Text style={{ textAlign: 'right' }}>{item.efficiency}</Text>
+                </View>
+            </Pressable>
         </View>
     )
 }
 
 // The Data tab where the FlatList is returned
-function DataTab() {
+function Data({ navigation }) {
     return (
         <SafeAreaView style={styles.scrollView}>
-            <FlatList data={sampleData} renderItem={renderData} ListHeaderComponent={header}/>
+            {/*
+            Pass the navigation prop to renderData so that
+            we can navigate to the Detailed Data page
+            */}
+            <FlatList data={sampleData} renderItem={(item) => renderData(item, navigation)} />
         </SafeAreaView>
+    );
+}
+
+const DataStack = createStackNavigator();
+
+function DataTab() {
+    return (
+        // Implement a StackNavigator for the Detailed Data page
+        <DataStack.Navigator initialRouteName="Data">
+            <DataStack.Screen name="Data" component={Data} />
+            <DataStack.Screen name="DetailedData" component={DetailedData} />
+        </DataStack.Navigator>
     );
 }
 

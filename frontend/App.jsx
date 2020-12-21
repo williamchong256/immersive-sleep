@@ -44,7 +44,7 @@ function HomeTabs() {
     >
       {/* The different tabs routes are declared here as Screens */}
       <Tab.Screen name="Diagnostics" component={DiagnosticsTab} />
-      <Tab.Screen name="Data" component={DataTab} />
+      <Tab.Screen name="Data" component={DataTab} options = {{ unmountOnBlur: true }} />
       <Tab.Screen name="Home" component={HomeTab} />
       <Tab.Screen name="Ambiance" component={AmbianceTab} />
       <Tab.Screen name="Settings" component={SettingsTab} />

@@ -5,10 +5,8 @@
 import * as React from 'react';
 import { Button, View, Text, Dimensions } from 'react-native';
 import { styles } from './style';
-import {LineChart} from "react-native-chart-kit";
-import {sampleData} from './dataTab';
-
-
+import { LineChart } from "react-native-chart-kit";
+import { sampleData } from './sampleData.json';
 
 export function Start() {
   return (
@@ -18,16 +16,15 @@ export function Start() {
   );
 }
 
-
-var daysoftheweek= sampleData.map(user=>user.key);
-var heartratediagnostics=sampleData.map(user=>user.heartRate);
-
 export function DiagnosticsTab() {
+    const daysOfTheWeek = sampleData.map(user => user.key);
+    const heartRateDiagnostics = sampleData.map(user => user.heartRate);
+
     return (
         <View style={styles.container}>
             <Text>Heart Rate Analysis</Text>
             <LineChart 
-            data = {{labels: daysoftheweek, datasets: [{data: heartratediagnostics}]}}
+            data = {{labels: daysOfTheWeek, datasets: [{ data: heartRateDiagnostics }]}}
             height= {200}
             width = {Dimensions.get("window").width-60}
             fromZero={true}

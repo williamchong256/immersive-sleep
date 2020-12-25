@@ -50,6 +50,8 @@ const sampleData = [
     },
 ];
 
+export {sampleData};
+
 // Handles the rendering of each item in data of FlatList
 function renderData({ item }, navigation) {
     return (

@@ -17,5 +17,7 @@ jobs:
           expo-version: 4.x
           expo-token: ${{ secrets.EXPO_TOKEN }}
           expo-packager: npm
-      - run: npm ci
-      - run: expo publish
+      - run: |
+          npm ci
+          expo publish
+        working-directory: ./frontend

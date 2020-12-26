@@ -32,3 +32,7 @@ If the tab icons fail to load, try running expo with the Metro bundler cache cle
 Step 1: ensure your code passes tests and style
 
 `npm run test`
+
+Step 2: if your code fails style, you can try to automatically fix it
+
+`npx eslint '**/*.js*' --fix`

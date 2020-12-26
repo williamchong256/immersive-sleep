@@ -39,6 +39,7 @@ export class TestingButton extends React.Component {
       })
         .then((response) => response.json())
         .then((json) => this.setState({ value: json.value }))
+        // eslint-disable-next-line no-console
         .catch((err) => console.log(err));
     }
 

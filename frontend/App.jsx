@@ -1,9 +1,12 @@
 import * as React from 'react';
+import { Text } from 'react-native';
 import { NavigationContainer } from '@react-navigation/native';
 import { createStackNavigator } from '@react-navigation/stack';
 import { createBottomTabNavigator } from '@react-navigation/bottom-tabs';
 import { MaterialCommunityIcons, Ionicons, FontAwesome5 } from '@expo/vector-icons';
-import { DiagnosticsTab, HomeTab, AmbianceTab, Start } from './homeTabs';
+import {
+  DiagnosticsTab, HomeTab, AmbianceTab, Start,
+} from './homeTabs';
 import SettingsTab from './settingsTab';
 import DataTab from './dataTab';
 
@@ -17,25 +20,28 @@ function HomeTabs() {
     // each of the child Screens
     // This function is passed down to each individual Screen, which then passes
     // its route prop to this function
-    <Tab.Navigator initialRouteName="Home" screenOptions={({ route }) => ({
-      tabBarIcon: ({ focused, color, size }) => {
-        // Switch statements that assigns icon based on TabScreen name
-        switch (route.name) {
-          case "Diagnostics":
-            return <MaterialCommunityIcons name="hospital" size={size} color={color} />;
-          case "Data":
-            return <MaterialCommunityIcons name="waveform" size={size} color={color} />;
-          case "Home":
-            return <Ionicons name="ios-globe-outline" size={size} color={color} />;
-          case "Ambiance":
-            return <FontAwesome5 name="lightbulb" size={size} color={color} />;
-          case "Settings":
-            return <Ionicons name="settings-outline" size={size} color={color} />;
-          default:
-            return;
-        }
-      }
-    })}>
+    <Tab.Navigator
+      initialRouteName="Home"
+      screenOptions={({ route }) => ({
+        tabBarIcon: ({ color, size }) => {
+          // Switch statements that assigns icon based on TabScreen name
+          switch (route.name) {
+            case 'Diagnostics':
+              return <MaterialCommunityIcons name="hospital" size={size} color={color} />;
+            case 'Data':
+              return <MaterialCommunityIcons name="waveform" size={size} color={color} />;
+            case 'Home':
+              return <Ionicons name="ios-globe-outline" size={size} color={color} />;
+            case 'Ambiance':
+              return <FontAwesome5 name="lightbulb" size={size} color={color} />;
+            case 'Settings':
+              return <Ionicons name="settings-outline" size={size} color={color} />;
+            default:
+              return <Text>error</Text>;
+          }
+        },
+      })}
+    >
       {/* The different tabs routes are declared here as Screens */}
       <Tab.Screen name="Diagnostics" component={DiagnosticsTab} />
       <Tab.Screen name="Data" component={DataTab} />

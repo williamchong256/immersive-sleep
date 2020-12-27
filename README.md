@@ -35,4 +35,4 @@ Step 1: ensure your code passes tests and style
 
 Step 2: if your code fails style, you can try to automatically fix it
 
-`npx eslint '**/*.js*' --fix`
+`npx eslint '**/*.js' '**/*.jsx' --fix`

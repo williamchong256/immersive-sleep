@@ -7,14 +7,19 @@ import {
   Button, View, Text, Dimensions,
 } from 'react-native';
 import { LineChart } from 'react-native-chart-kit';
+import { LinearGradient } from 'expo-linear-gradient';
 import styles from './style';
 import { sampleData } from './sampleData.json';
+import { PageTitle, PageView } from './Themes';
+
+const today = new Date();
+const time = `${today.getHours()}:${today.getMinutes()}:${today.getSeconds()}`;
 
 export function Start() {
   return (
-    <View style={styles.container}>
-      <Text>Boilerplate for Start</Text>
-    </View>
+    <LinearGradient colors={['#fff', '#F9F6FF', '#CFDFF7']} style={styles.data}>
+      <PageTitle start>{time}</PageTitle>
+    </LinearGradient>
   );
 }
 
@@ -43,16 +48,16 @@ export function DiagnosticsTab() {
 
 export function HomeTab({ navigation }) {
   return (
-    <View style={styles.container}>
-      <Text>Boilerplate for HomeTab</Text>
+    <PageView>
+      <PageTitle home>Hello, Person</PageTitle>
       {/*
             The Home tab contains a Button titled "Start"
             that navigates to the Start Screen. Because the
             corresponding route is a Stack.Screen in the parent
             Navigator (in App.js), the bottom tab bar is not displayed
             */}
-      <Button onPress={() => navigation.navigate('Start')} title="Start" />
-    </View>
+      <Button onPress={() => navigation.navigate('Start')} title="Start" style={{ alignSelf: 'flex-end' }} />
+    </PageView>
   );
 }
 

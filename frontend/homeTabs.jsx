@@ -14,12 +14,12 @@ import { PageTitle, PageView } from './Themes';
 
 export function Start() {
   const initialToday = new Date();
-  const [time, setTime] = React.useState(`${initialToday.getHours()}:${initialToday.getMinutes()}:${initialToday.getSeconds()}`);
+  const [time, setTime] = React.useState(`${initialToday.toTimeString().split(' ')[0]}`);
 
   React.useEffect(() => {
     const timer = setInterval(() => {
       const today = new Date();
-      setTime(`${today.getHours()}:${today.getMinutes()}:${today.getSeconds()}`);
+      setTime(`${today.toTimeString().split(' ')[0]}`);
     }, 100);
     return () => clearInterval(timer);
   });

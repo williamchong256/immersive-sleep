@@ -12,10 +12,18 @@ import styles from './style';
 import { sampleData } from './sampleData.json';
 import { PageTitle, PageView } from './Themes';
 
-const today = new Date();
-const time = `${today.getHours()}:${today.getMinutes()}:${today.getSeconds()}`;
-
 export function Start() {
+  const initialToday = new Date();
+  const [time, setTime] = React.useState(`${initialToday.getHours()}:${initialToday.getMinutes()}:${initialToday.getSeconds()}`);
+
+  React.useEffect(() => {
+    const timer = setInterval(() => {
+      const today = new Date();
+      setTime(`${today.getHours()}:${today.getMinutes()}:${today.getSeconds()}`);
+    }, 100);
+    return () => clearInterval(timer);
+  });
+
   return (
     <LinearGradient colors={['#fff', '#F9F6FF', '#CFDFF7']} style={styles.data}>
       <PageTitle start>{time}</PageTitle>

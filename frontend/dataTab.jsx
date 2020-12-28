@@ -1,56 +1,12 @@
 import * as React from 'react';
 import {
-  View, SafeAreaView, Text, FlatList, Pressable,
+  View, SafeAreaView, FlatList, Pressable,
 } from 'react-native';
 import { createStackNavigator } from '@react-navigation/stack';
 import styles from './style';
 import DetailedData from './detailedData';
-
-// Sample data for displaying FlatList
-const sampleData = [
-  {
-    key: '12/3',
-    duration: 3600,
-    heartRate: 65,
-    breathing: 'yes',
-    efficiency: 10,
-  },
-  {
-    key: '12/4',
-    duration: 4267,
-    heartRate: 70,
-    breathing: 'yes',
-    efficiency: 6,
-  },
-  {
-    key: '12/5',
-    duration: 9243,
-    heartRate: 0,
-    breathing: 'no',
-    efficiency: 0,
-  },
-  {
-    key: '12/6',
-    duration: 2434,
-    heartRate: 60,
-    breathing: 'yes',
-    efficiency: 3,
-  },
-  {
-    key: '12/7',
-    duration: 4256,
-    heartRate: 65,
-    breathing: 'yes',
-    efficiency: 4,
-  },
-  {
-    key: '12/8',
-    duration: 2432,
-    heartRate: 71,
-    breathing: 'yes',
-    efficiency: 8,
-  },
-];
+import { sampleData } from './sampleData.json';
+import { CardTitle, BodyText } from './Themes';
 
 // Handles the rendering of each item in data of FlatList
 function renderData({ item }, navigation) {
@@ -64,26 +20,34 @@ function renderData({ item }, navigation) {
         item,
       })}
       >
-        <Text style={{ alignSelf: 'center' }}>{item.key}</Text>
+        <CardTitle>{item.key}</CardTitle>
 
         <View style={{ flexDirection: 'row', justifyContent: 'space-between' }}>
-          <Text style={{ textAlign: 'left' }}>Duration:</Text>
-          <Text style={{ textAlign: 'right' }}>{item.duration}</Text>
+          <BodyText>
+            Duration:
+            {item.duration}
+          </BodyText>
         </View>
 
         <View style={{ flexDirection: 'row', justifyContent: 'space-between' }}>
-          <Text style={{ textAlign: 'left' }}>Heart Rate:</Text>
-          <Text style={{ textAlign: 'right' }}>{item.heartRate}</Text>
+          <BodyText>
+            Heart Rate:
+            {item.heartRate}
+          </BodyText>
         </View>
 
         <View style={{ flexDirection: 'row', justifyContent: 'space-between' }}>
-          <Text style={{ textAlign: 'left' }}>Breathing:</Text>
-          <Text style={{ textAlign: 'right' }}>{item.breathing}</Text>
+          <BodyText>
+            Breathing:
+            {item.breathing}
+          </BodyText>
         </View>
 
         <View style={{ flexDirection: 'row', justifyContent: 'space-between' }}>
-          <Text style={{ textAlign: 'left' }}>Efficiency:</Text>
-          <Text style={{ textAlign: 'right' }}>{item.efficiency}</Text>
+          <BodyText>
+            Efficiency:
+            {item.efficiency}
+          </BodyText>
         </View>
       </Pressable>
     </View>

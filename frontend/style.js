@@ -35,10 +35,23 @@ const styles = StyleSheet.create({
 
   scroll: {
     flex: 1,
-    backgroundColor: '#fff',
+    backgroundColor: '#A6CDF0',
     padding: 20,
+    paddingTop: 15,
     alignItems: 'stretch',
     justifyContent: 'center',
+    borderRadius: 10,
+    margin: 7,
+
+  },
+
+  data: {
+    flex: 1,
+    padding: 20,
+    backgroundColor: '#fff',
+    alignItems: 'stretch',
+    justifyContent: 'flex-start',
+
   },
 
   scrollView: {
@@ -47,6 +60,14 @@ const styles = StyleSheet.create({
     padding: 20,
     alignItems: 'stretch',
     justifyContent: 'center',
+  },
+
+  card: {
+    flexDirection: 'row',
+    justifyContent: 'space-between',
+    backgroundColor: '#A6CDF0',
+    borderRadius: 10,
+    padding: 10,
   },
 });
 

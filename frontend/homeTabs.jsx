@@ -20,7 +20,7 @@ export function Start() {
     const timer = setInterval(() => {
       const today = new Date();
       setTime(`${today.getHours()}:${today.getMinutes()}:${today.getSeconds()}`);
-    }, 1000);
+    }, 100);
     return () => clearInterval(timer);
   });
 

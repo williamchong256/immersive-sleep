@@ -1,0 +1,9 @@
+PulseSensor
+    The Pulse sensor is a open source live heartbeat detector that supports Arduino and Rarsberry Pi
+    It has a well supported community driven library under MIT license that makes programming with it really easy
+        PulseSensorPlayground
+    This sensor is basically a oximeter, but with build in noise cancellation circuits
+
+    The official website with more information: https://pulsesensor.com/
+
+

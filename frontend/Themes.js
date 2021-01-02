@@ -1,4 +1,4 @@
-import styled from 'styled-components';
+import styled from 'styled-components/native';
 
 const BodyText = styled.Text`
     font-weight: 300;

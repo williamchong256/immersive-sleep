@@ -1,0 +1,14 @@
+MAX30100 
+    It is a Pulse Oximeter and heart-rate sensor for wearable health
+    It offers greater expandability than the PulseSensor module 
+        The output led voltage can be adjusted, offering greater penetration 
+        The sample rate can also be adjusted 
+        It has builtin ambient light cancellation, which is pretty amazing  
+        The module has a 16-deep FIFO (you can do some hacking with the original data) 
+    This module uses I2C communication 
+        The module does not natively supporting arduino. Some documents indicate that removing the 4.7k pull up resistors at SCL and SDA pin will work 
+        The module works fine with NodeMCU and STM32 
+    This module measures SpO2 and temperature. The library MAX30100.h offeres functions to directly access SpO2 and temperature
+        
+
+

@@ -1,6 +1,5 @@
 import styled from 'styled-components/native';
 import React from 'react';
-/* eslint-disable react/jsx-filename-extension */
 
 const BodyText = styled.Text`
     font-weight: 300;

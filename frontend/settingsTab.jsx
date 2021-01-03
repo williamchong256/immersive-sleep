@@ -5,16 +5,38 @@ import {
   View, Text, Switch,
 } from 'react-native';
 import { createStackNavigator } from '@react-navigation/stack';
+import AsyncStorage from '@react-native-async-storage/async-storage';
 import styles from './style';
 import {
   BoilerplateView, PageTitle, PageView, PressableButton,
 } from './Themes';
 
 // TODO: Implement Dark Mode at an app level
-
 // The component for the initial landing page for Settings
 function Settings({ navigation }) {
   const [darkMode, setDarkMode] = React.useState(false);
+
+  const storeDarkMode = async (value) => {
+    try {
+      await AsyncStorage.setItem('@darkMode', JSON.stringify(value));
+      setDarkMode(value);
+    } catch (e) {
+      console.log(e);
+    }
+  };
+
+  const getDarkMode = async () => {
+    try {
+      const result = await AsyncStorage.getItem('@darkMode');
+      setDarkMode(result != null ? JSON.parse(result) : false);
+    } catch (e) {
+      console.log(e);
+    }
+  };
+
+  React.useEffect(() => {
+    getDarkMode();
+  }, []);
 
   return (
   // Returns a View containing Buttons that navigate to
@@ -34,7 +56,7 @@ function Settings({ navigation }) {
         <Text style={styles.darkModeText}>Dark Mode</Text>
         <View style={styles.darkModeToggleView}>
           <Switch
-            onChange={() => setDarkMode(!darkMode)}
+            onChange={() => storeDarkMode(!darkMode)}
             value={darkMode}
             style={{ marginTop: 8 }}
           />
@@ -42,6 +64,7 @@ function Settings({ navigation }) {
       </View>
       <PressableButton onPress={() => navigation.navigate('Notifications')} title="Notifications" />
       <PressableButton onPress={() => navigation.navigate('Time Zone')} title="Time Zone" />
+      <Text>{darkMode ? 'True' : 'False'}</Text>
     </PageView>
   );
 }

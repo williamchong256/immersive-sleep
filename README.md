@@ -1,5 +1,4 @@
 # immersive-sleep
-<<<<<<< HEAD
 Repo for BMES Immersive Sleep Device Design Team!
 Hello Git!
 =======
@@ -64,5 +63,3 @@ print(requests.get('The ESP8266's local IP Address').text)
 
 The wiring is in ./hardware/code/MAX30100_wifi_interfacing.png
 
-
->>>>>>> main

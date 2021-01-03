@@ -1,7 +1,4 @@
 # immersive-sleep
-Repo for BMES Immersive Sleep Device Design Team!
-Hello Git!
-=======
 
 Repo for BMES Immersive Sleep Device Design Team!
 
@@ -50,11 +47,12 @@ Step 2: Add the following ESP8266 Board Manager Address in Preference, Additiona
 
 `http://arduino.esp8266.com/stable/package_esp8266com_index.json`
 
-Step 3: Under board manager, search for esp8266 library by ESP8266 Community and install it 
+Step 3: Under board manager, search for esp8266 library by ESP8266 Community and install it
 
 Step 4: Upload the sketch to the breakout board (NodeMCU, or Arduino + ESP8266)
 
 Step 5: Use HTTP GET request to get SpO2 and heart rate readings from the board
+		below is an example written in python 
 
 ```python
 import requests

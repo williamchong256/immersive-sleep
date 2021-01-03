@@ -39,7 +39,7 @@ Step 2: if your code fails style, you can try to automatically fix it
 
 ## Setup ESP8266 board
 
-The ESP8266 allows us to communicate wirelessly with rasberry pi terminal through TCP/IP protocol 
+The ESP8266 allows us to communicate wirelessly with rasberry pi terminal through TCP/IP protocol
 
 Step 1: Install Arduino IDE
 
@@ -52,7 +52,7 @@ Step 3: Under board manager, search for esp8266 library by ESP8266 Community and
 Step 4: Upload the sketch to the breakout board (NodeMCU, or Arduino + ESP8266)
 
 Step 5: Use HTTP GET request to get SpO2 and heart rate readings from the board
-		below is an example written in python 
+  below is an example written in python
 
 ```python
 import requests
@@ -60,4 +60,3 @@ print(requests.get('The ESP8266's local IP Address').text)
 ```
 
 The wiring is in ./hardware/code/MAX30100_wifi_interfacing.png
-

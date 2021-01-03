@@ -61,14 +61,6 @@ const styles = StyleSheet.create({
     alignItems: 'stretch',
     justifyContent: 'center',
   },
-
-  card: {
-    flexDirection: 'row',
-    justifyContent: 'space-between',
-    backgroundColor: '#A6CDF0',
-    borderRadius: 10,
-    padding: 10,
-  },
 });
 
 export default styles;

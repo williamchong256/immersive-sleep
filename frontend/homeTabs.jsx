@@ -4,10 +4,11 @@
 
 import * as React from 'react';
 import {
-  Button, View, Text, Dimensions,
+  View, Text, Dimensions,
 } from 'react-native';
 import { LineChart } from 'react-native-chart-kit';
 import { LinearGradient } from 'expo-linear-gradient';
+import { Feather } from '@expo/vector-icons';
 import styles from './style';
 import { sampleData } from './sampleData.json';
 import { PageTitle, PageView } from './Themes';
@@ -45,8 +46,8 @@ export function DiagnosticsTab() {
         fromZero
         withShadow={false}
         chartConfig={{
-          backgroundGradientFrom: '#39B7CD',
-          backgroundGradientTo: '#39B7CD',
+          backgroundGradientFrom: '#A6CDF0',
+          backgroundGradientTo: '#CFDFF7',
           color: (opacity = 1) => `rgba(0,0,0, ${opacity})`,
         }}
       />
@@ -64,7 +65,13 @@ export function HomeTab({ navigation }) {
             corresponding route is a Stack.Screen in the parent
             Navigator (in App.js), the bottom tab bar is not displayed
             */}
-      <Button onPress={() => navigation.navigate('Start')} title="Start" style={{ alignSelf: 'flex-end' }} />
+      <Feather.Button
+        name="moon"
+        color="#000"
+        backgroundColor="#fff"
+        onPress={() => navigation.navigate('Start')}
+        size={50}
+      />
     </PageView>
   );
 }

@@ -2,10 +2,11 @@
 
 import * as React from 'react';
 import {
-  Button, View, Text, Switch,
+  View, Text, Switch,
 } from 'react-native';
 import { createStackNavigator } from '@react-navigation/stack';
 import styles from './style';
+import { PressableButton } from './Themes';
 
 // TODO: Implement Dark Mode at an app level
 
@@ -17,8 +18,8 @@ function Settings({ navigation }) {
   // Returns a View containing Buttons that navigate to
   // the various Screens in the SettingsStack
     <View style={styles.settings}>
-      <Button onPress={() => navigation.navigate('Profile')} title="Profile" />
-      <Button onPress={() => navigation.navigate('Preferences')} title="Preferences" />
+      <PressableButton onPress={() => navigation.navigate('Profile')} title="Profile" />
+      <PressableButton onPress={() => navigation.navigate('Preferences')} title="Preferences" />
       {/*
             To display the Dark Mode toggle as shown in the figma, a Text
             component and a View component with a Switch component nested
@@ -32,8 +33,8 @@ function Settings({ navigation }) {
           <Switch onChange={() => setDarkMode(!darkMode)} value={darkMode} />
         </View>
       </View>
-      <Button onPress={() => navigation.navigate('Notifications')} title="Notifications" />
-      <Button onPress={() => navigation.navigate('Time Zone')} title="Time Zone" />
+      <PressableButton onPress={() => navigation.navigate('Notifications')} title="Notifications" />
+      <PressableButton onPress={() => navigation.navigate('Time Zone')} title="Time Zone" />
     </View>
   );
 }

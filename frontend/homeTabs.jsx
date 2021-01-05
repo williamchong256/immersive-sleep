@@ -4,14 +4,16 @@
 
 import * as React from 'react';
 import {
-  View, Text, Dimensions,
+  Dimensions,
 } from 'react-native';
 import { LineChart } from 'react-native-chart-kit';
 import { LinearGradient } from 'expo-linear-gradient';
 import { Feather } from '@expo/vector-icons';
 import styles from './style';
 import { sampleData } from './sampleData.json';
-import { PageTitle, PageView } from './Themes';
+import {
+  BodyText, PageTitle, PageView, CardTitle,
+} from './Themes';
 
 export function Start() {
   const initialToday = new Date();
@@ -27,7 +29,8 @@ export function Start() {
 
   return (
     <LinearGradient colors={['#fff', '#F9F6FF', '#CFDFF7']} style={styles.data}>
-      <PageTitle start>{time}</PageTitle>
+      <CardTitle start>Begin Sleep Session Now</CardTitle>
+      <PageTitle center>{time}</PageTitle>
     </LinearGradient>
   );
 }
@@ -37,8 +40,9 @@ export function DiagnosticsTab() {
   const heartRateDiagnostics = sampleData.map((user) => user.heartRate);
 
   return (
-    <View style={styles.container}>
-      <Text>Heart Rate Analysis</Text>
+    <PageView>
+      <PageTitle>Diagnostics</PageTitle>
+      <BodyText>Heart Rate Analysis</BodyText>
       <LineChart
         data={{ labels: daysOfTheWeek, datasets: [{ data: heartRateDiagnostics }] }}
         height={200}
@@ -51,14 +55,14 @@ export function DiagnosticsTab() {
           color: (opacity = 1) => `rgba(0,0,0, ${opacity})`,
         }}
       />
-    </View>
+    </PageView>
   );
 }
 
 export function HomeTab({ navigation }) {
   return (
-    <PageView>
-      <PageTitle home>Hello, Person</PageTitle>
+    <PageView center>
+      <PageTitle>Hello, Person</PageTitle>
       {/*
             The Home tab contains a Button titled "Start"
             that navigates to the Start Screen. Because the
@@ -78,8 +82,8 @@ export function HomeTab({ navigation }) {
 
 export function AmbianceTab() {
   return (
-    <View style={styles.container}>
-      <Text>Boilerplate for AmbianceTab</Text>
-    </View>
+    <PageView center>
+      <PageTitle>Ambiance</PageTitle>
+    </PageView>
   );
 }

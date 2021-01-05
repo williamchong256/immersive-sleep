@@ -14,6 +14,7 @@ const styles = StyleSheet.create({
     alignItems: 'flex-start',
     justifyContent: 'flex-start',
     padding: 20,
+    paddingTop: 80,
   },
 
   darkMode: {

@@ -1,33 +1,34 @@
 import styled from 'styled-components/native';
 import React from 'react';
 
+const PageTitle = styled.Text`
+    font-weight: 300;
+    font-size: 40px;
+    line-height: 50px;
+    letter-spacing: -0.32px;
+    color: #000;
+    margin-bottom: 5px;
+    margin-top: 30px;
+    align-self: ${(props) => (props.center ? 'center' : 'flex-start')};
+`;
+
+const PageView = styled.View`
+    align-items: ${(props) => (props.center ? 'center' : 'flex-start')};
+    justify-content: flex-start;
+    background-color: #fff;
+    padding: 20px;
+    flex: 1;
+`;
+
 const BodyText = styled.Text`
     font-weight: 300;
     font-size: 15px;
     line-height: 35px;
     letter-spacing: -0.24px;
     color: #000000;
-    text-align: left;
+    align-self: ${(props) => (props.center ? 'center' : 'flex-start')};
 `;
-const CardTitle = styled.Text`
-    font-weight: 300;
-    font-size: 30px;
-    line-height: 45px;
-    letter-spacing: -0.24px;
-    color: #000000;
-    text-align: left;
-    margin-bottom: 3px;
-`;
-const PageTitle = styled.Text`
-    font-weight: 300;
-    font-size: 45px;
-    line-height: 50px;
-    letter-spacing: -0.32px;
-    color: ${(props) => (props.dark ? '#fff' : '#000')};
-    text-align: ${(props) => (props.start ? 'center' : 'left')};
-    margin-bottom: 0px;
-    margin-top: ${(props) => (props.home ? '50px' : '10px')};
-`;
+
 const Subheading = styled.Text`
     font-weight: 600;
     font-size: 20px;
@@ -37,22 +38,50 @@ const Subheading = styled.Text`
     text-align: left;
     margin-bottom: 5px;
 `;
-const PageView = styled.View`
-    align-items: center;
-    justify-content: flex-start;
-    background-color: ${(props) => (props.dark ? '#000' : '#fff')};
-    padding: 20px;
-    flex: 1;
+
+const CardTitle = styled.Text`
+    font-weight: 300;
+    font-size: 30px;
+    line-height: 45px;
+    letter-spacing: -0.24px;
+    color: #000000;
+    text-align: left;
+    margin-bottom: 3px;
 `;
+
+const CardView = styled.View`
+    flex: 1;
+    background-color: #A6CDF0;
+    padding: 20px;
+    padding-top: 8px;
+    align-items: stretch;
+    justify-content: center;
+    border-radius: 10px;
+    margin: 7px;
+`;
+
+const DataView = styled.View`
+    justify-content: space-between;
+    flex-direction: row;
+`;
+
+const DataScrollView = styled.SafeAreaView`
+    flex: 1;
+    background-color: #fff;
+    padding: 20px;
+    align-items: stretch;
+    justify-content: center;
+`;
+
 const ButtonText = styled.Text`
     font-size: 20px;
     color: #000;
-    margin-right: 0px;
     margin-top: auto;
     margin-bottom: auto;
+    align-self: flex-start;
 `;
 
-const ButtonContainer = styled.TouchableOpacity`
+const ButtonContainer = styled.Pressable`
     background-color: #A6CDF0;
     height: 50px;
     border-radius: 10px;
@@ -67,6 +96,15 @@ const PressableButton = ({ onPress, title }) => (
   </ButtonContainer>
 );
 
+const SettingsView = styled.View`
+    flex:1 1;
+    background-color: #fff;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 20px;
+`;
+
 export {
-  BodyText, CardTitle, PageTitle, Subheading, PageView, PressableButton,
+  BodyText, CardTitle, CardView, DataView, DataScrollView, PageTitle, PageView, PressableButton,
+  Subheading, SettingsView,
 };

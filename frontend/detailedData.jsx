@@ -1,8 +1,10 @@
 import * as React from 'react';
-import { View } from 'react-native';
+
 import { LinearGradient } from 'expo-linear-gradient';
 import styles from './style';
-import { PageTitle, BodyText, Subheading } from './Themes';
+import {
+  PageTitle, BodyText, Subheading, DataView,
+} from './Themes';
 
 function DetailedData({ route }) {
   // Retrieve our item in route.params
@@ -13,30 +15,30 @@ function DetailedData({ route }) {
     <LinearGradient colors={['#F9F6FF', '#CFDFF7']} style={styles.data}>
       <PageTitle>{item.key}</PageTitle>
 
-      <View style={{ flexDirection: 'row', justifyContent: 'space-between' }}>
+      <DataView>
         <Subheading>{item.duration}</Subheading>
-      </View>
+      </DataView>
 
-      <View style={{ flexDirection: 'row', justifyContent: 'space-between' }}>
+      <DataView>
         <BodyText>
           Heart Rate:
           {item.heartRate}
         </BodyText>
-      </View>
+      </DataView>
 
-      <View style={{ flexDirection: 'row', justifyContent: 'space-between' }}>
+      <DataView>
         <BodyText>
           Breathing:
           {item.breathing}
         </BodyText>
-      </View>
+      </DataView>
 
-      <View style={{ flexDirection: 'row', justifyContent: 'space-between' }}>
+      <DataView>
         <BodyText>
           Efficiency:
           {item.efficiency}
         </BodyText>
-      </View>
+      </DataView>
     </LinearGradient>
 
   );

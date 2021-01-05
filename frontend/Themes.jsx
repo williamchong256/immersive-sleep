@@ -16,7 +16,7 @@ const PageView = styled.View`
     align-items: ${(props) => (props.center ? 'center' : 'flex-start')};
     justify-content: flex-start;
     background-color: #fff;
-    padding: 20px;
+    padding: 15px;
     flex: 1;
 `;
 
@@ -45,19 +45,20 @@ const CardTitle = styled.Text`
     line-height: 45px;
     letter-spacing: -0.24px;
     color: #000000;
-    text-align: left;
-    margin-bottom: 3px;
+    text-align: ${(props) => (props.center ? 'center' : 'left')};
 `;
 
 const CardView = styled.View`
-    flex: 1;
     background-color: #A6CDF0;
-    padding: 20px;
+    padding: 15px;
     padding-top: 8px;
     align-items: stretch;
+    align-self: stretch;
     justify-content: center;
     border-radius: 10px;
-    margin: 7px;
+    margin-top: 7px;
+    margin-bottom: 7px
+    elevation: 6;
 `;
 
 const DataView = styled.View`
@@ -68,9 +69,14 @@ const DataView = styled.View`
 const DataScrollView = styled.SafeAreaView`
     flex: 1;
     background-color: #fff;
-    padding: 20px;
     align-items: stretch;
+    padding-top: 30px;
     justify-content: center;
+`;
+
+const DataScrollViewWithPadding = styled.View`
+    padding: 15px;
+    padding-top: 30px;
 `;
 
 const ButtonText = styled.Text`
@@ -86,8 +92,9 @@ const ButtonContainer = styled.Pressable`
     height: 50px;
     border-radius: 10px;
     margin-top: 8px;
-    padding: 10px;
+    padding: 15px;
     align-self: stretch;
+    elevation: 6;
 `;
 
 const PressableButton = ({ onPress, title }) => (
@@ -97,14 +104,14 @@ const PressableButton = ({ onPress, title }) => (
 );
 
 const SettingsView = styled.View`
-    flex:1 1;
+    flex: 1;
     background-color: #fff;
     align-items: flex-start;
     justify-content: flex-start;
-    padding: 20px;
+    padding: 15px;
 `;
 
 export {
-  BodyText, CardTitle, CardView, DataView, DataScrollView, PageTitle, PageView, PressableButton,
-  Subheading, SettingsView,
+  BodyText, CardTitle, CardView, DataView, DataScrollView, DataScrollViewWithPadding, PageTitle,
+  PageView, PressableButton, Subheading, SettingsView,
 };

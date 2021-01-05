@@ -52,7 +52,15 @@ const styles = StyleSheet.create({
     backgroundColor: '#fff',
     alignItems: 'stretch',
     justifyContent: 'flex-start',
+  },
 
+  start: {
+    flex: 1,
+    padding: 20,
+    paddingTop: 80,
+    backgroundColor: '#fff',
+    alignItems: 'stretch',
+    justifyContent: 'flex-start',
   },
 
   scrollView: {

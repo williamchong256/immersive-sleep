@@ -12,7 +12,7 @@ import { Feather } from '@expo/vector-icons';
 import styles from './style';
 import { sampleData } from './sampleData.json';
 import {
-  BodyText, PageTitle, PageView, CardTitle,
+  BodyText, PageTitle, PageView, CardTitle, CardView,
 } from './Themes';
 
 export function Start() {
@@ -28,8 +28,8 @@ export function Start() {
   });
 
   return (
-    <LinearGradient colors={['#fff', '#F9F6FF', '#CFDFF7']} style={styles.data}>
-      <CardTitle start>Begin Sleep Session Now</CardTitle>
+    <LinearGradient colors={['#fff', '#F9F6FF', '#CFDFF7']} style={styles.start}>
+      <CardTitle center>Begin Sleep Session</CardTitle>
       <PageTitle center>{time}</PageTitle>
     </LinearGradient>
   );
@@ -69,6 +69,9 @@ export function HomeTab({ navigation }) {
             corresponding route is a Stack.Screen in the parent
             Navigator (in App.js), the bottom tab bar is not displayed
             */}
+      <CardView>
+        <CardTitle>Last Night,</CardTitle>
+      </CardView>
       <Feather.Button
         name="moon"
         color="#000"

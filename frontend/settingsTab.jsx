@@ -79,10 +79,10 @@ function SettingsTab() {
   // Implement a StackNavigator for the various settings
     <SettingsStack.Navigator>
       <SettingsStack.Screen name="Settings" component={Settings} options={{ headerShown: false }} />
-      <SettingsStack.Screen name="Preferences" component={Preferences} />
-      <SettingsStack.Screen name="Profile" component={Profile} />
-      <SettingsStack.Screen name="Notifications" component={Notifications} />
-      <SettingsStack.Screen name="Time Zone" component={TimeZone} />
+      <SettingsStack.Screen name="Preferences" component={Preferences} options={{ headerTransparent: true, headerTitle: '' }} />
+      <SettingsStack.Screen name="Profile" component={Profile} options={{ headerTransparent: true, headerTitle: '' }} />
+      <SettingsStack.Screen name="Notifications" component={Notifications} options={{ headerTransparent: true, headerTitle: '' }} />
+      <SettingsStack.Screen name="Time Zone" component={TimeZone} options={{ headerTransparent: true, headerTitle: '' }} />
     </SettingsStack.Navigator>
   );
 }

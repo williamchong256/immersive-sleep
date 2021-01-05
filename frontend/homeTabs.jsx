@@ -9,10 +9,10 @@ import {
 import { LineChart } from 'react-native-chart-kit';
 import { LinearGradient } from 'expo-linear-gradient';
 import { Feather } from '@expo/vector-icons';
-import styles from './style';
+
 import { sampleData } from './sampleData.json';
 import {
-  BodyText, PageTitle, PageView, CardTitle, CardView,
+  ButtonText, CardTitle, CardView, PageTitle, PageView, StartView,
 } from './Themes';
 
 export function Start() {
@@ -28,10 +28,12 @@ export function Start() {
   });
 
   return (
-    <LinearGradient colors={['#fff', '#F9F6FF', '#CFDFF7']} style={styles.start}>
-      <CardTitle center>Begin Sleep Session</CardTitle>
-      <PageTitle center>{time}</PageTitle>
-    </LinearGradient>
+    <StartView>
+      <LinearGradient colors={['#F9F6FF', '#CFDFF7']} style={{ flex: 1, padding: 20, paddingTop: 80 }}>
+        <CardTitle center>Begin Sleep Session</CardTitle>
+        <PageTitle center>{time}</PageTitle>
+      </LinearGradient>
+    </StartView>
   );
 }
 
@@ -42,19 +44,24 @@ export function DiagnosticsTab() {
   return (
     <PageView>
       <PageTitle>Diagnostics</PageTitle>
-      <BodyText>Heart Rate Analysis</BodyText>
-      <LineChart
-        data={{ labels: daysOfTheWeek, datasets: [{ data: heartRateDiagnostics }] }}
-        height={200}
-        width={Dimensions.get('window').width - 60}
-        fromZero
-        withShadow={false}
-        chartConfig={{
-          backgroundGradientFrom: '#A6CDF0',
-          backgroundGradientTo: '#CFDFF7',
-          color: (opacity = 1) => `rgba(0,0,0, ${opacity})`,
-        }}
-      />
+      <CardView>
+        <LinearGradient colors={['#F9F6FF', '#CFDFF7']} style={{ padding: 20, paddingTop: 0, borderRadius: 10 }}>
+          <CardTitle>Heart Rate Analysis</CardTitle>
+          <LineChart
+            data={{ labels: daysOfTheWeek, datasets: [{ data: heartRateDiagnostics }] }}
+            height={200}
+            width={Dimensions.get('window').width - 60}
+            fromZero
+            withShadow={false}
+            chartConfig={{
+              backgroundGradientFrom: '#A6CDF0',
+              backgroundGradientTo: '#CFDFF7',
+              color: (opacity = 1) => `rgba(0,0,0, ${opacity})`,
+            }}
+            style={{ borderRadius: 10 }}
+          />
+        </LinearGradient>
+      </CardView>
     </PageView>
   );
 }
@@ -69,8 +76,11 @@ export function HomeTab({ navigation }) {
             corresponding route is a Stack.Screen in the parent
             Navigator (in App.js), the bottom tab bar is not displayed
             */}
-      <CardView>
-        <CardTitle>Last Night,</CardTitle>
+      <CardView home>
+        <LinearGradient colors={['#F9F6FF', '#CFDFF7']} style={{ padding: 20, paddingTop: 8, borderRadius: 10 }}>
+          <ButtonText>Last Night,</ButtonText>
+          <CardTitle center>2432 minutes</CardTitle>
+        </LinearGradient>
       </CardView>
       <Feather.Button
         name="moon"
@@ -87,6 +97,12 @@ export function AmbianceTab() {
   return (
     <PageView center>
       <PageTitle>Ambiance</PageTitle>
+      <CardView data>
+        <CardTitle>Music</CardTitle>
+      </CardView>
+      <CardView data>
+        <CardTitle>Lighting</CardTitle>
+      </CardView>
     </PageView>
   );
 }

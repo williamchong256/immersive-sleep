@@ -7,14 +7,14 @@ import { createStackNavigator } from '@react-navigation/stack';
 import DetailedData from './detailedData';
 import { sampleData } from './sampleData.json';
 import {
-  BodyText, CardTitle, CardView, DataView, DataScrollView, DataScrollViewWithPadding,
+  BodyText, CardTitle, CardView, DataPointView, DataScrollView, DataScrollViewWithPadding,
   PageTitle,
 } from './Themes';
 
 // Handles the rendering of each item in data of FlatList
 function renderData({ item }, navigation) {
   return (
-    <CardView>
+    <CardView data>
       {/*
             Passing the item prop to our Detailed Data component
             when we call navigate
@@ -23,35 +23,35 @@ function renderData({ item }, navigation) {
         item,
       })}
       >
-        <CardTitle>{item.key}</CardTitle>
+        <CardTitle data>{item.key}</CardTitle>
 
-        <DataView>
+        <DataPointView>
           <BodyText>
             Duration:
             {item.duration}
           </BodyText>
-        </DataView>
+        </DataPointView>
 
-        <DataView>
+        <DataPointView>
           <BodyText>
             Heart Rate:
             {item.heartRate}
           </BodyText>
-        </DataView>
+        </DataPointView>
 
-        <DataView>
+        <DataPointView>
           <BodyText>
             Breathing:
             {item.breathing}
           </BodyText>
-        </DataView>
+        </DataPointView>
 
-        <DataView>
+        <DataPointView>
           <BodyText>
             Efficiency:
             {item.efficiency}
           </BodyText>
-        </DataView>
+        </DataPointView>
       </Pressable>
     </CardView>
   );

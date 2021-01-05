@@ -1,9 +1,9 @@
 import * as React from 'react';
 
 import { LinearGradient } from 'expo-linear-gradient';
-import styles from './style';
+
 import {
-  PageTitle, BodyText, Subheading, DataView,
+  BodyText, DataView, DataPointView, PageTitle, Subheading,
 } from './Themes';
 
 function DetailedData({ route }) {
@@ -12,35 +12,36 @@ function DetailedData({ route }) {
   return (
   // Simple example of displaying data based in route
 
-    <LinearGradient colors={['#F9F6FF', '#CFDFF7']} style={styles.data}>
-      <PageTitle>{item.key}</PageTitle>
+    <DataView>
+      <LinearGradient colors={['#F9F6FF', '#CFDFF7']} style={{ flex: 1, padding: 20 }}>
+        <PageTitle>{item.key}</PageTitle>
 
-      <DataView>
-        <Subheading>{item.duration}</Subheading>
-      </DataView>
+        <DataPointView>
+          <Subheading>{item.duration}</Subheading>
+        </DataPointView>
 
-      <DataView>
-        <BodyText>
-          Heart Rate:
-          {item.heartRate}
-        </BodyText>
-      </DataView>
+        <DataPointView>
+          <BodyText>
+            Heart Rate:
+            {item.heartRate}
+          </BodyText>
+        </DataPointView>
 
-      <DataView>
-        <BodyText>
-          Breathing:
-          {item.breathing}
-        </BodyText>
-      </DataView>
+        <DataPointView>
+          <BodyText>
+            Breathing:
+            {item.breathing}
+          </BodyText>
+        </DataPointView>
 
-      <DataView>
-        <BodyText>
-          Efficiency:
-          {item.efficiency}
-        </BodyText>
-      </DataView>
-    </LinearGradient>
-
+        <DataPointView>
+          <BodyText>
+            Efficiency:
+            {item.efficiency}
+          </BodyText>
+        </DataPointView>
+      </LinearGradient>
+    </DataView>
   );
 }
 

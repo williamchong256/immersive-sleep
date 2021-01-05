@@ -41,6 +41,11 @@ function HomeTabs() {
           }
         },
       })}
+      tabBarOptions={{
+        activeTintColor: 'black',
+        inactiveTintColor: 'gray',
+        style: { backgroundColor: 'white', paddingBottom: 5, paddingTop: 5 },
+      }}
     >
       {/* The different tabs routes are declared here as Screens */}
       <Tab.Screen name="Diagnostics" component={DiagnosticsTab} />

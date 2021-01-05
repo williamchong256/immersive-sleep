@@ -6,7 +6,7 @@ import {
 } from 'react-native';
 import { createStackNavigator } from '@react-navigation/stack';
 import styles from './style';
-import { PressableButton, SettingsView, PageTitle } from './Themes';
+import { PageTitle, PressableButton, SettingsView } from './Themes';
 
 // TODO: Implement Dark Mode at an app level
 
@@ -31,7 +31,11 @@ function Settings({ navigation }) {
       <View style={styles.darkMode}>
         <Text style={styles.darkModeText}>Dark Mode</Text>
         <View style={styles.darkModeToggleView}>
-          <Switch onChange={() => setDarkMode(!darkMode)} value={darkMode} />
+          <Switch
+            onChange={() => setDarkMode(!darkMode)}
+            value={darkMode}
+            style={{ marginTop: 8 }}
+          />
         </View>
       </View>
       <PressableButton onPress={() => navigation.navigate('Notifications')} title="Notifications" />

@@ -31,7 +31,8 @@ const styles = StyleSheet.create({
   darkModeText: {
     flex: 1,
     paddingLeft: 7,
-    fontSize: 17,
+    marginTop: 8,
+    fontSize: 20,
   },
 
   scroll: {

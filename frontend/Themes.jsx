@@ -1,6 +1,7 @@
 import styled from 'styled-components/native';
 import React from 'react';
 
+// General Styles:
 const PageTitle = styled.Text`
     font-weight: 300;
     font-size: 40px;
@@ -39,9 +40,10 @@ const Subheading = styled.Text`
     margin-bottom: 5px;
 `;
 
+// Styles for Cards, with props that allow them to be used with different styles:
 const CardTitle = styled.Text`
     font-weight: 300;
-    font-size: 30px;
+    font-size: ${(props) => (props.data ? '30px' : '25px')};
     line-height: 45px;
     letter-spacing: -0.24px;
     color: #000000;
@@ -50,8 +52,8 @@ const CardTitle = styled.Text`
 
 const CardView = styled.View`
     background-color: #A6CDF0;
-    padding: 15px;
-    padding-top: 8px;
+    padding: ${(props) => (props.data ? '15px' : '0px')};
+    padding-top: ${(props) => (props.data ? '8px' : '0px')};
     align-items: stretch;
     align-self: stretch;
     justify-content: center;
@@ -61,7 +63,15 @@ const CardView = styled.View`
     elevation: 6;
 `;
 
+// Styles for Data & Detailed Data pages:
 const DataView = styled.View`
+    flex: 1;
+    background-color: #fff;
+    align-items: stretch;
+    justify-content: flex-start;
+`;
+
+const DataPointView = styled.View`
     justify-content: space-between;
     flex-direction: row;
 `;
@@ -77,6 +87,15 @@ const DataScrollView = styled.SafeAreaView`
 const DataScrollViewWithPadding = styled.View`
     padding: 15px;
     padding-top: 30px;
+`;
+
+// Styles for Settings Page:
+const SettingsView = styled.View`
+    flex: 1;
+    background-color: #fff;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 15px;
 `;
 
 const ButtonText = styled.Text`
@@ -103,15 +122,16 @@ const PressableButton = ({ onPress, title }) => (
   </ButtonContainer>
 );
 
-const SettingsView = styled.View`
+// Style for Start Page:
+const StartView = styled.View`
     flex: 1;
     background-color: #fff;
-    align-items: flex-start;
+    align-items: stretch;
     justify-content: flex-start;
-    padding: 15px;
 `;
 
 export {
-  BodyText, CardTitle, CardView, DataView, DataScrollView, DataScrollViewWithPadding, PageTitle,
-  PageView, PressableButton, Subheading, SettingsView,
+  BodyText, ButtonText, CardTitle, CardView, DataView, DataPointView,
+  DataScrollView, DataScrollViewWithPadding, PageTitle, PageView, PressableButton,
+  SettingsView, Subheading, StartView,
 };

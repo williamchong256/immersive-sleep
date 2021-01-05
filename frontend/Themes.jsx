@@ -7,16 +7,17 @@ const PageTitle = styled.Text`
     font-size: 40px;
     line-height: 50px;
     letter-spacing: -0.32px;
-    color: #000;
+    color: black;
     margin-bottom: 5px;
     margin-top: 30px;
+    margin-left: ${(props) => (props.data ? '15px' : '0px')};
     align-self: ${(props) => (props.center ? 'center' : 'flex-start')};
 `;
 
 const PageView = styled.View`
     align-items: ${(props) => (props.center ? 'center' : 'flex-start')};
     justify-content: flex-start;
-    background-color: #fff;
+    background-color: white;
     padding: 15px;
     flex: 1;
 `;
@@ -26,7 +27,7 @@ const BodyText = styled.Text`
     font-size: 15px;
     line-height: 35px;
     letter-spacing: -0.24px;
-    color: #000000;
+    color: black;
     align-self: ${(props) => (props.center ? 'center' : 'flex-start')};
 `;
 
@@ -35,7 +36,7 @@ const Subheading = styled.Text`
     font-size: 20px;
     line-height: 35px;
     letter-spacing: -0.32px;
-    color: #000000;
+    color: black;
     text-align: left;
     margin-bottom: 5px;
 `;
@@ -46,7 +47,7 @@ const CardTitle = styled.Text`
     font-size: ${(props) => (props.data ? '30px' : '25px')};
     line-height: 45px;
     letter-spacing: -0.24px;
-    color: #000000;
+    color: black;
     text-align: ${(props) => (props.center ? 'center' : 'left')};
 `;
 
@@ -59,14 +60,16 @@ const CardView = styled.View`
     justify-content: center;
     border-radius: 10px;
     margin-top: 7px;
-    margin-bottom: 7px
+    margin-bottom: 7px;
+    margin-right: ${(props) => (props.data ? '15px' : '0px')};
+    margin-left: ${(props) => (props.data ? '15px' : '0px')};
     elevation: 6;
 `;
 
 // Styles for Data & Detailed Data pages:
 const DataView = styled.View`
     flex: 1;
-    background-color: #fff;
+    background-color: white;
     align-items: stretch;
     justify-content: flex-start;
 `;
@@ -78,21 +81,16 @@ const DataPointView = styled.View`
 
 const DataScrollView = styled.SafeAreaView`
     flex: 1;
-    background-color: #fff;
+    background-color: white;
     align-items: stretch;
     padding-top: 30px;
     justify-content: center;
 `;
 
-const DataScrollViewWithPadding = styled.View`
-    padding: 15px;
-    padding-top: 30px;
-`;
-
 // Styles for Settings Page:
 const SettingsView = styled.View`
     flex: 1;
-    background-color: #fff;
+    background-color: white;
     align-items: flex-start;
     justify-content: flex-start;
     padding: 15px;
@@ -100,7 +98,7 @@ const SettingsView = styled.View`
 
 const ButtonText = styled.Text`
     font-size: 20px;
-    color: #000;
+    color: black;
     margin-top: auto;
     margin-bottom: auto;
     align-self: flex-start;
@@ -125,13 +123,13 @@ const PressableButton = ({ onPress, title }) => (
 // Style for Start Page:
 const StartView = styled.View`
     flex: 1;
-    background-color: #fff;
+    background-color: white;
     align-items: stretch;
     justify-content: flex-start;
 `;
 
 export {
   BodyText, ButtonText, CardTitle, CardView, DataView, DataPointView,
-  DataScrollView, DataScrollViewWithPadding, PageTitle, PageView, PressableButton,
+  DataScrollView, PageTitle, PageView, PressableButton,
   SettingsView, Subheading, StartView,
 };

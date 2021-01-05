@@ -7,7 +7,7 @@ import { createStackNavigator } from '@react-navigation/stack';
 import DetailedData from './detailedData';
 import { sampleData } from './sampleData.json';
 import {
-  BodyText, CardTitle, CardView, DataPointView, DataScrollView, DataScrollViewWithPadding,
+  BodyText, CardTitle, CardView, DataPointView, DataScrollView,
   PageTitle,
 } from './Themes';
 
@@ -60,22 +60,17 @@ function renderData({ item }, navigation) {
 // The Data tab where the FlatList is returned
 function Data({ navigation }) {
   return (
-  /* Due to a bug, iOS doesn't respect padding in SafeAreaView,
-  so the extra view child (DataScrollViewWithPadding) is required to
-  add the correct amount of padding */
     <DataScrollView>
-      <DataScrollViewWithPadding>
-        {/*
-              Pass the navigation prop to renderData so that
-              we can navigate to the Detailed Data page
-              */}
-        <PageTitle>Data</PageTitle>
-        <FlatList
-          data={sampleData}
-          renderItem={(item) => renderData(item, navigation)}
-          showsVerticalScrollIndicator={false}
-        />
-      </DataScrollViewWithPadding>
+      {/*
+            Pass the navigation prop to renderData so that
+            we can navigate to the Detailed Data page
+            */}
+      <PageTitle data>Data</PageTitle>
+      <FlatList
+        data={sampleData}
+        renderItem={(item) => renderData(item, navigation)}
+        showsVerticalScrollIndicator={false}
+      />
     </DataScrollView>
   );
 }

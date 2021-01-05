@@ -84,8 +84,8 @@ export function HomeTab({ navigation }) {
       </CardView>
       <Feather.Button
         name="moon"
-        color="#000"
-        backgroundColor="#fff"
+        color="black"
+        backgroundColor="white"
         onPress={() => navigation.navigate('Start')}
         size={50}
       />

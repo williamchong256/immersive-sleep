@@ -61,6 +61,16 @@ const styles = StyleSheet.create({
     alignItems: 'stretch',
     justifyContent: 'center',
   },
+
+  commentsBox: {
+    flex: 1,
+    padding: 10,
+    paddingTop: 5,
+    backgroundColor: '#fff',
+    alignItems: 'stretch',
+    justifyContent: 'flex-start',
+  },
+
 });
 
 export default styles;

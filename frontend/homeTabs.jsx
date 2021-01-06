@@ -92,17 +92,3 @@ export function HomeTab({ navigation }) {
     </PageView>
   );
 }
-
-export function AmbianceTab() {
-  return (
-    <PageView center>
-      <PageTitle>Ambiance</PageTitle>
-      <CardView data>
-        <CardTitle>Music</CardTitle>
-      </CardView>
-      <CardView data>
-        <CardTitle>Lighting</CardTitle>
-      </CardView>
-    </PageView>
-  );
-}

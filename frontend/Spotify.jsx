@@ -1,7 +1,8 @@
 import * as React from 'react';
 import * as WebBrowser from 'expo-web-browser';
 import { makeRedirectUri, useAuthRequest } from 'expo-auth-session';
-import { Text, Button } from 'react-native';
+import * as SecureStore from 'expo-secure-store';
+import { Text, Button, Platform } from 'react-native';
 import Constants from 'expo-constants';
 import styles from './style';
 import { DataScrollView } from './Themes';
@@ -44,11 +45,18 @@ export default function Spotify() {
           code,
         }),
       }).then((res) => res.json())
-        .then((json) => setSpotify({
-          code,
-          access_token: json.access_token,
-          refresh_token: json.refresh_token,
-        }))
+        .then((json) => {
+          // eslint-disable-next-line camelcase
+          const { access_token, refresh_token } = json;
+          if (Platform.OS !== 'web') {
+            SecureStore.setItemAsync('SPOTIFY_REFRESH_TOKEN', refresh_token)
+              .catch((err) => console.log(err));
+            setSpotify({
+              code,
+              access_token,
+            });
+          }
+        })
         .catch((err) => console.log(err));
     }
   }, [response]);

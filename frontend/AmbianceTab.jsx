@@ -4,6 +4,7 @@ import {
 } from 'react-native';
 import { createStackNavigator } from '@react-navigation/stack';
 import { LinearGradient } from 'expo-linear-gradient';
+import Spotify from './Spotify';
 import styles from './style';
 import {
   CardView, PageTitle, PageView, CardTitle,
@@ -31,14 +32,6 @@ function Ambiance({ navigation }) {
   );
 }
 
-function Music() {
-  return (
-    <View style={styles.container}>
-      <Text>Boilerplate for Music</Text>
-    </View>
-  );
-}
-
 function Lighting() {
   return (
     <View style={styles.container}>
@@ -53,7 +46,7 @@ function AmbianceTab() {
   return (
     <AmbianceStack.Navigator initialRouteName="Ambiance" screenOptions={{ headerTransparent: true }}>
       <AmbianceStack.Screen name="Ambiance" component={Ambiance} options={{ headerShown: false }} />
-      <AmbianceStack.Screen name="Music" component={Music} />
+      <AmbianceStack.Screen name="Music" component={Spotify} />
       <AmbianceStack.Screen name="Lighting" component={Lighting} />
     </AmbianceStack.Navigator>
   );

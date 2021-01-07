@@ -66,14 +66,18 @@ function Data({ navigation }) {
   React.useEffect(() => {
     // TODO: only download the data if it is out of date with the backend
     const fetchData = async () => {
-      const apiURL = `http://${manifest.debuggerHost.split(':').shift()}:4000/data`;
-      const downloadResumable = FileSystem.createDownloadResumable(
-        apiURL,
-        `${FileSystem.documentDirectory}sampleData.json`,
-      );
+      const fileURI = `${FileSystem.documentDirectory}sampleData.json`;
       try {
-        const { uri } = await downloadResumable.downloadAsync();
-        const dataString = await FileSystem.readAsStringAsync(uri);
+        const { exists } = await FileSystem.getInfoAsync(fileURI);
+        if (!exists) {
+          const apiURL = `http://${manifest.debuggerHost.split(':').shift()}:4000/data`;
+          const downloadResumable = FileSystem.createDownloadResumable(
+            apiURL,
+            fileURI,
+          );
+          await downloadResumable.downloadAsync();
+        }
+        const dataString = await FileSystem.readAsStringAsync(fileURI);
         setSampleData(JSON.parse(dataString).sampleData);
       } catch (e) {
         console.log(e);

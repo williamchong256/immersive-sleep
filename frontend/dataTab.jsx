@@ -3,13 +3,15 @@ import {
   FlatList, Pressable,
 } from 'react-native';
 import { createStackNavigator } from '@react-navigation/stack';
-
-import DetailedData from './detailedData';
-import { sampleData } from './sampleData.json';
+import Constants from 'expo-constants';
+import * as FileSystem from 'expo-file-system';
 import {
   BodyText, CardTitle, CardView, DataPointView, DataScrollView,
   PageTitle,
 } from './Themes';
+import DetailedData from './detailedData';
+
+const { manifest } = Constants;
 
 // Handles the rendering of each item in data of FlatList
 function renderData({ item }, navigation) {
@@ -59,6 +61,27 @@ function renderData({ item }, navigation) {
 
 // The Data tab where the FlatList is returned
 function Data({ navigation }) {
+  const [sampleData, setSampleData] = React.useState({});
+
+  React.useEffect(() => {
+    // TODO: only download the data if it is out of date with the backend
+    const fetchData = async () => {
+      const apiURL = `http://${manifest.debuggerHost.split(':').shift()}:4000/data`;
+      const downloadResumable = FileSystem.createDownloadResumable(
+        apiURL,
+        `${FileSystem.documentDirectory}sampleData.json`,
+      );
+      try {
+        const { uri } = await downloadResumable.downloadAsync();
+        const dataString = await FileSystem.readAsStringAsync(uri);
+        setSampleData(JSON.parse(dataString).sampleData);
+      } catch (e) {
+        console.log(e);
+      }
+    };
+    fetchData();
+  }, []);
+
   return (
     <DataScrollView>
       {/*

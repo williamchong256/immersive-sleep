@@ -16,6 +16,10 @@ app.post('/counter', (req, res) => {
   res.json({ value: count });
 });
 
+app.get('/data', (req, res) => {
+  res.download(`${__dirname}/sampleData.json`);
+});
+
 app.listen(PORT, () => {
   console.log(`Server listening on port ${PORT}`);
 });

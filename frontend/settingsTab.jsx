@@ -6,7 +6,9 @@ import {
 } from 'react-native';
 import { createStackNavigator } from '@react-navigation/stack';
 import styles from './style';
-import { PressableButton } from './Themes';
+import {
+  DetailedSettingsView, PageTitle, PressableButton, SettingsView,
+} from './Themes';
 
 // TODO: Implement Dark Mode at an app level
 
@@ -17,7 +19,8 @@ function Settings({ navigation }) {
   return (
   // Returns a View containing Buttons that navigate to
   // the various Screens in the SettingsStack
-    <View style={styles.settings}>
+    <SettingsView>
+      <PageTitle>Settings</PageTitle>
       <PressableButton onPress={() => navigation.navigate('Profile')} title="Profile" />
       <PressableButton onPress={() => navigation.navigate('Preferences')} title="Preferences" />
       {/*
@@ -30,44 +33,48 @@ function Settings({ navigation }) {
       <View style={styles.darkMode}>
         <Text style={styles.darkModeText}>Dark Mode</Text>
         <View style={styles.darkModeToggleView}>
-          <Switch onChange={() => setDarkMode(!darkMode)} value={darkMode} />
+          <Switch
+            onChange={() => setDarkMode(!darkMode)}
+            value={darkMode}
+            style={{ marginTop: 8 }}
+          />
         </View>
       </View>
       <PressableButton onPress={() => navigation.navigate('Notifications')} title="Notifications" />
       <PressableButton onPress={() => navigation.navigate('Time Zone')} title="Time Zone" />
-    </View>
+    </SettingsView>
   );
 }
 
 function Profile() {
   return (
-    <View style={styles.container}>
+    <DetailedSettingsView>
       <Text>Boilerplate for Profile</Text>
-    </View>
+    </DetailedSettingsView>
   );
 }
 
 function Preferences() {
   return (
-    <View style={styles.container}>
+    <DetailedSettingsView>
       <Text>Boilerplate for Preferences</Text>
-    </View>
+    </DetailedSettingsView>
   );
 }
 
 function Notifications() {
   return (
-    <View style={styles.container}>
+    <DetailedSettingsView>
       <Text>Boilerplate for Notifications</Text>
-    </View>
+    </DetailedSettingsView>
   );
 }
 
 function TimeZone() {
   return (
-    <View style={styles.container}>
+    <DetailedSettingsView>
       <Text>Boilerplate for TimeZone</Text>
-    </View>
+    </DetailedSettingsView>
   );
 }
 
@@ -76,8 +83,8 @@ const SettingsStack = createStackNavigator();
 function SettingsTab() {
   return (
   // Implement a StackNavigator for the various settings
-    <SettingsStack.Navigator initialRouteName="Settings">
-      <SettingsStack.Screen name="Settings" component={Settings} />
+    <SettingsStack.Navigator initialRouteName="Settings" screenOptions={{ headerTransparent: true }}>
+      <SettingsStack.Screen name="Settings" component={Settings} options={{ headerShown: false }} />
       <SettingsStack.Screen name="Preferences" component={Preferences} />
       <SettingsStack.Screen name="Profile" component={Profile} />
       <SettingsStack.Screen name="Notifications" component={Notifications} />

@@ -41,6 +41,10 @@ function HomeTabs() {
           }
         },
       })}
+      tabBarOptions={{
+        activeTintColor: 'black',
+        inactiveTintColor: 'gray',
+      }}
     >
       {/* The different tabs routes are declared here as Screens */}
       <Tab.Screen name="Diagnostics" component={DiagnosticsTab} />
@@ -67,7 +71,7 @@ function App() {
         For more information: https://reactnavigation.org/docs/hiding-tabbar-in-screens
       */}
       <Stack.Navigator initialRouteName="Home">
-        <Stack.Screen name="Start" component={Start} />
+        <Stack.Screen name="Start" component={Start} options={{ headerTransparent: true }} />
         <Stack.Screen name="Home" component={HomeTabs} options={{ headerShown: false }} />
       </Stack.Navigator>
     </NavigationContainer>

@@ -3,13 +3,15 @@ import {
   FlatList, Pressable,
 } from 'react-native';
 import { createStackNavigator } from '@react-navigation/stack';
-
-import DetailedData from './detailedData';
-import { sampleData } from './sampleData.json';
+import Constants from 'expo-constants';
+import * as SQLite from 'expo-sqlite';
 import {
   BodyText, CardTitle, CardView, DataPointView, DataScrollView,
   PageTitle,
 } from './Themes';
+import DetailedData from './detailedData';
+
+const { manifest } = Constants;
 
 // Handles the rendering of each item in data of FlatList
 function renderData({ item }, navigation) {
@@ -59,6 +61,46 @@ function renderData({ item }, navigation) {
 
 // The Data tab where the FlatList is returned
 function Data({ navigation }) {
+  const [sampleData, setSampleData] = React.useState({});
+
+  const db = SQLite.openDatabase('data.db');
+
+  React.useEffect(() => {
+    db.transaction((tx) => tx.executeSql('SELECT * FROM data', [], (_, { rows }) => {
+      // eslint-disable-next-line no-underscore-dangle
+      const data = rows._array;
+      setSampleData(data);
+    }), () => {
+      const apiURL = `http://${manifest.debuggerHost.split(':').shift()}:4000/data`;
+      fetch(apiURL, {
+        method: 'GET',
+        headers: { 'Content-Type': 'application/json' },
+      }).then((res) => res.json())
+        .then((json) => {
+          const data = json.sampleData;
+          db.transaction((tx) => {
+            tx.executeSql(
+              'CREATE TABLE IF NOT EXISTS data (key string primary key NOT NULL, duration int, heartRate int, breathing string, efficiency int)',
+            );
+          }, (err) => console.log(err));
+          data.forEach((element) => {
+            const values = [element.key,
+              element.duration,
+              element.heartRate,
+              element.breathing,
+              element.efficiency,
+            ];
+            db.transaction((tx) => {
+              tx.executeSql('INSERT INTO data VALUES (?, ?, ?, ?, ?)', values);
+            },
+            (err) => console.log(err));
+          });
+          setSampleData(data);
+        })
+        .catch((err) => console.log(err));
+    });
+  }, []);
+
   return (
     <DataScrollView>
       {/*

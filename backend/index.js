@@ -1,4 +1,5 @@
 const express = require('express');
+const fs = require('fs');
 
 const app = express();
 
@@ -14,6 +15,14 @@ app.post('/counter', (req, res) => {
   let count = req.body.value;
   count += 1;
   res.json({ value: count });
+});
+
+app.get('/data', (req, res) => {
+  fs.readFile(`${__dirname}/sampleData.json`, (err, data) => {
+    if (err) throw err;
+    const json = JSON.parse(data);
+    res.json(json);
+  });
 });
 
 app.listen(PORT, () => {

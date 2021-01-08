@@ -93,21 +93,3 @@ export function HomeTab({ navigation }) {
     </PageView>
   );
 }
-
-export function AmbianceTab() {
-  return (
-    <PageView center>
-      <PageTitle>Ambiance</PageTitle>
-      <CardView>
-        <LinearGradient colors={['#F9F6FF', '#CFDFF7']} style={{ padding: 20, paddingTop: 0, borderRadius: 10 }}>
-          <CardTitle>Music</CardTitle>
-        </LinearGradient>
-      </CardView>
-      <CardView>
-        <LinearGradient colors={['#F9F6FF', '#CFDFF7']} style={{ padding: 20, paddingTop: 0, borderRadius: 10 }}>
-          <CardTitle>Lighting</CardTitle>
-        </LinearGradient>
-      </CardView>
-    </PageView>
-  );
-}

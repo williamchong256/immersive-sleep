@@ -5,10 +5,11 @@ import { createStackNavigator } from '@react-navigation/stack';
 import { createBottomTabNavigator } from '@react-navigation/bottom-tabs';
 import { MaterialCommunityIcons, Ionicons, FontAwesome5 } from '@expo/vector-icons';
 import {
-  DiagnosticsTab, HomeTab, AmbianceTab, Start,
+  DiagnosticsTab, HomeTab, Start,
 } from './homeTabs';
 import SettingsTab from './settingsTab';
 import DataTab from './dataTab';
+import AmbianceTab from './AmbianceTab';
 
 // Implements the bottom tab navigation
 // Tab icons are implemented in the tabBarIcon option in the TabNavigator,

@@ -28,28 +28,28 @@ function renderData({ item }, navigation) {
         <DataPointView>
           <BodyText>
             Duration:
-            {item.duration}
+            {` ${item.duration}`}
           </BodyText>
         </DataPointView>
 
         <DataPointView>
           <BodyText>
             Heart Rate:
-            {item.heartRate}
+            {` ${item.heartRate}`}
           </BodyText>
         </DataPointView>
 
         <DataPointView>
           <BodyText>
             Breathing:
-            {item.breathing}
+            {` ${item.breathing}`}
           </BodyText>
         </DataPointView>
 
         <DataPointView>
           <BodyText>
             Efficiency:
-            {item.efficiency}
+            {` ${item.efficiency}`}
           </BodyText>
         </DataPointView>
       </Pressable>
@@ -82,7 +82,7 @@ function DataTab() {
   // Implement a StackNavigator for the Detailed Data page
     <DataStack.Navigator initialRouteName="Data">
       <DataStack.Screen name="Data" component={Data} options={{ headerShown: false }} />
-      <DataStack.Screen name="DetailedData" component={DetailedData} options={{ headerShown: false }} />
+      <DataStack.Screen name="DetailedData" component={DetailedData} />
     </DataStack.Navigator>
   );
 }

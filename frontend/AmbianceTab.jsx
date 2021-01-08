@@ -1,18 +1,33 @@
 import * as React from 'react';
 import {
-  View, Text,
+  View, Text, Pressable,
 } from 'react-native';
 import { createStackNavigator } from '@react-navigation/stack';
+import { LinearGradient } from 'expo-linear-gradient';
 import styles from './style';
-import { PageTitle, PressableButton, SettingsView } from './Themes';
+import {
+  CardView, PageTitle, PageView, CardTitle,
+} from './Themes';
 
 function Ambiance({ navigation }) {
   return (
-    <SettingsView>
+    <PageView center>
       <PageTitle>Ambiance</PageTitle>
-      <PressableButton onPress={() => navigation.navigate('Music')} title="Music" />
-      <PressableButton onPress={() => navigation.navigate('Lighting')} title="Lighting" />
-    </SettingsView>
+      <CardView>
+        <Pressable onPress={() => navigation.navigate('Music')} title="Music">
+          <LinearGradient colors={['#F9F6FF', '#CFDFF7']} style={{ padding: 20, paddingTop: 0, borderRadius: 10 }}>
+            <CardTitle>Music</CardTitle>
+          </LinearGradient>
+        </Pressable>
+      </CardView>
+      <CardView>
+        <Pressable onPress={() => navigation.navigate('Lighting')} title="Lighting">
+          <LinearGradient colors={['#F9F6FF', '#CFDFF7']} style={{ padding: 20, paddingTop: 0, borderRadius: 10 }}>
+            <CardTitle>Lighting</CardTitle>
+          </LinearGradient>
+        </Pressable>
+      </CardView>
+    </PageView>
   );
 }
 

@@ -70,7 +70,7 @@ function Data({ navigation }) {
       // eslint-disable-next-line no-underscore-dangle
       const data = rows._array;
       setSampleData(data);
-    }), () => {
+    }, () => {
       const apiURL = `http://${manifest.debuggerHost.split(':').shift()}:4000/data`;
       fetch(apiURL, {
         method: 'GET',
@@ -78,11 +78,9 @@ function Data({ navigation }) {
       }).then((res) => res.json())
         .then((json) => {
           const data = json.sampleData;
-          db.transaction((tx) => {
-            tx.executeSql(
-              'CREATE TABLE IF NOT EXISTS data (key string primary key NOT NULL, duration int, heartRate int, breathing string, efficiency int)',
-            );
-          }, (err) => console.log(err));
+          tx.executeSql(
+            'CREATE TABLE IF NOT EXISTS data (key string primary key NOT NULL, duration int, heartRate int, breathing string, efficiency int)',
+          );
           data.forEach((element) => {
             const values = [element.key,
               element.duration,
@@ -90,15 +88,12 @@ function Data({ navigation }) {
               element.breathing,
               element.efficiency,
             ];
-            db.transaction((tx) => {
-              tx.executeSql('INSERT INTO data VALUES (?, ?, ?, ?, ?)', values);
-            },
-            (err) => console.log(err));
+            tx.executeSql('INSERT INTO data VALUES (?, ?, ?, ?, ?)', values);
           });
           setSampleData(data);
         })
         .catch((err) => console.log(err));
-    });
+    }), (err) => console.log(err));
   }, []);
 
   return (

@@ -30,24 +30,33 @@ const db = SQLite.openDatabase('data.db');
 function DetailedData({ route }) {
   // Retrieve our item in route.params
   const { item } = route.params;
+  // Set a default state of null and raise state
   const [value, setValue] = React.useState(null);
 
   useFocusEffect(React.useCallback(() => {
     const { key } = item;
+    // Only retrieve comment from database on initial render
     if (value === null) {
+      // Search table `comments` for this item
       db.transaction((tx) => tx.executeSql('SELECT * FROM comments WHERE key=?', [key],
+        // Callback if table `comments` exists
         (_, { rows }) => {
-          if (rows.length === 0) {
-            tx.executeSql('INSERT INTO comments VALUES (?, ?)', [key, '']);
-          } else {
+          if (rows.length !== 0) {
+            // If record exists, set value to its comment
             // eslint-disable-next-line no-underscore-dangle
             setValue(rows._array[0].comment);
+          } else {
+            // Else, create empty record for item
+            tx.executeSql('INSERT INTO comments VALUES (?, ?)', [key, '']);
           }
+          // Callback if table `comments` does not exist
         }, () => {
+          // Create table `comments`
           tx.executeSql('CREATE TABLE IF NOT EXISTS comments (key string primary key NOT NULL, comment string)');
         }));
     }
     return () => {
+      // Store comment into database on blur and on value change
       db.transaction((tx) => tx.executeSql('UPDATE comments SET comment=? WHERE key=?', [value, key]));
     };
   }, [value]));
@@ -87,6 +96,7 @@ function DetailedData({ route }) {
           <BodyText>
             Comments:
           </BodyText>
+          {/* Raise state up from CommentsBox to parent component */}
           <CommentsBox value={value} onChangeText={(val) => setValue(val)} />
 
         </View>

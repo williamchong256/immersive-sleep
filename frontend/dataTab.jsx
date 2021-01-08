@@ -28,8 +28,7 @@ function renderData({ item }, navigation) {
         <DataPointView>
           <BodyText>
             Duration:
-            {' '}
-            {item.duration}
+            {` ${item.duration}`}
           </BodyText>
         </DataPointView>
 

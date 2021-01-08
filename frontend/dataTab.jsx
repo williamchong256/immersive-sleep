@@ -35,24 +35,21 @@ function renderData({ item }, navigation) {
         <DataPointView>
           <BodyText>
             Heart Rate:
-            {' '}
-            {item.heartRate}
+            {` ${item.heartRate}`}
           </BodyText>
         </DataPointView>
 
         <DataPointView>
           <BodyText>
             Breathing:
-            {' '}
-            {item.breathing}
+            {` ${item.breathing}`}
           </BodyText>
         </DataPointView>
 
         <DataPointView>
           <BodyText>
             Efficiency:
-            {' '}
-            {item.efficiency}
+            {` ${item.efficiency}`}
           </BodyText>
         </DataPointView>
       </Pressable>

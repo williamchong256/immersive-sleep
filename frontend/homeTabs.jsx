@@ -56,7 +56,7 @@ export function DiagnosticsTab() {
             chartConfig={{
               backgroundGradientFrom: '#A6CDF0',
               backgroundGradientTo: '#CFDFF7',
-              color: (opacity = 1) => `rgba(0,0,0, ${opacity})`,
+              color: () => 'rgba(0,0,0,1)',
             }}
             style={{ borderRadius: 10 }}
           />

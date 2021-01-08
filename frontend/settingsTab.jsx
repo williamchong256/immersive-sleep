@@ -6,7 +6,9 @@ import {
 } from 'react-native';
 import { createStackNavigator } from '@react-navigation/stack';
 import styles from './style';
-import { PageTitle, PressableButton, SettingsView } from './Themes';
+import {
+  DetailedSettingsView, PageTitle, PressableButton, SettingsView,
+} from './Themes';
 
 // TODO: Implement Dark Mode at an app level
 
@@ -46,33 +48,33 @@ function Settings({ navigation }) {
 
 function Profile() {
   return (
-    <View style={styles.container}>
+    <DetailedSettingsView>
       <Text>Boilerplate for Profile</Text>
-    </View>
+    </DetailedSettingsView>
   );
 }
 
 function Preferences() {
   return (
-    <View style={styles.container}>
+    <DetailedSettingsView>
       <Text>Boilerplate for Preferences</Text>
-    </View>
+    </DetailedSettingsView>
   );
 }
 
 function Notifications() {
   return (
-    <View style={styles.container}>
+    <DetailedSettingsView>
       <Text>Boilerplate for Notifications</Text>
-    </View>
+    </DetailedSettingsView>
   );
 }
 
 function TimeZone() {
   return (
-    <View style={styles.container}>
+    <DetailedSettingsView>
       <Text>Boilerplate for TimeZone</Text>
-    </View>
+    </DetailedSettingsView>
   );
 }
 
@@ -81,12 +83,12 @@ const SettingsStack = createStackNavigator();
 function SettingsTab() {
   return (
   // Implement a StackNavigator for the various settings
-    <SettingsStack.Navigator>
+    <SettingsStack.Navigator initialRouteName="Settings" screenOptions={{ headerTransparent: true }}>
       <SettingsStack.Screen name="Settings" component={Settings} options={{ headerShown: false }} />
-      <SettingsStack.Screen name="Preferences" component={Preferences} options={{ headerTransparent: true }} />
-      <SettingsStack.Screen name="Profile" component={Profile} options={{ headerTransparent: true }} />
-      <SettingsStack.Screen name="Notifications" component={Notifications} options={{ headerTransparent: true }} />
-      <SettingsStack.Screen name="Time Zone" component={TimeZone} options={{ headerTransparent: true }} />
+      <SettingsStack.Screen name="Preferences" component={Preferences} />
+      <SettingsStack.Screen name="Profile" component={Profile} />
+      <SettingsStack.Screen name="Notifications" component={Notifications} />
+      <SettingsStack.Screen name="Time Zone" component={TimeZone} />
     </SettingsStack.Navigator>
   );
 }

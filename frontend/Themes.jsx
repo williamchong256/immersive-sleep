@@ -83,7 +83,7 @@ const DataScrollView = styled.SafeAreaView`
     flex: 1;
     background-color: white;
     align-items: stretch;
-    padding-top: 30px;
+    padding-top: 15px;
     justify-content: center;
 `;
 
@@ -94,6 +94,13 @@ const SettingsView = styled.View`
     align-items: flex-start;
     justify-content: flex-start;
     padding: 15px;
+`;
+
+const DetailedSettingsView = styled.View`
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
 `;
 
 const ButtonText = styled.Text`
@@ -130,6 +137,6 @@ const StartView = styled.View`
 
 export {
   BodyText, ButtonText, CardTitle, CardView, DataView, DataPointView,
-  DataScrollView, PageTitle, PageView, PressableButton,
+  DataScrollView, DetailedSettingsView, PageTitle, PageView, PressableButton,
   SettingsView, Subheading, StartView,
 };

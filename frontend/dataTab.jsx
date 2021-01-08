@@ -28,6 +28,7 @@ function renderData({ item }, navigation) {
         <DataPointView>
           <BodyText>
             Duration:
+            {' '}
             {item.duration}
           </BodyText>
         </DataPointView>
@@ -35,6 +36,7 @@ function renderData({ item }, navigation) {
         <DataPointView>
           <BodyText>
             Heart Rate:
+            {' '}
             {item.heartRate}
           </BodyText>
         </DataPointView>
@@ -42,6 +44,7 @@ function renderData({ item }, navigation) {
         <DataPointView>
           <BodyText>
             Breathing:
+            {' '}
             {item.breathing}
           </BodyText>
         </DataPointView>
@@ -49,6 +52,7 @@ function renderData({ item }, navigation) {
         <DataPointView>
           <BodyText>
             Efficiency:
+            {' '}
             {item.efficiency}
           </BodyText>
         </DataPointView>
@@ -82,7 +86,7 @@ function DataTab() {
   // Implement a StackNavigator for the Detailed Data page
     <DataStack.Navigator initialRouteName="Data">
       <DataStack.Screen name="Data" component={Data} options={{ headerShown: false }} />
-      <DataStack.Screen name="DetailedData" component={DetailedData} options={{ headerShown: false }} />
+      <DataStack.Screen name="DetailedData" component={DetailedData} />
     </DataStack.Navigator>
   );
 }

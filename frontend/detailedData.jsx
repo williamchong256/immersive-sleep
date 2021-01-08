@@ -23,6 +23,7 @@ function DetailedData({ route }) {
         <DataPointView>
           <BodyText>
             Heart Rate:
+            {' '}
             {item.heartRate}
           </BodyText>
         </DataPointView>
@@ -30,6 +31,7 @@ function DetailedData({ route }) {
         <DataPointView>
           <BodyText>
             Breathing:
+            {' '}
             {item.breathing}
           </BodyText>
         </DataPointView>
@@ -37,6 +39,7 @@ function DetailedData({ route }) {
         <DataPointView>
           <BodyText>
             Efficiency:
+            {' '}
             {item.efficiency}
           </BodyText>
         </DataPointView>

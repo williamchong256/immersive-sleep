@@ -1,3 +1,4 @@
+/* eslint-disable camelcase */
 import * as React from 'react';
 import * as WebBrowser from 'expo-web-browser';
 import { makeRedirectUri, useAuthRequest } from 'expo-auth-session';
@@ -35,34 +36,81 @@ export default function Spotify() {
   );
 
   React.useEffect(() => {
+    // eslint-disable-next-line no-undef
+    const controller = new AbortController();
+
+    SecureStore.getItemAsync('SPOTIFY_REFRESH_TOKEN')
+      .then((refresh_token) => {
+        if (refresh_token) {
+          const apiURL = `http://${manifest.debuggerHost.split(':').shift()}:4000/spotify/refresh_token`;
+          fetch(apiURL, {
+            method: 'POST',
+            headers: { 'Content-Type': 'application/json' },
+            signal: controller.signal,
+            body: JSON.stringify({
+              refresh_token,
+            }),
+          }).then((res) => res.json())
+            .then((json) => {
+              const { access_token } = json;
+              setSpotify({
+                access_token,
+              });
+            })
+            .catch((err) => {
+              if (!controller.signal.aborted) {
+                console.log(err);
+              }
+            });
+        }
+      })
+      .catch((err) => console.log(err));
+
+    return () => {
+      controller.abort();
+    };
+  }, []);
+
+  React.useEffect(() => {
+    // eslint-disable-next-line no-undef
+    const controller = new AbortController();
+
     if (response?.type === 'success' && response.params.code) {
       const { code } = response.params;
-      const apiURL = `http://${manifest.debuggerHost.split(':').shift()}:4000/api/token`;
+      const apiURL = `http://${manifest.debuggerHost.split(':').shift()}:4000/spotify/token`;
       fetch(apiURL, {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
+        signal: controller.signal,
         body: JSON.stringify({
           code,
         }),
       }).then((res) => res.json())
         .then((json) => {
-          // eslint-disable-next-line camelcase
           const { access_token, refresh_token } = json;
           if (Platform.OS !== 'web') {
             SecureStore.setItemAsync('SPOTIFY_REFRESH_TOKEN', refresh_token)
               .catch((err) => console.log(err));
             setSpotify({
-              code,
               access_token,
             });
           }
         })
-        .catch((err) => console.log(err));
+        .catch((err) => {
+          if (!controller.signal.aborted) {
+            console.log(err);
+          }
+        });
     }
+
+    return () => {
+      controller.abort();
+    };
   }, [response]);
 
   return (
     <DataScrollView>
+      {!spotify.access_token && (
       <Button
         style={styles.container}
         disabled={!request}
@@ -71,8 +119,7 @@ export default function Spotify() {
           promptAsync();
         }}
       />
-      <Text>{spotify.code}</Text>
-      <Text>-----------</Text>
+      )}
       <Text>{spotify.access_token}</Text>
     </DataScrollView>
   );

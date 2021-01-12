@@ -61,21 +61,25 @@ const Stack = createStackNavigator();
 
 const Tab = createBottomTabNavigator();
 
+const DarkModeContext = React.createContext('false');
+
 function App() {
   return (
-    <NavigationContainer>
-      {/*
+    <DarkModeContext.Provider>
+      <NavigationContainer>
+        {/*
         The Tab Navigator is nested inside the Stack Navigator so that
         the "Start" Screen does not display the bottom tab bar when
         navigated to
 
         For more information: https://reactnavigation.org/docs/hiding-tabbar-in-screens
       */}
-      <Stack.Navigator initialRouteName="Home">
-        <Stack.Screen name="Start" component={Start} options={{ headerTransparent: true }} />
-        <Stack.Screen name="Home" component={HomeTabs} options={{ headerShown: false }} />
-      </Stack.Navigator>
-    </NavigationContainer>
+        <Stack.Navigator initialRouteName="Home">
+          <Stack.Screen name="Start" component={Start} options={{ headerTransparent: true }} />
+          <Stack.Screen name="Home" component={HomeTabs} options={{ headerShown: false }} />
+        </Stack.Navigator>
+      </NavigationContainer>
+    </DarkModeContext.Provider>
   );
 }
 

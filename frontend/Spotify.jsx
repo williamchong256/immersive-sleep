@@ -5,6 +5,7 @@ import { makeRedirectUri, useAuthRequest } from 'expo-auth-session';
 import * as SecureStore from 'expo-secure-store';
 import { Text, Button, Platform } from 'react-native';
 import Constants from 'expo-constants';
+import SpotifyWebApi from 'spotify-web-api-js';
 import styles from './style';
 import { DataScrollView } from './Themes';
 
@@ -108,19 +109,43 @@ export default function Spotify() {
     };
   }, [response]);
 
+  const test = async () => {
+    const { access_token } = spotify;
+    const spotifyApi = new SpotifyWebApi();
+    spotifyApi.setAccessToken(access_token);
+    try {
+      const data = await spotifyApi.getMe();
+      const { display_name } = data;
+      setSpotify({
+        access_token,
+        display_name,
+      });
+    } catch (e) {
+      console.log(e);
+    }
+  };
+
   return (
     <DataScrollView>
-      {!spotify.access_token && (
-      <Button
-        style={styles.container}
-        disabled={!request}
-        title="Login"
-        onPress={() => {
-          promptAsync();
-        }}
-      />
+      {!spotify.access_token ? (
+        <Button
+          style={styles.container}
+          disabled={!request}
+          title="Login"
+          onPress={() => {
+            promptAsync();
+          }}
+        />
+      ) : (
+        <Button
+          style={styles.container}
+          title="Test"
+          onPress={() => {
+            test();
+          }}
+        />
       )}
-      <Text>{spotify.access_token}</Text>
+      {spotify.display_name && <Text>{`Welcome ${spotify.display_name}!`}</Text>}
     </DataScrollView>
   );
 }

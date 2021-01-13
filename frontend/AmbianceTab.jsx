@@ -1,6 +1,6 @@
 import * as React from 'react';
 import {
-  View, Text, Pressable,
+  View, Text, Pressable, Switch,
 } from 'react-native';
 import { createStackNavigator } from '@react-navigation/stack';
 import { LinearGradient } from 'expo-linear-gradient';
@@ -40,9 +40,16 @@ function Music() {
 }
 
 function Lighting() {
+  const [lightOn, setLightOn] = React.useState(false);
   return (
     <View style={styles.container}>
-      <Text>Boilerplate for Lighting</Text>
+      <Switch
+        trackColor={{ false: '00FF00', true: 'FFFFFF' }}
+        onValueChange={(value) => setLightOn(value)}
+        value={lightOn}
+        style={{ transform: [{ scaleX: 1.2 }, { scaleY: 1.2 }] }}
+      />
+      <Text>Placeholder for adding intensity scale</Text>
     </View>
   );
 }

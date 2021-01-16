@@ -6,9 +6,16 @@ import {
   BodyText, DataView, DataPointView, PageTitle, Subheading,
 } from './Themes';
 
-function DetailedData({ route }) {
+function DetailedData({ navigation, route }) {
   // Retrieve our item in route.params
   const { item } = route.params;
+
+  React.useLayoutEffect(() => {
+    navigation.setOptions({
+      title: item.key,
+    });
+  }, [navigation]);
+
   return (
   // Simple example of displaying data based in route
 

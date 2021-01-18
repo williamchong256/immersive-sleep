@@ -7,7 +7,7 @@ import {
 import { createStackNavigator } from '@react-navigation/stack';
 import styles from './style';
 import {
-  DetailedSettingsView, PageTitle, PressableButton, SettingsView,
+  DetailedSettingsView, PageTitle, PageView, PressableButton,
 } from './Themes';
 
 // TODO: Implement Dark Mode at an app level
@@ -19,7 +19,7 @@ function Settings({ navigation }) {
   return (
   // Returns a View containing Buttons that navigate to
   // the various Screens in the SettingsStack
-    <SettingsView>
+    <PageView>
       <PageTitle>Settings</PageTitle>
       <PressableButton onPress={() => navigation.navigate('Profile')} title="Profile" />
       <PressableButton onPress={() => navigation.navigate('Preferences')} title="Preferences" />
@@ -42,7 +42,7 @@ function Settings({ navigation }) {
       </View>
       <PressableButton onPress={() => navigation.navigate('Notifications')} title="Notifications" />
       <PressableButton onPress={() => navigation.navigate('Time Zone')} title="Time Zone" />
-    </SettingsView>
+    </PageView>
   );
 }
 

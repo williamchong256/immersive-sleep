@@ -73,6 +73,10 @@ const HomeCardData = styled.View`
     justify-content: space-between;
 `;
 
+const HomeCardData2 = styled(HomeCardData)`
+    justify-content: flex-start;
+`;
+
 const HomeCardTitle = styled.Text`
     font-size: 50px;
     line-height: 50px;
@@ -86,6 +90,7 @@ const CardText = styled.Text`
     font-size: 20px;
     color: black;
     align-self: flex-start;
+    margin-left: ${(props) => (props.left ? '10px' : '0px')};
 `;
 
 // Styles for Data & Detailed Data pages:
@@ -110,19 +115,9 @@ const DataScrollView = styled.SafeAreaView`
 `;
 
 // Styles for Settings Page:
-const SettingsView = styled.View`
-    flex: 1;
-    background-color: white;
-    align-items: flex-start;
-    justify-content: flex-start;
-    padding: 15px;
-`;
-
-const DetailedSettingsView = styled.View`
-    flex: 1;
+const DetailedSettingsView = styled(PageView)`
     justify-content: center;
     align-items: center;
-    background-color: white;
 `;
 
 const ButtonText = styled.Text`
@@ -159,6 +154,6 @@ const StartView = styled.View`
 
 export {
   BodyText, ButtonText, CardTitle, CardText, CardView, DataView, DataPointView,
-  DataScrollView, DetailedSettingsView, HomeCardData, HomeCardTitle, PageTitle, PageView,
-  PressableButton, SettingsView, Subheading, StartView,
+  DataScrollView, DetailedSettingsView, HomeCardData, HomeCardData2, HomeCardTitle, PageTitle,
+  PageView, PressableButton, Subheading, StartView,
 };

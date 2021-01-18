@@ -11,7 +11,8 @@ import { LinearGradient } from 'expo-linear-gradient';
 import { Feather } from '@expo/vector-icons';
 import { sampleData } from './sampleData.json';
 import {
-  CardTitle, CardText, CardView, HomeCardData, HomeCardTitle, PageTitle, PageView, StartView,
+  CardTitle, CardText, CardView, HomeCardData, HomeCardData2, HomeCardTitle, PageTitle, PageView,
+  StartView,
 } from './Themes';
 
 export function Start() {
@@ -81,17 +82,21 @@ export function HomeTab({ navigation }) {
             padding: 20,
             paddingTop: 8,
             borderRadius: 10,
-            aspectRatio: 6 / 5,
+            aspectRatio: 5 / 5,
             justifyContent: 'space-between',
           }}
         >
-          <CardText left>Last Night,</CardText>
+          <CardText>Last Night,</CardText>
           <HomeCardTitle center data>{`${Math.floor(latestData.duration / 60)}hrs${latestData.duration % 60}min`}</HomeCardTitle>
           <HomeCardData>
-            <Feather name="heart" size={24} color="black" />
-            <CardText>{`${latestData.heartRate} bpm`}</CardText>
-            <Feather name="bar-chart-2" size={24} color="black" />
-            <CardText>{`${latestData.breathing} cpm`}</CardText>
+            <HomeCardData2>
+              <Feather name="heart" size={24} color="black" />
+              <CardText left>{`${latestData.heartRate} bpm`}</CardText>
+            </HomeCardData2>
+            <HomeCardData2>
+              <Feather name="bar-chart-2" size={24} color="black" />
+              <CardText left>{`${latestData.breathing} cpm`}</CardText>
+            </HomeCardData2>
           </HomeCardData>
         </LinearGradient>
       </CardView>

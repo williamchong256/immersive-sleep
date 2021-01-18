@@ -9,7 +9,7 @@ const PageTitle = styled.Text`
     letter-spacing: -0.32px;
     color: black;
     margin-bottom: 5px;
-    margin-top: 30px;
+    margin-top: ${(props) => (props.detaileddata ? '0px' : '30px')};
     margin-left: ${(props) => (props.data ? '15px' : '0px')};
     align-self: ${(props) => (props.center ? 'center' : 'flex-start')};
 `;
@@ -43,9 +43,9 @@ const Subheading = styled.Text`
 
 // Styles for Cards, with props that allow them to be used with different styles:
 const CardTitle = styled.Text`
-    font-weight: 300;
     font-size: ${(props) => (props.data ? '30px' : '25px')};
     line-height: 45px;
+    font-weight: ${(props) => (props.data ? 'bold' : 'normal')};
     letter-spacing: -0.24px;
     color: black;
     text-align: ${(props) => (props.center ? 'center' : 'left')};
@@ -64,6 +64,28 @@ const CardView = styled.View`
     margin-right: ${(props) => (props.data ? '15px' : '0px')};
     margin-left: ${(props) => (props.data ? '15px' : '0px')};
     elevation: 6;
+`;
+
+const HomeCardData = styled.View`
+    background-color: transparent;
+    padding: 0;
+    flex-direction: row;
+    justify-content: space-between;
+`;
+
+const HomeCardTitle = styled.Text`
+    font-size: 50px;
+    line-height: 50px;
+    font-weight: bold;
+    letter-spacing: -0.24px;
+    color: black;
+    text-align: center;
+`;
+
+const CardText = styled.Text`
+    font-size: 20px;
+    color: black;
+    align-self: flex-start;
 `;
 
 // Styles for Data & Detailed Data pages:
@@ -136,7 +158,7 @@ const StartView = styled.View`
 `;
 
 export {
-  BodyText, ButtonText, CardTitle, CardView, DataView, DataPointView,
-  DataScrollView, DetailedSettingsView, PageTitle, PageView, PressableButton,
-  SettingsView, Subheading, StartView,
+  BodyText, ButtonText, CardTitle, CardText, CardView, DataView, DataPointView,
+  DataScrollView, DetailedSettingsView, HomeCardData, HomeCardTitle, PageTitle, PageView,
+  PressableButton, SettingsView, Subheading, StartView,
 };

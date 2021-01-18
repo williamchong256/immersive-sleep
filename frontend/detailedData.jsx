@@ -14,7 +14,7 @@ function DetailedData({ route }) {
 
     <DataView>
       <LinearGradient colors={['#F9F6FF', '#CFDFF7']} style={{ flex: 1, padding: 20 }}>
-        <PageTitle>{item.key}</PageTitle>
+        <PageTitle detaileddata>{item.key}</PageTitle>
 
         <DataPointView>
           <Subheading>{item.duration}</Subheading>

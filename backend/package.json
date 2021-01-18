@@ -6,7 +6,8 @@
   "scripts": {
     "dev": "nodemon index.js",
     "start": "node index.js",
-    "test": "npx eslint '**/*.js'"
+    "lint": "npx eslint '**/*.js'",
+    "test": "npm run lint"
   },
   "author": "",
   "dependencies": {

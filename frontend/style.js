@@ -14,6 +14,7 @@ const styles = StyleSheet.create({
     alignItems: 'flex-start',
     justifyContent: 'flex-start',
     padding: 20,
+    paddingTop: 80,
   },
 
   darkMode: {
@@ -30,7 +31,8 @@ const styles = StyleSheet.create({
   darkModeText: {
     flex: 1,
     paddingLeft: 7,
-    fontSize: 17,
+    marginTop: 8,
+    fontSize: 20,
   },
 
   scroll: {
@@ -51,7 +53,15 @@ const styles = StyleSheet.create({
     backgroundColor: '#fff',
     alignItems: 'stretch',
     justifyContent: 'flex-start',
+  },
 
+  start: {
+    flex: 1,
+    padding: 20,
+    paddingTop: 80,
+    backgroundColor: '#fff',
+    alignItems: 'stretch',
+    justifyContent: 'flex-start',
   },
 
   scrollView: {
@@ -60,14 +70,6 @@ const styles = StyleSheet.create({
     padding: 20,
     alignItems: 'stretch',
     justifyContent: 'center',
-  },
-
-  card: {
-    flexDirection: 'row',
-    justifyContent: 'space-between',
-    backgroundColor: '#A6CDF0',
-    borderRadius: 10,
-    padding: 10,
   },
 });
 

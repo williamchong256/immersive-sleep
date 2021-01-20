@@ -1,8 +1,10 @@
 import * as React from 'react';
-import { View } from 'react-native';
+
 import { LinearGradient } from 'expo-linear-gradient';
-import styles from './style';
-import { PageTitle, BodyText, Subheading } from './Themes';
+
+import {
+  BodyText, DataView, DataPointView, PageTitle, Subheading,
+} from './Themes';
 
 function DetailedData({ route }) {
   // Retrieve our item in route.params
@@ -10,35 +12,36 @@ function DetailedData({ route }) {
   return (
   // Simple example of displaying data based in route
 
-    <LinearGradient colors={['#F9F6FF', '#CFDFF7']} style={styles.data}>
-      <PageTitle>{item.key}</PageTitle>
+    <DataView>
+      <LinearGradient colors={['#F9F6FF', '#CFDFF7']} style={{ flex: 1, padding: 20 }}>
+        <PageTitle>{item.key}</PageTitle>
 
-      <View style={{ flexDirection: 'row', justifyContent: 'space-between' }}>
-        <Subheading>{item.duration}</Subheading>
-      </View>
+        <DataPointView>
+          <Subheading>{item.duration}</Subheading>
+        </DataPointView>
 
-      <View style={{ flexDirection: 'row', justifyContent: 'space-between' }}>
-        <BodyText>
-          Heart Rate:
-          {item.heartRate}
-        </BodyText>
-      </View>
+        <DataPointView>
+          <BodyText>
+            Heart Rate:
+            {` ${item.heartRate}`}
+          </BodyText>
+        </DataPointView>
 
-      <View style={{ flexDirection: 'row', justifyContent: 'space-between' }}>
-        <BodyText>
-          Breathing:
-          {item.breathing}
-        </BodyText>
-      </View>
+        <DataPointView>
+          <BodyText>
+            Breathing:
+            {` ${item.breathing}`}
+          </BodyText>
+        </DataPointView>
 
-      <View style={{ flexDirection: 'row', justifyContent: 'space-between' }}>
-        <BodyText>
-          Efficiency:
-          {item.efficiency}
-        </BodyText>
-      </View>
-    </LinearGradient>
-
+        <DataPointView>
+          <BodyText>
+            Efficiency:
+            {` ${item.efficiency}`}
+          </BodyText>
+        </DataPointView>
+      </LinearGradient>
+    </DataView>
   );
 }
 

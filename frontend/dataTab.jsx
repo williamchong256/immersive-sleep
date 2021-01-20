@@ -1,17 +1,20 @@
 import * as React from 'react';
 import {
-  View, SafeAreaView, FlatList, Pressable,
+  FlatList, Pressable,
 } from 'react-native';
 import { createStackNavigator } from '@react-navigation/stack';
-import styles from './style';
+
 import DetailedData from './detailedData';
 import { sampleData } from './sampleData.json';
-import { CardTitle, BodyText } from './Themes';
+import {
+  BodyText, CardTitle, CardView, DataPointView, DataScrollView,
+  PageTitle,
+} from './Themes';
 
 // Handles the rendering of each item in data of FlatList
 function renderData({ item }, navigation) {
   return (
-    <View style={styles.scroll}>
+    <CardView data>
       {/*
             Passing the item prop to our Detailed Data component
             when we call navigate
@@ -20,50 +23,55 @@ function renderData({ item }, navigation) {
         item,
       })}
       >
-        <CardTitle>{item.key}</CardTitle>
+        <CardTitle data>{item.key}</CardTitle>
 
-        <View style={{ flexDirection: 'row', justifyContent: 'space-between' }}>
+        <DataPointView>
           <BodyText>
             Duration:
-            {item.duration}
+            {` ${item.duration}`}
           </BodyText>
-        </View>
+        </DataPointView>
 
-        <View style={{ flexDirection: 'row', justifyContent: 'space-between' }}>
+        <DataPointView>
           <BodyText>
             Heart Rate:
-            {item.heartRate}
+            {` ${item.heartRate}`}
           </BodyText>
-        </View>
+        </DataPointView>
 
-        <View style={{ flexDirection: 'row', justifyContent: 'space-between' }}>
+        <DataPointView>
           <BodyText>
             Breathing:
-            {item.breathing}
+            {` ${item.breathing}`}
           </BodyText>
-        </View>
+        </DataPointView>
 
-        <View style={{ flexDirection: 'row', justifyContent: 'space-between' }}>
+        <DataPointView>
           <BodyText>
             Efficiency:
-            {item.efficiency}
+            {` ${item.efficiency}`}
           </BodyText>
-        </View>
+        </DataPointView>
       </Pressable>
-    </View>
+    </CardView>
   );
 }
 
 // The Data tab where the FlatList is returned
 function Data({ navigation }) {
   return (
-    <SafeAreaView style={styles.scrollView}>
+    <DataScrollView>
       {/*
             Pass the navigation prop to renderData so that
             we can navigate to the Detailed Data page
             */}
-      <FlatList data={sampleData} renderItem={(item) => renderData(item, navigation)} />
-    </SafeAreaView>
+      <PageTitle data>Data</PageTitle>
+      <FlatList
+        data={sampleData}
+        renderItem={(item) => renderData(item, navigation)}
+        showsVerticalScrollIndicator={false}
+      />
+    </DataScrollView>
   );
 }
 
@@ -73,7 +81,7 @@ function DataTab() {
   return (
   // Implement a StackNavigator for the Detailed Data page
     <DataStack.Navigator initialRouteName="Data">
-      <DataStack.Screen name="Data" component={Data} />
+      <DataStack.Screen name="Data" component={Data} options={{ headerShown: false }} />
       <DataStack.Screen name="DetailedData" component={DetailedData} />
     </DataStack.Navigator>
   );

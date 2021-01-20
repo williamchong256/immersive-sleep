@@ -5,10 +5,11 @@ import { createStackNavigator } from '@react-navigation/stack';
 import { createBottomTabNavigator } from '@react-navigation/bottom-tabs';
 import { MaterialCommunityIcons, Ionicons, FontAwesome5 } from '@expo/vector-icons';
 import {
-  DiagnosticsTab, HomeTab, AmbianceTab, Start,
+  DiagnosticsTab, HomeTab, Start,
 } from './homeTabs';
 import SettingsTab from './settingsTab';
 import DataTab from './dataTab';
+import AmbianceTab from './AmbianceTab';
 
 // Implements the bottom tab navigation
 // Tab icons are implemented in the tabBarIcon option in the TabNavigator,
@@ -41,6 +42,10 @@ function HomeTabs() {
           }
         },
       })}
+      tabBarOptions={{
+        activeTintColor: 'black',
+        inactiveTintColor: 'gray',
+      }}
     >
       {/* The different tabs routes are declared here as Screens */}
       <Tab.Screen name="Diagnostics" component={DiagnosticsTab} />
@@ -67,7 +72,7 @@ function App() {
         For more information: https://reactnavigation.org/docs/hiding-tabbar-in-screens
       */}
       <Stack.Navigator initialRouteName="Home">
-        <Stack.Screen name="Start" component={Start} />
+        <Stack.Screen name="Start" component={Start} options={{ headerTransparent: true }} />
         <Stack.Screen name="Home" component={HomeTabs} options={{ headerShown: false }} />
       </Stack.Navigator>
     </NavigationContainer>

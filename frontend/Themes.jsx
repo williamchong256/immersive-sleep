@@ -2,7 +2,7 @@ import styled from 'styled-components/native';
 import React from 'react';
 
 // General Styles:
-const PageTitle = styled.Text`
+export const PageTitle = styled.Text`
     font-weight: 300;
     font-size: 40px;
     line-height: 50px;
@@ -14,7 +14,7 @@ const PageTitle = styled.Text`
     align-self: ${(props) => (props.center ? 'center' : 'flex-start')};
 `;
 
-const PageView = styled.View`
+export const PageView = styled.View`
     align-items: ${(props) => (props.center ? 'center' : 'flex-start')};
     justify-content: flex-start;
     background-color: white;
@@ -22,7 +22,7 @@ const PageView = styled.View`
     flex: 1;
 `;
 
-const BodyText = styled.Text`
+export const BodyText = styled.Text`
     font-weight: 300;
     font-size: 15px;
     line-height: 35px;
@@ -31,7 +31,7 @@ const BodyText = styled.Text`
     align-self: ${(props) => (props.center ? 'center' : 'flex-start')};
 `;
 
-const Subheading = styled.Text`
+export const Subheading = styled.Text`
     font-weight: 600;
     font-size: 20px;
     line-height: 35px;
@@ -42,7 +42,7 @@ const Subheading = styled.Text`
 `;
 
 // Styles for Cards, with props that allow them to be used with different styles:
-const CardTitle = styled.Text`
+export const CardTitle = styled.Text`
     font-size: ${(props) => (props.data ? '30px' : '25px')};
     line-height: 45px;
     font-weight: ${(props) => (props.data ? 'bold' : 'normal')};
@@ -51,7 +51,7 @@ const CardTitle = styled.Text`
     text-align: ${(props) => (props.center ? 'center' : 'left')};
 `;
 
-const CardView = styled.View`
+export const CardView = styled.View`
     background-color: #A6CDF0;
     padding: ${(props) => (props.data ? '15px' : '0px')};
     padding-top: ${(props) => (props.data ? '8px' : '0px')};
@@ -80,11 +80,11 @@ const HomeCardData = styled.View`
     justify-content: space-between;
 `;
 
-const HomeCardData2 = styled(HomeCardData)`
+export const HomeCardData2 = styled(HomeCardData)`
     justify-content: flex-start;
 `;
 
-const HomeCardTitle = styled.Text`
+export const HomeCardTitle = styled.Text`
     font-size: 50px;
     line-height: 50px;
     font-weight: bold;
@@ -93,7 +93,7 @@ const HomeCardTitle = styled.Text`
     text-align: center;
 `;
 
-const CardText = styled.Text`
+export const CardText = styled.Text`
     font-size: 20px;
     color: black;
     align-self: flex-start;
@@ -101,19 +101,19 @@ const CardText = styled.Text`
 `;
 
 // Styles for Data & Detailed Data pages:
-const DataView = styled.View`
+export const DataView = styled.View`
     flex: 1;
     background-color: white;
     align-items: stretch;
     justify-content: flex-start;
 `;
 
-const DataPointView = styled.View`
+export const DataPointView = styled.View`
     justify-content: space-between;
     flex-direction: row;
 `;
 
-const DataScrollView = styled.SafeAreaView`
+export const DataScrollView = styled.SafeAreaView`
     flex: 1;
     background-color: white;
     align-items: stretch;
@@ -122,12 +122,12 @@ const DataScrollView = styled.SafeAreaView`
 `;
 
 // Styles for Settings Page:
-const DetailedSettingsView = styled(PageView)`
+export const DetailedSettingsView = styled(PageView)`
     justify-content: center;
     align-items: center;
 `;
 
-const ButtonText = styled.Text`
+export const ButtonText = styled.Text`
     font-size: 20px;
     color: black;
     margin-top: auto;
@@ -135,7 +135,7 @@ const ButtonText = styled.Text`
     align-self: flex-start;
 `;
 
-const ButtonContainer = styled.Pressable`
+export const ButtonContainer = styled.Pressable`
     background-color: #A6CDF0;
     height: 50px;
     border-radius: 10px;
@@ -145,22 +145,16 @@ const ButtonContainer = styled.Pressable`
     elevation: 6;
 `;
 
-const PressableButton = ({ onPress, title }) => (
+export const PressableButton = ({ onPress, title }) => (
   <ButtonContainer onPress={onPress}>
     <ButtonText>{title}</ButtonText>
   </ButtonContainer>
 );
 
 // Style for Start Page:
-const StartView = styled.View`
+export const StartView = styled.View`
     flex: 1;
     background-color: white;
     align-items: stretch;
     justify-content: flex-start;
 `;
-
-export {
-  BodyText, ButtonText, CardTitle, CardText, CardView, DataView, DataPointView,
-  DataScrollView, DetailedSettingsView, HomeCardData, HomeCardData2, HomeCardTitle, HomeCardView,
-  PageTitle, PageView, PressableButton, Subheading, StartView,
-};

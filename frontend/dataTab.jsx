@@ -70,6 +70,7 @@ function Data({ navigation }) {
         data={sampleData}
         renderItem={(item) => renderData(item, navigation)}
         showsVerticalScrollIndicator={false}
+        inverted="true"
       />
     </DataScrollView>
   );

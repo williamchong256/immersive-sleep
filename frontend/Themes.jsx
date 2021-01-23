@@ -66,14 +66,14 @@ export const CardView = styled.View`
     elevation: 6;
 `;
 
-const HomeCardView = styled(CardView)`
+export const HomeCardView = styled(CardView)`
     padding: 20px;
     padding-top: 8px;
     height: 300px;
     justify-content: space-between;
 `;
 
-const HomeCardData = styled.View`
+export const HomeCardData = styled.View`
     background-color: transparent;
     padding: 0;
     flex-direction: row;

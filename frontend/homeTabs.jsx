@@ -16,13 +16,11 @@ import {
 } from './Themes';
 
 export function Start() {
-  const initialToday = new Date();
-  const [time, setTime] = React.useState(`${initialToday.toTimeString().split(' ')[0]}`);
+  const [time, setTime] = React.useState(new Date().toTimeString().split(' ')[0]);
 
   React.useEffect(() => {
     const timer = setInterval(() => {
-      const today = new Date();
-      setTime(`${today.toTimeString().split(' ')[0]}`);
+      setTime(new Date().toTimeString().split(' ')[0]);
     }, 100);
     return () => clearInterval(timer);
   });

@@ -76,7 +76,7 @@ function DetailedData({ route }) {
             <BodyText>
               Heart Rate:
               {` ${item.heartRate}`}
-           </BodyText>
+            </BodyText>
           </DataPointView>
 
           <DataPointView>
@@ -92,7 +92,7 @@ function DetailedData({ route }) {
               {` ${item.efficiency}`}
             </BodyText>
           </DataPointView>
-        
+
           <DataPointView>
             <BodyText>
               Comments:

@@ -27,11 +27,18 @@ function CommentsBox({ value, onChangeText }) {
 
 const db = SQLite.openDatabase('data.db');
 
-function DetailedData({ route }) {
+function DetailedData({ navigation, route }) {
   // Retrieve our item in route.params
   const { item } = route.params;
   // Set a default state of null and raise state
   const [value, setValue] = React.useState(null);
+
+  React.useLayoutEffect(() => {
+    // Set header of detailed data page to its date
+    navigation.setOptions({
+      title: item.key,
+    });
+  }, [navigation]);
 
   useFocusEffect(React.useCallback(() => {
     const { key } = item;

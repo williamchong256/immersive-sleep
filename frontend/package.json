@@ -6,7 +6,8 @@
     "ios": "expo start --ios",
     "web": "expo start --web",
     "eject": "expo eject",
-    "test": "npx eslint '**/*.js' '**/*.jsx'"
+    "lint": "npx eslint '**/*.js' '**/*.jsx'",
+    "test": "npm run lint"
   },
   "dependencies": {
     "@expo/vector-icons": "^12.0.0",

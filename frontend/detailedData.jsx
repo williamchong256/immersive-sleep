@@ -7,11 +7,12 @@ import * as SQLite from 'expo-sqlite';
 import { useFocusEffect } from '@react-navigation/native';
 import styles from './style';
 import { PageTitle, BodyText, Subheading } from './Themes';
+import { TouchableOpacity } from 'react-native-gesture-handler';
 // import { TextInput } from 'react-native-gesture-handler';
 
-function CommentsBox({ value, onChangeText }) {
+function CommentsBox({ value, onChangeText}) {
   return (
-    <View style={styles.commentsBox}>
+    <View style={styles.commentsBox} >
       <TextInput
         editable
         multiline
@@ -21,9 +22,9 @@ function CommentsBox({ value, onChangeText }) {
         onChangeText={onChangeText}
       />
     </View>
-
   );
 }
+
 
 const db = SQLite.openDatabase('data.db');
 
@@ -98,11 +99,11 @@ function DetailedData({ route }) {
           </BodyText>
           {/* Raise state up from CommentsBox to parent component */}
           <CommentsBox value={value} onChangeText={(val) => setValue(val)} />
-
         </View>
 
-      </LinearGradient>
+       </LinearGradient>
     </TouchableWithoutFeedback>
+
   );
 }
 

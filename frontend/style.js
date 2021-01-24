@@ -66,6 +66,8 @@ const styles = StyleSheet.create({
     flex: 1,
     padding: 10,
     paddingTop: 5,
+    borderRadius: 5,
+    opacity: 0.5,
     backgroundColor: '#fff',
     alignItems: 'stretch',
     justifyContent: 'flex-start',

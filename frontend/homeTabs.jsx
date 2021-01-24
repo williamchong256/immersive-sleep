@@ -4,31 +4,34 @@
 
 import * as React from 'react';
 import {
-  View, Text, Dimensions,
+  Dimensions,
 } from 'react-native';
 import { LineChart } from 'react-native-chart-kit';
 import { LinearGradient } from 'expo-linear-gradient';
 import { Feather } from '@expo/vector-icons';
-import styles from './style';
+
 import { sampleData } from './sampleData.json';
-import { PageTitle, PageView } from './Themes';
+import {
+  ButtonText, CardTitle, CardView, PageTitle, PageView, StartView,
+} from './Themes';
 
 export function Start() {
-  const initialToday = new Date();
-  const [time, setTime] = React.useState(`${initialToday.toTimeString().split(' ')[0]}`);
+  const [time, setTime] = React.useState(new Date().toTimeString().split(' ')[0]);
 
   React.useEffect(() => {
     const timer = setInterval(() => {
-      const today = new Date();
-      setTime(`${today.toTimeString().split(' ')[0]}`);
+      setTime(new Date().toTimeString().split(' ')[0]);
     }, 100);
     return () => clearInterval(timer);
   });
 
   return (
-    <LinearGradient colors={['#fff', '#F9F6FF', '#CFDFF7']} style={styles.data}>
-      <PageTitle start>{time}</PageTitle>
-    </LinearGradient>
+    <StartView>
+      <LinearGradient colors={['#F9F6FF', '#CFDFF7']} style={{ flex: 1, padding: 20, paddingTop: 80 }}>
+        <CardTitle center>Begin Sleep Session</CardTitle>
+        <PageTitle center>{time}</PageTitle>
+      </LinearGradient>
+    </StartView>
   );
 }
 
@@ -37,49 +40,54 @@ export function DiagnosticsTab() {
   const heartRateDiagnostics = sampleData.map((user) => user.heartRate);
 
   return (
-    <View style={styles.container}>
-      <Text>Heart Rate Analysis</Text>
-      <LineChart
-        data={{ labels: daysOfTheWeek, datasets: [{ data: heartRateDiagnostics }] }}
-        height={200}
-        width={Dimensions.get('window').width - 60}
-        fromZero
-        withShadow={false}
-        chartConfig={{
-          backgroundGradientFrom: '#A6CDF0',
-          backgroundGradientTo: '#CFDFF7',
-          color: (opacity = 1) => `rgba(0,0,0, ${opacity})`,
-        }}
-      />
-    </View>
+    <PageView>
+      <PageTitle>Diagnostics</PageTitle>
+      <CardView>
+        <LinearGradient colors={['#F9F6FF', '#CFDFF7']} style={{ padding: 20, paddingTop: 0, borderRadius: 10 }}>
+          <CardTitle>Heart Rate Analysis</CardTitle>
+          <LineChart
+            data={{ labels: daysOfTheWeek, datasets: [{ data: heartRateDiagnostics }] }}
+            height={200}
+            width={Dimensions.get('window').width - 60}
+            fromZero
+            withShadow={false}
+            chartConfig={{
+              backgroundGradientFrom: '#A6CDF0',
+              backgroundGradientTo: '#CFDFF7',
+              color: () => 'rgba(0,0,0,1)',
+            }}
+            style={{ borderRadius: 10 }}
+          />
+        </LinearGradient>
+      </CardView>
+    </PageView>
   );
 }
 
 export function HomeTab({ navigation }) {
   return (
-    <PageView>
-      <PageTitle home>Hello, Person</PageTitle>
+    <PageView center>
+      <PageTitle>Hello, Person</PageTitle>
       {/*
             The Home tab contains a Button titled "Start"
             that navigates to the Start Screen. Because the
             corresponding route is a Stack.Screen in the parent
             Navigator (in App.js), the bottom tab bar is not displayed
             */}
+      <CardView home>
+        <LinearGradient colors={['#F9F6FF', '#CFDFF7']} style={{ padding: 20, paddingTop: 8, borderRadius: 10 }}>
+          <ButtonText>Last Night,</ButtonText>
+          <CardTitle center>2432 minutes</CardTitle>
+        </LinearGradient>
+      </CardView>
       <Feather.Button
         name="moon"
-        color="#000"
-        backgroundColor="#fff"
+        color="black"
+        backgroundColor="white"
         onPress={() => navigation.navigate('Start')}
         size={50}
+        iconStyle={{ marginRight: 0 }}
       />
     </PageView>
-  );
-}
-
-export function AmbianceTab() {
-  return (
-    <View style={styles.container}>
-      <Text>Boilerplate for AmbianceTab</Text>
-    </View>
   );
 }

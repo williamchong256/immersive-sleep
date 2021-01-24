@@ -6,7 +6,9 @@ import { LinearGradient } from 'expo-linear-gradient';
 import * as SQLite from 'expo-sqlite';
 import { useFocusEffect } from '@react-navigation/native';
 import styles from './style';
-import { PageTitle, BodyText, Subheading } from './Themes';
+import {
+  BodyText, DataView, DataPointView, PageTitle, Subheading,
+} from './Themes';
 
 function CommentsBox({ value, onChangeText }) {
   return (
@@ -62,45 +64,45 @@ function DetailedData({ route }) {
   return (
   // Simple example of displaying data based in route
     <TouchableWithoutFeedback onPress={Keyboard.dismiss}>
-      <LinearGradient colors={['#F9F6FF', '#CFDFF7']} style={styles.data}>
-        <PageTitle>{item.key}</PageTitle>
+      <DataView>
+        <LinearGradient colors={['#F9F6FF', '#CFDFF7']} style={{ flex: 1, padding: 20 }}>
+          <PageTitle>{item.key}</PageTitle>
 
-        <View style={{ flexDirection: 'row', justifyContent: 'space-between' }}>
-          <Subheading>{item.duration}</Subheading>
-        </View>
+          <DataPointView>
+            <Subheading>{item.duration}</Subheading>
+          </DataPointView>
 
-        <View style={{ flexDirection: 'row', justifyContent: 'space-between' }}>
-          <BodyText>
-            Heart Rate:
-            {item.heartRate}
-          </BodyText>
-        </View>
+          <DataPointView>
+            <BodyText>
+              Heart Rate:
+              {` ${item.heartRate}`}
+           </BodyText>
+          </DataPointView>
 
-        <View style={{ flexDirection: 'row', justifyContent: 'space-between' }}>
-          <BodyText>
-            Breathing:
-            {item.breathing}
-          </BodyText>
-        </View>
+          <DataPointView>
+            <BodyText>
+              Breathing:
+              {` ${item.breathing}`}
+            </BodyText>
+          </DataPointView>
 
-        <View style={{ flexDirection: 'row', justifyContent: 'space-between' }}>
-          <BodyText>
-            Efficiency:
-            {item.efficiency}
-          </BodyText>
-        </View>
-
-        <View style={{ flexDirection: 'row', justifyContent: 'space-between' }}>
-          <BodyText>
-            Comments:
-          </BodyText>
-          {/* Raise state up from CommentsBox to parent component */}
-          <CommentsBox value={value} onChangeText={(val) => setValue(val)} />
-        </View>
-
-      </LinearGradient>
+          <DataPointView>
+            <BodyText>
+              Efficiency:
+              {` ${item.efficiency}`}
+            </BodyText>
+          </DataPointView>
+        
+          <DataPointView>
+            <BodyText>
+              Comments:
+            </BodyText>
+            {/* Raise state up from CommentsBox to parent component */}
+            <CommentsBox value={value} onChangeText={(val) => setValue(val)} />
+          </DataPointView>
+        </LinearGradient>
+      </DataView>
     </TouchableWithoutFeedback>
-
   );
 }
 

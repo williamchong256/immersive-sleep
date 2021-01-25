@@ -3,68 +3,14 @@
 // are navigated to (except for the Settings Screen)
 
 import * as React from 'react';
-import {
-  Dimensions,
-} from 'react-native';
-import { LineChart } from 'react-native-chart-kit';
-import { LinearGradient } from 'expo-linear-gradient';
 import { Feather } from '@expo/vector-icons';
 import { sampleData } from './sampleData.json';
 import {
-  CardTitle, CardText, CardView, HomeCardData, HomeCardData2, HomeCardTitle, HomeCardView,
-  PageTitle, PageView, StartView,
+  CardText, HomeCardData, HomeCardData2, HomeCardTitle, HomeCardView,
+  PageTitle, PageView,
 } from './Themes';
 
-export function Start() {
-  const [time, setTime] = React.useState(new Date().toTimeString().split(' ')[0]);
-
-  React.useEffect(() => {
-    const timer = setInterval(() => {
-      setTime(new Date().toTimeString().split(' ')[0]);
-    }, 100);
-    return () => clearInterval(timer);
-  });
-
-  return (
-    <StartView>
-      <LinearGradient colors={['#F9F6FF', '#CFDFF7']} style={{ flex: 1, padding: 20, paddingTop: 80 }}>
-        <CardTitle center>Begin Sleep Session</CardTitle>
-        <PageTitle center>{time}</PageTitle>
-      </LinearGradient>
-    </StartView>
-  );
-}
-
-export function DiagnosticsTab() {
-  const daysOfTheWeek = sampleData.map((user) => user.key);
-  const heartRateDiagnostics = sampleData.map((user) => user.heartRate);
-
-  return (
-    <PageView>
-      <PageTitle>Diagnostics</PageTitle>
-      <CardView>
-        <LinearGradient colors={['#F9F6FF', '#CFDFF7']} style={{ padding: 20, paddingTop: 0, borderRadius: 10 }}>
-          <CardTitle>Heart Rate Analysis</CardTitle>
-          <LineChart
-            data={{ labels: daysOfTheWeek, datasets: [{ data: heartRateDiagnostics }] }}
-            height={200}
-            width={Dimensions.get('window').width - 60}
-            fromZero
-            withShadow={false}
-            chartConfig={{
-              backgroundGradientFrom: '#A6CDF0',
-              backgroundGradientTo: '#CFDFF7',
-              color: () => 'rgba(0,0,0,1)',
-            }}
-            style={{ borderRadius: 10 }}
-          />
-        </LinearGradient>
-      </CardView>
-    </PageView>
-  );
-}
-
-export function HomeTab({ navigation }) {
+export default function HomeTab({ navigation }) {
   const latestData = sampleData[sampleData.length - 1];
   return (
     <PageView center>

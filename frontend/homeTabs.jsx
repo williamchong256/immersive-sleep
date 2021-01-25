@@ -3,15 +3,11 @@
 // are navigated to (except for the Settings Screen)
 
 import * as React from 'react';
-import {
-  Dimensions,
-} from 'react-native';
-import { LineChart } from 'react-native-chart-kit';
 import { LinearGradient } from 'expo-linear-gradient';
 import { Feather } from '@expo/vector-icons';
 import { sampleData } from './sampleData.json';
 import {
-  CardTitle, CardText, CardView, HomeCardData, HomeCardData2, HomeCardTitle, HomeCardView,
+  CardTitle, CardText, HomeCardData, HomeCardData2, HomeCardTitle, HomeCardView,
   PageTitle, PageView, StartView,
 } from './Themes';
 
@@ -32,35 +28,6 @@ export function Start() {
         <PageTitle center>{time}</PageTitle>
       </LinearGradient>
     </StartView>
-  );
-}
-
-export function DiagnosticsTab() {
-  const daysOfTheWeek = sampleData.map((user) => user.key);
-  const heartRateDiagnostics = sampleData.map((user) => user.heartRate);
-
-  return (
-    <PageView>
-      <PageTitle>Diagnostics</PageTitle>
-      <CardView>
-        <LinearGradient colors={['#F9F6FF', '#CFDFF7']} style={{ padding: 20, paddingTop: 0, borderRadius: 10 }}>
-          <CardTitle>Heart Rate Analysis</CardTitle>
-          <LineChart
-            data={{ labels: daysOfTheWeek, datasets: [{ data: heartRateDiagnostics }] }}
-            height={200}
-            width={Dimensions.get('window').width - 60}
-            fromZero
-            withShadow={false}
-            chartConfig={{
-              backgroundGradientFrom: '#A6CDF0',
-              backgroundGradientTo: '#CFDFF7',
-              color: () => 'rgba(0,0,0,1)',
-            }}
-            style={{ borderRadius: 10 }}
-          />
-        </LinearGradient>
-      </CardView>
-    </PageView>
   );
 }
 

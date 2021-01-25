@@ -5,8 +5,9 @@ import { createStackNavigator } from '@react-navigation/stack';
 import { createBottomTabNavigator } from '@react-navigation/bottom-tabs';
 import { MaterialCommunityIcons, Ionicons, FontAwesome5 } from '@expo/vector-icons';
 import {
-  DiagnosticsTab, HomeTab, Start,
+  HomeTab, Start,
 } from './homeTabs';
+import DiagnosticsTab from './diagnosticsTab';
 import SettingsTab from './settingsTab';
 import DataTab from './dataTab';
 import AmbianceTab from './AmbianceTab';

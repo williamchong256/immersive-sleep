@@ -15,8 +15,7 @@ export const PageTitle = styled.Text`
 `;
 
 export const PageView = styled.View`
-    align-items: ${(props) => (props.center ? 'center' : 'flex-start')};
-    justify-content: flex-start;
+    align-items: center;
     background-color: white;
     padding: 15px;
     flex: 1;
@@ -105,7 +104,6 @@ export const DataView = styled.View`
     flex: 1;
     background-color: white;
     align-items: stretch;
-    justify-content: flex-start;
 `;
 
 export const DataPointView = styled.View`
@@ -122,7 +120,7 @@ export const DataScrollView = styled.SafeAreaView`
 `;
 
 // Styles for Settings Page:
-export const DetailedSettingsView = styled(PageView)`
+export const BoilerplateView = styled(PageView)`
     justify-content: center;
     align-items: center;
 `;
@@ -130,9 +128,6 @@ export const DetailedSettingsView = styled(PageView)`
 export const ButtonText = styled.Text`
     font-size: 20px;
     color: black;
-    margin-top: auto;
-    margin-bottom: auto;
-    align-self: flex-start;
 `;
 
 export const ButtonContainer = styled.Pressable`
@@ -140,7 +135,7 @@ export const ButtonContainer = styled.Pressable`
     height: 50px;
     border-radius: 10px;
     margin-top: 8px;
-    padding: 15px;
+    padding: 13px;
     align-self: stretch;
     elevation: 6;
 `;
@@ -150,11 +145,3 @@ export const PressableButton = ({ onPress, title }) => (
     <ButtonText>{title}</ButtonText>
   </ButtonContainer>
 );
-
-// Style for Start Page:
-export const StartView = styled.View`
-    flex: 1;
-    background-color: white;
-    align-items: stretch;
-    justify-content: flex-start;
-`;

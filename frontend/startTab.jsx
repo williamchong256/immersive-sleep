@@ -1,7 +1,7 @@
 import * as React from 'react';
 import { LinearGradient } from 'expo-linear-gradient';
 import {
-  CardTitle, PageTitle, StartView,
+  CardTitle, PageTitle,
 } from './Themes';
 
 export default function Start() {
@@ -16,11 +16,9 @@ export default function Start() {
   });
 
   return (
-    <StartView>
-      <LinearGradient colors={['#F9F6FF', '#CFDFF7']} style={{ flex: 1, padding: 20, paddingTop: 80 }}>
-        <CardTitle center>Begin Sleep Session</CardTitle>
-        <PageTitle center>{time}</PageTitle>
-      </LinearGradient>
-    </StartView>
+    <LinearGradient colors={['#F9F6FF', '#CFDFF7']} style={{ flex: 1, padding: 20, paddingTop: 80 }}>
+      <CardTitle center>Begin Sleep Session</CardTitle>
+      <PageTitle center>{time}</PageTitle>
+    </LinearGradient>
   );
 }

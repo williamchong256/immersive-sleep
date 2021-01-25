@@ -9,10 +9,10 @@ import {
 import { LineChart } from 'react-native-chart-kit';
 import { LinearGradient } from 'expo-linear-gradient';
 import { Feather } from '@expo/vector-icons';
-
 import { sampleData } from './sampleData.json';
 import {
-  ButtonText, CardTitle, CardView, PageTitle, PageView, StartView,
+  CardTitle, CardText, CardView, HomeCardData, HomeCardData2, HomeCardTitle, HomeCardView,
+  PageTitle, PageView, StartView,
 } from './Themes';
 
 export function Start() {
@@ -65,6 +65,7 @@ export function DiagnosticsTab() {
 }
 
 export function HomeTab({ navigation }) {
+  const latestData = sampleData[sampleData.length - 1];
   return (
     <PageView center>
       <PageTitle>Hello, Person</PageTitle>
@@ -74,12 +75,20 @@ export function HomeTab({ navigation }) {
             corresponding route is a Stack.Screen in the parent
             Navigator (in App.js), the bottom tab bar is not displayed
             */}
-      <CardView home>
-        <LinearGradient colors={['#F9F6FF', '#CFDFF7']} style={{ padding: 20, paddingTop: 8, borderRadius: 10 }}>
-          <ButtonText>Last Night,</ButtonText>
-          <CardTitle center>2432 minutes</CardTitle>
-        </LinearGradient>
-      </CardView>
+      <HomeCardView>
+        <CardText>Last Night,</CardText>
+        <HomeCardTitle center data>{`${Math.floor(latestData.duration / 60)}hrs ${latestData.duration % 60}min`}</HomeCardTitle>
+        <HomeCardData>
+          <HomeCardData2>
+            <Feather name="heart" size={24} color="black" />
+            <CardText left>{`${latestData.heartRate} bpm`}</CardText>
+          </HomeCardData2>
+          <HomeCardData2>
+            <Feather name="bar-chart-2" size={24} color="black" />
+            <CardText left>{`${latestData.breathing} cpm`}</CardText>
+          </HomeCardData2>
+        </HomeCardData>
+      </HomeCardView>
       <Feather.Button
         name="moon"
         color="black"

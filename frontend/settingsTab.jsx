@@ -9,6 +9,7 @@ import styles from './style';
 import {
   BoilerplateView, PageTitle, PageView, PressableButton,
 } from './Themes';
+import TestAmplify from './TestAmplify';
 
 // TODO: Implement Dark Mode at an app level
 
@@ -56,9 +57,7 @@ function Profile() {
 
 function Preferences() {
   return (
-    <BoilerplateView>
-      <Text>Boilerplate for Preferences</Text>
-    </BoilerplateView>
+    <TestAmplify />
   );
 }
 

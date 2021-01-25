@@ -77,7 +77,7 @@ export function HomeTab({ navigation }) {
             */}
       <HomeCardView>
         <CardText>Last Night,</CardText>
-        <HomeCardTitle center data>{`${Math.floor(latestData.duration / 60)}hrs${latestData.duration % 60}min`}</HomeCardTitle>
+        <HomeCardTitle center data>{`${Math.floor(latestData.duration / 60)}hrs ${latestData.duration % 60}min`}</HomeCardTitle>
         <HomeCardData>
           <HomeCardData2>
             <Feather name="heart" size={24} color="black" />

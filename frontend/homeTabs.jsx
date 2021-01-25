@@ -11,7 +11,7 @@ import {
 } from './Themes';
 
 export default function HomeTab({ navigation }) {
-  const latestData = sampleData[sampleData.length - 1];
+  const latestData = sampleData[0];
   return (
     <PageView center>
       <PageTitle>Hello, Person</PageTitle>

@@ -1,0 +1,12 @@
+type User @model {
+  id: ID!
+  name: String!
+  data: [Data] @connection(keyName: "user", fields: ["id"])
+}
+
+type Data @model @key(name: "user", fields: ["userID"]) {
+  id: ID!
+  title: String!
+  userID: ID!
+  user: User @connection(fields: ["userID"])
+}

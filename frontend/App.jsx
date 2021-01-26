@@ -5,6 +5,7 @@ import { createStackNavigator } from '@react-navigation/stack';
 import { createBottomTabNavigator } from '@react-navigation/bottom-tabs';
 import { MaterialCommunityIcons, Ionicons, FontAwesome5 } from '@expo/vector-icons';
 import Amplify from 'aws-amplify';
+import { withAuthenticator } from 'aws-amplify-react-native';
 import config from './aws-exports';
 import HomeTab from './homeTabs';
 import Start from './startTab';
@@ -13,7 +14,12 @@ import SettingsTab from './settingsTab';
 import DataTab from './dataTab';
 import AmbianceTab from './AmbianceTab';
 
-Amplify.configure(config);
+Amplify.configure({
+  ...config,
+  Analytics: {
+    disabled: true,
+  },
+});
 
 // Implements the bottom tab navigation
 // Tab icons are implemented in the tabBarIcon option in the TabNavigator,
@@ -83,4 +89,4 @@ function App() {
   );
 }
 
-export default App;
+export default withAuthenticator(App);

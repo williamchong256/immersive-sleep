@@ -40,6 +40,11 @@ export const Subheading = styled.Text`
     margin-bottom: 5px;
 `;
 
+export const BoilerplateView = styled(PageView)`
+    justify-content: center;
+    align-items: center;
+`;
+
 // Styles for Cards, with props that allow them to be used with different styles:
 export const CardTitle = styled.Text`
     font-size: ${(props) => (props.data ? '30px' : '25px')};
@@ -65,6 +70,14 @@ export const CardView = styled.View`
     elevation: 6;
 `;
 
+export const CardText = styled.Text`
+    font-size: 20px;
+    color: black;
+    align-self: flex-start;
+    margin-left: ${(props) => (props.left ? '10px' : '0px')};
+`;
+
+// Styles for the Home Page Card:
 export const HomeCardView = styled(CardView)`
     padding: 20px;
     padding-top: 8px;
@@ -92,13 +105,6 @@ export const HomeCardTitle = styled.Text`
     text-align: center;
 `;
 
-export const CardText = styled.Text`
-    font-size: 20px;
-    color: black;
-    align-self: flex-start;
-    margin-left: ${(props) => (props.left ? '10px' : '0px')};
-`;
-
 // Styles for Data & Detailed Data pages:
 export const DataView = styled.View`
     flex: 1;
@@ -119,12 +125,7 @@ export const DataScrollView = styled.SafeAreaView`
     justify-content: center;
 `;
 
-// Styles for Settings Page:
-export const BoilerplateView = styled(PageView)`
-    justify-content: center;
-    align-items: center;
-`;
-
+// Styles for the Settings Page:
 export const ButtonText = styled.Text`
     font-size: 20px;
     color: black;

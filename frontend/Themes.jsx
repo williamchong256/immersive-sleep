@@ -125,7 +125,6 @@ export const DataScrollView = styled.SafeAreaView`
     justify-content: center;
 `;
 
-// Styles for the Settings Page:
 export const ButtonText = styled.Text`
     font-size: 20px;
     color: black;

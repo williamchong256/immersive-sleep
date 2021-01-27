@@ -5,7 +5,6 @@ import { createStackNavigator } from '@react-navigation/stack';
 import { createBottomTabNavigator } from '@react-navigation/bottom-tabs';
 import { MaterialCommunityIcons, Ionicons, FontAwesome5 } from '@expo/vector-icons';
 import Amplify from 'aws-amplify';
-import { withAuthenticator } from 'aws-amplify-react-native';
 import config from './aws-exports';
 import HomeTab from './homeTabs';
 import Start from './startTab';
@@ -89,4 +88,4 @@ function App() {
   );
 }
 
-export default withAuthenticator(App);
+export default App;

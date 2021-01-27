@@ -17,24 +17,6 @@ const styles = StyleSheet.create({
     paddingTop: 80,
   },
 
-  darkMode: {
-    flexDirection: 'row',
-    alignItems: 'center',
-    justifyContent: 'center',
-  },
-
-  darkModeToggleView: {
-    flex: 1,
-    alignItems: 'flex-end',
-  },
-
-  darkModeText: {
-    flex: 1,
-    paddingLeft: 7,
-    marginTop: 8,
-    fontSize: 20,
-  },
-
   scroll: {
     flex: 1,
     backgroundColor: '#A6CDF0',
@@ -44,7 +26,6 @@ const styles = StyleSheet.create({
     justifyContent: 'center',
     borderRadius: 10,
     margin: 7,
-
   },
 
   data: {
@@ -72,12 +53,31 @@ const styles = StyleSheet.create({
     justifyContent: 'center',
   },
 
+  darkMode: {
+    flexDirection: 'row',
+    alignItems: 'center',
+    justifyContent: 'center',
+  },
+
+  darkModeToggleView: {
+    flex: 1,
+    alignItems: 'flex-end',
+  },
+
+  darkModeText: {
+    flex: 1,
+    paddingLeft: 7,
+    marginTop: 8,
+    fontSize: 20,
+  },
+
   commentsBox: {
     flex: 1,
     padding: 10,
     paddingTop: 5,
     borderRadius: 5,
     opacity: 0.5,
+    marginLeft: 5,
     backgroundColor: '#fff',
     alignItems: 'stretch',
     justifyContent: 'flex-start',

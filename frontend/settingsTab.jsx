@@ -7,7 +7,7 @@ import {
 import { createStackNavigator } from '@react-navigation/stack';
 import styles from './style';
 import {
-  DetailedSettingsView, PageTitle, PageView, PressableButton,
+  BoilerplateView, PageTitle, PageView, PressableButton,
 } from './Themes';
 
 // TODO: Implement Dark Mode at an app level
@@ -48,33 +48,33 @@ function Settings({ navigation }) {
 
 function Profile() {
   return (
-    <DetailedSettingsView>
+    <BoilerplateView>
       <Text>Boilerplate for Profile</Text>
-    </DetailedSettingsView>
+    </BoilerplateView>
   );
 }
 
 function Preferences() {
   return (
-    <DetailedSettingsView>
+    <BoilerplateView>
       <Text>Boilerplate for Preferences</Text>
-    </DetailedSettingsView>
+    </BoilerplateView>
   );
 }
 
 function Notifications() {
   return (
-    <DetailedSettingsView>
+    <BoilerplateView>
       <Text>Boilerplate for Notifications</Text>
-    </DetailedSettingsView>
+    </BoilerplateView>
   );
 }
 
 function TimeZone() {
   return (
-    <DetailedSettingsView>
+    <BoilerplateView>
       <Text>Boilerplate for TimeZone</Text>
-    </DetailedSettingsView>
+    </BoilerplateView>
   );
 }
 

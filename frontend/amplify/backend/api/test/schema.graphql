@@ -1,12 +1,13 @@
-type User @model {
+type User @model @auth(rules: [{allow: public}]) {
   id: ID!
   name: String!
   data: [Data] @connection(keyName: "user", fields: ["id"])
 }
 
-type Data @model @key(name: "user", fields: ["userID"]) {
+type Data @model @key(name: "user", fields: ["userID"]) @auth(rules: [{allow: public}]) {
   id: ID!
   title: String!
   userID: ID!
   user: User @connection(fields: ["userID"])
 }
+ 

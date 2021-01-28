@@ -10,6 +10,7 @@ import {
   BoilerplateView, PageTitle, PageView, PressableButton,
 } from './Themes';
 import TestAmplify from './TestAmplify';
+import AmplifyDataStore from './AmplifyDataStore';
 import Profile from './Profile';
 
 // TODO: Implement Dark Mode at an app level
@@ -56,9 +57,7 @@ function Preferences() {
 
 function Notifications() {
   return (
-    <BoilerplateView>
-      <Text>Boilerplate for Notifications</Text>
-    </BoilerplateView>
+    <AmplifyDataStore />
   );
 }
 

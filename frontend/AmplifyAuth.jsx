@@ -2,7 +2,7 @@ import * as React from 'react';
 import {
   View, Text, TextInput, Button,
 } from 'react-native';
-import { Auth } from 'aws-amplify';
+import { Auth, DataStore } from 'aws-amplify';
 import styles from './style';
 
 export function UserData({ navigation }) {
@@ -15,9 +15,13 @@ export function UserData({ navigation }) {
   }, []);
 
   async function logout() {
-    Auth.signOut()
-      .then(() => navigation.goBack())
-      .catch((err) => console.log(err));
+    try {
+      await DataStore.clear();
+      await Auth.signOut();
+      navigation.goBack();
+    } catch (e) {
+      console.log(e);
+    }
   }
 
   return (

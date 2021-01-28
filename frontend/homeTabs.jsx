@@ -4,6 +4,8 @@
 
 import * as React from 'react';
 import { Feather } from '@expo/vector-icons';
+import { useFocusEffect } from '@react-navigation/native';
+import { Auth } from 'aws-amplify';
 import { sampleData } from './sampleData.json';
 import {
   CardText, HomeCardData, HomeCardData2, HomeCardTitle, HomeCardView,
@@ -12,9 +14,17 @@ import {
 
 export default function HomeTab({ navigation }) {
   const latestData = sampleData[0];
+  const [user, setUser] = React.useState(false);
+
+  useFocusEffect(React.useCallback(() => {
+    Auth.currentAuthenticatedUser()
+      .then(({ attributes }) => setUser(attributes))
+      .catch(() => setUser(false));
+  }, []));
+
   return (
     <PageView center>
-      <PageTitle>Hello, Person</PageTitle>
+      <PageTitle>{`Hello, ${user ? user.name : 'Person'}`}</PageTitle>
       {/*
             The Home tab contains a Button titled "Start"
             that navigates to the Start Screen. Because the

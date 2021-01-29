@@ -1,15 +1,17 @@
 import * as React from 'react';
 import {
-  FlatList, Pressable,
+  FlatList, Pressable, TextInput, Button, View,
 } from 'react-native';
 import { createStackNavigator } from '@react-navigation/stack';
-
+import { useFocusEffect } from '@react-navigation/native';
+import { DataStore, Predicates, SortDirection } from 'aws-amplify';
 import DetailedData from './detailedData';
-import { sampleData } from './sampleData.json';
 import {
   BodyText, CardTitle, CardView, DataPointView, DataScrollView,
   PageTitle,
 } from './Themes';
+import { Data } from './models';
+import styles from './style';
 
 // Handles the rendering of each item in data of FlatList
 function renderData({ item }, navigation) {
@@ -23,7 +25,7 @@ function renderData({ item }, navigation) {
         item,
       })}
       >
-        <CardTitle data>{item.key}</CardTitle>
+        <CardTitle data>{item.date}</CardTitle>
 
         <DataPointView>
           <BodyText>
@@ -54,7 +56,38 @@ function renderData({ item }, navigation) {
 }
 
 // The Data tab where the FlatList is returned
-function Data({ navigation }) {
+function DataDisplay({ navigation }) {
+  const [sampleData, setSampleData] = React.useState([]);
+  const [date, setDate] = React.useState('');
+  const [duration, setDuration] = React.useState('');
+  const [heartRate, setHeartRate] = React.useState('');
+  const [breathing, setBreathing] = React.useState('');
+  const [efficiency, setEfficiency] = React.useState('');
+
+  useFocusEffect(React.useCallback(() => {
+    DataStore.query(Data, Predicates.ALL, {
+      sort: (s) => s.date(SortDirection.DESCENDING),
+    })
+      .then((data) => setSampleData(data))
+      .catch((err) => console.log(err));
+  }, []));
+
+  async function pushData() {
+    try {
+      const data = {
+        id: date,
+        date,
+        duration,
+        heartRate,
+        breathing,
+        efficiency,
+      };
+      await DataStore.save(new Data(data));
+    } catch (e) {
+      console.log(e);
+    }
+  }
+
   return (
     <DataScrollView>
       {/*
@@ -62,6 +95,34 @@ function Data({ navigation }) {
             we can navigate to the Detailed Data page
             */}
       <PageTitle data>Data</PageTitle>
+      <View style={styles.container}>
+        <TextInput
+          onChangeText={(val) => setDate(val)}
+          value={date}
+          placeholder="Date"
+        />
+        <TextInput
+          onChangeText={(val) => setDuration(val)}
+          value={duration}
+          placeholder="Duration"
+        />
+        <TextInput
+          onChangeText={(val) => setHeartRate(val)}
+          value={heartRate}
+          placeholder="Heart Rate"
+        />
+        <TextInput
+          onChangeText={(val) => setBreathing(val)}
+          value={breathing}
+          placeholder="Breathing"
+        />
+        <TextInput
+          onChangeText={(val) => setEfficiency(val)}
+          value={efficiency}
+          placeholder="Efficiency"
+        />
+        <Button title="Create Data" onPress={pushData} />
+      </View>
       <FlatList
         data={sampleData}
         renderItem={(item) => renderData(item, navigation)}
@@ -76,8 +137,8 @@ const DataStack = createStackNavigator();
 function DataTab() {
   return (
   // Implement a StackNavigator for the Detailed Data page
-    <DataStack.Navigator initialRouteName="Data">
-      <DataStack.Screen name="Data" component={Data} options={{ headerShown: false }} />
+    <DataStack.Navigator initialRouteName="DataDisplay">
+      <DataStack.Screen name="DataDisplay" component={DataDisplay} options={{ headerShown: false }} />
       <DataStack.Screen name="DetailedData" component={DetailedData} />
     </DataStack.Navigator>
   );

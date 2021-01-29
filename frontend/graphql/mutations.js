@@ -1,6 +1,66 @@
 /* eslint-disable */
 // this is an auto generated file. This will be overwritten
 
+export const createData = /* GraphQL */ `
+  mutation CreateData(
+    $input: CreateDataInput!
+    $condition: ModelDataConditionInput
+  ) {
+    createData(input: $input, condition: $condition) {
+      id
+      date
+      heartRate
+      breathing
+      efficiency
+      duration
+      _version
+      _deleted
+      _lastChangedAt
+      createdAt
+      updatedAt
+    }
+  }
+`;
+export const updateData = /* GraphQL */ `
+  mutation UpdateData(
+    $input: UpdateDataInput!
+    $condition: ModelDataConditionInput
+  ) {
+    updateData(input: $input, condition: $condition) {
+      id
+      date
+      heartRate
+      breathing
+      efficiency
+      duration
+      _version
+      _deleted
+      _lastChangedAt
+      createdAt
+      updatedAt
+    }
+  }
+`;
+export const deleteData = /* GraphQL */ `
+  mutation DeleteData(
+    $input: DeleteDataInput!
+    $condition: ModelDataConditionInput
+  ) {
+    deleteData(input: $input, condition: $condition) {
+      id
+      date
+      heartRate
+      breathing
+      efficiency
+      duration
+      _version
+      _deleted
+      _lastChangedAt
+      createdAt
+      updatedAt
+    }
+  }
+`;
 export const createUser = /* GraphQL */ `
   mutation CreateUser(
     $input: CreateUserInput!
@@ -9,16 +69,9 @@ export const createUser = /* GraphQL */ `
     createUser(input: $input, condition: $condition) {
       id
       name
-      data {
-        items {
-          id
-          title
-          userID
-          createdAt
-          updatedAt
-        }
-        nextToken
-      }
+      _version
+      _deleted
+      _lastChangedAt
       createdAt
       updatedAt
     }
@@ -32,16 +85,9 @@ export const updateUser = /* GraphQL */ `
     updateUser(input: $input, condition: $condition) {
       id
       name
-      data {
-        items {
-          id
-          title
-          userID
-          createdAt
-          updatedAt
-        }
-        nextToken
-      }
+      _version
+      _deleted
+      _lastChangedAt
       createdAt
       updatedAt
     }
@@ -55,85 +101,9 @@ export const deleteUser = /* GraphQL */ `
     deleteUser(input: $input, condition: $condition) {
       id
       name
-      data {
-        items {
-          id
-          title
-          userID
-          createdAt
-          updatedAt
-        }
-        nextToken
-      }
-      createdAt
-      updatedAt
-    }
-  }
-`;
-export const createData = /* GraphQL */ `
-  mutation CreateData(
-    $input: CreateDataInput!
-    $condition: ModelDataConditionInput
-  ) {
-    createData(input: $input, condition: $condition) {
-      id
-      title
-      userID
-      user {
-        id
-        name
-        data {
-          nextToken
-        }
-        createdAt
-        updatedAt
-      }
-      createdAt
-      updatedAt
-    }
-  }
-`;
-export const updateData = /* GraphQL */ `
-  mutation UpdateData(
-    $input: UpdateDataInput!
-    $condition: ModelDataConditionInput
-  ) {
-    updateData(input: $input, condition: $condition) {
-      id
-      title
-      userID
-      user {
-        id
-        name
-        data {
-          nextToken
-        }
-        createdAt
-        updatedAt
-      }
-      createdAt
-      updatedAt
-    }
-  }
-`;
-export const deleteData = /* GraphQL */ `
-  mutation DeleteData(
-    $input: DeleteDataInput!
-    $condition: ModelDataConditionInput
-  ) {
-    deleteData(input: $input, condition: $condition) {
-      id
-      title
-      userID
-      user {
-        id
-        name
-        data {
-          nextToken
-        }
-        createdAt
-        updatedAt
-      }
+      _version
+      _deleted
+      _lastChangedAt
       createdAt
       updatedAt
     }

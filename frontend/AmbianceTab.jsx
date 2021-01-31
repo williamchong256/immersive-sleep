@@ -7,6 +7,7 @@ import { LinearGradient } from 'expo-linear-gradient';
 import {
   BoilerplateView, CardView, PageTitle, PageView, CardTitle,
 } from './Themes';
+import Lighting from './Lighting';
 
 function Ambiance({ navigation }) {
   return (
@@ -34,14 +35,6 @@ function Music() {
   return (
     <BoilerplateView>
       <Text>Boilerplate for Music</Text>
-    </BoilerplateView>
-  );
-}
-
-function Lighting() {
-  return (
-    <BoilerplateView>
-      <Text>Boilerplate for Lighting</Text>
     </BoilerplateView>
   );
 }

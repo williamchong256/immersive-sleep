@@ -1,11 +1,13 @@
 import * as React from 'react';
 import {
-  View, Text, Switch,
+  View, Switch,
 } from 'react-native';
 import { useFocusEffect } from '@react-navigation/native';
 import Slider from '@react-native-community/slider';
 import AsyncStorage from '@react-native-async-storage/async-storage';
-import styles from './style';
+import { Entypo } from '@expo/vector-icons';
+import { LinearGradient } from 'expo-linear-gradient';
+import { LightingTitle, Subheading } from './Themes';
 
 function Lighting() {
   const [lightOn, setLightOn] = React.useState(false);
@@ -67,43 +69,78 @@ function Lighting() {
   }), [lightOn, lightColor, lightIntensity]));
 
   return (
-    <View style={styles.container}>
-      <Text>
-        {'Turn Light On\n\n'}
-      </Text>
-      <Switch
-        trackColor={{ false: '00FF00', true: 'FFFFFF' }}
-        onValueChange={(value) => setLightOn(value)}
-        value={lightOn}
-        style={{ transform: [{ scaleX: 2 }, { scaleY: 2 }] }}
-      />
-      <Text>
-        {`\n\n\n\nIntensity of Light: ${Math.round(lightIntensity)}`}
-      </Text>
-      <Slider
-        minimumValue={0}
-        maximumValue={3}
-        disabled={!lightOn}
-        value={lightIntensity}
-        onValueChange={(value) => setLightIntensity(value)}
-        style={{ width: 160, height: 50 }}
-        minimumTrackTintColor="#ffd700"
-        maximumTrackTintColor="#fafad2"
-      />
-      <Text>
+    <LinearGradient
+      colors={['#F9F6FF', '#CFDFF7']}
+      style={{
+        flex: 1,
+        padding: 10,
+        paddingTop: 80,
+        alignItems: 'center',
+      }}
+    >
+      <View style={{ flex: 1, flexDirection: 'row', justifyContent: 'space-between' }}>
+        <LightingTitle>Lighting</LightingTitle>
+        <Switch
+          trackColor={{ false: '00FF00', true: 'FFFFFF' }}
+          onValueChange={(value) => setLightOn(value)}
+          value={lightOn}
+          style={{ transform: [{ scaleX: 1.4 }, { scaleY: 1.4 }] }}
+        />
+      </View>
+      <Subheading>
+        {`\n\n\n\nIntensity of Light: ${Math.round(lightIntensity) * 10}%`}
+      </Subheading>
+      <View style={{ flex: 1, flexDirection: 'row', marginTop: 10 }}>
+        <Entypo name="light-down" size={24} color="black" />
+        <Slider
+          minimumValue={0}
+          maximumValue={10}
+          disabled={!lightOn}
+          value={lightIntensity}
+          onValueChange={(value) => setLightIntensity(value)}
+          style={{
+            width: 200,
+            height: 25,
+            marginRight: 10,
+            marginLeft: 10,
+          }}
+          minimumTrackTintColor="white"
+        />
+        <Entypo name="light-up" size={24} color="black" />
+      </View>
+      <Subheading>
         {` Light Color: ${determineColor}`}
-      </Text>
+      </Subheading>
       <Slider
         minimumValue={0}
         maximumValue={3}
         disabled={!lightOn}
         value={lightColor}
         onValueChange={(value) => setLightColor(value)}
-        style={{ width: 160, height: 50 }}
-        minimumTrackTintColor={stringColor}
-        maximumTrackTintColor={stringColor}
+        style={{ width: 200, height: 50, marginBottom: 15 }}
+        minimumTrackTintColor="white"
       />
-    </View>
+      <View
+        style={{
+          width: 115,
+          height: 115,
+          borderRadius: 115 / 2,
+          backgroundColor: 'white',
+          alignItems: 'center',
+          justifyContent: 'center',
+        }}
+      >
+        <View
+          style={{
+            width: 100,
+            height: 100,
+            borderRadius: 100 / 2,
+            backgroundColor: stringColor,
+            opacity: lightIntensity / 10,
+          }}
+        />
+      </View>
+    </LinearGradient>
   );
 }
 

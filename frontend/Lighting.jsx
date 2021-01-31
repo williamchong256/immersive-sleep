@@ -4,6 +4,7 @@ import {
 } from 'react-native';
 import { useFocusEffect } from '@react-navigation/native';
 import Slider from '@react-native-community/slider';
+import AsyncStorage from '@react-native-async-storage/async-storage';
 import styles from './style';
 
 function Lighting() {
@@ -12,6 +13,18 @@ function Lighting() {
   const [determineColor, setDetermineColor] = React.useState('None');
   const [lightColor, setLightColor] = React.useState(0);
   const [stringColor, setStringColor] = React.useState('#000000');
+
+  React.useEffect(() => {
+    (async () => {
+      try {
+        setLightOn(JSON.parse(await AsyncStorage.getItem('@lightOn')));
+        setLightColor(JSON.parse(await AsyncStorage.getItem('@lightColor')));
+        setLightIntensity(JSON.parse(await AsyncStorage.getItem('@lightIntensity')));
+      } catch (e) {
+        console.log(e);
+      }
+    })();
+  }, []);
 
   useFocusEffect(React.useCallback(() => {
     const initialLightColor = lightColor.toFixed(1);
@@ -40,6 +53,18 @@ function Lighting() {
       setStringColor('#9400d3');
     }
   }, [lightOn, lightColor]));
+
+  useFocusEffect(React.useCallback(() => (() => {
+    (async () => {
+      try {
+        await AsyncStorage.setItem('@lightOn', JSON.stringify(lightOn));
+        await AsyncStorage.setItem('@lightIntensity', JSON.stringify(lightIntensity));
+        await AsyncStorage.setItem('@lightColor', JSON.stringify(lightColor));
+      } catch (e) {
+        console.log(e);
+      }
+    })();
+  }), [lightOn, lightColor, lightIntensity]));
 
   return (
     <View style={styles.container}>

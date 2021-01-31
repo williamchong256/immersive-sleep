@@ -1,12 +1,11 @@
 import * as React from 'react';
 import {
-  View, Text, Pressable,
+  Text, Pressable,
 } from 'react-native';
 import { createStackNavigator } from '@react-navigation/stack';
 import { LinearGradient } from 'expo-linear-gradient';
-import styles from './style';
 import {
-  CardView, PageTitle, PageView, CardTitle,
+  BoilerplateView, CardView, PageTitle, PageView, CardTitle,
 } from './Themes';
 import Lighting from './Lighting';
 
@@ -34,9 +33,9 @@ function Ambiance({ navigation }) {
 
 function Music() {
   return (
-    <View style={styles.container}>
+    <BoilerplateView>
       <Text>Boilerplate for Music</Text>
-    </View>
+    </BoilerplateView>
   );
 }
 

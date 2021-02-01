@@ -78,7 +78,7 @@ function Lighting() {
         alignItems: 'center',
       }}
     >
-      <View style={{ flex: 1, flexDirection: 'row', justifyContent: 'space-between' }}>
+      <View style={{ flexDirection: 'row', justifyContent: 'space-between', marginBottom: -50 }}>
         <LightingTitle>Lighting</LightingTitle>
         <Switch
           trackColor={{ false: '00FF00', true: 'FFFFFF' }}
@@ -90,7 +90,7 @@ function Lighting() {
       <Subheading>
         {`\n\n\n\nIntensity of Light: ${Math.round(lightIntensity) * 10}%`}
       </Subheading>
-      <View style={{ flex: 1, flexDirection: 'row', marginTop: 10 }}>
+      <View style={{ flexDirection: 'row', marginTop: 10 }}>
         <Entypo name="light-down" size={24} color="black" />
         <Slider
           minimumValue={0}
@@ -103,6 +103,7 @@ function Lighting() {
             height: 25,
             marginRight: 10,
             marginLeft: 10,
+            marginBottom: 15,
           }}
           minimumTrackTintColor="white"
         />

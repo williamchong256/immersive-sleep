@@ -2,7 +2,9 @@ import Constants from 'expo-constants';
 import * as Notifications from 'expo-notifications';
 import * as Permissions from 'expo-permissions';
 import React, { useState, useEffect, useRef } from 'react';
-import { Text, View, Platform } from 'react-native';
+import {
+  Text, View, Platform, Alert,
+} from 'react-native';
 import { PushButton, RegisterPushButton } from './backendTesting';
 
 Notifications.setNotificationHandler({
@@ -24,12 +26,12 @@ async function registerForPushNotificationsAsync() {
       finalStatus = status;
     }
     if (finalStatus !== 'granted') {
-      alert('Failed to get push token for push notification!');
+      Alert.alert('Failed to get push token for push notification!');
     }
     token = (await Notifications.getExpoPushTokenAsync()).data;
     console.log(token);
   } else {
-    alert('Must use physical device for Push Notifications');
+    Alert.alert('Must use physical device for Push Notifications');
   }
 
   if (Platform.OS === 'android') {
@@ -54,8 +56,8 @@ export default function NotificationsExample() {
     registerForPushNotificationsAsync().then((token) => setExpoPushToken(token));
 
     // This listener is fired whenever a notification is received while the app is foregrounded
-    notificationListener.current = Notifications.addNotificationReceivedListener((notification) => {
-      setNotification(notification);
+    notificationListener.current = Notifications.addNotificationReceivedListener((notifi) => {
+      setNotification(notifi);
     });
 
     // eslint-disable-next-line max-len

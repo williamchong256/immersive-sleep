@@ -5,6 +5,7 @@ import { createStackNavigator } from '@react-navigation/stack';
 import { createBottomTabNavigator } from '@react-navigation/bottom-tabs';
 import { MaterialCommunityIcons, Ionicons, FontAwesome5 } from '@expo/vector-icons';
 import Amplify from 'aws-amplify';
+import { AWSIoTProvider } from '@aws-amplify/pubsub';
 import config from './aws-exports';
 import HomeTab from './homeTabs';
 import Start from './startTab';
@@ -19,6 +20,11 @@ Amplify.configure({
     disabled: true,
   },
 });
+
+Amplify.addPluggable(new AWSIoTProvider({
+  aws_pubsub_region: 'us-west-2',
+  aws_pubsub_endpoint: 'wss://ar73xdknl1gxe-ats.iot.us-west-2.amazonaws.com/mqtt',
+}));
 
 // Implements the bottom tab navigation
 // Tab icons are implemented in the tabBarIcon option in the TabNavigator,

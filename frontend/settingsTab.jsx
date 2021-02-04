@@ -12,6 +12,7 @@ import {
 import TestAmplify from './TestAmplify';
 import AmplifyDataStore from './AmplifyDataStore';
 import Profile from './Profile';
+import IoTPubSub from './AmplifyPubSub';
 
 // TODO: Implement Dark Mode at an app level
 
@@ -45,6 +46,7 @@ function Settings({ navigation }) {
       </View>
       <PressableButton onPress={() => navigation.navigate('Notifications')} title="Notifications" />
       <PressableButton onPress={() => navigation.navigate('Time Zone')} title="Time Zone" />
+      <PressableButton onPress={() => navigation.navigate('IoT')} title="IoT" />
     </PageView>
   );
 }
@@ -69,6 +71,12 @@ function TimeZone() {
   );
 }
 
+function IoT() {
+  return (
+    <IoTPubSub />
+  );
+}
+
 const SettingsStack = createStackNavigator();
 
 function SettingsTab() {
@@ -80,6 +88,7 @@ function SettingsTab() {
       <SettingsStack.Screen name="Profile" component={Profile} />
       <SettingsStack.Screen name="Notifications" component={Notifications} />
       <SettingsStack.Screen name="Time Zone" component={TimeZone} />
+      <SettingsStack.Screen name="IoT" component={IoT} />
     </SettingsStack.Navigator>
   );
 }

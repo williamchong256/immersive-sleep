@@ -33,7 +33,7 @@ export const BodyText = styled.Text`
 export const Subheading = styled.Text`
     font-weight: 600;
     font-size: 20px;
-    line-height: 35px;
+    line-height: 20px;
     letter-spacing: -0.32px;
     color: black;
     text-align: left;
@@ -123,6 +123,14 @@ export const DataScrollView = styled.SafeAreaView`
     align-items: stretch;
     padding-top: 15px;
     justify-content: center;
+`;
+
+export const LightingTitle = styled(PageTitle)`
+    align-self: flex-start;
+    margin: 0px;
+    margin-right: 150px;
+    line-height: 40px;
+    margin-bottom: 0px;
 `;
 
 export const ButtonText = styled.Text`

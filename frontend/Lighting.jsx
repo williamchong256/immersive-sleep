@@ -72,28 +72,32 @@ function Lighting() {
       colors={['#F9F6FF', '#CFDFF7']}
       style={{
         flex: 1,
-        padding: 10,
-        paddingTop: 80,
+        padding: 15,
         alignItems: 'center',
       }}
     >
-      <View style={{ flexDirection: 'row', justifyContent: 'space-between', marginBottom: 30 }}>
+      <View style={{
+        flexDirection: 'row',
+        marginBottom: 30,
+        marginTop: 10,
+        justifyContent: 'center',
+      }}
+      >
         <LightingTitle>Lighting</LightingTitle>
         <Switch
-          trackColor={{ false: '00FF00', true: 'FFFFFF' }}
           onValueChange={(value) => setLightOn(value)}
           value={lightOn}
           style={{ transform: [{ scaleX: 1.4 }, { scaleY: 1.4 }] }}
         />
       </View>
       <Subheading>
-        {`Intensity of Light: ${Math.round(lightIntensity) * 10}%`}
+        {`Intensity of Light: ${Math.round(lightIntensity)}%`}
       </Subheading>
       <View style={{ flexDirection: 'row', marginTop: 10, marginBottom: 20 }}>
         <Entypo name="light-down" size={24} color="black" />
         <Slider
           minimumValue={0}
-          maximumValue={10}
+          maximumValue={100}
           disabled={!lightOn}
           value={lightIntensity}
           onValueChange={(value) => setLightIntensity(value)}

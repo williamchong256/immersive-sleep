@@ -128,7 +128,7 @@ export const DataScrollView = styled.SafeAreaView`
 export const LightingTitle = styled(PageTitle)`
     align-self: flex-start;
     margin: 0px;
-    margin-right: 140px;
+    margin-right: 150px;
     line-height: 40px;
     margin-bottom: 0px;
 `;

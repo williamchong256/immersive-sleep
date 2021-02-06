@@ -43,7 +43,7 @@ const AmbianceStack = createStackNavigator();
 
 function AmbianceTab() {
   return (
-    <AmbianceStack.Navigator initialRouteName="Ambiance" screenOptions={{ headerTransparent: true }}>
+    <AmbianceStack.Navigator initialRouteName="Ambiance">
       <AmbianceStack.Screen name="Ambiance" component={Ambiance} options={{ headerShown: false }} />
       <AmbianceStack.Screen name="Music" component={Music} />
       <AmbianceStack.Screen name="Lighting" component={Lighting} />

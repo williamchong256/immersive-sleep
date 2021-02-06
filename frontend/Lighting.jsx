@@ -29,25 +29,24 @@ function Lighting() {
   }, []);
 
   useFocusEffect(React.useCallback(() => {
-    const initialLightColor = lightColor.toFixed(1);
     if (!lightOn) {
       setLightIntensity(0);
       setLightColor(0);
       setDetermineColor('None');
       setStringColor('#000000');
-    } else if (initialLightColor <= 0.5) {
+    } else if (lightColor <= 0.5) {
       setDetermineColor('Yellow');
       setStringColor('#ffd700');
-    } else if (initialLightColor < 1.0) {
+    } else if (lightColor < 1.0) {
       setDetermineColor('Blue');
       setStringColor('#00bfff');
-    } else if (initialLightColor < 1.5) {
+    } else if (lightColor < 1.5) {
       setDetermineColor('Pink');
       setStringColor('#ff69b4');
-    } else if (initialLightColor < 2.0) {
+    } else if (lightColor < 2.0) {
       setDetermineColor('Red');
       setStringColor('#b22222');
-    } else if (initialLightColor < 2.5) {
+    } else if (lightColor < 2.5) {
       setDetermineColor('Green');
       setStringColor('#008000');
     } else {

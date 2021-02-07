@@ -9,6 +9,7 @@ import styles from './style';
 import {
   BoilerplateView, PageTitle, PageView, PressableButton,
 } from './Themes';
+import Profile from './profileTab';
 
 // TODO: Implement Dark Mode at an app level
 
@@ -43,14 +44,6 @@ function Settings({ navigation }) {
       <PressableButton onPress={() => navigation.navigate('Notifications')} title="Notifications" />
       <PressableButton onPress={() => navigation.navigate('Time Zone')} title="Time Zone" />
     </PageView>
-  );
-}
-
-function Profile() {
-  return (
-    <BoilerplateView>
-      <Text>Boilerplate for Profile</Text>
-    </BoilerplateView>
   );
 }
 

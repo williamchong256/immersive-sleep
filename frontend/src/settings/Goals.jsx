@@ -4,14 +4,14 @@ import {
 } from 'react-native';
 import {
   BoilerplateView,
-} from './Themes';
+} from '../Themes';
 
-function Notifications() {
+function Goals() {
   return (
     <BoilerplateView>
-      <Text>Boilerplate for Notifications</Text>
+      <Text>Boilerplate for Goals</Text>
     </BoilerplateView>
   );
 }
 
-export default Notifications;
+export default Goals;

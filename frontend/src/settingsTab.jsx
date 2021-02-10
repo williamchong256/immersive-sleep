@@ -9,10 +9,10 @@ import styles from './style';
 import {
   PageTitle, PageView, PressableButton,
 } from './Themes';
-import Preferences from './Preferences';
-import Notifications from './Notifications';
-import Goals from './Goals';
-import Profile from './Profile';
+import Preferences from './settings/Preferences';
+import Notifications from './settings/Notifications';
+import Goals from './settings/Goals';
+import Profile from './settings/Profile';
 
 // TODO: Implement Dark Mode at an app level
 

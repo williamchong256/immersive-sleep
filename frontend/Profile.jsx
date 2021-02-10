@@ -7,7 +7,7 @@ import {
 } from './Themes';
 import styles from './style';
 
-function Dropdown({ options, val, onValChange }) {
+function Dropdown({ options, onValChange }) {
   return (
     <View style={{ marginTop: 10 }}>
       <RNPickerSelect
@@ -19,7 +19,7 @@ function Dropdown({ options, val, onValChange }) {
   );
 }
 
-function Profile({ navigation }) {
+function Profile() {
   const [name, setName] = React.useState('First Last');
   const [username, setUsername] = React.useState('username');
   const [password, setPassword] = React.useState('');
@@ -86,7 +86,7 @@ function Profile({ navigation }) {
             </BodyText>
             <Dropdown
               options={ages}
-              val={age}
+              //val={age}
               onValChange={(value) => setAge(value)}
             />
           </ProfilePointView>
@@ -100,7 +100,7 @@ function Profile({ navigation }) {
             </BodyText>
             <Dropdown
               options={durations}
-              val={duration}
+              //val={duration}
               onValChange={(value) => setDuration(value)}
             />
           </ProfilePointView>

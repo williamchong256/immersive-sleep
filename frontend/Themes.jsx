@@ -145,7 +145,7 @@ export const ButtonContainer = styled.Pressable`
 // Styles for profile tab
 export const ProfileView = styled.SafeAreaView`
   flex: 1;
-  background-color: white;
+  background-color: #F9F6FF;
   align-items: stretch;
 `;
 

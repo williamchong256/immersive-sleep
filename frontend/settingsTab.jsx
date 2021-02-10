@@ -79,7 +79,7 @@ function SettingsTab() {
     <SettingsStack.Navigator initialRouteName="Settings" screenOptions={{ headerTransparent: true }}>
       <SettingsStack.Screen name="Settings" component={Settings} options={{ headerShown: false }} />
       <SettingsStack.Screen name="Preferences" component={Preferences} />
-      <SettingsStack.Screen name="Profile" component={Profile} />
+      <SettingsStack.Screen name="Profile" component={Profile}/>
       <SettingsStack.Screen name="Notifications" component={Notifications} />
       <SettingsStack.Screen name="Time Zone" component={TimeZone} />
     </SettingsStack.Navigator>

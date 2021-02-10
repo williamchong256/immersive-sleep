@@ -7,8 +7,12 @@ import {
 import { createStackNavigator } from '@react-navigation/stack';
 import styles from './style';
 import {
-  BoilerplateView, PageTitle, PageView, PressableButton,
+  PageTitle, PageView, PressableButton,
 } from './Themes';
+import Preferences from './Preferences';
+import Notifications from './Notifications';
+import Goals from './Goals';
+import Profile from './Profile';
 
 // TODO: Implement Dark Mode at an app level
 
@@ -41,40 +45,8 @@ function Settings({ navigation }) {
         </View>
       </View>
       <PressableButton onPress={() => navigation.navigate('Notifications')} title="Notifications" />
-      <PressableButton onPress={() => navigation.navigate('Time Zone')} title="Time Zone" />
+      <PressableButton onPress={() => navigation.navigate('Goals')} title="Goals" />
     </PageView>
-  );
-}
-
-function Profile() {
-  return (
-    <BoilerplateView>
-      <Text>Boilerplate for Profile</Text>
-    </BoilerplateView>
-  );
-}
-
-function Preferences() {
-  return (
-    <BoilerplateView>
-      <Text>Boilerplate for Preferences</Text>
-    </BoilerplateView>
-  );
-}
-
-function Notifications() {
-  return (
-    <BoilerplateView>
-      <Text>Boilerplate for Notifications</Text>
-    </BoilerplateView>
-  );
-}
-
-function TimeZone() {
-  return (
-    <BoilerplateView>
-      <Text>Boilerplate for TimeZone</Text>
-    </BoilerplateView>
   );
 }
 
@@ -88,7 +60,7 @@ function SettingsTab() {
       <SettingsStack.Screen name="Preferences" component={Preferences} />
       <SettingsStack.Screen name="Profile" component={Profile} />
       <SettingsStack.Screen name="Notifications" component={Notifications} />
-      <SettingsStack.Screen name="Time Zone" component={TimeZone} />
+      <SettingsStack.Screen name="Goals" component={Goals} />
     </SettingsStack.Navigator>
   );
 }

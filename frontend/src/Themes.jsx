@@ -136,14 +136,16 @@ export const LightingTitle = styled(PageTitle)`
 export const ButtonText = styled.Text`
     font-size: 20px;
     color: black;
+    align-self: flex-start;
 `;
 
 export const ButtonContainer = styled.Pressable`
     background-color: #A6CDF0;
+    justify-content: center;
     height: 50px;
     border-radius: 10px;
     margin-top: 8px;
-    padding: 13px;
+    padding-left: 15px;
     align-self: stretch;
     elevation: 6;
 `;

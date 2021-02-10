@@ -9,7 +9,7 @@ import styles from './style';
 import {
   BoilerplateView, PageTitle, PageView, PressableButton,
 } from './Themes';
-import Profile from './profileTab';
+import Profile from './Profile';
 
 // TODO: Implement Dark Mode at an app level
 

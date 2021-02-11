@@ -1,7 +1,7 @@
 {
     "identityPoolName": "testAuthIdentityPool",
     "allowUnauthenticatedIdentities": false,
-    "resourceNameTruncated": "immers0b6ba0d8",
+    "resourceNameTruncated": "immersd4e26de1",
     "userPoolName": "immersivesleep",
     "autoVerifiedAttributes": [
         "phone_number"
@@ -21,17 +21,13 @@
         "phone_number",
         "name"
     ],
-    "userpoolClientGenerateSecret": true,
+    "userpoolClientGenerateSecret": false,
     "userpoolClientRefreshTokenValidity": 30,
-    "userpoolClientWriteAttributes": [
-        "email"
-    ],
-    "userpoolClientReadAttributes": [
-        "email"
-    ],
-    "userpoolClientLambdaRole": "immers0b6ba0d8_userpoolclient_lambda_role",
+    "userpoolClientWriteAttributes": [],
+    "userpoolClientReadAttributes": [],
+    "userpoolClientLambdaRole": "immersd4e26de1_userpoolclient_lambda_role",
     "userpoolClientSetAttributes": false,
-    "sharedId": "0b6ba0d8",
+    "sharedId": "d4e26de1",
     "resourceName": "immersivesleep",
     "authSelections": "identityPoolAndUserPool",
     "authRoleArn": {

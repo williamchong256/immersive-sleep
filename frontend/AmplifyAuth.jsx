@@ -1,41 +1,11 @@
 import * as React from 'react';
 import {
-  View, Text, TextInput, Button,
+  View, TextInput, Button,
 } from 'react-native';
 import { Auth } from 'aws-amplify';
 import styles from './style';
 
-export function UserData({ navigation }) {
-  const [user, setUser] = React.useState({});
-
-  React.useEffect(() => {
-    Auth.currentAuthenticatedUser()
-      .then(({ attributes }) => setUser(attributes))
-      .catch((err) => console.log(err));
-  }, []);
-
-  async function logout() {
-    Auth.signOut()
-      .then(() => navigation.goBack())
-      .catch((err) => console.log(err));
-  }
-
-  return (
-    <View style={styles.container}>
-      <Text>
-        Phone number:
-        {` ${user.phone_number}`}
-      </Text>
-      <Text>
-        Name:
-        {` ${user.name}`}
-      </Text>
-      <Button title="Sign out" onPress={logout} />
-    </View>
-  );
-}
-
-export function SignIn({ navigation }) {
+function SignIn({ navigation }) {
   const [username, setUsername] = React.useState('');
   const [password, setPassword] = React.useState('');
   const [name, setName] = React.useState('');
@@ -101,3 +71,5 @@ export function SignIn({ navigation }) {
     </View>
   );
 }
+
+export default SignIn;

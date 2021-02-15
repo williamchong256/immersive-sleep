@@ -6,6 +6,8 @@ import { createBottomTabNavigator } from '@react-navigation/bottom-tabs';
 import { MaterialCommunityIcons, Ionicons, FontAwesome5 } from '@expo/vector-icons';
 import Amplify from 'aws-amplify';
 import { AWSIoTProvider } from '@aws-amplify/pubsub';
+// eslint-disable-next-line import/no-unresolved
+// eslint-disable-next-line import/extensions
 import config from './aws-exports';
 import HomeTab from './src/homeTabs';
 import Start from './src/startTab';

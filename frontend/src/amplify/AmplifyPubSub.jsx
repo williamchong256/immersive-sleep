@@ -4,7 +4,7 @@ import {
 } from 'react-native';
 import { useFocusEffect } from '@react-navigation/native';
 import { PubSub } from 'aws-amplify';
-import styles from './style';
+import styles from '../style';
 
 function IoTPubSub() {
   const [message, setMessage] = React.useState('');
@@ -23,7 +23,7 @@ function IoTPubSub() {
 
   async function publish() {
     try {
-      await PubSub.publish('frontend', { msg: 'From the frontend' });
+      await PubSub.publish('$aws/rules/TestFrontendRule/frontend', { msg: 'From the frontend' });
     } catch (e) {
       console.log(e);
     }

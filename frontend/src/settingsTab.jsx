@@ -7,12 +7,13 @@ import {
 import { createStackNavigator } from '@react-navigation/stack';
 import styles from './style';
 import {
-  BoilerplateView, PageTitle, PageView, PressableButton,
+  PageTitle, PageView, PressableButton,
 } from './Themes';
-import TestAmplify from './TestAmplify';
-import AmplifyDataStore from './AmplifyDataStore';
-import Profile from './Profile';
-import IoTPubSub from './AmplifyPubSub';
+import IoTPubSub from './amplify/AmplifyPubSub';
+import Preferences from './settings/Preferences';
+import Notifications from './settings/Notifications';
+import Goals from './settings/Goals';
+import Profile from './settings/Profile';
 
 // TODO: Implement Dark Mode at an app level
 
@@ -45,29 +46,9 @@ function Settings({ navigation }) {
         </View>
       </View>
       <PressableButton onPress={() => navigation.navigate('Notifications')} title="Notifications" />
-      <PressableButton onPress={() => navigation.navigate('Time Zone')} title="Time Zone" />
+      <PressableButton onPress={() => navigation.navigate('Goals')} title="Goals" />
       <PressableButton onPress={() => navigation.navigate('IoT')} title="IoT" />
     </PageView>
-  );
-}
-
-function Preferences() {
-  return (
-    <TestAmplify />
-  );
-}
-
-function Notifications() {
-  return (
-    <AmplifyDataStore />
-  );
-}
-
-function TimeZone() {
-  return (
-    <BoilerplateView>
-      <Text>Boilerplate for TimeZone</Text>
-    </BoilerplateView>
   );
 }
 
@@ -87,7 +68,7 @@ function SettingsTab() {
       <SettingsStack.Screen name="Preferences" component={Preferences} />
       <SettingsStack.Screen name="Profile" component={Profile} />
       <SettingsStack.Screen name="Notifications" component={Notifications} />
-      <SettingsStack.Screen name="Time Zone" component={TimeZone} />
+      <SettingsStack.Screen name="Goals" component={Goals} />
       <SettingsStack.Screen name="IoT" component={IoT} />
     </SettingsStack.Navigator>
   );

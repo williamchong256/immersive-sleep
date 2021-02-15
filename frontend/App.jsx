@@ -7,12 +7,12 @@ import { MaterialCommunityIcons, Ionicons, FontAwesome5 } from '@expo/vector-ico
 import Amplify from 'aws-amplify';
 import { AWSIoTProvider } from '@aws-amplify/pubsub';
 import config from './aws-exports';
-import HomeTab from './homeTabs';
-import Start from './startTab';
-import DiagnosticsTab from './diagnosticsTab';
-import SettingsTab from './settingsTab';
-import DataTab from './dataTab';
-import AmbianceTab from './AmbianceTab';
+import HomeTab from './src/homeTabs';
+import Start from './src/startTab';
+import DiagnosticsTab from './src/diagnosticsTab';
+import SettingsTab from './src/settingsTab';
+import DataTab from './src/dataTab';
+import AmbianceTab from './src/AmbianceTab';
 
 Amplify.configure({
   ...config,

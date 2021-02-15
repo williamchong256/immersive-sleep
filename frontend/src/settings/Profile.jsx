@@ -1,6 +1,6 @@
 import * as React from 'react';
 import { Auth } from 'aws-amplify';
-import { UserData, SignIn } from './AmplifyAuth';
+import { UserData, SignIn } from '../amplify/AmplifyAuth';
 
 function Profile({ navigation }) {
   const [loggedIn, setLoggedIn] = React.useState(false);

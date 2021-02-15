@@ -2,19 +2,18 @@ import * as React from 'react';
 import {
   View, Text, TextInput, Button,
 } from 'react-native';
-import { API, graphqlOperation } from 'aws-amplify';
-import { createUser } from './graphql/mutations';
-import { listUsers } from './graphql/queries';
-import styles from './style';
+import { DataStore, Predicates } from 'aws-amplify';
+import styles from '../style';
+import { User } from '../../models';
 
-function TestAmplify() {
+function AmplifyDataStore() {
   const [value, setValue] = React.useState('');
   const [users, setUsers] = React.useState([]);
 
   async function fetchUsers() {
     try {
-      const userData = await API.graphql(graphqlOperation(listUsers));
-      setUsers(userData.data.listUsers.items);
+      const userData = await DataStore.query(User);
+      setUsers(userData);
     } catch (e) {
       console.log(e);
     }
@@ -26,7 +25,7 @@ function TestAmplify() {
         id: (Math.random() * 1000).toString(),
         name: value,
       };
-      await API.graphql(graphqlOperation(createUser, { input: user }));
+      await DataStore.save(new User(user));
     } catch (e) {
       console.log(e);
     }
@@ -44,8 +43,9 @@ function TestAmplify() {
       {
         users.map((user) => <Text key={user.id}>{user.name}</Text>)
       }
+      <Button title="Delete Users" onPress={() => DataStore.delete(User, Predicates.ALL).catch((err) => console.log(err))} />
     </View>
   );
 }
 
-export default TestAmplify;
+export default AmplifyDataStore;

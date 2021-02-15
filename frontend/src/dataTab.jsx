@@ -10,7 +10,7 @@ import {
   BodyText, CardTitle, CardView, DataPointView, DataScrollView,
   PageTitle,
 } from './Themes';
-import { Data } from './models';
+import { Data } from '../models';
 import styles from './style';
 
 // Handles the rendering of each item in data of FlatList

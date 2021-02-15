@@ -3,7 +3,7 @@ import {
   View, Text, TextInput, Button,
 } from 'react-native';
 import { Auth, DataStore } from 'aws-amplify';
-import styles from './style';
+import styles from '../style';
 
 export function UserData({ navigation }) {
   const [user, setUser] = React.useState({});

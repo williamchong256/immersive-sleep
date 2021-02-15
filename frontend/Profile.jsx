@@ -42,7 +42,6 @@ function UserData() {
   const [user, setUser] = React.useState({});
   // these are set by dropdowns
   const [age, setAge] = React.useState('');
-  const [duration, setDuration] = React.useState('');
 
   const use = React.useRef();
 
@@ -52,7 +51,6 @@ function UserData() {
         use.current = us;
         setUser(us.attributes);
         setAge(us.attributes['custom:age']);
-        setDuration(us.attributes['custom:sleep_goals']);
       })
       .catch((err) => console.log(err));
   }, []);
@@ -60,9 +58,8 @@ function UserData() {
   React.useEffect(() => (() => {
     Auth.updateUserAttributes(use.current, {
       'custom:age': age,
-      'custom:sleep_goals': duration,
     }).catch((err) => console.log(err));
-  }), [age, duration]);
+  }), [age]);
 
   // list of values for dropdowns
   const ages = [
@@ -73,13 +70,6 @@ function UserData() {
     { label: '45-54 yrs', value: '45-54' },
     { label: '55-64 yrs', value: '55-64' },
     { label: '>64 yrs', value: '>64' },
-  ];
-  const durations = [
-    { label: '5-6 hrs', value: '5-6' },
-    { label: '6-7 hrs', value: '6-7' },
-    { label: '7-8 hrs', value: '7-8' },
-    { label: '8-9 hrs', value: '8-9' },
-    { label: '9-10 hrs', value: '9-10' },
   ];
 
   return (
@@ -120,20 +110,6 @@ function UserData() {
               options={ages}
               val={age}
               onValChange={(value) => setAge(value)}
-            />
-          </ProfilePointView>
-        </ProfilePointView>
-
-        <ProfilePointView>
-          <Subheading>Sleep Goals</Subheading>
-          <ProfilePointView profile>
-            <BodyText profile>
-              Duration:
-            </BodyText>
-            <Dropdown
-              options={durations}
-              val={duration}
-              onValChange={(value) => setDuration(value)}
             />
           </ProfilePointView>
         </ProfilePointView>

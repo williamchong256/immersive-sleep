@@ -4,7 +4,7 @@ import {
 } from 'react-native';
 import { DataStore, Predicates } from 'aws-amplify';
 import styles from '../style';
-import { User } from '../../models';
+import { User } from '../models';
 
 function AmplifyDataStore() {
   const [value, setValue] = React.useState('');

@@ -8,7 +8,7 @@ import Amplify from 'aws-amplify';
 import { AWSIoTProvider } from '@aws-amplify/pubsub';
 // eslint-disable-next-line import/no-unresolved
 // eslint-disable-next-line import/extensions
-import config from './aws-exports';
+import config from './src/aws-exports';
 import HomeTab from './src/homeTabs';
 import Start from './src/startTab';
 import DiagnosticsTab from './src/diagnosticsTab';
@@ -27,6 +27,13 @@ Amplify.addPluggable(new AWSIoTProvider({
   aws_pubsub_region: 'us-west-2',
   aws_pubsub_endpoint: 'wss://ar73xdknl1gxe-ats.iot.us-west-2.amazonaws.com/mqtt',
 }));
+
+Amplify.configure({
+  ...config,
+  Analytics: {
+    disabled: true,
+  },
+});
 
 // Implements the bottom tab navigation
 // Tab icons are implemented in the tabBarIcon option in the TabNavigator,

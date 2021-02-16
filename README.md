@@ -4,24 +4,27 @@ Repo for BMES Immersive Sleep Device Design Team!
 
 ## Instructions
 
-### Note: Each step should be done in a separate terminal
-
-Step 1: backend setup
+Step 1: clone and install dependencies
 
 ```bash
-cd backend
-npm install
-npm start
-```
-
-Step 2: frontend setup
-
-```bash
+git clone https://github.com/williamchong256/immersive-sleep.git
 cd frontend
 npm install
 npm install --global expo-cli
-expo start
 ```
+
+Step 2: setup AWS Amplify integration
+
+```bash
+npm install --global @aws-amplify/cli
+amplify pull --appId d32twf9usoa242 --envName dev
+```
+
+This should open up a browser window, where you can login to Amplify UI.
+
+Step 3: run the project
+
+`expo start`
 
 If the tab icons fail to load, try running expo with the Metro bundler cache cleared.
 

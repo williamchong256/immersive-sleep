@@ -36,16 +36,16 @@ function DetailedData({ navigation, route }) {
   React.useLayoutEffect(() => {
     // Set header of detailed data page to its date
     navigation.setOptions({
-      title: item.key,
+      title: item.date,
     });
   }, [navigation]);
 
   useFocusEffect(React.useCallback(() => {
-    const { key } = item;
+    const { date } = item;
     // Only retrieve comment from database on initial render
     if (value === null) {
       // Search table `comments` for this item
-      db.transaction((tx) => tx.executeSql('SELECT * FROM comments WHERE key=?', [key],
+      db.transaction((tx) => tx.executeSql('SELECT * FROM comments WHERE date=?', [date],
         // Callback if table `comments` exists
         (_, { rows }) => {
           if (rows.length !== 0) {
@@ -54,17 +54,18 @@ function DetailedData({ navigation, route }) {
             setValue(rows._array[0].comment);
           } else {
             // Else, create empty record for item
-            tx.executeSql('INSERT INTO comments VALUES (?, ?)', [key, '']);
+            tx.executeSql('INSERT INTO comments VALUES (?, ?)', [date, '']);
+            setValue('');
           }
           // Callback if table `comments` does not exist
         }, () => {
           // Create table `comments`
-          tx.executeSql('CREATE TABLE IF NOT EXISTS comments (key string primary key NOT NULL, comment string)');
+          tx.executeSql('CREATE TABLE IF NOT EXISTS comments (date string PRIMARY KEY NOT NULL, comment string)');
         }));
     }
     return () => {
       // Store comment into database on blur and on value change
-      db.transaction((tx) => tx.executeSql('UPDATE comments SET comment=? WHERE key=?', [value, key]));
+      db.transaction((tx) => tx.executeSql('UPDATE comments SET comment=? WHERE date=?', [value, date]));
     };
   }, [value]));
 

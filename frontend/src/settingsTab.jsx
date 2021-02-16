@@ -7,8 +7,12 @@ import {
 import { createStackNavigator } from '@react-navigation/stack';
 import styles from './style';
 import {
-  DetailedSettingsView, PageTitle, PressableButton, SettingsView,
+  PageTitle, PageView, PressableButton,
 } from './Themes';
+import Preferences from './settings/Preferences';
+import Notifications from './settings/Notifications';
+import Goals from './settings/Goals';
+import Profile from './settings/Profile';
 
 // TODO: Implement Dark Mode at an app level
 
@@ -19,7 +23,7 @@ function Settings({ navigation }) {
   return (
   // Returns a View containing Buttons that navigate to
   // the various Screens in the SettingsStack
-    <SettingsView>
+    <PageView>
       <PageTitle>Settings</PageTitle>
       <PressableButton onPress={() => navigation.navigate('Profile')} title="Profile" />
       <PressableButton onPress={() => navigation.navigate('Preferences')} title="Preferences" />
@@ -41,40 +45,8 @@ function Settings({ navigation }) {
         </View>
       </View>
       <PressableButton onPress={() => navigation.navigate('Notifications')} title="Notifications" />
-      <PressableButton onPress={() => navigation.navigate('Time Zone')} title="Time Zone" />
-    </SettingsView>
-  );
-}
-
-function Profile() {
-  return (
-    <DetailedSettingsView>
-      <Text>Boilerplate for Profile</Text>
-    </DetailedSettingsView>
-  );
-}
-
-function Preferences() {
-  return (
-    <DetailedSettingsView>
-      <Text>Boilerplate for Preferences</Text>
-    </DetailedSettingsView>
-  );
-}
-
-function Notifications() {
-  return (
-    <DetailedSettingsView>
-      <Text>Boilerplate for Notifications</Text>
-    </DetailedSettingsView>
-  );
-}
-
-function TimeZone() {
-  return (
-    <DetailedSettingsView>
-      <Text>Boilerplate for TimeZone</Text>
-    </DetailedSettingsView>
+      <PressableButton onPress={() => navigation.navigate('Goals')} title="Goals" />
+    </PageView>
   );
 }
 
@@ -88,7 +60,7 @@ function SettingsTab() {
       <SettingsStack.Screen name="Preferences" component={Preferences} />
       <SettingsStack.Screen name="Profile" component={Profile} />
       <SettingsStack.Screen name="Notifications" component={Notifications} />
-      <SettingsStack.Screen name="Time Zone" component={TimeZone} />
+      <SettingsStack.Screen name="Goals" component={Goals} />
     </SettingsStack.Navigator>
   );
 }

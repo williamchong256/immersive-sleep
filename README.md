@@ -21,6 +21,7 @@ amplify pull --appId d32twf9usoa242 --envName dev
 ```
 
 This should open up a browser window, where you can login to Amplify UI.
+Note: This method does not work with Safari. Use another browser like Chrome to open the webpage.
 
 Step 3: run the project
 

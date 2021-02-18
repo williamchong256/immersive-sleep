@@ -10,6 +10,7 @@ export const getData = /* GraphQL */ `
       breathing
       efficiency
       duration
+      userID
       _version
       _deleted
       _lastChangedAt
@@ -32,6 +33,7 @@ export const listDatas = /* GraphQL */ `
         breathing
         efficiency
         duration
+        userID
         _version
         _deleted
         _lastChangedAt
@@ -63,6 +65,7 @@ export const syncData = /* GraphQL */ `
         breathing
         efficiency
         duration
+        userID
         _version
         _deleted
         _lastChangedAt
@@ -84,6 +87,24 @@ export const getUser = /* GraphQL */ `
       _lastChangedAt
       createdAt
       updatedAt
+      Data {
+        items {
+          id
+          date
+          heartRate
+          breathing
+          efficiency
+          duration
+          userID
+          _version
+          _deleted
+          _lastChangedAt
+          createdAt
+          updatedAt
+        }
+        nextToken
+        startedAt
+      }
     }
   }
 `;
@@ -102,6 +123,10 @@ export const listUsers = /* GraphQL */ `
         _lastChangedAt
         createdAt
         updatedAt
+        Data {
+          nextToken
+          startedAt
+        }
       }
       nextToken
       startedAt
@@ -129,6 +154,10 @@ export const syncUsers = /* GraphQL */ `
         _lastChangedAt
         createdAt
         updatedAt
+        Data {
+          nextToken
+          startedAt
+        }
       }
       nextToken
       startedAt

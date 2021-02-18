@@ -44,6 +44,13 @@ export const schema = {
                     "type": "String",
                     "isRequired": true,
                     "attributes": []
+                },
+                "userID": {
+                    "name": "userID",
+                    "isArray": false,
+                    "type": "ID",
+                    "isRequired": true,
+                    "attributes": []
                 }
             },
             "syncable": true,
@@ -52,6 +59,15 @@ export const schema = {
                 {
                     "type": "model",
                     "properties": {}
+                },
+                {
+                    "type": "key",
+                    "properties": {
+                        "name": "byUser",
+                        "fields": [
+                            "userID"
+                        ]
+                    }
                 },
                 {
                     "type": "auth",
@@ -87,6 +103,20 @@ export const schema = {
                     "type": "String",
                     "isRequired": true,
                     "attributes": []
+                },
+                "Data": {
+                    "name": "Data",
+                    "isArray": true,
+                    "type": {
+                        "model": "Data"
+                    },
+                    "isRequired": false,
+                    "attributes": [],
+                    "isArrayNullable": true,
+                    "association": {
+                        "connectionType": "HAS_MANY",
+                        "associatedWith": "userID"
+                    }
                 }
             },
             "syncable": true,
@@ -117,5 +147,5 @@ export const schema = {
     },
     "enums": {},
     "nonModels": {},
-    "version": "1440747725ae265e49d7591603333aef"
+    "version": "648e3aabd3241ef7ceab7dac3fc84f54"
 };

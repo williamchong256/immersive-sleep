@@ -10,6 +10,7 @@ export const onCreateData = /* GraphQL */ `
       breathing
       efficiency
       duration
+      userID
       _version
       _deleted
       _lastChangedAt
@@ -27,6 +28,7 @@ export const onUpdateData = /* GraphQL */ `
       breathing
       efficiency
       duration
+      userID
       _version
       _deleted
       _lastChangedAt
@@ -44,6 +46,7 @@ export const onDeleteData = /* GraphQL */ `
       breathing
       efficiency
       duration
+      userID
       _version
       _deleted
       _lastChangedAt
@@ -62,6 +65,24 @@ export const onCreateUser = /* GraphQL */ `
       _lastChangedAt
       createdAt
       updatedAt
+      Data {
+        items {
+          id
+          date
+          heartRate
+          breathing
+          efficiency
+          duration
+          userID
+          _version
+          _deleted
+          _lastChangedAt
+          createdAt
+          updatedAt
+        }
+        nextToken
+        startedAt
+      }
     }
   }
 `;
@@ -75,6 +96,24 @@ export const onUpdateUser = /* GraphQL */ `
       _lastChangedAt
       createdAt
       updatedAt
+      Data {
+        items {
+          id
+          date
+          heartRate
+          breathing
+          efficiency
+          duration
+          userID
+          _version
+          _deleted
+          _lastChangedAt
+          createdAt
+          updatedAt
+        }
+        nextToken
+        startedAt
+      }
     }
   }
 `;
@@ -88,6 +127,24 @@ export const onDeleteUser = /* GraphQL */ `
       _lastChangedAt
       createdAt
       updatedAt
+      Data {
+        items {
+          id
+          date
+          heartRate
+          breathing
+          efficiency
+          duration
+          userID
+          _version
+          _deleted
+          _lastChangedAt
+          createdAt
+          updatedAt
+        }
+        nextToken
+        startedAt
+      }
     }
   }
 `;

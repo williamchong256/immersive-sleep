@@ -4,13 +4,15 @@ import {
 } from 'react-native';
 import { createStackNavigator } from '@react-navigation/stack';
 import { useFocusEffect } from '@react-navigation/native';
-import { DataStore, Predicates, SortDirection } from 'aws-amplify';
+import {
+  Auth, DataStore, Predicates, SortDirection,
+} from 'aws-amplify';
 import DetailedData from './detailedData';
 import {
   BodyText, CardTitle, CardView, DataPointView, DataScrollView,
   PageTitle,
 } from './Themes';
-import { Data } from './models';
+import { Data, User } from './models';
 import styles from './style';
 
 // Handles the rendering of each item in data of FlatList
@@ -63,13 +65,27 @@ function DataDisplay({ navigation }) {
   const [heartRate, setHeartRate] = React.useState('');
   const [breathing, setBreathing] = React.useState('');
   const [efficiency, setEfficiency] = React.useState('');
+  const [name, setName] = React.useState('');
+
+  React.useEffect(() => {
+    Auth.currentAuthenticatedUser()
+      .then((user) => {
+        setName(user.attributes.name);
+      })
+      .catch((err) => console.log(err));
+  }, []);
 
   useFocusEffect(React.useCallback(() => {
-    DataStore.query(Data, Predicates.ALL, {
-      sort: (s) => s.date(SortDirection.DESCENDING),
-    })
-      .then((data) => setSampleData(data))
-      .catch((err) => console.log(err));
+    (async () => {
+      try {
+        const id = await DataStore.query(User, (c) => c.name('eq', name));
+        setSampleData(await DataStore.query(Data, (c) => c.userID === id), {
+          sort: (s) => s.date(SortDirection.DESCENDING),
+        });
+      } catch (e) {
+        console.log(e);
+      }
+    })();
   }, []));
 
   async function pushData() {

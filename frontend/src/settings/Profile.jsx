@@ -1,6 +1,6 @@
 import * as React from 'react';
-import { Auth } from 'aws-amplify';
-import { View, Image } from 'react-native';
+import { Auth, DataStore } from 'aws-amplify';
+import { View, Image, Button } from 'react-native';
 import { LinearGradient } from 'expo-linear-gradient';
 import RNPickerSelect from 'react-native-picker-select';
 import { SignIn } from '../amplify/AmplifyAuth';
@@ -61,6 +61,15 @@ function UserData() {
     }).catch((err) => console.log(err));
   }), [age]);
 
+  async function logout() {
+    try {
+      await DataStore.clear();
+      await Auth.signOut();
+    } catch (e) {
+      console.log(e);
+    }
+  }
+
   // list of values for dropdowns
   const ages = [
     { label: '<17 yrs', value: '<17' },
@@ -112,6 +121,10 @@ function UserData() {
               onValChange={(value) => setAge(value)}
             />
           </ProfilePointView>
+        </ProfilePointView>
+
+        <ProfilePointView>
+          <Button title="Sign out" onPress={logout} />
         </ProfilePointView>
       </LinearGradient>
 

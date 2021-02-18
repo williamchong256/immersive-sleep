@@ -150,6 +150,19 @@ export const ButtonContainer = styled.Pressable`
     elevation: 6;
 `;
 
+export const PreferencesView = styled(PageView)`
+    justify-content: space-between;
+    flex-direction: row;
+    padding: 0px;
+    background: transparent;
+    flex: 0.13;
+`;
+
+export const PreferencesTitle = styled(LightingTitle)`
+    margin-right: 0px;
+    margin-bottom: 20px;
+`;
+
 export const PressableButton = ({ onPress, title }) => (
   <ButtonContainer onPress={onPress}>
     <ButtonText>{title}</ButtonText>

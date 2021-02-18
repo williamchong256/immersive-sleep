@@ -155,7 +155,7 @@ export const PreferencesView = styled(PageView)`
     flex-direction: row;
     padding: 0px;
     background: transparent;
-    flex: 0.13;
+    flex: 1;
 `;
 
 export const PreferencesTitle = styled(LightingTitle)`

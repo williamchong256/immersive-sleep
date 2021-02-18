@@ -12,6 +12,8 @@ function Preferences() {
   const [darkMode, setDarkMode] = React.useState(false);
   const [Alarm, setAlarm] = React.useState(true);
   const [twelveHour, setTwelveHour] = React.useState(true);
+  const [alarmTime, setAlarmTime] = React.useState(new Date());
+  const [show, setShow] = React.useState(false);
 
   React.useEffect(() => {
     (async () => {
@@ -19,6 +21,7 @@ function Preferences() {
         setDarkMode(JSON.parse(await AsyncStorage.getItem('@darkMode')));
         setAlarm(JSON.parse(await AsyncStorage.getItem('@Alarm')));
         setTwelveHour(JSON.parse(await AsyncStorage.getItem('@twelveHour')));
+        setAlarmTime(new Date(JSON.parse(await AsyncStorage.getItem('@alarmTime'))));
       } catch (e) {
         console.log(e);
       }
@@ -31,11 +34,12 @@ function Preferences() {
         await AsyncStorage.setItem('@darkMode', JSON.stringify(darkMode));
         await AsyncStorage.setItem('@Alarm', JSON.stringify(Alarm));
         await AsyncStorage.setItem('@twelveHour', JSON.stringify(twelveHour));
+        await AsyncStorage.setItem('@alarmTime', JSON.stringify(alarmTime));
       } catch (e) {
         console.log(e);
       }
     })();
-  }), [darkMode, Alarm, twelveHour]));
+  }), [darkMode, Alarm, twelveHour, alarmTime]));
 
   return (
     <LinearGradient colors={['#F9F6FF', '#CFDFF7']} style={{ flex: 1, padding: 20 }}>
@@ -53,6 +57,7 @@ function Preferences() {
           onChange={() => setAlarm(!Alarm)}
           value={Alarm}
         />
+        <Button onPress={setShow} title="Set Alarm" />
       </PreferencesView>
       <PreferencesView>
         <CardTitle>12hr/24hr</CardTitle>
@@ -61,6 +66,14 @@ function Preferences() {
           value={twelveHour}
         />
       </PreferencesView>
+      {show && (
+        <RNDateTimePicker
+          value={alarmTime}
+          is24Hour={twelveHour}
+          mode="time"
+          onChange={() => setAlarmTime(alarmTime)}
+        />
+      )}
     </LinearGradient>
   );
 }

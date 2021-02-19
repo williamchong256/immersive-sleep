@@ -6,7 +6,7 @@ import AsyncStorage from '@react-native-async-storage/async-storage';
 import { useFocusEffect } from '@react-navigation/native';
 import {
   PreferencesView, CardTitle, PreferencesTitle,
-} from './Themes';
+} from '../Themes';
 
 function Preferences() {
   const [darkMode, setDarkMode] = React.useState(false);

@@ -4,7 +4,7 @@ import {
 } from 'react-native';
 import {
   BoilerplateView,
-} from './Themes';
+} from '../Themes';
 
 function Profile() {
   return (

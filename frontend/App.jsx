@@ -4,12 +4,12 @@ import { NavigationContainer } from '@react-navigation/native';
 import { createStackNavigator } from '@react-navigation/stack';
 import { createBottomTabNavigator } from '@react-navigation/bottom-tabs';
 import { MaterialCommunityIcons, Ionicons, FontAwesome5 } from '@expo/vector-icons';
-import HomeTab from './homeTabs';
-import Start from './startTab';
-import DiagnosticsTab from './diagnosticsTab';
-import SettingsTab from './settingsTab';
-import DataTab from './dataTab';
-import AmbianceTab from './AmbianceTab';
+import HomeTab from './src/homeTabs';
+import Start from './src/startTab';
+import DiagnosticsTab from './src/diagnosticsTab';
+import SettingsTab from './src/settingsTab';
+import DataTab from './src/dataTab';
+import AmbianceTab from './src/AmbianceTab';
 
 // Implements the bottom tab navigation
 // Tab icons are implemented in the tabBarIcon option in the TabNavigator,

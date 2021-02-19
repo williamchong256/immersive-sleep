@@ -12,7 +12,6 @@ import { LightingTitle, Subheading } from './Themes';
 function Lighting() {
   const [lightOn, setLightOn] = React.useState(false);
   const [lightIntensity, setLightIntensity] = React.useState(0);
-  const [determineColor, setDetermineColor] = React.useState('None');
   const [lightColor, setLightColor] = React.useState(0);
   const [stringColor, setStringColor] = React.useState('#000000');
 
@@ -22,6 +21,7 @@ function Lighting() {
         setLightOn(JSON.parse(await AsyncStorage.getItem('@lightOn')));
         setLightColor(JSON.parse(await AsyncStorage.getItem('@lightColor')));
         setLightIntensity(JSON.parse(await AsyncStorage.getItem('@lightIntensity')));
+        setStringColor(JSON.parse(await AsyncStorage.getItem('@stringColor')));
       } catch (e) {
         console.log(e);
       }
@@ -32,28 +32,11 @@ function Lighting() {
     if (!lightOn) {
       setLightIntensity(0);
       setLightColor(0);
-      setDetermineColor('None');
       setStringColor('#000000');
-    } else if (lightColor <= 0.5) {
-      setDetermineColor('Yellow');
-      setStringColor('#ffd700');
-    } else if (lightColor < 1.0) {
-      setDetermineColor('Blue');
-      setStringColor('#00bfff');
-    } else if (lightColor < 1.5) {
-      setDetermineColor('Pink');
-      setStringColor('#ff69b4');
-    } else if (lightColor < 2.0) {
-      setDetermineColor('Red');
-      setStringColor('#b22222');
-    } else if (lightColor < 2.5) {
-      setDetermineColor('Green');
-      setStringColor('#008000');
     } else {
-      setDetermineColor('Purple');
-      setStringColor('#9400d3');
+      setStringColor(`hsl(${lightColor}, ${lightIntensity}%, 50%)`);
     }
-  }, [lightOn, lightColor]));
+  }, [lightOn, lightColor, lightIntensity]));
 
   useFocusEffect(React.useCallback(() => (() => {
     (async () => {
@@ -61,11 +44,12 @@ function Lighting() {
         await AsyncStorage.setItem('@lightOn', JSON.stringify(lightOn));
         await AsyncStorage.setItem('@lightIntensity', JSON.stringify(lightIntensity));
         await AsyncStorage.setItem('@lightColor', JSON.stringify(lightColor));
+        await AsyncStorage.setItem('@stringColor', JSON.stringify(stringColor));
       } catch (e) {
         console.log(e);
       }
     })();
-  }), [lightOn, lightColor, lightIntensity]));
+  }), [lightOn, lightColor, lightIntensity, stringColor]));
 
   return (
     <LinearGradient
@@ -113,11 +97,11 @@ function Lighting() {
         <Entypo name="light-up" size={24} color="black" />
       </View>
       <Subheading>
-        {` Light Color: ${determineColor}`}
+        Light Color
       </Subheading>
       <Slider
         minimumValue={0}
-        maximumValue={3}
+        maximumValue={360}
         disabled={!lightOn}
         value={lightColor}
         onValueChange={(value) => setLightColor(value)}

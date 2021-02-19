@@ -21,7 +21,6 @@ function Lighting() {
         setLightOn(JSON.parse(await AsyncStorage.getItem('@lightOn')));
         setLightColor(JSON.parse(await AsyncStorage.getItem('@lightColor')));
         setLightIntensity(JSON.parse(await AsyncStorage.getItem('@lightIntensity')));
-        setStringColor(JSON.parse(await AsyncStorage.getItem('@stringColor')));
       } catch (e) {
         console.log(e);
       }
@@ -44,7 +43,6 @@ function Lighting() {
         await AsyncStorage.setItem('@lightOn', JSON.stringify(lightOn));
         await AsyncStorage.setItem('@lightIntensity', JSON.stringify(lightIntensity));
         await AsyncStorage.setItem('@lightColor', JSON.stringify(lightColor));
-        await AsyncStorage.setItem('@stringColor', JSON.stringify(stringColor));
       } catch (e) {
         console.log(e);
       }

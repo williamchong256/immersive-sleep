@@ -13,15 +13,21 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
-      - uses: actions/setup-node@v1
+
+      - name: node setup
+        uses: actions/setup-node@v1
         with:
           node-version: 14.x
-      - uses: expo/expo-github-action@v5
+
+      - name: expo setup
+        uses: expo/expo-github-action@v5
         with:
           expo-version: 4.x
           expo-token: ${{ secrets.EXPO_TOKEN }}
           expo-packager: npm
-      - run: |
+
+      - name: expo publish
+        run: |
           npm ci
           expo publish
         working-directory: ./frontend

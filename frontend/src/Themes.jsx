@@ -150,12 +150,13 @@ export const ButtonContainer = styled.Pressable`
     elevation: 6;
 `;
 
-export const PreferencesView = styled(PageView)`
+export const PreferencesView = styled.View`
     justify-content: space-between;
+    align-items: center;
     flex-direction: row;
     padding: 0px;
     background: transparent;
-    flex: 1;
+    margin-bottom: 15px;
 `;
 
 export const PreferencesTitle = styled(LightingTitle)`

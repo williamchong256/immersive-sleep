@@ -1,5 +1,7 @@
 import * as React from 'react';
-import { Button, Switch, Text } from 'react-native';
+import {
+  Alert, Button, Switch, Platform,
+} from 'react-native';
 import { LinearGradient } from 'expo-linear-gradient';
 import RNDateTimePicker from '@react-native-community/datetimepicker';
 import AsyncStorage from '@react-native-async-storage/async-storage';
@@ -14,6 +16,13 @@ function Preferences() {
   const [twelveHour, setTwelveHour] = React.useState(true);
   const [alarmTime, setAlarmTime] = React.useState(new Date());
   const [show, setShow] = React.useState(false);
+
+  const onChange = (event, selectedDate) => {
+    const currentDate = selectedDate || alarmTime;
+    setShow(Platform.OS === 'ios');
+    setAlarmTime(currentDate);
+    Alert.alert(`Alarm set to: ${currentDate.toTimeString().split(' ')[0]}`);
+  };
 
   React.useEffect(() => {
     (async () => {
@@ -71,7 +80,7 @@ function Preferences() {
           value={alarmTime}
           is24Hour={twelveHour}
           mode="time"
-          onChange={() => setAlarmTime(alarmTime)}
+          onChange={onChange}
         />
       )}
     </LinearGradient>

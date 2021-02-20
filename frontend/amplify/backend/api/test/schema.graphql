@@ -6,6 +6,7 @@ type Data @model @auth(rules: [{allow: public}]) @key(name: "byUser", fields: ["
   efficiency: String!
   duration: String!
   userID: ID!
+  comment: String
 }
 
 type User @model @auth(rules: [{allow: public}]) {

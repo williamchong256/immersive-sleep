@@ -3,12 +3,13 @@ import {
   View, TextInput, Keyboard, TouchableWithoutFeedback,
 } from 'react-native';
 import { LinearGradient } from 'expo-linear-gradient';
-import * as SQLite from 'expo-sqlite';
 import { useFocusEffect } from '@react-navigation/native';
+import { DataStore } from 'aws-amplify';
 import styles from './style';
 import {
   BodyText, DataView, DataPointView, PageTitle, Subheading,
 } from './Themes';
+import { Data } from './models';
 
 function CommentsBox({ value, onChangeText }) {
   return (
@@ -25,11 +26,15 @@ function CommentsBox({ value, onChangeText }) {
   );
 }
 
-const db = SQLite.openDatabase('data.db');
-
 function DetailedData({ navigation, route }) {
-  // Retrieve our item in route.params
-  const { item } = route.params;
+  const { id } = route.params;
+  const [item, setItem] = React.useState({
+    duration: null,
+    heartRate: null,
+    breathing: null,
+    efficiency: null,
+    comment: null,
+  });
   // Set a default state of null and raise state
   const [value, setValue] = React.useState(null);
 
@@ -38,36 +43,47 @@ function DetailedData({ navigation, route }) {
     navigation.setOptions({
       title: item.date,
     });
-  }, [navigation]);
+  }, [item]);
 
+  // Ref for checking to see if the entire Component is being unmounted
+  const componentWillUnmount = React.useRef(false);
+
+  // Due to this being a function component and using hooks,
+  // a Ref needs to be used so that the comment is saved into
+  // DataStore only when the component is unmounted
   useFocusEffect(React.useCallback(() => {
-    const { date } = item;
-    // Only retrieve comment from database on initial render
-    if (value === null) {
-      // Search table `comments` for this item
-      db.transaction((tx) => tx.executeSql('SELECT * FROM comments WHERE date=?', [date],
-        // Callback if table `comments` exists
-        (_, { rows }) => {
-          if (rows.length !== 0) {
-            // If record exists, set value to its comment
-            // eslint-disable-next-line no-underscore-dangle
-            setValue(rows._array[0].comment);
-          } else {
-            // Else, create empty record for item
-            tx.executeSql('INSERT INTO comments VALUES (?, ?)', [date, '']);
-            setValue('');
-          }
-          // Callback if table `comments` does not exist
-        }, () => {
-          // Create table `comments`
-          tx.executeSql('CREATE TABLE IF NOT EXISTS comments (date string PRIMARY KEY NOT NULL, comment string)');
-        }));
-    }
+    (async () => {
+      try {
+        const data = await DataStore.query(Data, id);
+        setItem(data);
+        setValue(data.comment);
+      } catch (e) {
+        console.log(e);
+      }
+    })();
     return () => {
-      // Store comment into database on blur and on value change
-      db.transaction((tx) => tx.executeSql('UPDATE comments SET comment=? WHERE date=?', [value, date]));
+      componentWillUnmount.current = true;
     };
-  }, [value]));
+  }, []));
+
+  // Separate hook needed so that the up-to-date value
+  // is in scope, but we only want to save when unfocused
+  useFocusEffect(React.useCallback(() => () => {
+    if (componentWillUnmount.current) {
+      (async () => {
+        try {
+          await DataStore.save(
+            Data.copyOf(item, (updated) => {
+              // eslint-disable-next-line no-param-reassign
+              updated.comment = value;
+            }),
+          );
+        } catch (e) {
+          console.log(e);
+        }
+      })();
+    }
+  }, [item, value]));
 
   return (
   // Simple example of displaying data based in route

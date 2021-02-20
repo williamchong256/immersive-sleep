@@ -51,6 +51,13 @@ export const schema = {
                     "type": "ID",
                     "isRequired": true,
                     "attributes": []
+                },
+                "comment": {
+                    "name": "comment",
+                    "isArray": false,
+                    "type": "String",
+                    "isRequired": false,
+                    "attributes": []
                 }
             },
             "syncable": true,
@@ -147,5 +154,5 @@ export const schema = {
     },
     "enums": {},
     "nonModels": {},
-    "version": "648e3aabd3241ef7ceab7dac3fc84f54"
+    "version": "8b62c77e121cab98643b85adefd4f2f8"
 };

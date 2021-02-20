@@ -5,7 +5,7 @@ import {
 import { createStackNavigator } from '@react-navigation/stack';
 import { useFocusEffect } from '@react-navigation/native';
 import {
-  Auth, DataStore, Predicates, SortDirection,
+  Auth, DataStore, SortDirection,
 } from 'aws-amplify';
 import DetailedData from './detailedData';
 import {
@@ -24,7 +24,7 @@ function renderData({ item }, navigation) {
             when we call navigate
             */}
       <Pressable onPress={() => navigation.navigate('DetailedData', {
-        item,
+        id: item.id,
       })}
       >
         <CardTitle data>{item.date}</CardTitle>

@@ -12,6 +12,7 @@ export declare class Data {
   readonly efficiency: string;
   readonly duration: string;
   readonly userID: string;
+  readonly comment?: string;
   constructor(init: ModelInit<Data>);
   static copyOf(source: Data, mutator: (draft: MutableModel<Data>) => MutableModel<Data> | void): Data;
 }

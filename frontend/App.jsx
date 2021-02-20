@@ -27,13 +27,6 @@ Amplify.addPluggable(new AWSIoTProvider({
   aws_pubsub_endpoint: 'wss://ar73xdknl1gxe-ats.iot.us-west-2.amazonaws.com/mqtt',
 }));
 
-Amplify.configure({
-  ...config,
-  Analytics: {
-    disabled: true,
-  },
-});
-
 // Implements the bottom tab navigation
 // Tab icons are implemented in the tabBarIcon option in the TabNavigator,
 // but could just as easily be implemented in each individual TabScreen

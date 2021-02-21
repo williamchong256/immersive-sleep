@@ -154,5 +154,5 @@ export const schema = {
     },
     "enums": {},
     "nonModels": {},
-    "version": "8b62c77e121cab98643b85adefd4f2f8"
+    "version": "d70c4956a2f0be3ab22c139fdbc86a91"
 };

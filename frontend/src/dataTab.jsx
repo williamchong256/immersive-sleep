@@ -70,7 +70,7 @@ function DataDisplay({ navigation }) {
   React.useEffect(() => {
     Auth.currentAuthenticatedUser()
       .then((user) => {
-        setName(user.attributes.name);
+        setName(user.attributes.phone_number);
       })
       .catch((err) => console.log(err));
   }, []);
@@ -79,14 +79,16 @@ function DataDisplay({ navigation }) {
     (async () => {
       try {
         const id = await DataStore.query(User, (c) => c.name('eq', name));
-        setSampleData(await DataStore.query(Data, (c) => c.userID === id), {
-          sort: (s) => s.date(SortDirection.DESCENDING),
-        });
+        if (id.length === 1) {
+          setSampleData(await DataStore.query(Data, (c) => c.userID === id[0].id), {
+            sort: (s) => s.date(SortDirection.DESCENDING),
+          });
+        }
       } catch (e) {
         console.log(e);
       }
     })();
-  }, []));
+  }, [name]));
 
   async function pushData() {
     try {

@@ -1,6 +1,6 @@
 import * as React from 'react';
 import {
-  Alert, Button, Switch, Platform,
+  Button, Switch, Platform,
 } from 'react-native';
 import { LinearGradient } from 'expo-linear-gradient';
 import RNDateTimePicker from '@react-native-community/datetimepicker';
@@ -21,7 +21,6 @@ function Preferences() {
     const currentDate = selectedDate || alarmTime;
     setShow(Platform.OS === 'ios');
     setAlarmTime(currentDate);
-    Alert.alert(`Alarm set to: ${currentDate.toTimeString().split(' ')[0]}`);
   };
 
   React.useEffect(() => {
@@ -62,11 +61,11 @@ function Preferences() {
       </PreferencesView>
       <PreferencesView>
         <CardTitle>Alarm</CardTitle>
+        <Button onPress={setShow} title="Set Alarm" />
         <Switch
           onChange={() => setAlarm(!Alarm)}
           value={Alarm}
         />
-        <Button onPress={setShow} title="Set Alarm" />
       </PreferencesView>
       <PreferencesView>
         <CardTitle>12hr/24hr</CardTitle>

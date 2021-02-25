@@ -1,8 +1,8 @@
 {
-    "identityPoolName": "testAuthIdentityPool",
+    "identityPoolName": "immersivesleep25887b89_identitypool_25887b89",
     "allowUnauthenticatedIdentities": false,
-    "resourceNameTruncated": "immersd4e26de1",
-    "userPoolName": "immersivesleep",
+    "resourceNameTruncated": "immers25887b89",
+    "userPoolName": "immersivesleep25887b89_userpool_25887b89",
     "autoVerifiedAttributes": [
         "phone_number"
     ],
@@ -11,24 +11,28 @@
         "SMS Text Message"
     ],
     "smsAuthenticationMessage": "Your authentication code is {####}",
-    "smsVerificationMessage": "Body {####}",
+    "smsVerificationMessage": "Your verification code is {####}",
     "emailVerificationSubject": "Your verification code",
     "emailVerificationMessage": "Your verification code is {####}",
     "defaultPasswordPolicy": false,
     "passwordPolicyMinLength": 8,
     "passwordPolicyCharacters": [],
     "requiredAttributes": [
-        "phone_number",
-        "name"
+        "name",
+        "phone_number"
     ],
     "userpoolClientGenerateSecret": false,
     "userpoolClientRefreshTokenValidity": 30,
-    "userpoolClientWriteAttributes": [],
-    "userpoolClientReadAttributes": [],
-    "userpoolClientLambdaRole": "immersd4e26de1_userpoolclient_lambda_role",
+    "userpoolClientWriteAttributes": [
+        "email"
+    ],
+    "userpoolClientReadAttributes": [
+        "email"
+    ],
+    "userpoolClientLambdaRole": "immers25887b89_userpoolclient_lambda_role",
     "userpoolClientSetAttributes": false,
-    "sharedId": "d4e26de1",
-    "resourceName": "immersivesleep",
+    "sharedId": "25887b89",
+    "resourceName": "immersivesleep25887b89",
     "authSelections": "identityPoolAndUserPool",
     "authRoleArn": {
         "Fn::GetAtt": [
@@ -42,16 +46,19 @@
             "Arn"
         ]
     },
-    "serviceName": "Cognito",
-    "usernameAttributes": [
-        "phone_number"
-    ],
     "useDefault": "manual",
-    "userPoolGroups": false,
+    "triggers": "{}",
     "userPoolGroupList": [],
-    "adminQueries": false,
-    "thirdPartyAuth": false,
-    "authProviders": [],
+    "serviceName": "Cognito",
     "usernameCaseSensitive": false,
-    "dependsOn": []
+    "parentStack": {
+        "Ref": "AWS::StackId"
+    },
+    "permissions": [],
+    "dependsOn": [],
+    "thirdPartyAuth": false,
+    "userPoolGroups": false,
+    "adminQueries": false,
+    "hostedUI": false,
+    "authProviders": []
 }

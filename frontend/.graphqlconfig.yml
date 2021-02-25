@@ -1,6 +1,6 @@
 projects:
-  test:
-    schemaPath: graphql/schema.json
+  immersivesleep:
+    schemaPath: src/graphql/schema.json
     includes:
       - src/graphql/**/*.js
     excludes:
@@ -9,7 +9,8 @@ projects:
       amplify:
         codeGenTarget: javascript
         generatedFileName: ''
-        docsFilePath: graphql
+        docsFilePath: src/graphql
+        maxDepth: 2
 extensions:
   amplify:
     version: 3

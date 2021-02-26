@@ -3,8 +3,8 @@ import {
   View, Text, TextInput, Button,
 } from 'react-native';
 import { API, graphqlOperation } from 'aws-amplify';
-import { createUser } from '../../graphql/mutations';
-import { listUsers } from '../../graphql/queries';
+import { createUser } from '../graphql/mutations';
+import { listUsers } from '../graphql/queries';
 import styles from '../style';
 
 function TestAmplify() {
@@ -23,7 +23,6 @@ function TestAmplify() {
   async function pushUser() {
     try {
       const user = {
-        id: (Math.random() * 1000).toString(),
         name: value,
       };
       await API.graphql(graphqlOperation(createUser, { input: user }));

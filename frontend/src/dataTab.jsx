@@ -4,14 +4,15 @@ import {
 } from 'react-native';
 import { createStackNavigator } from '@react-navigation/stack';
 import { useFocusEffect } from '@react-navigation/native';
-import { DataStore, Predicates, SortDirection } from 'aws-amplify';
+import { API, graphqlOperation } from 'aws-amplify';
 import DetailedData from './detailedData';
 import {
   BodyText, CardTitle, CardView, DataPointView, DataScrollView,
   PageTitle,
 } from './Themes';
-import { Data } from './models';
 import styles from './style';
+import * as queries from './graphql/queries';
+import * as mutations from './graphql/mutations';
 
 // Handles the rendering of each item in data of FlatList
 function renderData({ item }, navigation) {
@@ -65,24 +66,39 @@ function DataDisplay({ navigation }) {
   const [efficiency, setEfficiency] = React.useState('');
 
   useFocusEffect(React.useCallback(() => {
-    DataStore.query(Data, Predicates.ALL, {
-      sort: (s) => s.date(SortDirection.DESCENDING),
-    })
-      .then((data) => setSampleData(data))
-      .catch((err) => console.log(err));
+    let promise;
+    (async () => {
+      try {
+        promise = API.graphql(graphqlOperation(queries.listDays));
+        const days = await promise;
+        const data = days.data.listDays.items;
+        data.sort((a, b) => {
+          if (a.date > b.date) return -1;
+          return 1;
+        });
+        setSampleData(data);
+      } catch (e) {
+        console.log(e);
+      }
+    })();
+    return () => {
+      API.cancel(promise);
+    };
   }, []));
 
   async function pushData() {
     try {
+      const users = await API.graphql(graphqlOperation(queries.listUsers));
+      const user = users.data.listUsers.items[0];
       const data = {
-        id: date,
         date,
         duration,
         heartRate,
         breathing,
         efficiency,
+        userID: user.id,
       };
-      await DataStore.save(new Data(data));
+      await API.graphql(graphqlOperation(mutations.createDay, { input: data }));
     } catch (e) {
       console.log(e);
     }

@@ -1,8 +1,8 @@
 type User @model @auth(rules: [{ allow: owner, operations: [create, read, update, delete] }]) {
   id: ID!
   name: String!
-  email: String!
-  phoneNumber: String!
+  email: String
+  phoneNumber: String
   days: [Day] @connection(keyName: "byUser", fields: ["id"])
 }
 
@@ -13,7 +13,7 @@ type Day @model @key(name: "byUser", fields: ["userID"]) @auth(rules: [{ allow: 
   heartRate: String!
   duration: String!
   efficiency: String!
-  comment: String!
+  comment: String
   userID: ID!
   user: User @connection(fields: ["userID"])
 }

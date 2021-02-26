@@ -23,7 +23,7 @@ function renderData({ item }, navigation) {
             when we call navigate
             */}
       <Pressable onPress={() => navigation.navigate('DetailedData', {
-        item,
+        id: item.id,
       })}
       >
         <CardTitle data>{item.date}</CardTitle>

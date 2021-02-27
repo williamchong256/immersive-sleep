@@ -4,7 +4,7 @@ import {
 } from 'react-native';
 import { createStackNavigator } from '@react-navigation/stack';
 import { useFocusEffect } from '@react-navigation/native';
-import { API, graphqlOperation } from 'aws-amplify';
+import gql from 'graphql-tag';
 import DetailedData from './detailedData';
 import {
   BodyText, CardTitle, CardView, DataPointView, DataScrollView,
@@ -13,6 +13,7 @@ import {
 import styles from './style';
 import * as queries from './graphql/queries';
 import * as mutations from './graphql/mutations';
+import Context from './Context';
 
 // Handles the rendering of each item in data of FlatList
 function renderData({ item }, navigation) {
@@ -65,12 +66,14 @@ function DataDisplay({ navigation }) {
   const [breathing, setBreathing] = React.useState('');
   const [efficiency, setEfficiency] = React.useState('');
 
+  const client = React.useContext(Context);
+
   useFocusEffect(React.useCallback(() => {
-    let promise;
     (async () => {
       try {
-        promise = API.graphql(graphqlOperation(queries.listDays));
-        const days = await promise;
+        const days = await client.query({
+          query: gql(queries.listDays),
+        });
         const data = days.data.listDays.items;
         data.sort((a, b) => {
           if (a.date > b.date) return -1;
@@ -81,14 +84,13 @@ function DataDisplay({ navigation }) {
         console.log(e);
       }
     })();
-    return () => {
-      API.cancel(promise);
-    };
   }, []));
 
   async function pushData() {
     try {
-      const users = await API.graphql(graphqlOperation(queries.listUsers));
+      const users = await client.query({
+        query: gql(queries.listUsers),
+      });
       const user = users.data.listUsers.items[0];
       const data = {
         date,
@@ -98,7 +100,12 @@ function DataDisplay({ navigation }) {
         efficiency,
         userID: user.id,
       };
-      await API.graphql(graphqlOperation(mutations.createDay, { input: data }));
+      await client.mutate({
+        mutation: gql(mutations.createDay),
+        variables: {
+          input: data,
+        },
+      });
     } catch (e) {
       console.log(e);
     }

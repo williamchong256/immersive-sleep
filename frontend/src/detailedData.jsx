@@ -4,13 +4,14 @@ import {
 } from 'react-native';
 import { LinearGradient } from 'expo-linear-gradient';
 import { useFocusEffect } from '@react-navigation/native';
-import { API, graphqlOperation } from 'aws-amplify';
+import gql from 'graphql-tag';
 import styles from './style';
 import {
   BodyText, DataView, DataPointView, PageTitle, Subheading,
 } from './Themes';
 import * as queries from './graphql/queries';
 import * as mutations from './graphql/mutations';
+import Context from './Context';
 
 function CommentsBox({ value, onChangeText }) {
   return (
@@ -47,13 +48,17 @@ function DetailedData({ navigation, route }) {
   }, [item]);
 
   const componentWillUnmount = React.useRef(false);
+  const client = React.useContext(Context);
 
   useFocusEffect(React.useCallback(() => {
-    let promise;
     (async () => {
       try {
-        promise = API.graphql(graphqlOperation(queries.getDay, { id }));
-        const data = (await promise).data.getDay;
+        const data = (await client.query({
+          query: gql(queries.getDay),
+          variables: {
+            id,
+          },
+        })).data.getDay;
         setItem(data);
         setValue(data.comment);
       } catch (e) {
@@ -62,7 +67,6 @@ function DetailedData({ navigation, route }) {
     })();
     return () => {
       componentWillUnmount.current = true;
-      API.cancel(promise);
     };
   }, []));
 
@@ -74,7 +78,12 @@ function DetailedData({ navigation, route }) {
             id,
             comment: value,
           };
-          await API.graphql(graphqlOperation(mutations.updateDay, { input: updated }));
+          await client.mutate({
+            mutation: gql(mutations.updateDay),
+            variables: {
+              input: updated,
+            },
+          });
         } catch (e) {
           console.log(e);
         }

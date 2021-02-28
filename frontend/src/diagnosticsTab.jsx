@@ -74,7 +74,7 @@ export default function DiagnosticsTab() {
         <DiagnosticsCard>
           <CardTitle>Sleep Cycles</CardTitle>
           <ProgressChart
-            data={{ labels: ['Deep Sleep', 'REM Sleep', 'Light Sleep'], data: [0.55, 0.35, 0.75] }}
+            data={{ labels: ['Deep:', 'REM:', 'Light:'], data: [0.55, 0.35, 0.75] }}
             height={200}
             width={Dimensions.get('window').width - 60}
             fromZero

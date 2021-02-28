@@ -17,7 +17,7 @@ export default function DiagnosticsTab() {
   return (
     <DiagnosticsScroll>
       <ScrollView showsVerticalScrollIndicator={false}>
-        <PageTitle>Diagnostics</PageTitle>
+        <PageTitle data>Diagnostics</PageTitle>
         <DiagnosticsCard>
           <CardTitle>Heart Rate Analysis</CardTitle>
           <LineChart

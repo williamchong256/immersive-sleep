@@ -82,13 +82,14 @@ export const DiagnosticsCard = styled(CardView)`
     paddingTop: 0px;   
     background-color: #CFDFF7;
     align-items: center;
+    margin-right: 15px;
+    margin-left: 15px;
 `;
 
 export const DiagnosticsScroll = styled.SafeAreaView`
     flex: 1;
     background-color: white;
     align-items: stretch;
-    padding: 15px;
     justify-content: center;
 `;
 

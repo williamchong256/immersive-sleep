@@ -77,6 +77,22 @@ export const CardText = styled.Text`
     margin-left: ${(props) => (props.left ? '10px' : '0px')};
 `;
 
+export const DiagnosticsCard = styled(CardView)`
+    padding: 20px;
+    paddingTop: 0px;   
+    background-color: #CFDFF7;
+    align-items: center;
+    margin-right: 15px;
+    margin-left: 15px;
+`;
+
+export const DiagnosticsScroll = styled.SafeAreaView`
+    flex: 1;
+    background-color: white;
+    align-items: stretch;
+    justify-content: center;
+`;
+
 // Styles for the Home Page Card:
 export const HomeCardView = styled(CardView)`
     padding: 20px;

@@ -15,6 +15,7 @@
     "@react-native-community/datetimepicker": "3.0.4",
     "@react-native-community/masked-view": "0.1.10",
     "@react-native-community/slider": "^3.0.3",
+    "@react-native-picker/picker": "^1.9.2",
     "@react-navigation/bottom-tabs": "^5.11.3",
     "@react-navigation/native": "^5.9.0",
     "@react-navigation/stack": "^5.13.0",
@@ -32,8 +33,7 @@
     "react-native-screens": "~2.15.0",
     "react-native-svg": "^12.1.0",
     "react-native-web": "~0.13.12",
-    "styled-components": "^5.2.1",
-    "@react-native-picker/picker": "1.9.2"
+    "styled-components": "^5.2.1"
   },
   "devDependencies": {
     "@babel/core": "^7.9.6",

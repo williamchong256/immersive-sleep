@@ -39,6 +39,7 @@ function Music() {
         selectedValue={selectedSong}
         onValueChange={(itemValue) => setSelectedSong(itemValue)}
         style={{ width: Dimensions.get('window').width - 60 }}
+        enabled={musicOn}
       >
         <Picker.Item label="Forest" value="forest" />
         <Picker.Item label="Rain" value="rain" />

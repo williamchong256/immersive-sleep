@@ -40,6 +40,7 @@ function Dropdown({ options, val, onValChange }) {
 
 function UserData() {
   const [user, setUser] = React.useState({});
+  const [username, setUsername] = React.useState('');
   // these are set by dropdowns
   const [age, setAge] = React.useState('');
 
@@ -50,6 +51,7 @@ function UserData() {
       .then((us) => {
         use.current = us;
         setUser(us.attributes);
+        setUsername(us.username);
         setAge(us.attributes['custom:age']);
       })
       .catch((err) => console.log(err));
@@ -95,7 +97,7 @@ function UserData() {
           />
           <ProfilePointView>
             <PageTitle profile>{user.name}</PageTitle>
-            <Subheading profile>{user.name}</Subheading>
+            <Subheading profile>{username}</Subheading>
           </ProfilePointView>
         </ProfilePointView>
 

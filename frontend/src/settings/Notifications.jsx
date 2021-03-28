@@ -1,9 +1,12 @@
 import * as React from 'react';
-import AmplifyDataStore from '../amplify/AmplifyDataStore';
+import { Text } from 'react-native';
+import { BoilerplateView } from '../Themes';
 
 function Notifications() {
   return (
-    <AmplifyDataStore />
+    <BoilerplateView>
+      <Text>no</Text>
+    </BoilerplateView>
   );
 }
 

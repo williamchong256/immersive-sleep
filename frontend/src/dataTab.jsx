@@ -4,14 +4,16 @@ import {
 } from 'react-native';
 import { createStackNavigator } from '@react-navigation/stack';
 import { useFocusEffect } from '@react-navigation/native';
-import { DataStore, Predicates, SortDirection } from 'aws-amplify';
+import gql from 'graphql-tag';
 import DetailedData from './detailedData';
 import {
   BodyText, CardTitle, CardView, DataPointView, DataScrollView,
   PageTitle,
 } from './Themes';
-import { Data } from './models';
 import styles from './style';
+import * as queries from './graphql/queries';
+import * as mutations from './graphql/mutations';
+import Context from './Context';
 
 // Handles the rendering of each item in data of FlatList
 function renderData({ item }, navigation) {
@@ -22,7 +24,7 @@ function renderData({ item }, navigation) {
             when we call navigate
             */}
       <Pressable onPress={() => navigation.navigate('DetailedData', {
-        item,
+        id: item.id,
       })}
       >
         <CardTitle data>{item.date}</CardTitle>
@@ -64,25 +66,46 @@ function DataDisplay({ navigation }) {
   const [breathing, setBreathing] = React.useState('');
   const [efficiency, setEfficiency] = React.useState('');
 
+  const client = React.useContext(Context);
+
   useFocusEffect(React.useCallback(() => {
-    DataStore.query(Data, Predicates.ALL, {
-      sort: (s) => s.date(SortDirection.DESCENDING),
-    })
-      .then((data) => setSampleData(data))
-      .catch((err) => console.log(err));
+    (async () => {
+      try {
+        const days = await client.query({
+          query: gql(queries.listDays),
+        });
+        const data = days.data.listDays.items;
+        data.sort((a, b) => {
+          if (a.date > b.date) return -1;
+          return 1;
+        });
+        setSampleData(data);
+      } catch (e) {
+        console.log(e);
+      }
+    })();
   }, []));
 
   async function pushData() {
     try {
+      const users = await client.query({
+        query: gql(queries.listUsers),
+      });
+      const user = users.data.listUsers.items[0];
       const data = {
-        id: date,
         date,
         duration,
         heartRate,
         breathing,
         efficiency,
+        userID: user.id,
       };
-      await DataStore.save(new Data(data));
+      await client.mutate({
+        mutation: gql(mutations.createDay),
+        variables: {
+          input: data,
+        },
+      });
     } catch (e) {
       console.log(e);
     }

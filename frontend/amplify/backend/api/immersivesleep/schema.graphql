@@ -1,0 +1,19 @@
+type User @model @auth(rules: [{ allow: owner, operations: [create, read, update, delete] }]) {
+  id: ID!
+  name: String!
+  email: String
+  phoneNumber: String
+  days: [Day] @connection(keyName: "byUser", fields: ["id"])
+}
+
+type Day @model @key(name: "byUser", fields: ["userID"]) @auth(rules: [{ allow: owner, operations: [create, read, update, delete] }]) {
+  id: ID!
+  date: String!
+  breathing: String!
+  heartRate: String!
+  duration: String!
+  efficiency: String!
+  comment: String
+  userID: ID!
+  user: User @connection(fields: ["userID"])
+}

@@ -6,6 +6,7 @@ import * as React from 'react';
 import { Feather } from '@expo/vector-icons';
 import { useFocusEffect } from '@react-navigation/native';
 import { Auth } from 'aws-amplify';
+import { FloatingAction } from 'react-native-floating-action';
 import { sampleData } from './sampleData.json';
 import {
   CardText, HomeCardData, HomeCardData2, HomeCardTitle, HomeCardView,
@@ -45,13 +46,20 @@ export default function HomeTab({ navigation }) {
           </HomeCardData2>
         </HomeCardData>
       </HomeCardView>
-      <Feather.Button
-        name="moon"
-        color="black"
-        backgroundColor="white"
-        onPress={() => navigation.navigate('Start')}
-        size={50}
-        iconStyle={{ marginRight: 0 }}
+      <FloatingAction
+        onPressMain={() => navigation.navigate('Start')}
+        position="center"
+        color="white"
+        showBackground={false}
+        floatingIcon={(
+          <Feather
+            name="moon"
+            color="black"
+            backgroundColor="white"
+            size={50}
+            iconStyle={{ marginRight: 0 }}
+          />
+        )}
       />
     </PageView>
   );

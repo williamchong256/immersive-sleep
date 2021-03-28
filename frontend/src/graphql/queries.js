@@ -1,22 +1,6 @@
 /* eslint-disable */
 // this is an auto generated file. This will be overwritten
 
-export const getUser = /* GraphQL */ `
-  query GetUser($id: ID!) {
-    getUser(id: $id) {
-      id
-      name
-      email
-      phoneNumber
-      days {
-        nextToken
-      }
-      createdAt
-      updatedAt
-      owner
-    }
-  }
-`;
 export const listUsers = /* GraphQL */ `
   query ListUsers(
     $filter: ModelUserFilterInput
@@ -37,6 +21,22 @@ export const listUsers = /* GraphQL */ `
     }
   }
 `;
+export const getUser = /* GraphQL */ `
+  query GetUser($id: ID!) {
+    getUser(id: $id) {
+      id
+      name
+      email
+      phoneNumber
+      createdAt
+      updatedAt
+      owner
+      days {
+        nextToken
+      }
+    }
+  }
+`;
 export const getDay = /* GraphQL */ `
   query GetDay($id: ID!) {
     getDay(id: $id) {
@@ -48,6 +48,8 @@ export const getDay = /* GraphQL */ `
       efficiency
       comment
       userID
+      createdAt
+      updatedAt
       user {
         id
         name
@@ -57,8 +59,6 @@ export const getDay = /* GraphQL */ `
         updatedAt
         owner
       }
-      createdAt
-      updatedAt
       owner
     }
   }

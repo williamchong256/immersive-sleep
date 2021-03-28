@@ -30,6 +30,7 @@ const client = new AWSAppSyncClient({
     type: config.aws_appsync_authenticationType,
     jwtToken: async () => (await Auth.currentSession()).getIdToken().getJwtToken(),
   },
+  disableOffline: true,
 });
 
 Amplify.addPluggable(new AWSIoTProvider({

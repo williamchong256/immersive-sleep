@@ -11,12 +11,12 @@ export const createUser = /* GraphQL */ `
       name
       email
       phoneNumber
-      days {
-        nextToken
-      }
       createdAt
       updatedAt
       owner
+      days {
+        nextToken
+      }
     }
   }
 `;
@@ -30,12 +30,12 @@ export const updateUser = /* GraphQL */ `
       name
       email
       phoneNumber
-      days {
-        nextToken
-      }
       createdAt
       updatedAt
       owner
+      days {
+        nextToken
+      }
     }
   }
 `;
@@ -49,12 +49,12 @@ export const deleteUser = /* GraphQL */ `
       name
       email
       phoneNumber
-      days {
-        nextToken
-      }
       createdAt
       updatedAt
       owner
+      days {
+        nextToken
+      }
     }
   }
 `;
@@ -72,6 +72,8 @@ export const createDay = /* GraphQL */ `
       efficiency
       comment
       userID
+      createdAt
+      updatedAt
       user {
         id
         name
@@ -81,8 +83,6 @@ export const createDay = /* GraphQL */ `
         updatedAt
         owner
       }
-      createdAt
-      updatedAt
       owner
     }
   }
@@ -101,6 +101,8 @@ export const updateDay = /* GraphQL */ `
       efficiency
       comment
       userID
+      createdAt
+      updatedAt
       user {
         id
         name
@@ -110,8 +112,6 @@ export const updateDay = /* GraphQL */ `
         updatedAt
         owner
       }
-      createdAt
-      updatedAt
       owner
     }
   }
@@ -130,6 +130,8 @@ export const deleteDay = /* GraphQL */ `
       efficiency
       comment
       userID
+      createdAt
+      updatedAt
       user {
         id
         name
@@ -139,8 +141,6 @@ export const deleteDay = /* GraphQL */ `
         updatedAt
         owner
       }
-      createdAt
-      updatedAt
       owner
     }
   }

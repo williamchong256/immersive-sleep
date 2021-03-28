@@ -81,7 +81,7 @@ export const CardText = styled.Text`
 
 export const DiagnosticsCard = styled(CardView)`
     padding: 20px;
-    paddingTop: 0px;   
+    paddingTop: 0px;
     background-color: #CFDFF7;
     align-items: center;
     margin-right: 15px;
@@ -180,6 +180,17 @@ export const PreferencesView = styled.View`
 export const PreferencesTitle = styled(LightingTitle)`
     margin-right: 0px;
     margin-bottom: 20px;
+`;
+
+export const ProfileView = styled.SafeAreaView`
+    flex: 1;
+    background-color: #F9F6FF;
+    align-items: stretch;
+`;
+
+export const ProfilePointView = styled.View`
+    flex-direction: ${(props) => (props.profile ? 'row' : 'column')};
+    justify-content: flex-start;
 `;
 
 export const PressableButton = ({ onPress, title }) => (

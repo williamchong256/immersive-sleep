@@ -2,12 +2,12 @@
 * @williamchong256 @jpicchi18
 
 # Frontend team
-/frontend/* @courtneylau @vinaynagappala
-/frontend/src/* @courtneylau @vinaynagappala
-/frontend/src/settings/* @courtneylau @vinaynagappala
+/frontend/* @vinaynagappala
+/frontend/src/* @vinaynagappala
+/frontend/src/settings/* @vinaynagappala
 
 # AWS Amplify team
-/frontend/amplify/ @Firius0408
-/frontend/graphql/ @Firius0408
-/frontend/src/amplify @Firius0408
-/frontend/src/models @Firius0408
+/frontend/amplify/* @Firius0408
+/frontend/graphql/* @Firius0408
+/frontend/src/amplify/* @Firius0408
+/frontend/src/models/* @Firius0408

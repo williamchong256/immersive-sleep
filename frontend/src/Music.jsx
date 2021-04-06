@@ -35,7 +35,7 @@ function Music() {
           style={{ transform: [{ scaleX: 1.4 }, { scaleY: 1.4 }] }}
         />
       </View>
-      <Picker
+      { musicOn && <Picker
         selectedValue={selectedSong}
         onValueChange={(itemValue) => setSelectedSong(itemValue)}
         style={{ width: Dimensions.get('window').width - 60 }}
@@ -47,7 +47,7 @@ function Music() {
         <Picker.Item label="Waves" value="waves" />
         <Picker.Item label="White Noise" value="whiteNoise" />
         <Picker.Item label="Wind" value="wind" />
-      </Picker>
+      </Picker> }
     </LinearGradient>
   );
 }

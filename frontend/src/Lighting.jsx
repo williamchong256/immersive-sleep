@@ -7,7 +7,7 @@ import Slider from '@react-native-community/slider';
 import AsyncStorage from '@react-native-async-storage/async-storage';
 import { Entypo } from '@expo/vector-icons';
 import { LinearGradient } from 'expo-linear-gradient';
-import { LightingTitle, Subheading } from './Themes';
+import { AmbianceTitle, Subheading } from './Themes';
 
 function Lighting() {
   const [lightOn, setLightOn] = React.useState(false);
@@ -65,7 +65,7 @@ function Lighting() {
         justifyContent: 'center',
       }}
       >
-        <LightingTitle>Lighting</LightingTitle>
+        <AmbianceTitle>Lighting</AmbianceTitle>
         <Switch
           onValueChange={(value) => setLightOn(value)}
           value={lightOn}

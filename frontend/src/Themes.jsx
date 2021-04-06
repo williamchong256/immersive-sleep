@@ -141,7 +141,7 @@ export const DataScrollView = styled.SafeAreaView`
     justify-content: center;
 `;
 
-export const LightingTitle = styled(PageTitle)`
+export const AmbianceTitle = styled(PageTitle)`
     align-self: flex-start;
     margin: 0px;
     margin-right: 150px;
@@ -156,7 +156,7 @@ export const ButtonText = styled.Text`
 `;
 
 export const ButtonContainer = styled.Pressable`
-    background-color: #A6CDF0;
+    background-color: ${(props) => (props.ambiance ? '#CFDFF7' : '#A6CDF0')};
     justify-content: center;
     height: 50px;
     border-radius: 10px;
@@ -175,13 +175,19 @@ export const PreferencesView = styled.View`
     margin-bottom: 15px;
 `;
 
-export const PreferencesTitle = styled(LightingTitle)`
+export const PreferencesTitle = styled(AmbianceTitle)`
     margin-right: 0px;
     margin-bottom: 20px;
 `;
 
 export const PressableButton = ({ onPress, title }) => (
   <ButtonContainer onPress={onPress}>
+    <ButtonText>{title}</ButtonText>
+  </ButtonContainer>
+);
+
+export const AmbianceButton = ({ onPress, title }) => (
+  <ButtonContainer ambiance onPress={onPress}>
     <ButtonText>{title}</ButtonText>
   </ButtonContainer>
 );

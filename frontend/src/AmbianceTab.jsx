@@ -1,13 +1,14 @@
 import * as React from 'react';
 import {
-  Text, Pressable,
+  Pressable,
 } from 'react-native';
 import { createStackNavigator } from '@react-navigation/stack';
 import { LinearGradient } from 'expo-linear-gradient';
 import {
-  BoilerplateView, CardView, PageTitle, PageView, CardTitle,
+  CardView, PageTitle, PageView, CardTitle,
 } from './Themes';
 import Lighting from './Lighting';
+import Music from './Music';
 
 function Ambiance({ navigation }) {
   return (
@@ -28,14 +29,6 @@ function Ambiance({ navigation }) {
         </Pressable>
       </CardView>
     </PageView>
-  );
-}
-
-function Music() {
-  return (
-    <BoilerplateView>
-      <Text>Boilerplate for Music</Text>
-    </BoilerplateView>
   );
 }
 

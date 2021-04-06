@@ -3,12 +3,15 @@ import {
   View, TextInput, Keyboard, TouchableWithoutFeedback,
 } from 'react-native';
 import { LinearGradient } from 'expo-linear-gradient';
-import * as SQLite from 'expo-sqlite';
 import { useFocusEffect } from '@react-navigation/native';
+import gql from 'graphql-tag';
 import styles from './style';
 import {
   BodyText, DataView, DataPointView, PageTitle, Subheading,
 } from './Themes';
+import * as queries from './graphql/queries';
+import * as mutations from './graphql/mutations';
+import Context from './Context';
 
 function CommentsBox({ value, onChangeText }) {
   return (
@@ -25,55 +28,75 @@ function CommentsBox({ value, onChangeText }) {
   );
 }
 
-const db = SQLite.openDatabase('data.db');
-
 function DetailedData({ navigation, route }) {
-  // Retrieve our item in route.params
-  const { item } = route.params;
+  const { id } = route.params;
+  const [item, setItem] = React.useState({
+    duration: null,
+    heartRate: null,
+    breathing: null,
+    efficiency: null,
+    comment: null,
+  });
   // Set a default state of null and raise state
   const [value, setValue] = React.useState(null);
 
   React.useLayoutEffect(() => {
     // Set header of detailed data page to its date
     navigation.setOptions({
-      title: item.key,
+      title: item.date,
     });
-  }, [navigation]);
+  }, [item]);
+
+  const componentWillUnmount = React.useRef(false);
+  const client = React.useContext(Context);
 
   useFocusEffect(React.useCallback(() => {
-    const { key } = item;
-    // Only retrieve comment from database on initial render
-    if (value === null) {
-      // Search table `comments` for this item
-      db.transaction((tx) => tx.executeSql('SELECT * FROM comments WHERE key=?', [key],
-        // Callback if table `comments` exists
-        (_, { rows }) => {
-          if (rows.length !== 0) {
-            // If record exists, set value to its comment
-            // eslint-disable-next-line no-underscore-dangle
-            setValue(rows._array[0].comment);
-          } else {
-            // Else, create empty record for item
-            tx.executeSql('INSERT INTO comments VALUES (?, ?)', [key, '']);
-          }
-          // Callback if table `comments` does not exist
-        }, () => {
-          // Create table `comments`
-          tx.executeSql('CREATE TABLE IF NOT EXISTS comments (key string primary key NOT NULL, comment string)');
-        }));
-    }
+    (async () => {
+      try {
+        const data = (await client.query({
+          query: gql(queries.getDay),
+          variables: {
+            id,
+          },
+        })).data.getDay;
+        setItem(data);
+        setValue(data.comment);
+      } catch (e) {
+        console.log(e);
+      }
+    })();
     return () => {
-      // Store comment into database on blur and on value change
-      db.transaction((tx) => tx.executeSql('UPDATE comments SET comment=? WHERE key=?', [value, key]));
+      componentWillUnmount.current = true;
     };
-  }, [value]));
+  }, []));
+
+  useFocusEffect(React.useCallback(() => () => {
+    if (componentWillUnmount.current) {
+      (async () => {
+        try {
+          const updated = {
+            id,
+            comment: value,
+          };
+          await client.mutate({
+            mutation: gql(mutations.updateDay),
+            variables: {
+              input: updated,
+            },
+          });
+        } catch (e) {
+          console.log(e);
+        }
+      })();
+    }
+  }, [item, value]));
 
   return (
   // Simple example of displaying data based in route
     <TouchableWithoutFeedback onPress={Keyboard.dismiss}>
       <DataView>
         <LinearGradient colors={['#F9F6FF', '#CFDFF7']} style={{ flex: 1, padding: 20 }}>
-          <PageTitle detaileddata>{item.key}</PageTitle>
+          <PageTitle detaileddata>{item.date}</PageTitle>
 
           <DataPointView>
             <Subheading>{item.duration}</Subheading>

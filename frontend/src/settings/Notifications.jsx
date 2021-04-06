@@ -1,15 +1,11 @@
 import * as React from 'react';
-import {
-  Text,
-} from 'react-native';
-import {
-  BoilerplateView,
-} from '../Themes';
+import { Text } from 'react-native';
+import { BoilerplateView } from '../Themes';
 
 function Notifications() {
   return (
     <BoilerplateView>
-      <Text>Boilerplate for Notifications</Text>
+      <Text>no</Text>
     </BoilerplateView>
   );
 }

@@ -5,6 +5,7 @@ import { createStackNavigator } from '@react-navigation/stack';
 import {
   PageTitle, PageView, PressableButton,
 } from './Themes';
+import IoTPubSub from './amplify/AmplifyPubSub';
 import Preferences from './settings/Preferences';
 import Notifications from './settings/Notifications';
 import Goals from './settings/Goals';
@@ -23,7 +24,14 @@ function Settings({ navigation }) {
       <PressableButton onPress={() => navigation.navigate('Preferences')} title="Preferences" />
       <PressableButton onPress={() => navigation.navigate('Notifications')} title="Notifications" />
       <PressableButton onPress={() => navigation.navigate('Goals')} title="Goals" />
+      <PressableButton onPress={() => navigation.navigate('IoT')} title="IoT" />
     </PageView>
+  );
+}
+
+function IoT() {
+  return (
+    <IoTPubSub />
   );
 }
 
@@ -38,6 +46,7 @@ function SettingsTab() {
       <SettingsStack.Screen name="Profile" component={Profile} />
       <SettingsStack.Screen name="Notifications" component={Notifications} />
       <SettingsStack.Screen name="Goals" component={Goals} />
+      <SettingsStack.Screen name="IoT" component={IoT} />
     </SettingsStack.Navigator>
   );
 }

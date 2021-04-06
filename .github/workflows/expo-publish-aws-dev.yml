@@ -1,21 +1,19 @@
-
-name: Test
- 
+name: Expo Publish with AWS environment dev
 on:
-  pull_request:
-    branches: 
+  push:
+    branches:
       - main
-      - aws-amplify
 
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
 
 jobs:
-  test:
+  publish:
+    name: Publish Expo with AWS environment dev
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v2
+
       - name: node setup
         uses: actions/setup-node@v1
         with:
@@ -27,7 +25,7 @@ jobs:
           expo-version: 4.x
           expo-token: ${{ secrets.EXPO_TOKEN }}
           expo-packager: npm
-          
+
       - name: amplify setup, dev
         run: |
           npm install --global --unsafe-perm @aws-amplify/cli
@@ -49,9 +47,11 @@ jobs:
           AWS_REGION: us-west-2
         working-directory: ./frontend
 
-      - name: run tests
+      - name: expo publish with aws
         run: |
           npm ci
-          npm run test
+          expo publish
+        env:
+          EXPO_USE_DEV_SERVER: true
+          NODE_OPTIONS: --max_old_space_size=4096
         working-directory: ./frontend
-        

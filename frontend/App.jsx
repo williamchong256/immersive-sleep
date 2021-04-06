@@ -4,12 +4,39 @@ import { NavigationContainer } from '@react-navigation/native';
 import { createStackNavigator } from '@react-navigation/stack';
 import { createBottomTabNavigator } from '@react-navigation/bottom-tabs';
 import { MaterialCommunityIcons, Ionicons, FontAwesome5 } from '@expo/vector-icons';
+import Amplify, { Auth } from 'aws-amplify';
+import { AWSIoTProvider } from '@aws-amplify/pubsub';
+import AWSAppSyncClient from 'aws-appsync';
+import config from './src/aws-exports';
 import HomeTab from './src/homeTabs';
 import Start from './src/startTab';
 import DiagnosticsTab from './src/diagnosticsTab';
 import SettingsTab from './src/settingsTab';
 import DataTab from './src/dataTab';
 import AmbianceTab from './src/AmbianceTab';
+import { ContextProvider } from './src/Context';
+
+Amplify.configure({
+  ...config,
+  Analytics: {
+    disabled: true,
+  },
+});
+
+const client = new AWSAppSyncClient({
+  url: config.aws_appsync_graphqlEndpoint,
+  region: config.aws_appsync_region,
+  auth: {
+    type: config.aws_appsync_authenticationType,
+    jwtToken: async () => (await Auth.currentSession()).getIdToken().getJwtToken(),
+  },
+  disableOffline: true,
+});
+
+Amplify.addPluggable(new AWSIoTProvider({
+  aws_pubsub_region: 'us-west-2',
+  aws_pubsub_endpoint: 'wss://ar73xdknl1gxe-ats.iot.us-west-2.amazonaws.com/mqtt',
+}));
 
 // Implements the bottom tab navigation
 // Tab icons are implemented in the tabBarIcon option in the TabNavigator,
@@ -63,19 +90,21 @@ const Tab = createBottomTabNavigator();
 
 function App() {
   return (
-    <NavigationContainer>
-      {/*
+    <ContextProvider value={client}>
+      <NavigationContainer>
+        {/*
         The Tab Navigator is nested inside the Stack Navigator so that
         the "Start" Screen does not display the bottom tab bar when
         navigated to
 
         For more information: https://reactnavigation.org/docs/hiding-tabbar-in-screens
       */}
-      <Stack.Navigator initialRouteName="Home">
-        <Stack.Screen name="Start" component={Start} options={{ headerTransparent: true }} />
-        <Stack.Screen name="Home" component={HomeTabs} options={{ headerShown: false }} />
-      </Stack.Navigator>
-    </NavigationContainer>
+        <Stack.Navigator initialRouteName="Home">
+          <Stack.Screen name="Start" component={Start} options={{ headerTransparent: true }} />
+          <Stack.Screen name="Home" component={HomeTabs} options={{ headerShown: false }} />
+        </Stack.Navigator>
+      </NavigationContainer>
+    </ContextProvider>
   );
 }
 

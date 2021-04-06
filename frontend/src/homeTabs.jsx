@@ -4,6 +4,8 @@
 
 import * as React from 'react';
 import { Feather } from '@expo/vector-icons';
+import { useFocusEffect } from '@react-navigation/native';
+import { Auth } from 'aws-amplify';
 import { FloatingAction } from 'react-native-floating-action';
 import { sampleData } from './sampleData.json';
 import {
@@ -13,9 +15,17 @@ import {
 
 export default function HomeTab({ navigation }) {
   const latestData = sampleData[0];
+  const [user, setUser] = React.useState(false);
+
+  useFocusEffect(React.useCallback(() => {
+    Auth.currentAuthenticatedUser()
+      .then(({ attributes }) => setUser(attributes))
+      .catch(() => setUser(false));
+  }, []));
+
   return (
     <PageView center>
-      <PageTitle>Hello, Person</PageTitle>
+      <PageTitle>{`Hello, ${user ? user.name : 'Person'}`}</PageTitle>
       {/*
             The Home tab contains a Button titled "Start"
             that navigates to the Start Screen. Because the

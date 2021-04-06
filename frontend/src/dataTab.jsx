@@ -1,15 +1,19 @@
 import * as React from 'react';
 import {
-  FlatList, Pressable,
+  FlatList, Pressable, TextInput, Button, View,
 } from 'react-native';
 import { createStackNavigator } from '@react-navigation/stack';
-
+import { useFocusEffect } from '@react-navigation/native';
+import gql from 'graphql-tag';
 import DetailedData from './detailedData';
-import { sampleData } from './sampleData.json';
 import {
   BodyText, CardTitle, CardView, DataPointView, DataScrollView,
   PageTitle,
 } from './Themes';
+import styles from './style';
+import * as queries from './graphql/queries';
+import * as mutations from './graphql/mutations';
+import Context from './Context';
 
 // Handles the rendering of each item in data of FlatList
 function renderData({ item }, navigation) {
@@ -20,10 +24,10 @@ function renderData({ item }, navigation) {
             when we call navigate
             */}
       <Pressable onPress={() => navigation.navigate('DetailedData', {
-        item,
+        id: item.id,
       })}
       >
-        <CardTitle data>{item.key}</CardTitle>
+        <CardTitle data>{item.date}</CardTitle>
 
         <DataPointView>
           <BodyText>
@@ -54,7 +58,59 @@ function renderData({ item }, navigation) {
 }
 
 // The Data tab where the FlatList is returned
-function Data({ navigation }) {
+function DataDisplay({ navigation }) {
+  const [sampleData, setSampleData] = React.useState([]);
+  const [date, setDate] = React.useState('');
+  const [duration, setDuration] = React.useState('');
+  const [heartRate, setHeartRate] = React.useState('');
+  const [breathing, setBreathing] = React.useState('');
+  const [efficiency, setEfficiency] = React.useState('');
+
+  const client = React.useContext(Context);
+
+  useFocusEffect(React.useCallback(() => {
+    (async () => {
+      try {
+        const days = await client.query({
+          query: gql(queries.listDays),
+        });
+        const data = days.data.listDays.items;
+        data.sort((a, b) => {
+          if (a.date > b.date) return -1;
+          return 1;
+        });
+        setSampleData(data);
+      } catch (e) {
+        console.log(e);
+      }
+    })();
+  }, []));
+
+  async function pushData() {
+    try {
+      const users = await client.query({
+        query: gql(queries.listUsers),
+      });
+      const user = users.data.listUsers.items[0];
+      const data = {
+        date,
+        duration,
+        heartRate,
+        breathing,
+        efficiency,
+        userID: user.id,
+      };
+      await client.mutate({
+        mutation: gql(mutations.createDay),
+        variables: {
+          input: data,
+        },
+      });
+    } catch (e) {
+      console.log(e);
+    }
+  }
+
   return (
     <DataScrollView>
       {/*
@@ -62,6 +118,34 @@ function Data({ navigation }) {
             we can navigate to the Detailed Data page
             */}
       <PageTitle data>Data</PageTitle>
+      <View style={styles.container}>
+        <TextInput
+          onChangeText={(val) => setDate(val)}
+          value={date}
+          placeholder="Date"
+        />
+        <TextInput
+          onChangeText={(val) => setDuration(val)}
+          value={duration}
+          placeholder="Duration"
+        />
+        <TextInput
+          onChangeText={(val) => setHeartRate(val)}
+          value={heartRate}
+          placeholder="Heart Rate"
+        />
+        <TextInput
+          onChangeText={(val) => setBreathing(val)}
+          value={breathing}
+          placeholder="Breathing"
+        />
+        <TextInput
+          onChangeText={(val) => setEfficiency(val)}
+          value={efficiency}
+          placeholder="Efficiency"
+        />
+        <Button title="Create Data" onPress={pushData} />
+      </View>
       <FlatList
         data={sampleData}
         renderItem={(item) => renderData(item, navigation)}
@@ -76,8 +160,8 @@ const DataStack = createStackNavigator();
 function DataTab() {
   return (
   // Implement a StackNavigator for the Detailed Data page
-    <DataStack.Navigator initialRouteName="Data">
-      <DataStack.Screen name="Data" component={Data} options={{ headerShown: false }} />
+    <DataStack.Navigator initialRouteName="DataDisplay">
+      <DataStack.Screen name="DataDisplay" component={DataDisplay} options={{ headerShown: false }} />
       <DataStack.Screen name="DetailedData" component={DetailedData} />
     </DataStack.Navigator>
   );

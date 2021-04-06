@@ -83,6 +83,13 @@ const styles = StyleSheet.create({
     justifyContent: 'flex-start',
   },
 
+  profile: {
+    flex: 1,
+    paddingTop: 50,
+    paddingHorizontal: 20,
+    alignItems: 'stretch',
+  },
+
 });
 
 export default styles;

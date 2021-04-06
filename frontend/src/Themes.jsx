@@ -3,13 +3,13 @@ import React from 'react';
 
 // General Styles:
 export const PageTitle = styled.Text`
-    font-weight: 300;
+    font-weight: ${(props) => (props.profile ? 600 : 300)};
     font-size: 40px;
     line-height: 50px;
     letter-spacing: -0.32px;
     color: black;
-    margin-bottom: 5px;
-    margin-top: ${(props) => (props.detaileddata ? '0px' : '30px')};
+    margin-bottom: ${(props) => (props.profile ? '0px' : '5px')};
+    margin-top: ${(props) => (props.detaileddata || props.profile ? '0px' : '30px')};
     margin-left: ${(props) => (props.data ? '15px' : '0px')};
     align-self: ${(props) => (props.center ? 'center' : 'flex-start')};
 `;
@@ -28,14 +28,16 @@ export const BodyText = styled.Text`
     letter-spacing: -0.24px;
     color: black;
     align-self: ${(props) => (props.center ? 'center' : 'flex-start')};
+    margin-left: ${(props) => (props.profile ? '20px' : '0px')};
+    margin-right: ${(props) => (props.profile ? '10px' : '0px')};
 `;
 
 export const Subheading = styled.Text`
-    font-weight: 600;
+    font-weight: ${(props) => (props.profile ? 400 : 600)};
     font-size: 20px;
     line-height: 20px;
     letter-spacing: -0.32px;
-    color: black;
+    color: ${(props) => (props.profile ? 'gray' : 'black')};
     text-align: left;
     margin-bottom: 5px;
 `;
@@ -79,7 +81,7 @@ export const CardText = styled.Text`
 
 export const DiagnosticsCard = styled(CardView)`
     padding: 20px;
-    paddingTop: 0px;   
+    paddingTop: 0px;
     background-color: #CFDFF7;
     align-items: center;
     margin-right: 15px;
@@ -178,6 +180,17 @@ export const PreferencesView = styled.View`
 export const PreferencesTitle = styled(AmbianceTitle)`
     margin-right: 0px;
     margin-bottom: 20px;
+`;
+
+export const ProfileView = styled.SafeAreaView`
+    flex: 1;
+    background-color: #F9F6FF;
+    align-items: stretch;
+`;
+
+export const ProfilePointView = styled.View`
+    flex-direction: ${(props) => (props.profile ? 'row' : 'column')};
+    justify-content: flex-start;
 `;
 
 export const PressableButton = ({ onPress, title }) => (

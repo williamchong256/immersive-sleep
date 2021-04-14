@@ -24,12 +24,13 @@ export const PageView = styled.View`
 export const BodyText = styled.Text`
     font-weight: 300;
     font-size: 15px;
-    line-height: 35px;
+    line-height: ${(props) => (props.signin ? '15px' : '35px')};
     letter-spacing: -0.24px;
     color: black;
     align-self: ${(props) => (props.center ? 'center' : 'flex-start')};
     margin-left: ${(props) => (props.profile ? '20px' : '0px')};
     margin-right: ${(props) => (props.profile ? '10px' : '0px')};
+    margin-bottom: ${(props) => (props.signin ? '5px' : '0px')};
 `;
 
 export const Subheading = styled.Text`
@@ -171,7 +172,7 @@ export const ButtonContainer = styled.Pressable`
 export const SignInButtonContainer = styled(ButtonContainer)`
     justify-content: center;
     height: 40px;
-    width: 270px;
+    width: 325px;
     align-content: center;
     padding: 0px;
     margin-bottom: 10px;

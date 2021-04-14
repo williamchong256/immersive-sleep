@@ -7,7 +7,7 @@ import {
 } from 'aws-amplify';
 import gql from 'graphql-tag';
 import { LinearGradient } from 'expo-linear-gradient';
-import { SignInButton, PageTitle } from '../Themes';
+import { BodyText, SignInButton, PageTitle } from '../Themes';
 import styles from '../style';
 import * as mutations from '../graphql/mutations';
 import Context from '../Context';
@@ -115,32 +115,33 @@ export function SignIn({ navigation }) {
           onChangeText={(val) => setUsername(val)}
           value={username}
           placeholder="Username"
-          style={{ fontSize: 17 }}
+          style={{ fontSize: 17, marginBottom: 5 }}
         />
         <TextInput
           onChangeText={(val) => setPassword(val)}
           value={password}
           secureTextEntry
           placeholder="Password"
-          style={{ fontSize: 17 }}
+          style={{ fontSize: 17, marginBottom: 5 }}
         />
         <SignInButton onPress={login} title="Login" />
       </View>
       <Text style={{ fontSize: 17 }}>or</Text>
       <View>
         <PageTitle profile>Create Account</PageTitle>
+        <BodyText signin>Set username and password above</BodyText>
         <TextInput
           onChangeText={(val) => setPhoneNumber(val)}
           value={phoneNumber}
           placeholder="Phone Number"
           keyboardType="phone-pad"
-          style={{ fontSize: 17 }}
+          style={{ fontSize: 17, marginBottom: 5 }}
         />
         <TextInput
           onChangeText={(val) => setName(val)}
           value={name}
           placeholder="Name"
-          style={{ fontSize: 17 }}
+          style={{ fontSize: 17, marginBottom: 5 }}
         />
         <SignInButton title="Sign Up" onPress={signUp} />
         <TextInput
@@ -148,7 +149,7 @@ export function SignIn({ navigation }) {
           value={confirm}
           placeholder="Confirmation Code"
           keyboardType="number-pad"
-          style={{ fontSize: 17 }}
+          style={{ fontSize: 17, marginBottom: 5 }}
         />
         <SignInButton title="Confirm" onPress={confirmSignUp} />
       </View>

@@ -6,6 +6,8 @@ import {
   Auth, DataStore,
 } from 'aws-amplify';
 import gql from 'graphql-tag';
+import { LinearGradient } from 'expo-linear-gradient';
+import { SignInButton, PageTitle } from '../Themes';
 import styles from '../style';
 import * as mutations from '../graphql/mutations';
 import Context from '../Context';
@@ -98,36 +100,58 @@ export function SignIn({ navigation }) {
   }
 
   return (
-    <View style={styles.container}>
-      <TextInput
-        onChangeText={(val) => setUsername(val)}
-        value={username}
-        placeholder="Username"
-      />
-      <TextInput
-        onChangeText={(val) => setPassword(val)}
-        value={password}
-        secureTextEntry
-        placeholder="Password"
-      />
-      <Button title="Login" onPress={login} />
-      <TextInput
-        onChangeText={(val) => setPhoneNumber(val)}
-        value={phoneNumber}
-        placeholder="Phone Number"
-      />
-      <TextInput
-        onChangeText={(val) => setName(val)}
-        value={name}
-        placeholder="Name"
-      />
-      <Button title="Sign Up" onPress={signUp} />
-      <TextInput
-        onChangeText={(val) => setConfirm(val)}
-        value={confirm}
-        placeholder="Confirmation Code"
-      />
-      <Button title="Confirm" onPress={confirmSignUp} />
-    </View>
+    <LinearGradient
+      colors={['#F9F6FF', '#CFDFF7']}
+      style={{
+        flex: 1,
+        padding: 20,
+        alignItems: 'center',
+        justifyContent: 'space-around',
+      }}
+    >
+      <View>
+        <PageTitle profile>Sign In</PageTitle>
+        <TextInput
+          onChangeText={(val) => setUsername(val)}
+          value={username}
+          placeholder="Username"
+          style={{ fontSize: 17 }}
+        />
+        <TextInput
+          onChangeText={(val) => setPassword(val)}
+          value={password}
+          secureTextEntry
+          placeholder="Password"
+          style={{ fontSize: 17 }}
+        />
+        <SignInButton onPress={login} title="Login" />
+      </View>
+      <Text style={{ fontSize: 17 }}>or</Text>
+      <View>
+        <PageTitle profile>Create Account</PageTitle>
+        <TextInput
+          onChangeText={(val) => setPhoneNumber(val)}
+          value={phoneNumber}
+          placeholder="Phone Number"
+          keyboardType="phone-pad"
+          style={{ fontSize: 17 }}
+        />
+        <TextInput
+          onChangeText={(val) => setName(val)}
+          value={name}
+          placeholder="Name"
+          style={{ fontSize: 17 }}
+        />
+        <SignInButton title="Sign Up" onPress={signUp} />
+        <TextInput
+          onChangeText={(val) => setConfirm(val)}
+          value={confirm}
+          placeholder="Confirmation Code"
+          keyboardType="number-pad"
+          style={{ fontSize: 17 }}
+        />
+        <SignInButton title="Confirm" onPress={confirmSignUp} />
+      </View>
+    </LinearGradient>
   );
 }

@@ -24,12 +24,13 @@ export const PageView = styled.View`
 export const BodyText = styled.Text`
     font-weight: 300;
     font-size: 15px;
-    line-height: 35px;
+    line-height: ${(props) => (props.signin ? '15px' : '35px')};
     letter-spacing: -0.24px;
     color: black;
     align-self: ${(props) => (props.center ? 'center' : 'flex-start')};
     margin-left: ${(props) => (props.profile ? '20px' : '0px')};
     margin-right: ${(props) => (props.profile ? '10px' : '0px')};
+    margin-bottom: ${(props) => (props.signin ? '5px' : '0px')};
 `;
 
 export const Subheading = styled.Text`
@@ -154,7 +155,7 @@ export const AmbianceTitle = styled(PageTitle)`
 export const ButtonText = styled.Text`
     font-size: 20px;
     color: black;
-    align-self: flex-start;
+    align-self: ${(props) => (props.center ? 'center' : 'flex-start')};
 `;
 
 export const ButtonContainer = styled.Pressable`
@@ -166,6 +167,15 @@ export const ButtonContainer = styled.Pressable`
     padding-left: 15px;
     align-self: stretch;
     elevation: 6;
+`;
+
+export const SignInButtonContainer = styled(ButtonContainer)`
+    justify-content: center;
+    height: 40px;
+    width: 325px;
+    align-content: center;
+    padding: 0px;
+    margin-bottom: 10px;
 `;
 
 export const PreferencesView = styled.View`
@@ -193,10 +203,20 @@ export const ProfilePointView = styled.View`
     justify-content: flex-start;
 `;
 
+export const SignInTitle = styled(AmbianceTitle)`
+    align-self: center;
+`;
+
 export const PressableButton = ({ onPress, title }) => (
   <ButtonContainer onPress={onPress}>
     <ButtonText>{title}</ButtonText>
   </ButtonContainer>
+);
+
+export const SignInButton = ({ onPress, title }) => (
+  <SignInButtonContainer onPress={onPress}>
+    <ButtonText center>{title}</ButtonText>
+  </SignInButtonContainer>
 );
 
 export const AmbianceButton = ({ onPress, title }) => (

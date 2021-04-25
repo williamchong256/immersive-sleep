@@ -46,22 +46,54 @@ def predictions (data) :
 #True if detected, false if not
 
 
+#x-axis accelerometer data
+xAxis= np.array([1, 2,3, 10, 12,14,16,18,20]).reshape(-1,1)
+predictionForXAxis= np.array([True, False,True, False, True,False,True,False,False]).reshape(-1,1)
 
-#Currently working on this portion
+xAxis_train, xAxis_test, xAxis_y_train, xAxis_y_test= train_test_split(xAxis,predictionForXAxis, test_size = 0.5, shuffle= False, random_state =0)
+classificationModelx = DecisionTreeClassifier(random_state=0)
+classificationModelx.fit(xAxis_train, xAxis_y_train)
 
-#accelerometer data
-x= np.array([1, 2,3, 10, 12,14,16,18,20]).reshape(-1,1)
-#x = initialx[:, None]
-y= np.array([10, 15, 20,30,43, 50,1430, 13, 1]).reshape(-1,1)
-#y= initialy[:, None]
-z= np.array([10, 12, 15, 16, 20, 22, 27, 28, 29])
-#z= initialz[:, None]
+currentXValue = 35
+xPrediction = np.array([currentXValue]).reshape(-1,1)
+predictX = classificationModelx.predict(xPrediction)
 
-x_train, x_test, y_train, y_test, z_train, z_test = train_test_split(x,y,z, test_size = 0.5, shuffle= False, random_state =4)
-classificationModel = DecisionTreeClassifier(random_state=0)
-classificationModel.fit(x_train, y_train, z_train)
-predictedvalues = classificationModel.predict(x_test)
-predictedvalues1 = classificationModel.predict(y_test)
-z_test = z_test.reshape(-1,1)
-predictedvalues2 = classificationModel.predict(z_test)
 
+#y-axis accelerometer data
+yAxis= np.array([1, 2,3, 10, 12,14,16,18,20]).reshape(-1,1)
+predictionForYAxis= np.array([True,False,True, False,True,False,True,False,False]).reshape(-1,1)
+
+yAxis_train, yAxis_test, yAxis_y_train, yAxis_y_test= train_test_split(yAxis,predictionForYAxis, test_size = 0.5, shuffle= False, random_state =0)
+classificationModely = DecisionTreeClassifier(random_state=0)
+classificationModely.fit(yAxis_train, yAxis_y_train)
+
+currentYValue = 3
+yPrediction = np.array([currentYValue]).reshape(-1,1)
+predictY = classificationModely.predict(yPrediction)
+
+
+
+#z-axis accelerometer data
+zAxis= np.array([1, 2,3, 10, 12,14,16,18,20]).reshape(-1,1)
+predictionForZAxis= np.array([True,False,True, False,True,False,True,False,False]).reshape(-1,1)
+
+zAxis_train, zAxis_test, zAxis_y_train, zAxis_y_test= train_test_split(zAxis,predictionForZAxis, test_size = 0.5, shuffle= False, random_state =0)
+classificationModelz = DecisionTreeClassifier(random_state=0)
+classificationModelz.fit(zAxis_train, zAxis_y_train)
+
+currentZValue = 6
+zPrediction= np.array([currentZValue]).reshape(-1,1)
+predictZ = classificationModelz.predict(zPrediction)
+
+def seizure () : 
+    seizure =False
+    countingTrue=0
+    if (predictX[0] == True):
+        countingTrue = countingTrue + 1
+    if (predictY[0] == True):
+        countingTrue= countingTrue + 1
+    if (predictZ[0]==True):
+        countingTrue= countingTrue + 1
+    if ((countingTrue == 2)  | (countingTrue == 3)):
+        seizure = True
+    return seizure

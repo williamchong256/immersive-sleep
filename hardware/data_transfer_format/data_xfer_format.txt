@@ -1,0 +1,25 @@
+
+/** My thought is that each payload can be a single JSON file consisting of the
+ *  following organization. That way, data can be easily parsed by sensor, and it
+ *  can be easily encoded using the JSON library for ESP/arduino.
+ *  NOTE: all numbers here are are merely samples. They will be replaced by real data
+ *    values in an actual JSON paylod
+ */
+
+
+{"pulseox_sensor":[
+  { "IR":"57382", "RED":"57363" },
+  { "IR":"68309", "RED":"732593" },
+  ... ,
+  { "IR":"674553", "RED":"729314" }
+]}
+
+{"accelerometer_sensor":[
+  { "Acclerometer":{ "X":"580", "Y":"-4", "Z":"15132" },
+    "Gyroscope"   :{ "X":"-5024", "Y":"-309", "Z":"-15" } },
+  ...
+  { "Acclerometer":{ "X":"580", "Y":"-4", "Z":"15132" },
+    "Gyroscope"   :{ "X":"-5024", "Y":"-309", "Z":"-15" } },
+]}
+
+... more sensors to come ...

@@ -1,0 +1,4404 @@
+Accelerometer: X = 624 | Y = -184 | Z = 15324
+Gyroscope: X = -5168 | Y = -281 | Z = -36
+ 
+Accelerometer: X = 588 | Y = -68 | Z = 15240
+Gyroscope: X = -5152 | Y = -305 | Z = -58
+ 
+Accelerometer: X = 476 | Y = -108 | Z = 15280
+Gyroscope: X = -5152 | Y = -272 | Z = -69
+ 
+Accelerometer: X = 592 | Y = -64 | Z = 15072
+Gyroscope: X = -5184 | Y = -298 | Z = -56
+ 
+Accelerometer: X = 588 | Y = -128 | Z = 15148
+Gyroscope: X = -5136 | Y = -302 | Z = -53
+ 
+Accelerometer: X = 700 | Y = -152 | Z = 15148
+Gyroscope: X = -5136 | Y = -291 | Z = -38
+ 
+Accelerometer: X = 624 | Y = -108 | Z = 15116
+Gyroscope: X = -5152 | Y = -288 | Z = -59
+ 
+Accelerometer: X = 632 | Y = -116 | Z = 15216
+Gyroscope: X = -5136 | Y = -299 | Z = -35
+ 
+Accelerometer: X = 568 | Y = -100 | Z = 15160
+Gyroscope: X = -5120 | Y = -286 | Z = -51
+ 
+Accelerometer: X = 576 | Y = -156 | Z = 15176
+Gyroscope: X = -5168 | Y = -276 | Z = -60
+ 
+Accelerometer: X = 596 | Y = -92 | Z = 15176
+Gyroscope: X = -5136 | Y = -293 | Z = -58
+ 
+Accelerometer: X = 656 | Y = -116 | Z = 15260
+Gyroscope: X = -5136 | Y = -300 | Z = -52
+ 
+Accelerometer: X = 676 | Y = -156 | Z = 15068
+Gyroscope: X = -5152 | Y = -292 | Z = -36
+ 
+Accelerometer: X = 612 | Y = -152 | Z = 15356
+Gyroscope: X = -5136 | Y = -298 | Z = -57
+ 
+Accelerometer: X = 616 | Y = -144 | Z = 15152
+Gyroscope: X = -5136 | Y = -317 | Z = -29
+ 
+Accelerometer: X = 608 | Y = -184 | Z = 15220
+Gyroscope: X = -5120 | Y = -285 | Z = -59
+ 
+Accelerometer: X = 700 | Y = -160 | Z = 15156
+Gyroscope: X = -5168 | Y = -287 | Z = -33
+ 
+Accelerometer: X = 480 | Y = -136 | Z = 15060
+Gyroscope: X = -5104 | Y = -319 | Z = -22
+ 
+Accelerometer: X = 652 | Y = -16 | Z = 15164
+Gyroscope: X = -5120 | Y = -298 | Z = -75
+ 
+Accelerometer: X = 504 | Y = -120 | Z = 15140
+Gyroscope: X = -5152 | Y = -317 | Z = -22
+ 
+Accelerometer: X = 656 | Y = -200 | Z = 15340
+Gyroscope: X = -5120 | Y = -301 | Z = -29
+ 
+Accelerometer: X = 612 | Y = -60 | Z = 15084
+Gyroscope: X = -5136 | Y = -297 | Z = -35
+ 
+Accelerometer: X = 624 | Y = -48 | Z = 15300
+Gyroscope: X = -5136 | Y = -290 | Z = -38
+ 
+Accelerometer: X = 552 | Y = -236 | Z = 15160
+Gyroscope: X = -5136 | Y = -311 | Z = -70
+ 
+Accelerometer: X = 556 | Y = -176 | Z = 15240
+Gyroscope: X = -5120 | Y = -299 | Z = -50
+ 
+Accelerometer: X = 660 | Y = -116 | Z = 15164
+Gyroscope: X = -5152 | Y = -279 | Z = -53
+ 
+Accelerometer: X = 600 | Y = -140 | Z = 15164
+Gyroscope: X = -5120 | Y = -313 | Z = -63
+ 
+Accelerometer: X = 496 | Y = -76 | Z = 15240
+Gyroscope: X = -5088 | Y = -288 | Z = -48
+ 
+Accelerometer: X = 568 | Y = -120 | Z = 15304
+Gyroscope: X = -5104 | Y = -300 | Z = -42
+ 
+Accelerometer: X = 532 | Y = -124 | Z = 15136
+Gyroscope: X = -5120 | Y = -314 | Z = -52
+ 
+Accelerometer: X = 584 | Y = -96 | Z = 15204
+Gyroscope: X = -5104 | Y = -289 | Z = -39
+ 
+Accelerometer: X = 584 | Y = -224 | Z = 15132
+Gyroscope: X = -5104 | Y = -290 | Z = -54
+ 
+Accelerometer: X = 828 | Y = -108 | Z = 15128
+Gyroscope: X = -5152 | Y = -292 | Z = -41
+ 
+Accelerometer: X = 520 | Y = -160 | Z = 15112
+Gyroscope: X = -5120 | Y = -286 | Z = -43
+ 
+Accelerometer: X = 676 | Y = -64 | Z = 15132
+Gyroscope: X = -5104 | Y = -283 | Z = -61
+ 
+Accelerometer: X = 584 | Y = -116 | Z = 15136
+Gyroscope: X = -5104 | Y = -292 | Z = -38
+ 
+Accelerometer: X = 572 | Y = -180 | Z = 15116
+Gyroscope: X = -5120 | Y = -289 | Z = -40
+ 
+Accelerometer: X = 680 | Y = -88 | Z = 15168
+Gyroscope: X = -5120 | Y = -319 | Z = -53
+ 
+Accelerometer: X = 432 | Y = -168 | Z = 15180
+Gyroscope: X = -5120 | Y = -294 | Z = -45
+ 
+Accelerometer: X = 636 | Y = -124 | Z = 15208
+Gyroscope: X = -5104 | Y = -289 | Z = -47
+ 
+Accelerometer: X = 596 | Y = -204 | Z = 15352
+Gyroscope: X = -5104 | Y = -294 | Z = -46
+ 
+Accelerometer: X = 540 | Y = -88 | Z = 15196
+Gyroscope: X = -5120 | Y = -296 | Z = -60
+ 
+Accelerometer: X = 840 | Y = -52 | Z = 15156
+Gyroscope: X = -5072 | Y = -307 | Z = -31
+ 
+Accelerometer: X = 656 | Y = -88 | Z = 15228
+Gyroscope: X = -5120 | Y = -289 | Z = -68
+ 
+Accelerometer: X = 492 | Y = -112 | Z = 15116
+Gyroscope: X = -5104 | Y = -265 | Z = -57
+ 
+Accelerometer: X = 612 | Y = 8 | Z = 15112
+Gyroscope: X = -5120 | Y = -292 | Z = -60
+ 
+Accelerometer: X = 596 | Y = -308 | Z = 15148
+Gyroscope: X = -5088 | Y = -327 | Z = -72
+ 
+Accelerometer: X = 464 | Y = -188 | Z = 15028
+Gyroscope: X = -5120 | Y = -324 | Z = -66
+ 
+Accelerometer: X = 656 | Y = -164 | Z = 15180
+Gyroscope: X = -5072 | Y = -277 | Z = -46
+ 
+Accelerometer: X = 628 | Y = -124 | Z = 15312
+Gyroscope: X = -5088 | Y = -298 | Z = -52
+ 
+Accelerometer: X = 640 | Y = -120 | Z = 15224
+Gyroscope: X = -5072 | Y = -302 | Z = -34
+ 
+Accelerometer: X = 592 | Y = -192 | Z = 14988
+Gyroscope: X = -5104 | Y = -302 | Z = -35
+ 
+Accelerometer: X = 680 | Y = -92 | Z = 15084
+Gyroscope: X = -5072 | Y = -294 | Z = -65
+ 
+Accelerometer: X = 648 | Y = -164 | Z = 15208
+Gyroscope: X = -5088 | Y = -282 | Z = -39
+ 
+Accelerometer: X = 664 | Y = -116 | Z = 15244
+Gyroscope: X = -5120 | Y = -299 | Z = -40
+ 
+Accelerometer: X = 612 | Y = -116 | Z = 15168
+Gyroscope: X = -5072 | Y = -287 | Z = -31
+ 
+Accelerometer: X = 512 | Y = -80 | Z = 15028
+Gyroscope: X = -5088 | Y = -290 | Z = -55
+ 
+Accelerometer: X = 640 | Y = -64 | Z = 15192
+Gyroscope: X = -5088 | Y = -304 | Z = -42
+ 
+Accelerometer: X = 708 | Y = -124 | Z = 15112
+Gyroscope: X = -5104 | Y = -293 | Z = -43
+ 
+Accelerometer: X = 680 | Y = -20 | Z = 15192
+Gyroscope: X = -5104 | Y = -302 | Z = -48
+ 
+Accelerometer: X = 584 | Y = -124 | Z = 15124
+Gyroscope: X = -5088 | Y = -297 | Z = -37
+ 
+Accelerometer: X = 604 | Y = -72 | Z = 15116
+Gyroscope: X = -5120 | Y = -285 | Z = -26
+ 
+Accelerometer: X = 624 | Y = -92 | Z = 15120
+Gyroscope: X = -5104 | Y = -309 | Z = -45
+ 
+Accelerometer: X = 628 | Y = -140 | Z = 15212
+Gyroscope: X = -5072 | Y = -323 | Z = -46
+ 
+Accelerometer: X = 560 | Y = -132 | Z = 15264
+Gyroscope: X = -5072 | Y = -280 | Z = -54
+ 
+Accelerometer: X = 544 | Y = -88 | Z = 15284
+Gyroscope: X = -5088 | Y = -289 | Z = -46
+ 
+Accelerometer: X = 604 | Y = -136 | Z = 15184
+Gyroscope: X = -5072 | Y = -291 | Z = -57
+ 
+Accelerometer: X = 704 | Y = -232 | Z = 15172
+Gyroscope: X = -5088 | Y = -295 | Z = -61
+ 
+Accelerometer: X = 620 | Y = -132 | Z = 14956
+Gyroscope: X = -5104 | Y = -296 | Z = -53
+ 
+Accelerometer: X = 596 | Y = -80 | Z = 15080
+Gyroscope: X = -5056 | Y = -296 | Z = -51
+ 
+Accelerometer: X = 608 | Y = -104 | Z = 15276
+Gyroscope: X = -5056 | Y = -310 | Z = -40
+ 
+Accelerometer: X = 652 | Y = -144 | Z = 15260
+Gyroscope: X = -5072 | Y = -301 | Z = -63
+ 
+Accelerometer: X = 656 | Y = -56 | Z = 15172
+Gyroscope: X = -5088 | Y = -291 | Z = -42
+ 
+Accelerometer: X = 636 | Y = -228 | Z = 15156
+Gyroscope: X = -5056 | Y = -273 | Z = -39
+ 
+Accelerometer: X = 608 | Y = -136 | Z = 15228
+Gyroscope: X = -5104 | Y = -287 | Z = -48
+ 
+Accelerometer: X = 644 | Y = -216 | Z = 15216
+Gyroscope: X = -5088 | Y = -294 | Z = -54
+ 
+Accelerometer: X = 688 | Y = -188 | Z = 15056
+Gyroscope: X = -5072 | Y = -295 | Z = -41
+ 
+Accelerometer: X = 624 | Y = -184 | Z = 15084
+Gyroscope: X = -5088 | Y = -286 | Z = -51
+ 
+Accelerometer: X = 592 | Y = -196 | Z = 15092
+Gyroscope: X = -5056 | Y = -310 | Z = -27
+ 
+Accelerometer: X = 680 | Y = -212 | Z = 15192
+Gyroscope: X = -5104 | Y = -290 | Z = -57
+ 
+Accelerometer: X = 556 | Y = -48 | Z = 15264
+Gyroscope: X = -5072 | Y = -278 | Z = -63
+ 
+Accelerometer: X = 684 | Y = -76 | Z = 15168
+Gyroscope: X = -5088 | Y = -286 | Z = -68
+ 
+Accelerometer: X = 636 | Y = -20 | Z = 15100
+Gyroscope: X = -5072 | Y = -276 | Z = -46
+ 
+Accelerometer: X = 588 | Y = -116 | Z = 15156
+Gyroscope: X = -5088 | Y = -280 | Z = -32
+ 
+Accelerometer: X = 584 | Y = -144 | Z = 15332
+Gyroscope: X = -5072 | Y = -282 | Z = -54
+ 
+Accelerometer: X = 700 | Y = -136 | Z = 15192
+Gyroscope: X = -5056 | Y = -300 | Z = -59
+ 
+Accelerometer: X = 588 | Y = -60 | Z = 15104
+Gyroscope: X = -5072 | Y = -292 | Z = -58
+ 
+Accelerometer: X = 604 | Y = -96 | Z = 15116
+Gyroscope: X = -5072 | Y = -265 | Z = -25
+ 
+Accelerometer: X = 564 | Y = -72 | Z = 15236
+Gyroscope: X = -5056 | Y = -293 | Z = -68
+ 
+Accelerometer: X = 600 | Y = -124 | Z = 15176
+Gyroscope: X = -5056 | Y = -276 | Z = -57
+ 
+Accelerometer: X = 592 | Y = -60 | Z = 15308
+Gyroscope: X = -5040 | Y = -302 | Z = -43
+ 
+Accelerometer: X = 604 | Y = -168 | Z = 15204
+Gyroscope: X = -5072 | Y = -290 | Z = -28
+ 
+Accelerometer: X = 656 | Y = -80 | Z = 15268
+Gyroscope: X = -5056 | Y = -287 | Z = -24
+ 
+Accelerometer: X = 680 | Y = -184 | Z = 15364
+Gyroscope: X = -5072 | Y = -303 | Z = -46
+ 
+Accelerometer: X = 692 | Y = -112 | Z = 15052
+Gyroscope: X = -5056 | Y = -298 | Z = -44
+ 
+Accelerometer: X = 600 | Y = -136 | Z = 15108
+Gyroscope: X = -5056 | Y = -287 | Z = -64
+ 
+Accelerometer: X = 576 | Y = -76 | Z = 15264
+Gyroscope: X = -5040 | Y = -309 | Z = -66
+ 
+Accelerometer: X = 600 | Y = -184 | Z = 15136
+Gyroscope: X = -5024 | Y = -290 | Z = -49
+ 
+Accelerometer: X = 588 | Y = -76 | Z = 15048
+Gyroscope: X = -5024 | Y = -287 | Z = -49
+ 
+Accelerometer: X = 592 | Y = -116 | Z = 15160
+Gyroscope: X = -5040 | Y = -278 | Z = -45
+ 
+Accelerometer: X = 532 | Y = -256 | Z = 15204
+Gyroscope: X = -5040 | Y = -304 | Z = -34
+ 
+Accelerometer: X = 720 | Y = -172 | Z = 15240
+Gyroscope: X = -5056 | Y = -296 | Z = -34
+ 
+Accelerometer: X = 528 | Y = -176 | Z = 15112
+Gyroscope: X = -5088 | Y = -260 | Z = -40
+ 
+Accelerometer: X = 612 | Y = -172 | Z = 15236
+Gyroscope: X = -5056 | Y = -297 | Z = -41
+ 
+Accelerometer: X = 636 | Y = -92 | Z = 15052
+Gyroscope: X = -5056 | Y = -307 | Z = -54
+ 
+Accelerometer: X = 652 | Y = -160 | Z = 15264
+Gyroscope: X = -5056 | Y = -294 | Z = -52
+ 
+Accelerometer: X = 676 | Y = -100 | Z = 15216
+Gyroscope: X = -5056 | Y = -300 | Z = -37
+ 
+Accelerometer: X = 608 | Y = -116 | Z = 15276
+Gyroscope: X = -5072 | Y = -292 | Z = -44
+ 
+Accelerometer: X = 684 | Y = -104 | Z = 15076
+Gyroscope: X = -5056 | Y = -273 | Z = -57
+ 
+Accelerometer: X = 540 | Y = -148 | Z = 15164
+Gyroscope: X = -5056 | Y = -303 | Z = -35
+ 
+Accelerometer: X = 656 | Y = -144 | Z = 15104
+Gyroscope: X = -5024 | Y = -287 | Z = -47
+ 
+Accelerometer: X = 600 | Y = -120 | Z = 15260
+Gyroscope: X = -5040 | Y = -302 | Z = -66
+ 
+Accelerometer: X = 596 | Y = -136 | Z = 15200
+Gyroscope: X = -5072 | Y = -298 | Z = -66
+ 
+Accelerometer: X = 696 | Y = -88 | Z = 15084
+Gyroscope: X = -5040 | Y = -301 | Z = -47
+ 
+Accelerometer: X = 648 | Y = -44 | Z = 15256
+Gyroscope: X = -5024 | Y = -286 | Z = -66
+ 
+Accelerometer: X = 572 | Y = -80 | Z = 15096
+Gyroscope: X = -5056 | Y = -287 | Z = -57
+ 
+Accelerometer: X = 624 | Y = -224 | Z = 15276
+Gyroscope: X = -5072 | Y = -276 | Z = -42
+ 
+Accelerometer: X = 532 | Y = -164 | Z = 15124
+Gyroscope: X = -5056 | Y = -288 | Z = -52
+ 
+Accelerometer: X = 636 | Y = -56 | Z = 15144
+Gyroscope: X = -5072 | Y = -290 | Z = -44
+ 
+Accelerometer: X = 592 | Y = -156 | Z = 15256
+Gyroscope: X = -5024 | Y = -294 | Z = -20
+ 
+Accelerometer: X = 528 | Y = -152 | Z = 15320
+Gyroscope: X = -5040 | Y = -284 | Z = -45
+ 
+Accelerometer: X = 748 | Y = -92 | Z = 15140
+Gyroscope: X = -5040 | Y = -309 | Z = -63
+ 
+Accelerometer: X = 512 | Y = -60 | Z = 15168
+Gyroscope: X = -5088 | Y = -299 | Z = -42
+ 
+Accelerometer: X = 688 | Y = -68 | Z = 15268
+Gyroscope: X = -5056 | Y = -293 | Z = -44
+ 
+Accelerometer: X = 556 | Y = -48 | Z = 15136
+Gyroscope: X = -5040 | Y = -318 | Z = -29
+ 
+Accelerometer: X = 632 | Y = -48 | Z = 15084
+Gyroscope: X = -5056 | Y = -303 | Z = -65
+ 
+Accelerometer: X = 620 | Y = -64 | Z = 15276
+Gyroscope: X = -5040 | Y = -285 | Z = -46
+ 
+Accelerometer: X = 628 | Y = -116 | Z = 15316
+Gyroscope: X = -5056 | Y = -302 | Z = -44
+ 
+Accelerometer: X = 552 | Y = -200 | Z = 15084
+Gyroscope: X = -5040 | Y = -298 | Z = -62
+ 
+Accelerometer: X = 620 | Y = -152 | Z = 15248
+Gyroscope: X = -5056 | Y = -289 | Z = -42
+ 
+Accelerometer: X = 496 | Y = -76 | Z = 15272
+Gyroscope: X = -5024 | Y = -306 | Z = -41
+ 
+Accelerometer: X = 548 | Y = -104 | Z = 15104
+Gyroscope: X = -5056 | Y = -265 | Z = -11
+ 
+Accelerometer: X = 612 | Y = -136 | Z = 15024
+Gyroscope: X = -5024 | Y = -280 | Z = -49
+ 
+Accelerometer: X = 668 | Y = -120 | Z = 15092
+Gyroscope: X = -5040 | Y = -328 | Z = -35
+ 
+Accelerometer: X = 684 | Y = 4 | Z = 15184
+Gyroscope: X = -5056 | Y = -289 | Z = -36
+ 
+Accelerometer: X = 568 | Y = -40 | Z = 15148
+Gyroscope: X = -5040 | Y = -301 | Z = -38
+ 
+Accelerometer: X = 604 | Y = -132 | Z = 15068
+Gyroscope: X = -5024 | Y = -316 | Z = -63
+ 
+Accelerometer: X = 632 | Y = -72 | Z = 15200
+Gyroscope: X = -5056 | Y = -303 | Z = -41
+ 
+Accelerometer: X = 696 | Y = -64 | Z = 15244
+Gyroscope: X = -5008 | Y = -292 | Z = -45
+ 
+Accelerometer: X = 636 | Y = -116 | Z = 15084
+Gyroscope: X = -5024 | Y = -262 | Z = -35
+ 
+Accelerometer: X = 608 | Y = -136 | Z = 15168
+Gyroscope: X = -5040 | Y = -284 | Z = -32
+ 
+Accelerometer: X = 652 | Y = -104 | Z = 15640
+Gyroscope: X = -5040 | Y = -276 | Z = 42
+ 
+Accelerometer: X = 476 | Y = -124 | Z = 15312
+Gyroscope: X = -5056 | Y = -267 | Z = -66
+ 
+Accelerometer: X = 644 | Y = -156 | Z = 15088
+Gyroscope: X = -5024 | Y = -305 | Z = -73
+ 
+Accelerometer: X = 704 | Y = -228 | Z = 15088
+Gyroscope: X = -5040 | Y = -290 | Z = -33
+ 
+Accelerometer: X = 680 | Y = -108 | Z = 15124
+Gyroscope: X = -5024 | Y = -272 | Z = -52
+ 
+Accelerometer: X = 576 | Y = -52 | Z = 15112
+Gyroscope: X = -5008 | Y = -301 | Z = -60
+ 
+Accelerometer: X = 500 | Y = -172 | Z = 15204
+Gyroscope: X = -5072 | Y = -294 | Z = -63
+ 
+Accelerometer: X = 576 | Y = -28 | Z = 15156
+Gyroscope: X = -5024 | Y = -291 | Z = -44
+ 
+Accelerometer: X = 372 | Y = -152 | Z = 15320
+Gyroscope: X = -5040 | Y = -315 | Z = -39
+ 
+Accelerometer: X = 676 | Y = -64 | Z = 15140
+Gyroscope: X = -5040 | Y = -312 | Z = -49
+ 
+Accelerometer: X = 628 | Y = -96 | Z = 15104
+Gyroscope: X = -5024 | Y = -290 | Z = -62
+ 
+Accelerometer: X = 556 | Y = -64 | Z = 15256
+Gyroscope: X = -5056 | Y = -307 | Z = -50
+ 
+Accelerometer: X = 556 | Y = -64 | Z = 15276
+Gyroscope: X = -5040 | Y = -296 | Z = -35
+ 
+Accelerometer: X = 680 | Y = -36 | Z = 15140
+Gyroscope: X = -5024 | Y = -312 | Z = -42
+ 
+Accelerometer: X = 644 | Y = -104 | Z = 15136
+Gyroscope: X = -5008 | Y = -299 | Z = -48
+ 
+Accelerometer: X = 612 | Y = -60 | Z = 15132
+Gyroscope: X = -5056 | Y = -268 | Z = -54
+ 
+Accelerometer: X = 612 | Y = -76 | Z = 15196
+Gyroscope: X = -5040 | Y = -290 | Z = -36
+ 
+Accelerometer: X = 640 | Y = -140 | Z = 15228
+Gyroscope: X = -5024 | Y = -302 | Z = -56
+ 
+Accelerometer: X = 612 | Y = -132 | Z = 15112
+Gyroscope: X = -5056 | Y = -287 | Z = -44
+ 
+Accelerometer: X = 640 | Y = -76 | Z = 15212
+Gyroscope: X = -5056 | Y = -290 | Z = -54
+ 
+Accelerometer: X = 660 | Y = -132 | Z = 15056
+Gyroscope: X = -5056 | Y = -296 | Z = -34
+ 
+Accelerometer: X = 664 | Y = -156 | Z = 15312
+Gyroscope: X = -5056 | Y = -268 | Z = -50
+ 
+Accelerometer: X = 584 | Y = -76 | Z = 15136
+Gyroscope: X = -5024 | Y = -308 | Z = -35
+ 
+Accelerometer: X = 572 | Y = -160 | Z = 15288
+Gyroscope: X = -5056 | Y = -288 | Z = -54
+ 
+Accelerometer: X = 684 | Y = -80 | Z = 15224
+Gyroscope: X = -5024 | Y = -291 | Z = -48
+ 
+Accelerometer: X = 644 | Y = -124 | Z = 15088
+Gyroscope: X = -5040 | Y = -312 | Z = -47
+ 
+Accelerometer: X = 636 | Y = -184 | Z = 15096
+Gyroscope: X = -5056 | Y = -290 | Z = -50
+ 
+Accelerometer: X = 556 | Y = -144 | Z = 15188
+Gyroscope: X = -5040 | Y = -301 | Z = -59
+ 
+Accelerometer: X = 696 | Y = -56 | Z = 15128
+Gyroscope: X = -5024 | Y = -295 | Z = -36
+ 
+Accelerometer: X = 584 | Y = -188 | Z = 15100
+Gyroscope: X = -5040 | Y = -307 | Z = -39
+ 
+Accelerometer: X = 592 | Y = -96 | Z = 15128
+Gyroscope: X = -5024 | Y = -300 | Z = -20
+ 
+Accelerometer: X = 676 | Y = -240 | Z = 15120
+Gyroscope: X = -5024 | Y = -330 | Z = -52
+ 
+Accelerometer: X = 716 | Y = -64 | Z = 15112
+Gyroscope: X = -5008 | Y = -294 | Z = -54
+ 
+Accelerometer: X = 616 | Y = -184 | Z = 15220
+Gyroscope: X = -5056 | Y = -305 | Z = -56
+ 
+Accelerometer: X = 612 | Y = -80 | Z = 15224
+Gyroscope: X = -5040 | Y = -315 | Z = -54
+ 
+Accelerometer: X = 752 | Y = -88 | Z = 15064
+Gyroscope: X = -5024 | Y = -291 | Z = -21
+ 
+Accelerometer: X = 560 | Y = -112 | Z = 15268
+Gyroscope: X = -5040 | Y = -300 | Z = -45
+ 
+Accelerometer: X = 528 | Y = -180 | Z = 15296
+Gyroscope: X = -5024 | Y = -286 | Z = -54
+ 
+Accelerometer: X = 644 | Y = -60 | Z = 15136
+Gyroscope: X = -5008 | Y = -290 | Z = -46
+ 
+Accelerometer: X = 616 | Y = -100 | Z = 15252
+Gyroscope: X = -5024 | Y = -311 | Z = -57
+ 
+Accelerometer: X = 648 | Y = -28 | Z = 15120
+Gyroscope: X = -5056 | Y = -304 | Z = -44
+ 
+Accelerometer: X = 572 | Y = -76 | Z = 15276
+Gyroscope: X = -5040 | Y = -294 | Z = -55
+ 
+Accelerometer: X = 708 | Y = -88 | Z = 15224
+Gyroscope: X = -5056 | Y = -306 | Z = -66
+ 
+Accelerometer: X = 528 | Y = -184 | Z = 15208
+Gyroscope: X = -5024 | Y = -290 | Z = -80
+ 
+Accelerometer: X = 588 | Y = 4 | Z = 15168
+Gyroscope: X = -5040 | Y = -303 | Z = -36
+ 
+Accelerometer: X = 604 | Y = -136 | Z = 15128
+Gyroscope: X = -5040 | Y = -310 | Z = -75
+ 
+Accelerometer: X = 568 | Y = -64 | Z = 15056
+Gyroscope: X = -5024 | Y = -303 | Z = -53
+ 
+Accelerometer: X = 656 | Y = -108 | Z = 15132
+Gyroscope: X = -5040 | Y = -296 | Z = -52
+ 
+Accelerometer: X = 628 | Y = -116 | Z = 15116
+Gyroscope: X = -5008 | Y = -296 | Z = -62
+ 
+Accelerometer: X = 620 | Y = 16 | Z = 15244
+Gyroscope: X = -5024 | Y = -335 | Z = -37
+ 
+Accelerometer: X = 696 | Y = -52 | Z = 15108
+Gyroscope: X = -5040 | Y = -293 | Z = -37
+ 
+Accelerometer: X = 564 | Y = -160 | Z = 15040
+Gyroscope: X = -5024 | Y = -307 | Z = -30
+ 
+Accelerometer: X = 744 | Y = -132 | Z = 15308
+Gyroscope: X = -5024 | Y = -271 | Z = -54
+ 
+Accelerometer: X = 684 | Y = -132 | Z = 15240
+Gyroscope: X = -5024 | Y = -301 | Z = -53
+ 
+Accelerometer: X = 568 | Y = -108 | Z = 15212
+Gyroscope: X = -5024 | Y = -287 | Z = -44
+ 
+Accelerometer: X = 548 | Y = -176 | Z = 15084
+Gyroscope: X = -5008 | Y = -297 | Z = -33
+ 
+Accelerometer: X = 604 | Y = -148 | Z = 15180
+Gyroscope: X = -5024 | Y = -314 | Z = -40
+ 
+Accelerometer: X = 660 | Y = -192 | Z = 15224
+Gyroscope: X = -5056 | Y = -272 | Z = -66
+ 
+Accelerometer: X = 716 | Y = -196 | Z = 15284
+Gyroscope: X = -5008 | Y = -278 | Z = -62
+ 
+Accelerometer: X = 488 | Y = -48 | Z = 15252
+Gyroscope: X = -5024 | Y = -291 | Z = -60
+ 
+Accelerometer: X = 668 | Y = -140 | Z = 15280
+Gyroscope: X = -5040 | Y = -284 | Z = -26
+ 
+Accelerometer: X = 452 | Y = -116 | Z = 15276
+Gyroscope: X = -5040 | Y = -301 | Z = -45
+ 
+Accelerometer: X = 668 | Y = -84 | Z = 15248
+Gyroscope: X = -5024 | Y = -295 | Z = -35
+ 
+Accelerometer: X = 652 | Y = -132 | Z = 15260
+Gyroscope: X = -5024 | Y = -287 | Z = -64
+ 
+Accelerometer: X = 552 | Y = -132 | Z = 15260
+Gyroscope: X = -5008 | Y = -292 | Z = -46
+ 
+Accelerometer: X = 604 | Y = -228 | Z = 15176
+Gyroscope: X = -5024 | Y = -293 | Z = -47
+ 
+Accelerometer: X = 572 | Y = -152 | Z = 15140
+Gyroscope: X = -5008 | Y = -301 | Z = -29
+ 
+Accelerometer: X = 652 | Y = -176 | Z = 15192
+Gyroscope: X = -5008 | Y = -311 | Z = -40
+ 
+Accelerometer: X = 556 | Y = -112 | Z = 15116
+Gyroscope: X = -5008 | Y = -300 | Z = -17
+ 
+Accelerometer: X = 572 | Y = -72 | Z = 15172
+Gyroscope: X = -5024 | Y = -283 | Z = -62
+ 
+Accelerometer: X = 644 | Y = -172 | Z = 15068
+Gyroscope: X = -5040 | Y = -304 | Z = -26
+ 
+Accelerometer: X = 556 | Y = -168 | Z = 15176
+Gyroscope: X = -4992 | Y = -291 | Z = -49
+ 
+Accelerometer: X = 728 | Y = -192 | Z = 15096
+Gyroscope: X = -5024 | Y = -312 | Z = -45
+ 
+Accelerometer: X = 724 | Y = -204 | Z = 15168
+Gyroscope: X = -5024 | Y = -285 | Z = -60
+ 
+Accelerometer: X = 692 | Y = -148 | Z = 15168
+Gyroscope: X = -5008 | Y = -291 | Z = -69
+ 
+Accelerometer: X = 632 | Y = -136 | Z = 15156
+Gyroscope: X = -4992 | Y = -292 | Z = -50
+ 
+Accelerometer: X = 692 | Y = -36 | Z = 15152
+Gyroscope: X = -5040 | Y = -294 | Z = -58
+ 
+Accelerometer: X = 656 | Y = -68 | Z = 15316
+Gyroscope: X = -5024 | Y = -305 | Z = -39
+ 
+Accelerometer: X = 600 | Y = -76 | Z = 15160
+Gyroscope: X = -5040 | Y = -293 | Z = -58
+ 
+Accelerometer: X = 588 | Y = -144 | Z = 15308
+Gyroscope: X = -5024 | Y = -293 | Z = -62
+ 
+Accelerometer: X = 616 | Y = -156 | Z = 15292
+Gyroscope: X = -5040 | Y = -295 | Z = -53
+ 
+Accelerometer: X = 552 | Y = -224 | Z = 15124
+Gyroscope: X = -5024 | Y = -301 | Z = -53
+ 
+Accelerometer: X = 644 | Y = -92 | Z = 15176
+Gyroscope: X = -5008 | Y = -289 | Z = -37
+ 
+Accelerometer: X = 620 | Y = -188 | Z = 15096
+Gyroscope: X = -5040 | Y = -288 | Z = -29
+ 
+Accelerometer: X = 552 | Y = -104 | Z = 15336
+Gyroscope: X = -5024 | Y = -310 | Z = -54
+ 
+Accelerometer: X = 584 | Y = -80 | Z = 15148
+Gyroscope: X = -4976 | Y = -291 | Z = -68
+ 
+Accelerometer: X = 580 | Y = -4 | Z = 15132
+Gyroscope: X = -5024 | Y = -309 | Z = -16
+ 
+Accelerometer: X = 636 | Y = -156 | Z = 15128
+Gyroscope: X = -5024 | Y = -301 | Z = -15
+ 
+Accelerometer: X = 612 | Y = -188 | Z = 15212
+Gyroscope: X = -5008 | Y = -305 | Z = -52
+ 
+Accelerometer: X = 580 | Y = -64 | Z = 15148
+Gyroscope: X = -5008 | Y = -318 | Z = -32
+ 
+Accelerometer: X = 640 | Y = -256 | Z = 15184
+Gyroscope: X = -4992 | Y = -296 | Z = -60
+ 
+Accelerometer: X = 700 | Y = -184 | Z = 15136
+Gyroscope: X = -5024 | Y = -318 | Z = -36
+ 
+Accelerometer: X = 660 | Y = -92 | Z = 15168
+Gyroscope: X = -4976 | Y = -305 | Z = -29
+ 
+Accelerometer: X = 640 | Y = -96 | Z = 15172
+Gyroscope: X = -5024 | Y = -275 | Z = -75
+ 
+Accelerometer: X = 632 | Y = -120 | Z = 15212
+Gyroscope: X = -5024 | Y = -281 | Z = -54
+ 
+Accelerometer: X = 536 | Y = -164 | Z = 15224
+Gyroscope: X = -4992 | Y = -306 | Z = -64
+ 
+Accelerometer: X = 620 | Y = -48 | Z = 15096
+Gyroscope: X = -5008 | Y = -308 | Z = -45
+ 
+Accelerometer: X = 620 | Y = -168 | Z = 15132
+Gyroscope: X = -5024 | Y = -303 | Z = -49
+ 
+Accelerometer: X = 500 | Y = -116 | Z = 15016
+Gyroscope: X = -5008 | Y = -293 | Z = -51
+ 
+Accelerometer: X = 612 | Y = -96 | Z = 15284
+Gyroscope: X = -5008 | Y = -323 | Z = -57
+ 
+Accelerometer: X = 692 | Y = -244 | Z = 15024
+Gyroscope: X = -5024 | Y = -313 | Z = -36
+ 
+Accelerometer: X = 652 | Y = -140 | Z = 15256
+Gyroscope: X = -4992 | Y = -310 | Z = -54
+ 
+Accelerometer: X = 616 | Y = -212 | Z = 15292
+Gyroscope: X = -5008 | Y = -283 | Z = -50
+ 
+Accelerometer: X = 680 | Y = -188 | Z = 15132
+Gyroscope: X = -5008 | Y = -305 | Z = -67
+ 
+Accelerometer: X = 648 | Y = -96 | Z = 15196
+Gyroscope: X = -5024 | Y = -277 | Z = -28
+ 
+Accelerometer: X = 692 | Y = -132 | Z = 15112
+Gyroscope: X = -5024 | Y = -306 | Z = -64
+ 
+Accelerometer: X = 648 | Y = -88 | Z = 15352
+Gyroscope: X = -5008 | Y = -289 | Z = -22
+ 
+Accelerometer: X = 612 | Y = -132 | Z = 15304
+Gyroscope: X = -5008 | Y = -315 | Z = -48
+ 
+Accelerometer: X = 620 | Y = -68 | Z = 15276
+Gyroscope: X = -4992 | Y = -274 | Z = -44
+ 
+Accelerometer: X = 624 | Y = -88 | Z = 15176
+Gyroscope: X = -5024 | Y = -307 | Z = -47
+ 
+Accelerometer: X = 576 | Y = -156 | Z = 15184
+Gyroscope: X = -4976 | Y = -302 | Z = -41
+ 
+Accelerometer: X = 680 | Y = -72 | Z = 15220
+Gyroscope: X = -5008 | Y = -286 | Z = -40
+ 
+Accelerometer: X = 500 | Y = -176 | Z = 15100
+Gyroscope: X = -5024 | Y = -296 | Z = -48
+ 
+Accelerometer: X = 636 | Y = -124 | Z = 15312
+Gyroscope: X = -5008 | Y = -288 | Z = -64
+ 
+Accelerometer: X = 736 | Y = -108 | Z = 15228
+Gyroscope: X = -4992 | Y = -318 | Z = -60
+ 
+Accelerometer: X = 656 | Y = -192 | Z = 15248
+Gyroscope: X = -5040 | Y = -302 | Z = -59
+ 
+Accelerometer: X = 536 | Y = -104 | Z = 15200
+Gyroscope: X = -5024 | Y = -289 | Z = -59
+ 
+Accelerometer: X = 628 | Y = -92 | Z = 15324
+Gyroscope: X = -4976 | Y = -281 | Z = -40
+ 
+Accelerometer: X = 744 | Y = -124 | Z = 15212
+Gyroscope: X = -5024 | Y = -293 | Z = -27
+ 
+Accelerometer: X = 568 | Y = -148 | Z = 15140
+Gyroscope: X = -4992 | Y = -312 | Z = -45
+ 
+Accelerometer: X = 684 | Y = -148 | Z = 15180
+Gyroscope: X = -5008 | Y = -298 | Z = -78
+ 
+Accelerometer: X = 608 | Y = -92 | Z = 15088
+Gyroscope: X = -4992 | Y = -305 | Z = -25
+ 
+Accelerometer: X = 520 | Y = -136 | Z = 15192
+Gyroscope: X = -4976 | Y = -293 | Z = -56
+ 
+Accelerometer: X = 548 | Y = -144 | Z = 15076
+Gyroscope: X = -4992 | Y = -303 | Z = -26
+ 
+Accelerometer: X = 600 | Y = -128 | Z = 15120
+Gyroscope: X = -5024 | Y = -315 | Z = -60
+ 
+Accelerometer: X = 640 | Y = -216 | Z = 15184
+Gyroscope: X = -5008 | Y = -283 | Z = -60
+ 
+Accelerometer: X = 608 | Y = -96 | Z = 15236
+Gyroscope: X = -4976 | Y = -286 | Z = -55
+ 
+Accelerometer: X = 640 | Y = -160 | Z = 15196
+Gyroscope: X = -4992 | Y = -270 | Z = -36
+ 
+Accelerometer: X = 672 | Y = -124 | Z = 15200
+Gyroscope: X = -5008 | Y = -302 | Z = -47
+ 
+Accelerometer: X = 588 | Y = -188 | Z = 15176
+Gyroscope: X = -5024 | Y = -314 | Z = -47
+ 
+Accelerometer: X = 592 | Y = -196 | Z = 15160
+Gyroscope: X = -5008 | Y = -324 | Z = -62
+ 
+Accelerometer: X = 516 | Y = -132 | Z = 15096
+Gyroscope: X = -5024 | Y = -304 | Z = -40
+ 
+Accelerometer: X = 596 | Y = -100 | Z = 15140
+Gyroscope: X = -5008 | Y = -297 | Z = -33
+ 
+Accelerometer: X = 644 | Y = -116 | Z = 15184
+Gyroscope: X = -5024 | Y = -302 | Z = -58
+ 
+Accelerometer: X = 608 | Y = -172 | Z = 15296
+Gyroscope: X = -5024 | Y = -303 | Z = -43
+ 
+Accelerometer: X = 588 | Y = -204 | Z = 15192
+Gyroscope: X = -5008 | Y = -289 | Z = -38
+ 
+Accelerometer: X = 668 | Y = -160 | Z = 15124
+Gyroscope: X = -5008 | Y = -317 | Z = -66
+ 
+Accelerometer: X = 728 | Y = -72 | Z = 15196
+Gyroscope: X = -4992 | Y = -275 | Z = -40
+ 
+Accelerometer: X = 640 | Y = -92 | Z = 15388
+Gyroscope: X = -4976 | Y = -313 | Z = -50
+ 
+Accelerometer: X = 564 | Y = -184 | Z = 15184
+Gyroscope: X = -5024 | Y = -307 | Z = -47
+ 
+Accelerometer: X = 676 | Y = -120 | Z = 15204
+Gyroscope: X = -5008 | Y = -300 | Z = -33
+ 
+Accelerometer: X = 616 | Y = -140 | Z = 15248
+Gyroscope: X = -5024 | Y = -298 | Z = -33
+ 
+Accelerometer: X = 536 | Y = -88 | Z = 15228
+Gyroscope: X = -5008 | Y = -303 | Z = -53
+ 
+Accelerometer: X = 744 | Y = -236 | Z = 15128
+Gyroscope: X = -4992 | Y = -285 | Z = -56
+ 
+Accelerometer: X = 736 | Y = -84 | Z = 15160
+Gyroscope: X = -5008 | Y = -295 | Z = -66
+ 
+Accelerometer: X = 616 | Y = -20 | Z = 15212
+Gyroscope: X = -4992 | Y = -318 | Z = -64
+ 
+Accelerometer: X = 644 | Y = -176 | Z = 15312
+Gyroscope: X = -5008 | Y = -310 | Z = -59
+ 
+Accelerometer: X = 596 | Y = -104 | Z = 15248
+Gyroscope: X = -5024 | Y = -308 | Z = -53
+ 
+Accelerometer: X = 656 | Y = -200 | Z = 15112
+Gyroscope: X = -5008 | Y = -294 | Z = -48
+ 
+Accelerometer: X = 724 | Y = -20 | Z = 15160
+Gyroscope: X = -5024 | Y = -287 | Z = -42
+ 
+Accelerometer: X = 584 | Y = -224 | Z = 15088
+Gyroscope: X = -4976 | Y = -309 | Z = -52
+ 
+Accelerometer: X = 720 | Y = -152 | Z = 15232
+Gyroscope: X = -4992 | Y = -282 | Z = -43
+ 
+Accelerometer: X = 672 | Y = -196 | Z = 15248
+Gyroscope: X = -5008 | Y = -282 | Z = -46
+ 
+Accelerometer: X = 668 | Y = -52 | Z = 15116
+Gyroscope: X = -5024 | Y = -283 | Z = -54
+ 
+Accelerometer: X = 628 | Y = -96 | Z = 15204
+Gyroscope: X = -4992 | Y = -271 | Z = -38
+ 
+Accelerometer: X = 704 | Y = -80 | Z = 15224
+Gyroscope: X = -4976 | Y = -297 | Z = -44
+ 
+Accelerometer: X = 516 | Y = -104 | Z = 15220
+Gyroscope: X = -4960 | Y = -282 | Z = -32
+ 
+Accelerometer: X = 724 | Y = -68 | Z = 15168
+Gyroscope: X = -4976 | Y = -307 | Z = -47
+ 
+Accelerometer: X = 628 | Y = -176 | Z = 15180
+Gyroscope: X = -5008 | Y = -312 | Z = -50
+ 
+Accelerometer: X = 560 | Y = -112 | Z = 15132
+Gyroscope: X = -5008 | Y = -287 | Z = -64
+ 
+Accelerometer: X = 636 | Y = -68 | Z = 15076
+Gyroscope: X = -4992 | Y = -298 | Z = -59
+ 
+Accelerometer: X = 708 | Y = -96 | Z = 15104
+Gyroscope: X = -5008 | Y = -302 | Z = -65
+ 
+Accelerometer: X = 612 | Y = -112 | Z = 15256
+Gyroscope: X = -5024 | Y = -286 | Z = -41
+ 
+Accelerometer: X = 608 | Y = -120 | Z = 15144
+Gyroscope: X = -5008 | Y = -291 | Z = -60
+ 
+Accelerometer: X = 612 | Y = -112 | Z = 15140
+Gyroscope: X = -4976 | Y = -298 | Z = -53
+ 
+Accelerometer: X = 540 | Y = -108 | Z = 15272
+Gyroscope: X = -4992 | Y = -298 | Z = -41
+ 
+Accelerometer: X = 600 | Y = -192 | Z = 15096
+Gyroscope: X = -4976 | Y = -295 | Z = -57
+ 
+Accelerometer: X = 596 | Y = -136 | Z = 15196
+Gyroscope: X = -4992 | Y = -286 | Z = -42
+ 
+Accelerometer: X = 508 | Y = -124 | Z = 15312
+Gyroscope: X = -4960 | Y = -294 | Z = -21
+ 
+Accelerometer: X = 580 | Y = -96 | Z = 15252
+Gyroscope: X = -4976 | Y = -310 | Z = -52
+ 
+Accelerometer: X = 484 | Y = -128 | Z = 15148
+Gyroscope: X = -4960 | Y = -266 | Z = -42
+ 
+Accelerometer: X = 648 | Y = -188 | Z = 15120
+Gyroscope: X = -4992 | Y = -297 | Z = -30
+ 
+Accelerometer: X = 688 | Y = -252 | Z = 15232
+Gyroscope: X = -4992 | Y = -313 | Z = -41
+ 
+Accelerometer: X = 608 | Y = -104 | Z = 15248
+Gyroscope: X = -4976 | Y = -297 | Z = -43
+ 
+Accelerometer: X = 620 | Y = -116 | Z = 15180
+Gyroscope: X = -4992 | Y = -287 | Z = -47
+ 
+Accelerometer: X = 536 | Y = -72 | Z = 15236
+Gyroscope: X = -4976 | Y = -297 | Z = -54
+ 
+Accelerometer: X = 600 | Y = -176 | Z = 15108
+Gyroscope: X = -4960 | Y = -295 | Z = -62
+ 
+Accelerometer: X = 552 | Y = -112 | Z = 15220
+Gyroscope: X = -4976 | Y = -318 | Z = -43
+ 
+Accelerometer: X = 576 | Y = -48 | Z = 15180
+Gyroscope: X = -4960 | Y = -316 | Z = -52
+ 
+Accelerometer: X = 648 | Y = -116 | Z = 15052
+Gyroscope: X = -4944 | Y = -284 | Z = -42
+ 
+Accelerometer: X = 620 | Y = -172 | Z = 15368
+Gyroscope: X = -4960 | Y = -289 | Z = -57
+ 
+Accelerometer: X = 628 | Y = -116 | Z = 15224
+Gyroscope: X = -4976 | Y = -277 | Z = -57
+ 
+Accelerometer: X = 576 | Y = -156 | Z = 14872
+Gyroscope: X = -4976 | Y = -273 | Z = -67
+ 
+Accelerometer: X = 608 | Y = -112 | Z = 15200
+Gyroscope: X = -4960 | Y = -287 | Z = -41
+ 
+Accelerometer: X = 624 | Y = -52 | Z = 15064
+Gyroscope: X = -4976 | Y = -304 | Z = -51
+ 
+Accelerometer: X = 632 | Y = -144 | Z = 15084
+Gyroscope: X = -5024 | Y = -309 | Z = -41
+ 
+Accelerometer: X = 576 | Y = -156 | Z = 15164
+Gyroscope: X = -4976 | Y = -275 | Z = -53
+ 
+Accelerometer: X = 692 | Y = -68 | Z = 15216
+Gyroscope: X = -4992 | Y = -298 | Z = -43
+ 
+Accelerometer: X = 704 | Y = -76 | Z = 15020
+Gyroscope: X = -4960 | Y = -298 | Z = -56
+ 
+Accelerometer: X = 656 | Y = -76 | Z = 15184
+Gyroscope: X = -5008 | Y = -272 | Z = -46
+ 
+Accelerometer: X = 724 | Y = -124 | Z = 15252
+Gyroscope: X = -4976 | Y = -292 | Z = -41
+ 
+Accelerometer: X = 644 | Y = -80 | Z = 15156
+Gyroscope: X = -4976 | Y = -312 | Z = -91
+ 
+Accelerometer: X = 720 | Y = -176 | Z = 15160
+Gyroscope: X = -4960 | Y = -298 | Z = -40
+ 
+Accelerometer: X = 788 | Y = -44 | Z = 15228
+Gyroscope: X = -4976 | Y = -296 | Z = -51
+ 
+Accelerometer: X = 600 | Y = -132 | Z = 15208
+Gyroscope: X = -4992 | Y = -313 | Z = -42
+ 
+Accelerometer: X = 552 | Y = -92 | Z = 15276
+Gyroscope: X = -4976 | Y = -323 | Z = -49
+ 
+Accelerometer: X = 476 | Y = -136 | Z = 15224
+Gyroscope: X = -4960 | Y = -310 | Z = -49
+ 
+Accelerometer: X = 604 | Y = -88 | Z = 15112
+Gyroscope: X = -4976 | Y = -272 | Z = -53
+ 
+Accelerometer: X = 668 | Y = -196 | Z = 15264
+Gyroscope: X = -4960 | Y = -287 | Z = -52
+ 
+Accelerometer: X = 724 | Y = -64 | Z = 15092
+Gyroscope: X = -4976 | Y = -301 | Z = -49
+ 
+Accelerometer: X = 560 | Y = -120 | Z = 15124
+Gyroscope: X = -4992 | Y = -295 | Z = -67
+ 
+Accelerometer: X = 524 | Y = -124 | Z = 15060
+Gyroscope: X = -4976 | Y = -307 | Z = -45
+ 
+Accelerometer: X = 688 | Y = -132 | Z = 15468
+Gyroscope: X = -4992 | Y = -309 | Z = -85
+ 
+Accelerometer: X = 660 | Y = -108 | Z = 15224
+Gyroscope: X = -4992 | Y = -314 | Z = -30
+ 
+Accelerometer: X = 556 | Y = -64 | Z = 15156
+Gyroscope: X = -4976 | Y = -289 | Z = -60
+ 
+Accelerometer: X = 612 | Y = -84 | Z = 15200
+Gyroscope: X = -4960 | Y = -299 | Z = -62
+ 
+Accelerometer: X = 592 | Y = -80 | Z = 15112
+Gyroscope: X = -4960 | Y = -314 | Z = -47
+ 
+Accelerometer: X = 608 | Y = -152 | Z = 15228
+Gyroscope: X = -4992 | Y = -304 | Z = -49
+ 
+Accelerometer: X = 428 | Y = -192 | Z = 15112
+Gyroscope: X = -4944 | Y = -274 | Z = -85
+ 
+Accelerometer: X = 640 | Y = -24 | Z = 15212
+Gyroscope: X = -4992 | Y = -311 | Z = -52
+ 
+Accelerometer: X = 696 | Y = -128 | Z = 14976
+Gyroscope: X = -4976 | Y = -282 | Z = -25
+ 
+Accelerometer: X = 644 | Y = -200 | Z = 15108
+Gyroscope: X = -4976 | Y = -273 | Z = -27
+ 
+Accelerometer: X = 528 | Y = -100 | Z = 15372
+Gyroscope: X = -4960 | Y = -305 | Z = 7
+ 
+Accelerometer: X = 600 | Y = -96 | Z = 15116
+Gyroscope: X = -4976 | Y = -295 | Z = -45
+ 
+Accelerometer: X = 604 | Y = -172 | Z = 15096
+Gyroscope: X = -4992 | Y = -288 | Z = -55
+ 
+Accelerometer: X = 556 | Y = -104 | Z = 15200
+Gyroscope: X = -4992 | Y = -282 | Z = -52
+ 
+Accelerometer: X = 568 | Y = -164 | Z = 15148
+Gyroscope: X = -4960 | Y = -292 | Z = -65
+ 
+Accelerometer: X = 672 | Y = -188 | Z = 15212
+Gyroscope: X = -4992 | Y = -295 | Z = -54
+ 
+Accelerometer: X = 604 | Y = -160 | Z = 15160
+Gyroscope: X = -4960 | Y = -295 | Z = -53
+ 
+Accelerometer: X = 628 | Y = -176 | Z = 15176
+Gyroscope: X = -4992 | Y = -284 | Z = -54
+ 
+Accelerometer: X = 776 | Y = -192 | Z = 15228
+Gyroscope: X = -4960 | Y = -274 | Z = -6
+ 
+Accelerometer: X = 748 | Y = -116 | Z = 15240
+Gyroscope: X = -4960 | Y = -285 | Z = -59
+ 
+Accelerometer: X = 692 | Y = -52 | Z = 15192
+Gyroscope: X = -4976 | Y = -259 | Z = -51
+ 
+Accelerometer: X = 632 | Y = -52 | Z = 15120
+Gyroscope: X = -4976 | Y = -284 | Z = -54
+ 
+Accelerometer: X = 544 | Y = -32 | Z = 15200
+Gyroscope: X = -4976 | Y = -306 | Z = -37
+ 
+Accelerometer: X = 564 | Y = -40 | Z = 15096
+Gyroscope: X = -4992 | Y = -295 | Z = -40
+ 
+Accelerometer: X = 700 | Y = -24 | Z = 15184
+Gyroscope: X = -4960 | Y = -297 | Z = -19
+ 
+Accelerometer: X = 568 | Y = -4 | Z = 15288
+Gyroscope: X = -4976 | Y = -296 | Z = -39
+ 
+Accelerometer: X = 624 | Y = -156 | Z = 15120
+Gyroscope: X = -4960 | Y = -304 | Z = -48
+ 
+Accelerometer: X = 636 | Y = -68 | Z = 15084
+Gyroscope: X = -4960 | Y = -294 | Z = -57
+ 
+Accelerometer: X = 624 | Y = -56 | Z = 15028
+Gyroscope: X = -4976 | Y = -288 | Z = -91
+ 
+Accelerometer: X = 524 | Y = -96 | Z = 15096
+Gyroscope: X = -4944 | Y = -300 | Z = -29
+ 
+Accelerometer: X = 556 | Y = -92 | Z = 15216
+Gyroscope: X = -4976 | Y = -311 | Z = -35
+ 
+Accelerometer: X = 636 | Y = -144 | Z = 15108
+Gyroscope: X = -4976 | Y = -298 | Z = -34
+ 
+Accelerometer: X = 460 | Y = -24 | Z = 15144
+Gyroscope: X = -4960 | Y = -289 | Z = -49
+ 
+Accelerometer: X = 620 | Y = -124 | Z = 15084
+Gyroscope: X = -4960 | Y = -284 | Z = -42
+ 
+Accelerometer: X = 652 | Y = -144 | Z = 15072
+Gyroscope: X = -4944 | Y = -288 | Z = -53
+ 
+Accelerometer: X = 408 | Y = -116 | Z = 15280
+Gyroscope: X = -4976 | Y = -288 | Z = -49
+ 
+Accelerometer: X = 612 | Y = -96 | Z = 15184
+Gyroscope: X = -4992 | Y = -291 | Z = -40
+ 
+Accelerometer: X = 516 | Y = -140 | Z = 15212
+Gyroscope: X = -4944 | Y = -286 | Z = -89
+ 
+Accelerometer: X = 700 | Y = -76 | Z = 15284
+Gyroscope: X = -4944 | Y = -301 | Z = -60
+ 
+Accelerometer: X = 612 | Y = -120 | Z = 15212
+Gyroscope: X = -4992 | Y = -290 | Z = -50
+ 
+Accelerometer: X = 568 | Y = -248 | Z = 15168
+Gyroscope: X = -4992 | Y = -303 | Z = -53
+ 
+Accelerometer: X = 508 | Y = -36 | Z = 15376
+Gyroscope: X = -4944 | Y = -299 | Z = -54
+ 
+Accelerometer: X = 684 | Y = -84 | Z = 15200
+Gyroscope: X = -4960 | Y = -319 | Z = -56
+ 
+Accelerometer: X = 636 | Y = -56 | Z = 15156
+Gyroscope: X = -4992 | Y = -293 | Z = -42
+ 
+Accelerometer: X = 656 | Y = -164 | Z = 15048
+Gyroscope: X = -4976 | Y = -290 | Z = -22
+ 
+Accelerometer: X = 876 | Y = -160 | Z = 15124
+Gyroscope: X = -5008 | Y = -274 | Z = -28
+ 
+Accelerometer: X = 696 | Y = -68 | Z = 15124
+Gyroscope: X = -4976 | Y = -280 | Z = -61
+ 
+Accelerometer: X = 724 | Y = -120 | Z = 15040
+Gyroscope: X = -4976 | Y = -311 | Z = -59
+ 
+Accelerometer: X = 472 | Y = -176 | Z = 15364
+Gyroscope: X = -4992 | Y = -287 | Z = -58
+ 
+Accelerometer: X = 524 | Y = -108 | Z = 15104
+Gyroscope: X = -4960 | Y = -290 | Z = -56
+ 
+Accelerometer: X = 644 | Y = -124 | Z = 15168
+Gyroscope: X = -4976 | Y = -257 | Z = -82
+ 
+Accelerometer: X = 568 | Y = 0 | Z = 14968
+Gyroscope: X = -4944 | Y = -298 | Z = -67
+ 
+Accelerometer: X = 740 | Y = -196 | Z = 15224
+Gyroscope: X = -4992 | Y = -310 | Z = -58
+ 
+Accelerometer: X = 748 | Y = -176 | Z = 15124
+Gyroscope: X = -4992 | Y = -282 | Z = -26
+ 
+Accelerometer: X = 620 | Y = -192 | Z = 15192
+Gyroscope: X = -4976 | Y = -325 | Z = -18
+ 
+Accelerometer: X = 428 | Y = -148 | Z = 15644
+Gyroscope: X = -4976 | Y = -289 | Z = -24
+ 
+Accelerometer: X = 596 | Y = -132 | Z = 15300
+Gyroscope: X = -4960 | Y = -293 | Z = -44
+ 
+Accelerometer: X = 740 | Y = -96 | Z = 15276
+Gyroscope: X = -4960 | Y = -295 | Z = -8
+ 
+Accelerometer: X = 600 | Y = -136 | Z = 15300
+Gyroscope: X = -4944 | Y = -270 | Z = -33
+ 
+Accelerometer: X = 584 | Y = -104 | Z = 15080
+Gyroscope: X = -4976 | Y = -320 | Z = -49
+ 
+Accelerometer: X = 500 | Y = 8 | Z = 15044
+Gyroscope: X = -4960 | Y = -307 | Z = -52
+ 
+Accelerometer: X = 688 | Y = -76 | Z = 15248
+Gyroscope: X = -4960 | Y = -272 | Z = -61
+ 
+Accelerometer: X = 452 | Y = -88 | Z = 15472
+Gyroscope: X = -4976 | Y = -300 | Z = -7
+ 
+Accelerometer: X = 592 | Y = -100 | Z = 15152
+Gyroscope: X = -4992 | Y = -299 | Z = -41
+ 
+Accelerometer: X = 556 | Y = -128 | Z = 15172
+Gyroscope: X = -4976 | Y = -294 | Z = -48
+ 
+Accelerometer: X = 616 | Y = -64 | Z = 15292
+Gyroscope: X = -5008 | Y = -280 | Z = -62
+ 
+Accelerometer: X = 644 | Y = -176 | Z = 15220
+Gyroscope: X = -4976 | Y = -318 | Z = -44
+ 
+Accelerometer: X = 584 | Y = -96 | Z = 15192
+Gyroscope: X = -4944 | Y = -274 | Z = -44
+ 
+Accelerometer: X = 584 | Y = -144 | Z = 15076
+Gyroscope: X = -4960 | Y = -278 | Z = -29
+ 
+Accelerometer: X = 420 | Y = -84 | Z = 15132
+Gyroscope: X = -4992 | Y = -295 | Z = -23
+ 
+Accelerometer: X = 620 | Y = -132 | Z = 15088
+Gyroscope: X = -4960 | Y = -299 | Z = -73
+ 
+Accelerometer: X = 456 | Y = -52 | Z = 15152
+Gyroscope: X = -4960 | Y = -294 | Z = -46
+ 
+Accelerometer: X = 664 | Y = -156 | Z = 15024
+Gyroscope: X = -4944 | Y = -271 | Z = -75
+ 
+Accelerometer: X = 596 | Y = -76 | Z = 15100
+Gyroscope: X = -4944 | Y = -307 | Z = -41
+ 
+Accelerometer: X = 708 | Y = -140 | Z = 15220
+Gyroscope: X = -4960 | Y = -277 | Z = -45
+ 
+Accelerometer: X = 644 | Y = -76 | Z = 15088
+Gyroscope: X = -4960 | Y = -284 | Z = -67
+ 
+Accelerometer: X = 600 | Y = -164 | Z = 15052
+Gyroscope: X = -4976 | Y = -281 | Z = -58
+ 
+Accelerometer: X = 612 | Y = -160 | Z = 15116
+Gyroscope: X = -4976 | Y = -301 | Z = -47
+ 
+Accelerometer: X = 704 | Y = -40 | Z = 15272
+Gyroscope: X = -4960 | Y = -331 | Z = -57
+ 
+Accelerometer: X = 660 | Y = -204 | Z = 15196
+Gyroscope: X = -4960 | Y = -292 | Z = -59
+ 
+Accelerometer: X = 648 | Y = -88 | Z = 15300
+Gyroscope: X = -4960 | Y = -306 | Z = -45
+ 
+Accelerometer: X = 688 | Y = -4 | Z = 15156
+Gyroscope: X = -4960 | Y = -287 | Z = -46
+ 
+Accelerometer: X = 628 | Y = -36 | Z = 15216
+Gyroscope: X = -5008 | Y = -279 | Z = -49
+ 
+Accelerometer: X = 556 | Y = -92 | Z = 15256
+Gyroscope: X = -4976 | Y = -285 | Z = -57
+ 
+Accelerometer: X = 596 | Y = -80 | Z = 15200
+Gyroscope: X = -4976 | Y = -289 | Z = -50
+ 
+Accelerometer: X = 624 | Y = -208 | Z = 15216
+Gyroscope: X = -4976 | Y = -299 | Z = -33
+ 
+Accelerometer: X = 564 | Y = -28 | Z = 15128
+Gyroscope: X = -4976 | Y = -307 | Z = -43
+ 
+Accelerometer: X = 576 | Y = -56 | Z = 15212
+Gyroscope: X = -4976 | Y = -302 | Z = -37
+ 
+Accelerometer: X = 500 | Y = -60 | Z = 15156
+Gyroscope: X = -4960 | Y = -264 | Z = -52
+ 
+Accelerometer: X = 668 | Y = -76 | Z = 15144
+Gyroscope: X = -4960 | Y = -307 | Z = -24
+ 
+Accelerometer: X = 596 | Y = -44 | Z = 15204
+Gyroscope: X = -4944 | Y = -306 | Z = -48
+ 
+Accelerometer: X = 596 | Y = -56 | Z = 15144
+Gyroscope: X = -4928 | Y = -296 | Z = -27
+ 
+Accelerometer: X = 708 | Y = -96 | Z = 15120
+Gyroscope: X = -4992 | Y = -290 | Z = -80
+ 
+Accelerometer: X = 604 | Y = -84 | Z = 15220
+Gyroscope: X = -4976 | Y = -320 | Z = -60
+ 
+Accelerometer: X = 648 | Y = -172 | Z = 15316
+Gyroscope: X = -4960 | Y = -292 | Z = -33
+ 
+Accelerometer: X = 856 | Y = -216 | Z = 15124
+Gyroscope: X = -4976 | Y = -303 | Z = -41
+ 
+Accelerometer: X = 784 | Y = -132 | Z = 15260
+Gyroscope: X = -4976 | Y = -308 | Z = -37
+ 
+Accelerometer: X = 464 | Y = -176 | Z = 15096
+Gyroscope: X = -4992 | Y = -298 | Z = -64
+ 
+Accelerometer: X = 524 | Y = -192 | Z = 15068
+Gyroscope: X = -4992 | Y = -276 | Z = -50
+ 
+Accelerometer: X = 508 | Y = -104 | Z = 15256
+Gyroscope: X = -4960 | Y = -302 | Z = -58
+ 
+Accelerometer: X = 676 | Y = -124 | Z = 15224
+Gyroscope: X = -4960 | Y = -284 | Z = -65
+ 
+Accelerometer: X = 512 | Y = -160 | Z = 15168
+Gyroscope: X = -4960 | Y = -272 | Z = -66
+ 
+Accelerometer: X = 668 | Y = -136 | Z = 15248
+Gyroscope: X = -4960 | Y = -280 | Z = -41
+ 
+Accelerometer: X = 576 | Y = -24 | Z = 15288
+Gyroscope: X = -4992 | Y = -297 | Z = -28
+ 
+Accelerometer: X = 636 | Y = 52 | Z = 15192
+Gyroscope: X = -4928 | Y = -296 | Z = -33
+ 
+Accelerometer: X = 744 | Y = -120 | Z = 14928
+Gyroscope: X = -4976 | Y = -274 | Z = -60
+ 
+Accelerometer: X = 600 | Y = -108 | Z = 15164
+Gyroscope: X = -4976 | Y = -288 | Z = -58
+ 
+Accelerometer: X = 556 | Y = 20 | Z = 15100
+Gyroscope: X = -4960 | Y = -291 | Z = -43
+ 
+Accelerometer: X = 576 | Y = -156 | Z = 15100
+Gyroscope: X = -4960 | Y = -274 | Z = -58
+ 
+Accelerometer: X = 576 | Y = -52 | Z = 15172
+Gyroscope: X = -4960 | Y = -271 | Z = -42
+ 
+Accelerometer: X = 552 | Y = -116 | Z = 15104
+Gyroscope: X = -4992 | Y = -314 | Z = -79
+ 
+Accelerometer: X = 544 | Y = -88 | Z = 15208
+Gyroscope: X = -4960 | Y = -293 | Z = -57
+ 
+Accelerometer: X = 584 | Y = -112 | Z = 15148
+Gyroscope: X = -4992 | Y = -275 | Z = -38
+ 
+Accelerometer: X = 568 | Y = -64 | Z = 15204
+Gyroscope: X = -4944 | Y = -307 | Z = -57
+ 
+Accelerometer: X = 580 | Y = -200 | Z = 15240
+Gyroscope: X = -4992 | Y = -307 | Z = -66
+ 
+Accelerometer: X = 680 | Y = -64 | Z = 15164
+Gyroscope: X = -4960 | Y = -288 | Z = -57
+ 
+Accelerometer: X = 644 | Y = -168 | Z = 15312
+Gyroscope: X = -4960 | Y = -299 | Z = -25
+ 
+Accelerometer: X = 580 | Y = -224 | Z = 15276
+Gyroscope: X = -4960 | Y = -316 | Z = -65
+ 
+Accelerometer: X = 628 | Y = -68 | Z = 15236
+Gyroscope: X = -4960 | Y = -299 | Z = -63
+ 
+Accelerometer: X = 776 | Y = -168 | Z = 14972
+Gyroscope: X = -4960 | Y = -296 | Z = -37
+ 
+Accelerometer: X = 508 | Y = -116 | Z = 15140
+Gyroscope: X = -4960 | Y = -312 | Z = -63
+ 
+Accelerometer: X = 616 | Y = -92 | Z = 15244
+Gyroscope: X = -4960 | Y = -285 | Z = -42
+ 
+Accelerometer: X = 592 | Y = -108 | Z = 15344
+Gyroscope: X = -4992 | Y = -306 | Z = -66
+ 
+Accelerometer: X = 528 | Y = 12 | Z = 15088
+Gyroscope: X = -4944 | Y = -308 | Z = -52
+ 
+Accelerometer: X = 580 | Y = -200 | Z = 15124
+Gyroscope: X = -4960 | Y = -296 | Z = -78
+ 
+Accelerometer: X = 688 | Y = -108 | Z = 15108
+Gyroscope: X = -4960 | Y = -271 | Z = -56
+ 
+Accelerometer: X = 664 | Y = -88 | Z = 15152
+Gyroscope: X = -4976 | Y = -319 | Z = -29
+ 
+Accelerometer: X = 536 | Y = -180 | Z = 15312
+Gyroscope: X = -4960 | Y = -314 | Z = -63
+ 
+Accelerometer: X = 704 | Y = -48 | Z = 15240
+Gyroscope: X = -4992 | Y = -289 | Z = -40
+ 
+Accelerometer: X = 708 | Y = -132 | Z = 15036
+Gyroscope: X = -4976 | Y = -303 | Z = -64
+ 
+Accelerometer: X = 600 | Y = -96 | Z = 15248
+Gyroscope: X = -4976 | Y = -293 | Z = -56
+ 
+Accelerometer: X = 696 | Y = -116 | Z = 15216
+Gyroscope: X = -4992 | Y = -294 | Z = -44
+ 
+Accelerometer: X = 460 | Y = -100 | Z = 15260
+Gyroscope: X = -4976 | Y = -277 | Z = -30
+ 
+Accelerometer: X = 712 | Y = -80 | Z = 15104
+Gyroscope: X = -4976 | Y = -314 | Z = -48
+ 
+Accelerometer: X = 704 | Y = -148 | Z = 15292
+Gyroscope: X = -4992 | Y = -265 | Z = -43
+ 
+Accelerometer: X = 652 | Y = -112 | Z = 15120
+Gyroscope: X = -4992 | Y = -307 | Z = -51
+ 
+Accelerometer: X = 616 | Y = -196 | Z = 15096
+Gyroscope: X = -4976 | Y = -292 | Z = -49
+ 
+Accelerometer: X = 596 | Y = -124 | Z = 15180
+Gyroscope: X = -4960 | Y = -278 | Z = -40
+ 
+Accelerometer: X = 672 | Y = -180 | Z = 15252
+Gyroscope: X = -4960 | Y = -282 | Z = -75
+ 
+Accelerometer: X = 588 | Y = -176 | Z = 15224
+Gyroscope: X = -4944 | Y = -296 | Z = -61
+ 
+Accelerometer: X = 608 | Y = -156 | Z = 15156
+Gyroscope: X = -4960 | Y = -291 | Z = -51
+ 
+Accelerometer: X = 364 | Y = -100 | Z = 15316
+Gyroscope: X = -4976 | Y = -283 | Z = -48
+ 
+Accelerometer: X = 628 | Y = -76 | Z = 15160
+Gyroscope: X = -4992 | Y = -308 | Z = -56
+ 
+Accelerometer: X = 688 | Y = -288 | Z = 15196
+Gyroscope: X = -4944 | Y = -283 | Z = -47
+ 
+Accelerometer: X = 468 | Y = -108 | Z = 15236
+Gyroscope: X = -4960 | Y = -294 | Z = -46
+ 
+Accelerometer: X = 644 | Y = -152 | Z = 15240
+Gyroscope: X = -4960 | Y = -290 | Z = -63
+ 
+Accelerometer: X = 656 | Y = -220 | Z = 15148
+Gyroscope: X = -4976 | Y = -274 | Z = -31
+ 
+Accelerometer: X = 700 | Y = -88 | Z = 15252
+Gyroscope: X = -4960 | Y = -295 | Z = -45
+ 
+Accelerometer: X = 704 | Y = -280 | Z = 15276
+Gyroscope: X = -4976 | Y = -310 | Z = -52
+ 
+Accelerometer: X = 740 | Y = -36 | Z = 15200
+Gyroscope: X = -4944 | Y = -291 | Z = -62
+ 
+Accelerometer: X = 632 | Y = -136 | Z = 15176
+Gyroscope: X = -4960 | Y = -290 | Z = -59
+ 
+Accelerometer: X = 676 | Y = -132 | Z = 15232
+Gyroscope: X = -4960 | Y = -296 | Z = -69
+ 
+Accelerometer: X = 672 | Y = -124 | Z = 14912
+Gyroscope: X = -4960 | Y = -300 | Z = -85
+ 
+Accelerometer: X = 632 | Y = -60 | Z = 15144
+Gyroscope: X = -4944 | Y = -291 | Z = -53
+ 
+Accelerometer: X = 748 | Y = -136 | Z = 15184
+Gyroscope: X = -4976 | Y = -288 | Z = -30
+ 
+Accelerometer: X = 664 | Y = -136 | Z = 15224
+Gyroscope: X = -4960 | Y = -295 | Z = -34
+ 
+Accelerometer: X = 652 | Y = -128 | Z = 15276
+Gyroscope: X = -4976 | Y = -284 | Z = -56
+ 
+Accelerometer: X = 592 | Y = -120 | Z = 15112
+Gyroscope: X = -4960 | Y = -283 | Z = -62
+ 
+Accelerometer: X = 652 | Y = -168 | Z = 15244
+Gyroscope: X = -4960 | Y = -312 | Z = -13
+ 
+Accelerometer: X = 612 | Y = 16 | Z = 15148
+Gyroscope: X = -4944 | Y = -298 | Z = -64
+ 
+Accelerometer: X = 464 | Y = -44 | Z = 15184
+Gyroscope: X = -4992 | Y = -306 | Z = -57
+ 
+Accelerometer: X = 640 | Y = -144 | Z = 15128
+Gyroscope: X = -4976 | Y = -291 | Z = -57
+ 
+Accelerometer: X = 672 | Y = -64 | Z = 14948
+Gyroscope: X = -4960 | Y = -267 | Z = -41
+ 
+Accelerometer: X = 628 | Y = -176 | Z = 15236
+Gyroscope: X = -4976 | Y = -287 | Z = -44
+ 
+Accelerometer: X = 664 | Y = -144 | Z = 14960
+Gyroscope: X = -4944 | Y = -279 | Z = -47
+ 
+Accelerometer: X = 596 | Y = -160 | Z = 15348
+Gyroscope: X = -4960 | Y = -313 | Z = -43
+ 
+Accelerometer: X = 536 | Y = -68 | Z = 15336
+Gyroscope: X = -4960 | Y = -276 | Z = -35
+ 
+Accelerometer: X = 572 | Y = -108 | Z = 15088
+Gyroscope: X = -4960 | Y = -296 | Z = -42
+ 
+Accelerometer: X = 652 | Y = -224 | Z = 15264
+Gyroscope: X = -4944 | Y = -275 | Z = -47
+ 
+Accelerometer: X = 588 | Y = -152 | Z = 15048
+Gyroscope: X = -4960 | Y = -316 | Z = -69
+ 
+Accelerometer: X = 592 | Y = 8 | Z = 15024
+Gyroscope: X = -4992 | Y = -307 | Z = -43
+ 
+Accelerometer: X = 816 | Y = -60 | Z = 15000
+Gyroscope: X = -4960 | Y = -281 | Z = -54
+ 
+Accelerometer: X = 624 | Y = -32 | Z = 15352
+Gyroscope: X = -4976 | Y = -311 | Z = -53
+ 
+Accelerometer: X = 568 | Y = -136 | Z = 15200
+Gyroscope: X = -4992 | Y = -298 | Z = -41
+ 
+Accelerometer: X = 568 | Y = -144 | Z = 15168
+Gyroscope: X = -4960 | Y = -308 | Z = -56
+ 
+Accelerometer: X = 716 | Y = -108 | Z = 15304
+Gyroscope: X = -4976 | Y = -287 | Z = -39
+ 
+Accelerometer: X = 612 | Y = -88 | Z = 15160
+Gyroscope: X = -4960 | Y = -298 | Z = -65
+ 
+Accelerometer: X = 560 | Y = -28 | Z = 15184
+Gyroscope: X = -4976 | Y = -290 | Z = -49
+ 
+Accelerometer: X = 476 | Y = -76 | Z = 15220
+Gyroscope: X = -4960 | Y = -284 | Z = -60
+ 
+Accelerometer: X = 536 | Y = 56 | Z = 15212
+Gyroscope: X = -4944 | Y = -316 | Z = -57
+ 
+Accelerometer: X = 528 | Y = -60 | Z = 15028
+Gyroscope: X = -4960 | Y = -282 | Z = -57
+ 
+Accelerometer: X = 540 | Y = -188 | Z = 15212
+Gyroscope: X = -4960 | Y = -283 | Z = -49
+ 
+Accelerometer: X = 604 | Y = -108 | Z = 15296
+Gyroscope: X = -4944 | Y = -297 | Z = -57
+ 
+Accelerometer: X = 648 | Y = -240 | Z = 15232
+Gyroscope: X = -4992 | Y = -306 | Z = -33
+ 
+Accelerometer: X = 712 | Y = -40 | Z = 15120
+Gyroscope: X = -4960 | Y = -293 | Z = -36
+ 
+Accelerometer: X = 656 | Y = -76 | Z = 15132
+Gyroscope: X = -4976 | Y = -280 | Z = -58
+ 
+Accelerometer: X = 616 | Y = -124 | Z = 15216
+Gyroscope: X = -4976 | Y = -289 | Z = -53
+ 
+Accelerometer: X = 532 | Y = -172 | Z = 15256
+Gyroscope: X = -4976 | Y = -288 | Z = -57
+ 
+Accelerometer: X = 404 | Y = -236 | Z = 15112
+Gyroscope: X = -4976 | Y = -295 | Z = -79
+ 
+Accelerometer: X = 516 | Y = -108 | Z = 15252
+Gyroscope: X = -4976 | Y = -307 | Z = -38
+ 
+Accelerometer: X = 392 | Y = -84 | Z = 15060
+Gyroscope: X = -4976 | Y = -292 | Z = -70
+ 
+Accelerometer: X = 552 | Y = -128 | Z = 15212
+Gyroscope: X = -4960 | Y = -301 | Z = -56
+ 
+Accelerometer: X = 504 | Y = -76 | Z = 15096
+Gyroscope: X = -4960 | Y = -316 | Z = -43
+ 
+Accelerometer: X = 688 | Y = -64 | Z = 15112
+Gyroscope: X = -4960 | Y = -298 | Z = -37
+ 
+Accelerometer: X = 612 | Y = -4 | Z = 15160
+Gyroscope: X = -4976 | Y = -284 | Z = -63
+ 
+Accelerometer: X = 632 | Y = -88 | Z = 15212
+Gyroscope: X = -4960 | Y = -327 | Z = -36
+ 
+Accelerometer: X = 752 | Y = -104 | Z = 15144
+Gyroscope: X = -4928 | Y = -322 | Z = -57
+ 
+Accelerometer: X = 528 | Y = -148 | Z = 15132
+Gyroscope: X = -4960 | Y = -291 | Z = -44
+ 
+Accelerometer: X = 572 | Y = -104 | Z = 15252
+Gyroscope: X = -4960 | Y = -299 | Z = -59
+ 
+Accelerometer: X = 488 | Y = -120 | Z = 15200
+Gyroscope: X = -4976 | Y = -296 | Z = -48
+ 
+Accelerometer: X = 600 | Y = -48 | Z = 15276
+Gyroscope: X = -4960 | Y = -302 | Z = -39
+ 
+Accelerometer: X = 668 | Y = -60 | Z = 15212
+Gyroscope: X = -4992 | Y = -303 | Z = -51
+ 
+Accelerometer: X = 668 | Y = -16 | Z = 15080
+Gyroscope: X = -4944 | Y = -310 | Z = -45
+ 
+Accelerometer: X = 612 | Y = -144 | Z = 15100
+Gyroscope: X = -4960 | Y = -286 | Z = -74
+ 
+Accelerometer: X = 652 | Y = -224 | Z = 15284
+Gyroscope: X = -4960 | Y = -289 | Z = -73
+ 
+Accelerometer: X = 628 | Y = -184 | Z = 15200
+Gyroscope: X = -4976 | Y = -283 | Z = -51
+ 
+Accelerometer: X = 584 | Y = -20 | Z = 15228
+Gyroscope: X = -4976 | Y = -294 | Z = -36
+ 
+Accelerometer: X = 564 | Y = -228 | Z = 15104
+Gyroscope: X = -4960 | Y = -307 | Z = -46
+ 
+Accelerometer: X = 680 | Y = -116 | Z = 15092
+Gyroscope: X = -4992 | Y = -287 | Z = -39
+ 
+Accelerometer: X = 548 | Y = -120 | Z = 15112
+Gyroscope: X = -4992 | Y = -269 | Z = -55
+ 
+Accelerometer: X = 572 | Y = -188 | Z = 15152
+Gyroscope: X = -4928 | Y = -301 | Z = -44
+ 
+Accelerometer: X = 504 | Y = -96 | Z = 15104
+Gyroscope: X = -4960 | Y = -305 | Z = -67
+ 
+Accelerometer: X = 532 | Y = -4 | Z = 14956
+Gyroscope: X = -4992 | Y = -308 | Z = -84
+ 
+Accelerometer: X = 660 | Y = -216 | Z = 15176
+Gyroscope: X = -4944 | Y = -308 | Z = -57
+ 
+Accelerometer: X = 580 | Y = -248 | Z = 15096
+Gyroscope: X = -4944 | Y = -303 | Z = -53
+ 
+Accelerometer: X = 620 | Y = -140 | Z = 15016
+Gyroscope: X = -4944 | Y = -273 | Z = -23
+ 
+Accelerometer: X = 600 | Y = -120 | Z = 14960
+Gyroscope: X = -4944 | Y = -300 | Z = -41
+ 
+Accelerometer: X = 532 | Y = -232 | Z = 15288
+Gyroscope: X = -4960 | Y = -302 | Z = -22
+ 
+Accelerometer: X = 600 | Y = -128 | Z = 15272
+Gyroscope: X = -4928 | Y = -308 | Z = -23
+ 
+Accelerometer: X = 480 | Y = -196 | Z = 15068
+Gyroscope: X = -4960 | Y = -312 | Z = -48
+ 
+Accelerometer: X = 572 | Y = -160 | Z = 15036
+Gyroscope: X = -4944 | Y = -297 | Z = -37
+ 
+Accelerometer: X = 548 | Y = -160 | Z = 15372
+Gyroscope: X = -4944 | Y = -284 | Z = -49
+ 
+Accelerometer: X = 612 | Y = -44 | Z = 15248
+Gyroscope: X = -4976 | Y = -296 | Z = -58
+ 
+Accelerometer: X = 660 | Y = -100 | Z = 15236
+Gyroscope: X = -4960 | Y = -286 | Z = -28
+ 
+Accelerometer: X = 568 | Y = -64 | Z = 15132
+Gyroscope: X = -4944 | Y = -299 | Z = -65
+ 
+Accelerometer: X = 616 | Y = -116 | Z = 14944
+Gyroscope: X = -4928 | Y = -285 | Z = -57
+ 
+Accelerometer: X = 676 | Y = -92 | Z = 15092
+Gyroscope: X = -4928 | Y = -336 | Z = -62
+ 
+Accelerometer: X = 684 | Y = -164 | Z = 15232
+Gyroscope: X = -4944 | Y = -297 | Z = -57
+ 
+Accelerometer: X = 616 | Y = -48 | Z = 15180
+Gyroscope: X = -4976 | Y = -295 | Z = -52
+ 
+Accelerometer: X = 516 | Y = -136 | Z = 15252
+Gyroscope: X = -4960 | Y = -308 | Z = -59
+ 
+Accelerometer: X = 624 | Y = -56 | Z = 15284
+Gyroscope: X = -4944 | Y = -290 | Z = -41
+ 
+Accelerometer: X = 600 | Y = -52 | Z = 15096
+Gyroscope: X = -4992 | Y = -293 | Z = -43
+ 
+Accelerometer: X = 560 | Y = -224 | Z = 15124
+Gyroscope: X = -4976 | Y = -277 | Z = -35
+ 
+Accelerometer: X = 620 | Y = -64 | Z = 15132
+Gyroscope: X = -4912 | Y = -285 | Z = -49
+ 
+Accelerometer: X = 536 | Y = -144 | Z = 15132
+Gyroscope: X = -4960 | Y = -287 | Z = -45
+ 
+Accelerometer: X = 612 | Y = -68 | Z = 15196
+Gyroscope: X = -4960 | Y = -300 | Z = -43
+ 
+Accelerometer: X = 584 | Y = -156 | Z = 15204
+Gyroscope: X = -4960 | Y = -302 | Z = -40
+ 
+Accelerometer: X = 532 | Y = -192 | Z = 15140
+Gyroscope: X = -4976 | Y = -315 | Z = -18
+ 
+Accelerometer: X = 560 | Y = -32 | Z = 15144
+Gyroscope: X = -4960 | Y = -274 | Z = -34
+ 
+Accelerometer: X = 708 | Y = -104 | Z = 15304
+Gyroscope: X = -4976 | Y = -293 | Z = -34
+ 
+Accelerometer: X = 680 | Y = -212 | Z = 15064
+Gyroscope: X = -4976 | Y = -298 | Z = -52
+ 
+Accelerometer: X = 620 | Y = -168 | Z = 15096
+Gyroscope: X = -4960 | Y = -300 | Z = -62
+ 
+Accelerometer: X = 676 | Y = -128 | Z = 15336
+Gyroscope: X = -4928 | Y = -286 | Z = -43
+ 
+Accelerometer: X = 804 | Y = -100 | Z = 15360
+Gyroscope: X = -4944 | Y = -269 | Z = -76
+ 
+Accelerometer: X = 624 | Y = -192 | Z = 15268
+Gyroscope: X = -4960 | Y = -295 | Z = -52
+ 
+Accelerometer: X = 536 | Y = -84 | Z = 15148
+Gyroscope: X = -4944 | Y = -307 | Z = -57
+ 
+Accelerometer: X = 700 | Y = -132 | Z = 15084
+Gyroscope: X = -4944 | Y = -291 | Z = -60
+ 
+Accelerometer: X = 660 | Y = -172 | Z = 15256
+Gyroscope: X = -4944 | Y = -300 | Z = -66
+ 
+Accelerometer: X = 580 | Y = -12 | Z = 15260
+Gyroscope: X = -4960 | Y = -298 | Z = -40
+ 
+Accelerometer: X = 608 | Y = -60 | Z = 15084
+Gyroscope: X = -4944 | Y = -292 | Z = -70
+ 
+Accelerometer: X = 696 | Y = -144 | Z = 14968
+Gyroscope: X = -4960 | Y = -295 | Z = -57
+ 
+Accelerometer: X = 632 | Y = -172 | Z = 15296
+Gyroscope: X = -4960 | Y = -287 | Z = -48
+ 
+Accelerometer: X = 632 | Y = -200 | Z = 15184
+Gyroscope: X = -4944 | Y = -292 | Z = -45
+ 
+Accelerometer: X = 600 | Y = -112 | Z = 15168
+Gyroscope: X = -4944 | Y = -286 | Z = -72
+ 
+Accelerometer: X = 624 | Y = -204 | Z = 15048
+Gyroscope: X = -4944 | Y = -296 | Z = -40
+ 
+Accelerometer: X = 612 | Y = -200 | Z = 15288
+Gyroscope: X = -4960 | Y = -297 | Z = -40
+ 
+Accelerometer: X = 588 | Y = -40 | Z = 15152
+Gyroscope: X = -4928 | Y = -282 | Z = -63
+ 
+Accelerometer: X = 724 | Y = -152 | Z = 15184
+Gyroscope: X = -4944 | Y = -299 | Z = -49
+ 
+Accelerometer: X = 560 | Y = -44 | Z = 15204
+Gyroscope: X = -4960 | Y = -300 | Z = -47
+ 
+Accelerometer: X = 704 | Y = -116 | Z = 15144
+Gyroscope: X = -4960 | Y = -286 | Z = -49
+ 
+Accelerometer: X = 556 | Y = -100 | Z = 15184
+Gyroscope: X = -4944 | Y = -296 | Z = -39
+ 
+Accelerometer: X = 624 | Y = -176 | Z = 15196
+Gyroscope: X = -4944 | Y = -300 | Z = -38
+ 
+Accelerometer: X = 452 | Y = -128 | Z = 15312
+Gyroscope: X = -4992 | Y = -285 | Z = -23
+ 
+Accelerometer: X = 560 | Y = -128 | Z = 15276
+Gyroscope: X = -4976 | Y = -296 | Z = -40
+ 
+Accelerometer: X = 544 | Y = -92 | Z = 15112
+Gyroscope: X = -4976 | Y = -271 | Z = -50
+ 
+Accelerometer: X = 536 | Y = -4 | Z = 15240
+Gyroscope: X = -4944 | Y = -305 | Z = -38
+ 
+Accelerometer: X = 636 | Y = -40 | Z = 15372
+Gyroscope: X = -4976 | Y = -294 | Z = -64
+ 
+Accelerometer: X = 568 | Y = -204 | Z = 15204
+Gyroscope: X = -4992 | Y = -309 | Z = -50
+ 
+Accelerometer: X = 576 | Y = -248 | Z = 15192
+Gyroscope: X = -4960 | Y = -321 | Z = -59
+ 
+Accelerometer: X = 672 | Y = -136 | Z = 15132
+Gyroscope: X = -4944 | Y = -304 | Z = -36
+ 
+Accelerometer: X = 516 | Y = -108 | Z = 15140
+Gyroscope: X = -4960 | Y = -292 | Z = -45
+ 
+Accelerometer: X = 536 | Y = -144 | Z = 15268
+Gyroscope: X = -4960 | Y = -283 | Z = -40
+ 
+Accelerometer: X = 484 | Y = -76 | Z = 15132
+Gyroscope: X = -4944 | Y = -288 | Z = -44
+ 
+Accelerometer: X = 624 | Y = -136 | Z = 15124
+Gyroscope: X = -4960 | Y = -268 | Z = -48
+ 
+Accelerometer: X = 700 | Y = -36 | Z = 15152
+Gyroscope: X = -4960 | Y = -279 | Z = -53
+ 
+Accelerometer: X = 480 | Y = -104 | Z = 15048
+Gyroscope: X = -4944 | Y = -309 | Z = -35
+ 
+Accelerometer: X = 616 | Y = -108 | Z = 15188
+Gyroscope: X = -4944 | Y = -321 | Z = -38
+ 
+Accelerometer: X = 672 | Y = -116 | Z = 15352
+Gyroscope: X = -4976 | Y = -298 | Z = -4
+ 
+Accelerometer: X = 628 | Y = -60 | Z = 15092
+Gyroscope: X = -4992 | Y = -287 | Z = -65
+ 
+Accelerometer: X = 676 | Y = -36 | Z = 15256
+Gyroscope: X = -4944 | Y = -306 | Z = -44
+ 
+Accelerometer: X = 620 | Y = -40 | Z = 15180
+Gyroscope: X = -4992 | Y = -313 | Z = -55
+ 
+Accelerometer: X = 628 | Y = -156 | Z = 15168
+Gyroscope: X = -4944 | Y = -288 | Z = -53
+ 
+Accelerometer: X = 576 | Y = -104 | Z = 14976
+Gyroscope: X = -4976 | Y = -287 | Z = -23
+ 
+Accelerometer: X = 612 | Y = -184 | Z = 15196
+Gyroscope: X = -4960 | Y = -296 | Z = -49
+ 
+Accelerometer: X = 560 | Y = -140 | Z = 15056
+Gyroscope: X = -4976 | Y = -298 | Z = -30
+ 
+Accelerometer: X = 624 | Y = -92 | Z = 15252
+Gyroscope: X = -4960 | Y = -283 | Z = -43
+ 
+Accelerometer: X = 628 | Y = 12 | Z = 14988
+Gyroscope: X = -4944 | Y = -284 | Z = -33
+ 
+Accelerometer: X = 560 | Y = -80 | Z = 15220
+Gyroscope: X = -4992 | Y = -288 | Z = -42
+ 
+Accelerometer: X = 656 | Y = -92 | Z = 15084
+Gyroscope: X = -4960 | Y = -306 | Z = -53
+ 
+Accelerometer: X = 720 | Y = -132 | Z = 14968
+Gyroscope: X = -4928 | Y = -284 | Z = -14
+ 
+Accelerometer: X = 536 | Y = -52 | Z = 15076
+Gyroscope: X = -4944 | Y = -287 | Z = -63
+ 
+Accelerometer: X = 536 | Y = -128 | Z = 15320
+Gyroscope: X = -4928 | Y = -294 | Z = -45
+ 
+Accelerometer: X = 648 | Y = -200 | Z = 15328
+Gyroscope: X = -4976 | Y = -298 | Z = -49
+ 
+Accelerometer: X = 604 | Y = -100 | Z = 15236
+Gyroscope: X = -4960 | Y = -306 | Z = -52
+ 
+Accelerometer: X = 636 | Y = -132 | Z = 15088
+Gyroscope: X = -4960 | Y = -274 | Z = -50
+ 
+Accelerometer: X = 616 | Y = -48 | Z = 15140
+Gyroscope: X = -4944 | Y = -283 | Z = -51
+ 
+Accelerometer: X = 656 | Y = -112 | Z = 15140
+Gyroscope: X = -4960 | Y = -279 | Z = -51
+ 
+Accelerometer: X = 636 | Y = -112 | Z = 15284
+Gyroscope: X = -4992 | Y = -313 | Z = -48
+ 
+Accelerometer: X = 468 | Y = -96 | Z = 15268
+Gyroscope: X = -4944 | Y = -274 | Z = -69
+ 
+Accelerometer: X = 664 | Y = -148 | Z = 15184
+Gyroscope: X = -4960 | Y = -301 | Z = -61
+ 
+Accelerometer: X = 616 | Y = -136 | Z = 15368
+Gyroscope: X = -4976 | Y = -299 | Z = -54
+ 
+Accelerometer: X = 632 | Y = -88 | Z = 15184
+Gyroscope: X = -4960 | Y = -270 | Z = -70
+ 
+Accelerometer: X = 644 | Y = -240 | Z = 15116
+Gyroscope: X = -4976 | Y = -284 | Z = -48
+ 
+Accelerometer: X = 600 | Y = -192 | Z = 15132
+Gyroscope: X = -4928 | Y = -300 | Z = -45
+ 
+Accelerometer: X = 744 | Y = -164 | Z = 15296
+Gyroscope: X = -4976 | Y = -314 | Z = -59
+ 
+Accelerometer: X = 704 | Y = -112 | Z = 15160
+Gyroscope: X = -4960 | Y = -296 | Z = -64
+ 
+Accelerometer: X = 632 | Y = -132 | Z = 15172
+Gyroscope: X = -4944 | Y = -290 | Z = -40
+ 
+Accelerometer: X = 636 | Y = -144 | Z = 15196
+Gyroscope: X = -4944 | Y = -284 | Z = -59
+ 
+Accelerometer: X = 620 | Y = -160 | Z = 15160
+Gyroscope: X = -4944 | Y = -295 | Z = -78
+ 
+Accelerometer: X = 528 | Y = -184 | Z = 15364
+Gyroscope: X = -4944 | Y = -294 | Z = -32
+ 
+Accelerometer: X = 528 | Y = -148 | Z = 15052
+Gyroscope: X = -4944 | Y = -301 | Z = -51
+ 
+Accelerometer: X = 652 | Y = -60 | Z = 15172
+Gyroscope: X = -4944 | Y = -296 | Z = -57
+ 
+Accelerometer: X = 576 | Y = -200 | Z = 15064
+Gyroscope: X = -4960 | Y = -289 | Z = -28
+ 
+Accelerometer: X = 584 | Y = -156 | Z = 15176
+Gyroscope: X = -4960 | Y = -302 | Z = -53
+ 
+Accelerometer: X = 556 | Y = -96 | Z = 15032
+Gyroscope: X = -4960 | Y = -267 | Z = -36
+ 
+Accelerometer: X = 652 | Y = -120 | Z = 15156
+Gyroscope: X = -4944 | Y = -290 | Z = -39
+ 
+Accelerometer: X = 540 | Y = -124 | Z = 15148
+Gyroscope: X = -4976 | Y = -307 | Z = -68
+ 
+Accelerometer: X = 548 | Y = -136 | Z = 15252
+Gyroscope: X = -4944 | Y = -323 | Z = -39
+ 
+Accelerometer: X = 640 | Y = -192 | Z = 15276
+Gyroscope: X = -4944 | Y = -291 | Z = -52
+ 
+Accelerometer: X = 784 | Y = -308 | Z = 14960
+Gyroscope: X = -4960 | Y = -291 | Z = -50
+ 
+Accelerometer: X = 792 | Y = -20 | Z = 15188
+Gyroscope: X = -4960 | Y = -289 | Z = -39
+ 
+Accelerometer: X = 584 | Y = -132 | Z = 15240
+Gyroscope: X = -4976 | Y = -293 | Z = -59
+ 
+Accelerometer: X = 560 | Y = -112 | Z = 15168
+Gyroscope: X = -4944 | Y = -259 | Z = -30
+ 
+Accelerometer: X = 688 | Y = -72 | Z = 15188
+Gyroscope: X = -4944 | Y = -290 | Z = -41
+ 
+Accelerometer: X = 592 | Y = -124 | Z = 15200
+Gyroscope: X = -4944 | Y = -287 | Z = -48
+ 
+Accelerometer: X = 648 | Y = -92 | Z = 15088
+Gyroscope: X = -4960 | Y = -272 | Z = -21
+ 
+Accelerometer: X = 556 | Y = -184 | Z = 15060
+Gyroscope: X = -4944 | Y = -301 | Z = -48
+ 
+Accelerometer: X = 704 | Y = -44 | Z = 15140
+Gyroscope: X = -4928 | Y = -280 | Z = -43
+ 
+Accelerometer: X = 496 | Y = -132 | Z = 15148
+Gyroscope: X = -4944 | Y = -304 | Z = -45
+ 
+Accelerometer: X = 536 | Y = -44 | Z = 15160
+Gyroscope: X = -4960 | Y = -315 | Z = -49
+ 
+Accelerometer: X = 620 | Y = -36 | Z = 15200
+Gyroscope: X = -4960 | Y = -303 | Z = -64
+ 
+Accelerometer: X = 616 | Y = -48 | Z = 15052
+Gyroscope: X = -4960 | Y = -298 | Z = -71
+ 
+Accelerometer: X = 620 | Y = -92 | Z = 15036
+Gyroscope: X = -4928 | Y = -318 | Z = -46
+ 
+Accelerometer: X = 684 | Y = -28 | Z = 15152
+Gyroscope: X = -4944 | Y = -290 | Z = -55
+ 
+Accelerometer: X = 608 | Y = -72 | Z = 15128
+Gyroscope: X = -4944 | Y = -287 | Z = -57
+ 
+Accelerometer: X = 668 | Y = -84 | Z = 15168
+Gyroscope: X = -4944 | Y = -302 | Z = -13
+ 
+Accelerometer: X = 520 | Y = -92 | Z = 15168
+Gyroscope: X = -4976 | Y = -296 | Z = -61
+ 
+Accelerometer: X = 644 | Y = -116 | Z = 15212
+Gyroscope: X = -4976 | Y = -303 | Z = -68
+ 
+Accelerometer: X = 656 | Y = -76 | Z = 15056
+Gyroscope: X = -4976 | Y = -294 | Z = -72
+ 
+Accelerometer: X = 724 | Y = -96 | Z = 15156
+Gyroscope: X = -4944 | Y = -278 | Z = -43
+ 
+Accelerometer: X = 548 | Y = -104 | Z = 15184
+Gyroscope: X = -4928 | Y = -276 | Z = -62
+ 
+Accelerometer: X = 556 | Y = -76 | Z = 15264
+Gyroscope: X = -4928 | Y = -325 | Z = -60
+ 
+Accelerometer: X = 540 | Y = -228 | Z = 15260
+Gyroscope: X = -4960 | Y = -302 | Z = -32
+ 
+Accelerometer: X = 616 | Y = -88 | Z = 15200
+Gyroscope: X = -4960 | Y = -278 | Z = -45
+ 
+Accelerometer: X = 540 | Y = -104 | Z = 15204
+Gyroscope: X = -4976 | Y = -297 | Z = -99
+ 
+Accelerometer: X = 732 | Y = -180 | Z = 15300
+Gyroscope: X = -4944 | Y = -326 | Z = -44
+ 
+Accelerometer: X = 636 | Y = -180 | Z = 15228
+Gyroscope: X = -4944 | Y = -269 | Z = -25
+ 
+Accelerometer: X = 536 | Y = -104 | Z = 15216
+Gyroscope: X = -4928 | Y = -298 | Z = -44
+ 
+Accelerometer: X = 668 | Y = -92 | Z = 15156
+Gyroscope: X = -4960 | Y = -291 | Z = -45
+ 
+Accelerometer: X = 688 | Y = -164 | Z = 15248
+Gyroscope: X = -4960 | Y = -279 | Z = -42
+ 
+Accelerometer: X = 504 | Y = -72 | Z = 15108
+Gyroscope: X = -4960 | Y = -300 | Z = -69
+ 
+Accelerometer: X = 652 | Y = -196 | Z = 15160
+Gyroscope: X = -4960 | Y = -301 | Z = -54
+ 
+Accelerometer: X = 636 | Y = -80 | Z = 15348
+Gyroscope: X = -4992 | Y = -325 | Z = -51
+ 
+Accelerometer: X = 524 | Y = -144 | Z = 15052
+Gyroscope: X = -4928 | Y = -301 | Z = -43
+ 
+Accelerometer: X = 568 | Y = -124 | Z = 15232
+Gyroscope: X = -4944 | Y = -284 | Z = -18
+ 
+Accelerometer: X = 540 | Y = 4 | Z = 15196
+Gyroscope: X = -4944 | Y = -313 | Z = -62
+ 
+Accelerometer: X = 684 | Y = -184 | Z = 15224
+Gyroscope: X = -4928 | Y = -293 | Z = -42
+ 
+Accelerometer: X = 596 | Y = 36 | Z = 15124
+Gyroscope: X = -4960 | Y = -295 | Z = -71
+ 
+Accelerometer: X = 692 | Y = -184 | Z = 15136
+Gyroscope: X = -4912 | Y = -301 | Z = -50
+ 
+Accelerometer: X = 540 | Y = -116 | Z = 15320
+Gyroscope: X = -4928 | Y = -305 | Z = -55
+ 
+Accelerometer: X = 636 | Y = -84 | Z = 15232
+Gyroscope: X = -4960 | Y = -276 | Z = -47
+ 
+Accelerometer: X = 736 | Y = -108 | Z = 15172
+Gyroscope: X = -4928 | Y = -283 | Z = -56
+ 
+Accelerometer: X = 628 | Y = -64 | Z = 15132
+Gyroscope: X = -4960 | Y = -288 | Z = -52
+ 
+Accelerometer: X = 760 | Y = -96 | Z = 15168
+Gyroscope: X = -4960 | Y = -270 | Z = -36
+ 
+Accelerometer: X = 736 | Y = -92 | Z = 15092
+Gyroscope: X = -4944 | Y = -288 | Z = -37
+ 
+Accelerometer: X = 688 | Y = -168 | Z = 15080
+Gyroscope: X = -4928 | Y = -316 | Z = -61
+ 
+Accelerometer: X = 592 | Y = -68 | Z = 15316
+Gyroscope: X = -4960 | Y = -314 | Z = -70
+ 
+Accelerometer: X = 624 | Y = -120 | Z = 15140
+Gyroscope: X = -4928 | Y = -283 | Z = -74
+ 
+Accelerometer: X = 612 | Y = 0 | Z = 15196
+Gyroscope: X = -4928 | Y = -276 | Z = -41
+ 
+Accelerometer: X = 668 | Y = -144 | Z = 15248
+Gyroscope: X = -4944 | Y = -299 | Z = -41
+ 
+Accelerometer: X = 608 | Y = -132 | Z = 15168
+Gyroscope: X = -4928 | Y = -298 | Z = -59
+ 
+Accelerometer: X = 564 | Y = -68 | Z = 15084
+Gyroscope: X = -4976 | Y = -289 | Z = -68
+ 
+Accelerometer: X = 644 | Y = -20 | Z = 15152
+Gyroscope: X = -4928 | Y = -278 | Z = -54
+ 
+Accelerometer: X = 708 | Y = -16 | Z = 15332
+Gyroscope: X = -4960 | Y = -289 | Z = -53
+ 
+Accelerometer: X = 524 | Y = -100 | Z = 15148
+Gyroscope: X = -4944 | Y = -296 | Z = -70
+ 
+Accelerometer: X = 532 | Y = -96 | Z = 15136
+Gyroscope: X = -4944 | Y = -301 | Z = -55
+ 
+Accelerometer: X = 464 | Y = 4 | Z = 15276
+Gyroscope: X = -4944 | Y = -262 | Z = -47
+ 
+Accelerometer: X = 512 | Y = -96 | Z = 15172
+Gyroscope: X = -4896 | Y = -289 | Z = -44
+ 
+Accelerometer: X = 668 | Y = -148 | Z = 15212
+Gyroscope: X = -4960 | Y = -301 | Z = -61
+ 
+Accelerometer: X = 888 | Y = -96 | Z = 15332
+Gyroscope: X = -4944 | Y = -290 | Z = -49
+ 
+Accelerometer: X = 708 | Y = -292 | Z = 15012
+Gyroscope: X = -4944 | Y = -307 | Z = -53
+ 
+Accelerometer: X = 508 | Y = -192 | Z = 15340
+Gyroscope: X = -4944 | Y = -287 | Z = -57
+ 
+Accelerometer: X = 572 | Y = -136 | Z = 15156
+Gyroscope: X = -4928 | Y = -266 | Z = -47
+ 
+Accelerometer: X = 688 | Y = -88 | Z = 15148
+Gyroscope: X = -4928 | Y = -311 | Z = -40
+ 
+Accelerometer: X = 584 | Y = -76 | Z = 15272
+Gyroscope: X = -4912 | Y = -306 | Z = -78
+ 
+Accelerometer: X = 788 | Y = -76 | Z = 15300
+Gyroscope: X = -4960 | Y = -298 | Z = -71
+ 
+Accelerometer: X = 564 | Y = -180 | Z = 15376
+Gyroscope: X = -4976 | Y = -302 | Z = -65
+ 
+Accelerometer: X = 532 | Y = -48 | Z = 14972
+Gyroscope: X = -4944 | Y = -293 | Z = -42
+ 
+Accelerometer: X = 648 | Y = -100 | Z = 15320
+Gyroscope: X = -4960 | Y = -287 | Z = -53
+ 
+Accelerometer: X = 656 | Y = 0 | Z = 15204
+Gyroscope: X = -4960 | Y = -279 | Z = -69
+ 
+Accelerometer: X = 640 | Y = -172 | Z = 15224
+Gyroscope: X = -4912 | Y = -323 | Z = -46
+ 
+Accelerometer: X = 556 | Y = -32 | Z = 15224
+Gyroscope: X = -4912 | Y = -309 | Z = -50
+ 
+Accelerometer: X = 660 | Y = -88 | Z = 15136
+Gyroscope: X = -4944 | Y = -297 | Z = -26
+ 
+Accelerometer: X = 636 | Y = -148 | Z = 15088
+Gyroscope: X = -4960 | Y = -317 | Z = -30
+ 
+Accelerometer: X = 536 | Y = -96 | Z = 15232
+Gyroscope: X = -4944 | Y = -287 | Z = -24
+ 
+Accelerometer: X = 552 | Y = -112 | Z = 15132
+Gyroscope: X = -4960 | Y = -281 | Z = -56
+ 
+Accelerometer: X = 648 | Y = -192 | Z = 15268
+Gyroscope: X = -4928 | Y = -294 | Z = -63
+ 
+Accelerometer: X = 612 | Y = -80 | Z = 15220
+Gyroscope: X = -4928 | Y = -302 | Z = -57
+ 
+Accelerometer: X = 648 | Y = -108 | Z = 15100
+Gyroscope: X = -4960 | Y = -297 | Z = -42
+ 
+Accelerometer: X = 632 | Y = -172 | Z = 15296
+Gyroscope: X = -4928 | Y = -318 | Z = -71
+ 
+Accelerometer: X = 604 | Y = -116 | Z = 15288
+Gyroscope: X = -4944 | Y = -306 | Z = -59
+ 
+Accelerometer: X = 636 | Y = -260 | Z = 15180
+Gyroscope: X = -4944 | Y = -285 | Z = -66
+ 
+Accelerometer: X = 692 | Y = -92 | Z = 15180
+Gyroscope: X = -4960 | Y = -294 | Z = -56
+ 
+Accelerometer: X = 724 | Y = -136 | Z = 15196
+Gyroscope: X = -4928 | Y = -294 | Z = -64
+ 
+Accelerometer: X = 636 | Y = -156 | Z = 15220
+Gyroscope: X = -4928 | Y = -290 | Z = -44
+ 
+Accelerometer: X = 564 | Y = -104 | Z = 15228
+Gyroscope: X = -4944 | Y = -299 | Z = -75
+ 
+Accelerometer: X = 556 | Y = -132 | Z = 15112
+Gyroscope: X = -4928 | Y = -273 | Z = -52
+ 
+Accelerometer: X = 556 | Y = -100 | Z = 15096
+Gyroscope: X = -4944 | Y = -289 | Z = -48
+ 
+Accelerometer: X = 432 | Y = -228 | Z = 15088
+Gyroscope: X = -4944 | Y = -286 | Z = -62
+ 
+Accelerometer: X = 612 | Y = -232 | Z = 15136
+Gyroscope: X = -4928 | Y = -287 | Z = -49
+ 
+Accelerometer: X = 664 | Y = -40 | Z = 15160
+Gyroscope: X = -4960 | Y = -303 | Z = -51
+ 
+Accelerometer: X = 508 | Y = -80 | Z = 15336
+Gyroscope: X = -4944 | Y = -305 | Z = -56
+ 
+Accelerometer: X = 684 | Y = -168 | Z = 15124
+Gyroscope: X = -4944 | Y = -294 | Z = -59
+ 
+Accelerometer: X = 560 | Y = -108 | Z = 15224
+Gyroscope: X = -4928 | Y = -315 | Z = -56
+ 
+Accelerometer: X = 544 | Y = -48 | Z = 15224
+Gyroscope: X = -4928 | Y = -302 | Z = -57
+ 
+Accelerometer: X = 632 | Y = -68 | Z = 15248
+Gyroscope: X = -4944 | Y = -315 | Z = -45
+ 
+Accelerometer: X = 588 | Y = -136 | Z = 15240
+Gyroscope: X = -4944 | Y = -292 | Z = -60
+ 
+Accelerometer: X = 716 | Y = -184 | Z = 15164
+Gyroscope: X = -4944 | Y = -286 | Z = -53
+ 
+Accelerometer: X = 580 | Y = -184 | Z = 15140
+Gyroscope: X = -4944 | Y = -300 | Z = -62
+ 
+Accelerometer: X = 684 | Y = -152 | Z = 15152
+Gyroscope: X = -4928 | Y = -301 | Z = -31
+ 
+Accelerometer: X = 516 | Y = -148 | Z = 14948
+Gyroscope: X = -4912 | Y = -295 | Z = -48
+ 
+Accelerometer: X = 396 | Y = -124 | Z = 15160
+Gyroscope: X = -4896 | Y = -286 | Z = -29
+ 
+Accelerometer: X = 544 | Y = -96 | Z = 15264
+Gyroscope: X = -4976 | Y = -307 | Z = -42
+ 
+Accelerometer: X = 552 | Y = -100 | Z = 15248
+Gyroscope: X = -4912 | Y = -288 | Z = -67
+ 
+Accelerometer: X = 560 | Y = -132 | Z = 15180
+Gyroscope: X = -4944 | Y = -307 | Z = -57
+ 
+Accelerometer: X = 536 | Y = -124 | Z = 15244
+Gyroscope: X = -4912 | Y = -291 | Z = -54
+ 
+Accelerometer: X = 636 | Y = -184 | Z = 15136
+Gyroscope: X = -4944 | Y = -272 | Z = -64
+ 
+Accelerometer: X = 592 | Y = -56 | Z = 15052
+Gyroscope: X = -4960 | Y = -279 | Z = -58
+ 
+Accelerometer: X = 680 | Y = -124 | Z = 15176
+Gyroscope: X = -4912 | Y = -323 | Z = -51
+ 
+Accelerometer: X = 556 | Y = -144 | Z = 15012
+Gyroscope: X = -4960 | Y = -298 | Z = -79
+ 
+Accelerometer: X = 716 | Y = -132 | Z = 15288
+Gyroscope: X = -4928 | Y = -287 | Z = -61
+ 
+Accelerometer: X = 552 | Y = -172 | Z = 15196
+Gyroscope: X = -4928 | Y = -290 | Z = -61
+ 
+Accelerometer: X = 652 | Y = -160 | Z = 15104
+Gyroscope: X = -4928 | Y = -294 | Z = -57
+ 
+Accelerometer: X = 588 | Y = -100 | Z = 15104
+Gyroscope: X = -4944 | Y = -301 | Z = -45
+ 
+Accelerometer: X = 620 | Y = -84 | Z = 15104
+Gyroscope: X = -4944 | Y = -309 | Z = -60
+ 
+Accelerometer: X = 684 | Y = -132 | Z = 15196
+Gyroscope: X = -4912 | Y = -296 | Z = -68
+ 
+Accelerometer: X = 616 | Y = -116 | Z = 15140
+Gyroscope: X = -4928 | Y = -301 | Z = -74
+ 
+Accelerometer: X = 620 | Y = -140 | Z = 15244
+Gyroscope: X = -4928 | Y = -311 | Z = -50
+ 
+Accelerometer: X = 664 | Y = -188 | Z = 15120
+Gyroscope: X = -4928 | Y = -286 | Z = -46
+ 
+Accelerometer: X = 532 | Y = -136 | Z = 15096
+Gyroscope: X = -4944 | Y = -288 | Z = -45
+ 
+Accelerometer: X = 844 | Y = -152 | Z = 15212
+Gyroscope: X = -4944 | Y = -299 | Z = -37
+ 
+Accelerometer: X = 652 | Y = -100 | Z = 15192
+Gyroscope: X = -4944 | Y = -271 | Z = -38
+ 
+Accelerometer: X = 644 | Y = -96 | Z = 15156
+Gyroscope: X = -4944 | Y = -288 | Z = -51
+ 
+Accelerometer: X = 636 | Y = -56 | Z = 15020
+Gyroscope: X = -4928 | Y = -326 | Z = -47
+ 
+Accelerometer: X = 700 | Y = -156 | Z = 15164
+Gyroscope: X = -4960 | Y = -300 | Z = -36
+ 
+Accelerometer: X = 616 | Y = -244 | Z = 15092
+Gyroscope: X = -4928 | Y = -297 | Z = -62
+ 
+Accelerometer: X = 424 | Y = -308 | Z = 15336
+Gyroscope: X = -4912 | Y = -297 | Z = -37
+ 
+Accelerometer: X = 680 | Y = -256 | Z = 15240
+Gyroscope: X = -4976 | Y = -314 | Z = -39
+ 
+Accelerometer: X = 676 | Y = -144 | Z = 15244
+Gyroscope: X = -4928 | Y = -296 | Z = -24
+ 
+Accelerometer: X = 700 | Y = -132 | Z = 15156
+Gyroscope: X = -4928 | Y = -298 | Z = -47
+ 
+Accelerometer: X = 608 | Y = -68 | Z = 15252
+Gyroscope: X = -4944 | Y = -290 | Z = -68
+ 
+Accelerometer: X = 652 | Y = -152 | Z = 15132
+Gyroscope: X = -4944 | Y = -296 | Z = -37
+ 
+Accelerometer: X = 688 | Y = -52 | Z = 15172
+Gyroscope: X = -4928 | Y = -295 | Z = -49
+ 
+Accelerometer: X = 676 | Y = -72 | Z = 15428
+Gyroscope: X = -4912 | Y = -286 | Z = -28
+ 
+Accelerometer: X = 564 | Y = -276 | Z = 15344
+Gyroscope: X = -4960 | Y = -265 | Z = -6
+ 
+Accelerometer: X = 664 | Y = -32 | Z = 15212
+Gyroscope: X = -4960 | Y = -257 | Z = -19
+ 
+Accelerometer: X = -132 | Y = -224 | Z = 14556
+Gyroscope: X = -4928 | Y = -263 | Z = -115
+ 
+Accelerometer: X = 844 | Y = -164 | Z = 15048
+Gyroscope: X = -4944 | Y = -305 | Z = -15
+ 
+Accelerometer: X = 612 | Y = -68 | Z = 15168
+Gyroscope: X = -4944 | Y = -269 | Z = -50
+ 
+Accelerometer: X = 652 | Y = -112 | Z = 15144
+Gyroscope: X = -4960 | Y = -278 | Z = -43
+ 
+Accelerometer: X = 516 | Y = -152 | Z = 15008
+Gyroscope: X = -4928 | Y = -311 | Z = -45
+ 
+Accelerometer: X = 772 | Y = -116 | Z = 15192
+Gyroscope: X = -4944 | Y = -298 | Z = -44
+ 
+Accelerometer: X = 700 | Y = -32 | Z = 15180
+Gyroscope: X = -4912 | Y = -312 | Z = -56
+ 
+Accelerometer: X = 652 | Y = -108 | Z = 15120
+Gyroscope: X = -4944 | Y = -306 | Z = -46
+ 
+Accelerometer: X = 616 | Y = -152 | Z = 15312
+Gyroscope: X = -4944 | Y = -291 | Z = -62
+ 
+Accelerometer: X = 672 | Y = 12 | Z = 15168
+Gyroscope: X = -4928 | Y = -294 | Z = -44
+ 
+Accelerometer: X = 656 | Y = -56 | Z = 15192
+Gyroscope: X = -4896 | Y = -325 | Z = -45
+ 
+Accelerometer: X = 848 | Y = -176 | Z = 15184
+Gyroscope: X = -4960 | Y = -294 | Z = -46
+ 
+Accelerometer: X = 600 | Y = -204 | Z = 15144
+Gyroscope: X = -4928 | Y = -292 | Z = -47
+ 
+Accelerometer: X = 540 | Y = -84 | Z = 15156
+Gyroscope: X = -4928 | Y = -289 | Z = -47
+ 
+Accelerometer: X = 652 | Y = -76 | Z = 15312
+Gyroscope: X = -4896 | Y = -282 | Z = -32
+ 
+Accelerometer: X = 620 | Y = -296 | Z = 15136
+Gyroscope: X = -4944 | Y = -316 | Z = -54
+ 
+Accelerometer: X = 504 | Y = -88 | Z = 15220
+Gyroscope: X = -4944 | Y = -273 | Z = -67
+ 
+Accelerometer: X = 516 | Y = -144 | Z = 15312
+Gyroscope: X = -4928 | Y = -306 | Z = -45
+ 
+Accelerometer: X = 648 | Y = -176 | Z = 15260
+Gyroscope: X = -4912 | Y = -310 | Z = -18
+ 
+Accelerometer: X = 780 | Y = -192 | Z = 15140
+Gyroscope: X = -4928 | Y = -296 | Z = -81
+ 
+Accelerometer: X = 612 | Y = -192 | Z = 15200
+Gyroscope: X = -4928 | Y = -314 | Z = -38
+ 
+Accelerometer: X = 528 | Y = -220 | Z = 15060
+Gyroscope: X = -4960 | Y = -282 | Z = -62
+ 
+Accelerometer: X = 640 | Y = -76 | Z = 15208
+Gyroscope: X = -4944 | Y = -322 | Z = -64
+ 
+Accelerometer: X = 576 | Y = -24 | Z = 15264
+Gyroscope: X = -4912 | Y = -307 | Z = -29
+ 
+Accelerometer: X = 564 | Y = -88 | Z = 15168
+Gyroscope: X = -4928 | Y = -263 | Z = -67
+ 
+Accelerometer: X = 568 | Y = -104 | Z = 15184
+Gyroscope: X = -4928 | Y = -293 | Z = -60
+ 
+Accelerometer: X = 580 | Y = -116 | Z = 15364
+Gyroscope: X = -4928 | Y = -295 | Z = -9
+ 
+Accelerometer: X = 636 | Y = -124 | Z = 15172
+Gyroscope: X = -4928 | Y = -287 | Z = -44
+ 
+Accelerometer: X = 576 | Y = -232 | Z = 15100
+Gyroscope: X = -4928 | Y = -286 | Z = -53
+ 
+Accelerometer: X = 444 | Y = -36 | Z = 15172
+Gyroscope: X = -4928 | Y = -294 | Z = -91
+ 
+Accelerometer: X = 468 | Y = -48 | Z = 15340
+Gyroscope: X = -4928 | Y = -321 | Z = -44
+ 
+Accelerometer: X = 624 | Y = -152 | Z = 15140
+Gyroscope: X = -4944 | Y = -309 | Z = -61
+ 
+Accelerometer: X = 528 | Y = -64 | Z = 15112
+Gyroscope: X = -4912 | Y = -299 | Z = -65
+ 
+Accelerometer: X = 684 | Y = -164 | Z = 15456
+Gyroscope: X = -4928 | Y = -305 | Z = -72
+ 
+Accelerometer: X = 748 | Y = -200 | Z = 15244
+Gyroscope: X = -4944 | Y = -297 | Z = -46
+ 
+Accelerometer: X = 356 | Y = -52 | Z = 15544
+Gyroscope: X = -4912 | Y = -279 | Z = -42
+ 
+Accelerometer: X = 556 | Y = -100 | Z = 15168
+Gyroscope: X = -4928 | Y = -306 | Z = -54
+ 
+Accelerometer: X = 644 | Y = -124 | Z = 15240
+Gyroscope: X = -4928 | Y = -282 | Z = -42
+ 
+Accelerometer: X = 608 | Y = -144 | Z = 15184
+Gyroscope: X = -4912 | Y = -289 | Z = -50
+ 
+Accelerometer: X = 608 | Y = 8 | Z = 15196
+Gyroscope: X = -4944 | Y = -302 | Z = -53
+ 
+Accelerometer: X = 596 | Y = -80 | Z = 15212
+Gyroscope: X = -4960 | Y = -303 | Z = -38
+ 
+Accelerometer: X = 568 | Y = -68 | Z = 15144
+Gyroscope: X = -4928 | Y = -323 | Z = -35
+ 
+Accelerometer: X = 604 | Y = -144 | Z = 15148
+Gyroscope: X = -4928 | Y = -287 | Z = -74
+ 
+Accelerometer: X = 688 | Y = -172 | Z = 15112
+Gyroscope: X = -4896 | Y = -287 | Z = -53
+ 
+Accelerometer: X = 676 | Y = -244 | Z = 15252
+Gyroscope: X = -4928 | Y = -307 | Z = -42
+ 
+Accelerometer: X = 584 | Y = -84 | Z = 15264
+Gyroscope: X = -4928 | Y = -324 | Z = -59
+ 
+Accelerometer: X = 584 | Y = -172 | Z = 15164
+Gyroscope: X = -4928 | Y = -264 | Z = -55
+ 
+Accelerometer: X = 620 | Y = -156 | Z = 15288
+Gyroscope: X = -4944 | Y = -300 | Z = -64
+ 
+Accelerometer: X = 624 | Y = -8 | Z = 15228
+Gyroscope: X = -4944 | Y = -278 | Z = -40
+ 
+Accelerometer: X = 620 | Y = -80 | Z = 15232
+Gyroscope: X = -4912 | Y = -299 | Z = -44
+ 
+Accelerometer: X = 516 | Y = -192 | Z = 15124
+Gyroscope: X = -4912 | Y = -278 | Z = -70
+ 
+Accelerometer: X = 616 | Y = -236 | Z = 15428
+Gyroscope: X = -4896 | Y = -261 | Z = -27
+ 
+Accelerometer: X = 584 | Y = -180 | Z = 15164
+Gyroscope: X = -4928 | Y = -310 | Z = -48
+ 
+Accelerometer: X = 680 | Y = -136 | Z = 15116
+Gyroscope: X = -4928 | Y = -277 | Z = -48
+ 
+Accelerometer: X = 532 | Y = -56 | Z = 15116
+Gyroscope: X = -4960 | Y = -289 | Z = -58
+ 
+Accelerometer: X = 536 | Y = -104 | Z = 15048
+Gyroscope: X = -4928 | Y = -268 | Z = -47
+ 
+Accelerometer: X = 748 | Y = -140 | Z = 15132
+Gyroscope: X = -4928 | Y = -300 | Z = -28
+ 
+Accelerometer: X = 704 | Y = -248 | Z = 15156
+Gyroscope: X = -4928 | Y = -276 | Z = -55
+ 
+Accelerometer: X = 668 | Y = -92 | Z = 15264
+Gyroscope: X = -4912 | Y = -290 | Z = -59
+ 
+Accelerometer: X = 644 | Y = -196 | Z = 15172
+Gyroscope: X = -4928 | Y = -310 | Z = -48
+ 
+Accelerometer: X = 620 | Y = -180 | Z = 15072
+Gyroscope: X = -4944 | Y = -293 | Z = -24
+ 
+Accelerometer: X = 544 | Y = -96 | Z = 15160
+Gyroscope: X = -4928 | Y = -317 | Z = -59
+ 
+Accelerometer: X = 632 | Y = -180 | Z = 15328
+Gyroscope: X = -4960 | Y = -292 | Z = -47
+ 
+Accelerometer: X = 540 | Y = -228 | Z = 15188
+Gyroscope: X = -4912 | Y = -287 | Z = -52
+ 
+Accelerometer: X = 616 | Y = -68 | Z = 15284
+Gyroscope: X = -4912 | Y = -297 | Z = -53
+ 
+Accelerometer: X = 608 | Y = -40 | Z = 15140
+Gyroscope: X = -4896 | Y = -299 | Z = -17
+ 
+Accelerometer: X = 668 | Y = -52 | Z = 15192
+Gyroscope: X = -4928 | Y = -315 | Z = -42
+ 
+Accelerometer: X = 580 | Y = -72 | Z = 15340
+Gyroscope: X = -4912 | Y = -295 | Z = -48
+ 
+Accelerometer: X = 548 | Y = -160 | Z = 15268
+Gyroscope: X = -4944 | Y = -283 | Z = -52
+ 
+Accelerometer: X = 592 | Y = -120 | Z = 15040
+Gyroscope: X = -4928 | Y = -297 | Z = -63
+ 
+Accelerometer: X = 552 | Y = -36 | Z = 15212
+Gyroscope: X = -4912 | Y = -310 | Z = -55
+ 
+Accelerometer: X = 576 | Y = -76 | Z = 15240
+Gyroscope: X = -4928 | Y = -317 | Z = -58
+ 
+Accelerometer: X = 656 | Y = -152 | Z = 15048
+Gyroscope: X = -4928 | Y = -282 | Z = -67
+ 
+Accelerometer: X = 668 | Y = -176 | Z = 15144
+Gyroscope: X = -4928 | Y = -285 | Z = -48
+ 
+Accelerometer: X = 632 | Y = 0 | Z = 15224
+Gyroscope: X = -4928 | Y = -288 | Z = -29
+ 
+Accelerometer: X = 816 | Y = -96 | Z = 15140
+Gyroscope: X = -4912 | Y = -297 | Z = -59
+ 
+Accelerometer: X = 676 | Y = -76 | Z = 15132
+Gyroscope: X = -4896 | Y = -314 | Z = -46
+ 
+Accelerometer: X = 512 | Y = -136 | Z = 14992
+Gyroscope: X = -4912 | Y = -289 | Z = -54
+ 
+Accelerometer: X = 624 | Y = -56 | Z = 15124
+Gyroscope: X = -4912 | Y = -313 | Z = -19
+ 
+Accelerometer: X = 800 | Y = -92 | Z = 15216
+Gyroscope: X = -4912 | Y = -302 | Z = -39
+ 
+Accelerometer: X = 756 | Y = -68 | Z = 15208
+Gyroscope: X = -4912 | Y = -283 | Z = -62
+ 
+Accelerometer: X = 648 | Y = -48 | Z = 15172
+Gyroscope: X = -4912 | Y = -329 | Z = -39
+ 
+Accelerometer: X = 604 | Y = -124 | Z = 14992
+Gyroscope: X = -4944 | Y = -291 | Z = -46
+ 
+Accelerometer: X = 524 | Y = -88 | Z = 15408
+Gyroscope: X = -4880 | Y = -291 | Z = -65
+ 
+Accelerometer: X = 636 | Y = -160 | Z = 15032
+Gyroscope: X = -4896 | Y = -296 | Z = -6
+ 
+Accelerometer: X = 684 | Y = -68 | Z = 15132
+Gyroscope: X = -4896 | Y = -304 | Z = -75
+ 
+Accelerometer: X = 632 | Y = -176 | Z = 14972
+Gyroscope: X = -4928 | Y = -301 | Z = -42
+ 
+Accelerometer: X = 624 | Y = -96 | Z = 15272
+Gyroscope: X = -4928 | Y = -267 | Z = -57
+ 
+Accelerometer: X = 500 | Y = -188 | Z = 15192
+Gyroscope: X = -4912 | Y = -278 | Z = -54
+ 
+Accelerometer: X = 632 | Y = -220 | Z = 15104
+Gyroscope: X = -4928 | Y = -299 | Z = -61
+ 
+Accelerometer: X = 512 | Y = -176 | Z = 15144
+Gyroscope: X = -4928 | Y = -293 | Z = -29
+ 
+Accelerometer: X = 552 | Y = -84 | Z = 15204
+Gyroscope: X = -4960 | Y = -254 | Z = -57
+ 
+Accelerometer: X = 836 | Y = -60 | Z = 15056
+Gyroscope: X = -4928 | Y = -306 | Z = 3
+ 
+Accelerometer: X = 600 | Y = -12 | Z = 15220
+Gyroscope: X = -4912 | Y = -284 | Z = -53
+ 
+Accelerometer: X = 540 | Y = -108 | Z = 15140
+Gyroscope: X = -4944 | Y = -315 | Z = -64
+ 
+Accelerometer: X = 588 | Y = -136 | Z = 15148
+Gyroscope: X = -4960 | Y = -323 | Z = -42
+ 
+Accelerometer: X = 472 | Y = -184 | Z = 15304
+Gyroscope: X = -4928 | Y = -258 | Z = -36
+ 
+Accelerometer: X = 568 | Y = -72 | Z = 15264
+Gyroscope: X = -4912 | Y = -305 | Z = -47
+ 
+Accelerometer: X = 696 | Y = -152 | Z = 15164
+Gyroscope: X = -4912 | Y = -299 | Z = -50
+ 
+Accelerometer: X = 616 | Y = -72 | Z = 15188
+Gyroscope: X = -4896 | Y = -304 | Z = -43
+ 
+Accelerometer: X = 748 | Y = -172 | Z = 15076
+Gyroscope: X = -4944 | Y = -293 | Z = -53
+ 
+Accelerometer: X = 536 | Y = -192 | Z = 15172
+Gyroscope: X = -4912 | Y = -276 | Z = -52
+ 
+Accelerometer: X = 536 | Y = -212 | Z = 15232
+Gyroscope: X = -4928 | Y = -290 | Z = -43
+ 
+Accelerometer: X = 580 | Y = -92 | Z = 15188
+Gyroscope: X = -4944 | Y = -289 | Z = -41
+ 
+Accelerometer: X = 472 | Y = -120 | Z = 15300
+Gyroscope: X = -4928 | Y = -287 | Z = -62
+ 
+Accelerometer: X = 724 | Y = 0 | Z = 15324
+Gyroscope: X = -4928 | Y = -312 | Z = -47
+ 
+Accelerometer: X = 632 | Y = -52 | Z = 15000
+Gyroscope: X = -4928 | Y = -298 | Z = -99
+ 
+Accelerometer: X = 736 | Y = -112 | Z = 15056
+Gyroscope: X = -4912 | Y = -312 | Z = -58
+ 
+Accelerometer: X = 588 | Y = -76 | Z = 15272
+Gyroscope: X = -4896 | Y = -296 | Z = -50
+ 
+Accelerometer: X = 720 | Y = -148 | Z = 15096
+Gyroscope: X = -4912 | Y = -310 | Z = -32
+ 
+Accelerometer: X = 552 | Y = -44 | Z = 15148
+Gyroscope: X = -4928 | Y = -295 | Z = -56
+ 
+Accelerometer: X = 608 | Y = -108 | Z = 15156
+Gyroscope: X = -4944 | Y = -308 | Z = -53
+ 
+Accelerometer: X = 600 | Y = -60 | Z = 15292
+Gyroscope: X = -4944 | Y = -314 | Z = -54
+ 
+Accelerometer: X = 616 | Y = -92 | Z = 15096
+Gyroscope: X = -4960 | Y = -287 | Z = -77
+ 
+Accelerometer: X = 648 | Y = -88 | Z = 15144
+Gyroscope: X = -4896 | Y = -292 | Z = -71
+ 
+Accelerometer: X = 608 | Y = -276 | Z = 15432
+Gyroscope: X = -4880 | Y = -288 | Z = -4
+ 
+Accelerometer: X = 652 | Y = -76 | Z = 15128
+Gyroscope: X = -4928 | Y = -296 | Z = -41
+ 
+Accelerometer: X = 664 | Y = -140 | Z = 15164
+Gyroscope: X = -4928 | Y = -292 | Z = -67
+ 
+Accelerometer: X = 640 | Y = -176 | Z = 15208
+Gyroscope: X = -4912 | Y = -285 | Z = -67
+ 
+Accelerometer: X = 452 | Y = -60 | Z = 15080
+Gyroscope: X = -4944 | Y = -291 | Z = -36
+ 
+Accelerometer: X = 676 | Y = -52 | Z = 15276
+Gyroscope: X = -4928 | Y = -286 | Z = -55
+ 
+Accelerometer: X = 568 | Y = -176 | Z = 14992
+Gyroscope: X = -4960 | Y = -321 | Z = -41
+ 
+Accelerometer: X = 648 | Y = -140 | Z = 15292
+Gyroscope: X = -4896 | Y = -301 | Z = -53
+ 
+Accelerometer: X = 584 | Y = -164 | Z = 15376
+Gyroscope: X = -4944 | Y = -271 | Z = -5
+ 
+Accelerometer: X = 564 | Y = -148 | Z = 15112
+Gyroscope: X = -4912 | Y = -288 | Z = -54
+ 
+Accelerometer: X = 608 | Y = -164 | Z = 15284
+Gyroscope: X = -4912 | Y = -297 | Z = -39
+ 
+Accelerometer: X = 652 | Y = -80 | Z = 15324
+Gyroscope: X = -4928 | Y = -299 | Z = -46
+ 
+Accelerometer: X = 640 | Y = -68 | Z = 15124
+Gyroscope: X = -4928 | Y = -290 | Z = -41
+ 
+Accelerometer: X = 640 | Y = -76 | Z = 15176
+Gyroscope: X = -4928 | Y = -299 | Z = -59
+ 
+Accelerometer: X = 612 | Y = -96 | Z = 15224
+Gyroscope: X = -4912 | Y = -287 | Z = -73
+ 
+Accelerometer: X = 464 | Y = -36 | Z = 15120
+Gyroscope: X = -4944 | Y = -299 | Z = -38
+ 
+Accelerometer: X = 716 | Y = -124 | Z = 15144
+Gyroscope: X = -4928 | Y = -290 | Z = -87
+ 
+Accelerometer: X = 532 | Y = -92 | Z = 15164
+Gyroscope: X = -4928 | Y = -286 | Z = -43
+ 
+Accelerometer: X = 520 | Y = -144 | Z = 15048
+Gyroscope: X = -4928 | Y = -306 | Z = -50
+ 
+Accelerometer: X = 568 | Y = -120 | Z = 15152
+Gyroscope: X = -4912 | Y = -290 | Z = -26
+ 
+Accelerometer: X = 640 | Y = -56 | Z = 15204
+Gyroscope: X = -4928 | Y = -292 | Z = -37
+ 
+Accelerometer: X = 564 | Y = -52 | Z = 15252
+Gyroscope: X = -4944 | Y = -301 | Z = -63
+ 
+Accelerometer: X = 652 | Y = -100 | Z = 15088
+Gyroscope: X = -4912 | Y = -297 | Z = -48
+ 
+Accelerometer: X = 672 | Y = -124 | Z = 15328
+Gyroscope: X = -4912 | Y = -303 | Z = -50
+ 
+Accelerometer: X = 724 | Y = -176 | Z = 15156
+Gyroscope: X = -4944 | Y = -283 | Z = -46
+ 
+Accelerometer: X = 660 | Y = -172 | Z = 15176
+Gyroscope: X = -4912 | Y = -309 | Z = -59
+ 
+Accelerometer: X = 636 | Y = -152 | Z = 15248
+Gyroscope: X = -4944 | Y = -297 | Z = -43
+ 
+Accelerometer: X = 656 | Y = -92 | Z = 15008
+Gyroscope: X = -4944 | Y = -272 | Z = -64
+ 
+Accelerometer: X = 552 | Y = -176 | Z = 15172
+Gyroscope: X = -4896 | Y = -306 | Z = -36
+ 
+Accelerometer: X = 612 | Y = -136 | Z = 15156
+Gyroscope: X = -4944 | Y = -289 | Z = -36
+ 
+Accelerometer: X = 660 | Y = -132 | Z = 15312
+Gyroscope: X = -4912 | Y = -322 | Z = -35
+ 
+Accelerometer: X = 776 | Y = -88 | Z = 15032
+Gyroscope: X = -4928 | Y = -300 | Z = -34
+ 
+Accelerometer: X = 672 | Y = -76 | Z = 15088
+Gyroscope: X = -4928 | Y = -301 | Z = -49
+ 
+Accelerometer: X = 664 | Y = -180 | Z = 15220
+Gyroscope: X = -4928 | Y = -322 | Z = 35
+ 
+Accelerometer: X = 552 | Y = -104 | Z = 15152
+Gyroscope: X = -4928 | Y = -306 | Z = -64
+ 
+Accelerometer: X = 528 | Y = -76 | Z = 15296
+Gyroscope: X = -4960 | Y = -296 | Z = -33
+ 
+Accelerometer: X = 640 | Y = 8 | Z = 14988
+Gyroscope: X = -4912 | Y = -277 | Z = -50
+ 
+Accelerometer: X = 644 | Y = -144 | Z = 15160
+Gyroscope: X = -4960 | Y = -304 | Z = -25
+ 
+Accelerometer: X = 684 | Y = -36 | Z = 15216
+Gyroscope: X = -4928 | Y = -289 | Z = -53
+ 
+Accelerometer: X = 604 | Y = -156 | Z = 15252
+Gyroscope: X = -4896 | Y = -308 | Z = -43
+ 
+Accelerometer: X = 572 | Y = -40 | Z = 15280
+Gyroscope: X = -4928 | Y = -303 | Z = -30
+ 
+Accelerometer: X = 624 | Y = -108 | Z = 15176
+Gyroscope: X = -4928 | Y = -265 | Z = -41
+ 
+Accelerometer: X = 484 | Y = -180 | Z = 15140
+Gyroscope: X = -4928 | Y = -287 | Z = -64
+ 
+Accelerometer: X = 572 | Y = -148 | Z = 15288
+Gyroscope: X = -4896 | Y = -282 | Z = -55
+ 
+Accelerometer: X = 496 | Y = -140 | Z = 15244
+Gyroscope: X = -4912 | Y = -286 | Z = -44
+ 
+Accelerometer: X = 588 | Y = -124 | Z = 15340
+Gyroscope: X = -4928 | Y = -289 | Z = -63
+ 
+Accelerometer: X = 576 | Y = -104 | Z = 15136
+Gyroscope: X = -4944 | Y = -296 | Z = -58
+ 
+Accelerometer: X = 600 | Y = -72 | Z = 15192
+Gyroscope: X = -4896 | Y = -290 | Z = -63
+ 
+Accelerometer: X = 532 | Y = 36 | Z = 15240
+Gyroscope: X = -4896 | Y = -273 | Z = -49
+ 
+Accelerometer: X = 564 | Y = -112 | Z = 15036
+Gyroscope: X = -4912 | Y = -282 | Z = -46
+ 
+Accelerometer: X = 560 | Y = -404 | Z = 15332
+Gyroscope: X = -4912 | Y = -284 | Z = -35
+ 
+Accelerometer: X = 628 | Y = -188 | Z = 15352
+Gyroscope: X = -4912 | Y = -279 | Z = -52
+ 
+Accelerometer: X = 520 | Y = -72 | Z = 15120
+Gyroscope: X = -4912 | Y = -341 | Z = -57
+ 
+Accelerometer: X = 620 | Y = -100 | Z = 15148
+Gyroscope: X = -4928 | Y = -290 | Z = -50
+ 
+Accelerometer: X = 544 | Y = -44 | Z = 15264
+Gyroscope: X = -4928 | Y = -304 | Z = -48
+ 
+Accelerometer: X = 572 | Y = -108 | Z = 15216
+Gyroscope: X = -4928 | Y = -301 | Z = -54
+ 
+Accelerometer: X = 600 | Y = -164 | Z = 15324
+Gyroscope: X = -4896 | Y = -290 | Z = -39
+ 
+Accelerometer: X = 616 | Y = -192 | Z = 15264
+Gyroscope: X = -4896 | Y = -289 | Z = -62
+ 
+Accelerometer: X = 532 | Y = -192 | Z = 15204
+Gyroscope: X = -4928 | Y = -282 | Z = -17
+ 
+Accelerometer: X = 524 | Y = -76 | Z = 15112
+Gyroscope: X = -4896 | Y = -315 | Z = -69
+ 
+Accelerometer: X = 604 | Y = -116 | Z = 15208
+Gyroscope: X = -4944 | Y = -309 | Z = -62
+ 
+Accelerometer: X = 756 | Y = -224 | Z = 15156
+Gyroscope: X = -4944 | Y = -325 | Z = -40
+ 
+Accelerometer: X = 648 | Y = -136 | Z = 15176
+Gyroscope: X = -4912 | Y = -310 | Z = -31
+ 
+Accelerometer: X = 468 | Y = -108 | Z = 15292
+Gyroscope: X = -4928 | Y = -279 | Z = -66
+ 
+Accelerometer: X = 732 | Y = -276 | Z = 15220
+Gyroscope: X = -4928 | Y = -303 | Z = -70
+ 
+Accelerometer: X = 612 | Y = -100 | Z = 15392
+Gyroscope: X = -4896 | Y = -308 | Z = -54
+ 
+Accelerometer: X = 544 | Y = -56 | Z = 15140
+Gyroscope: X = -4896 | Y = -287 | Z = -33
+ 
+Accelerometer: X = 676 | Y = -120 | Z = 15204
+Gyroscope: X = -4928 | Y = -299 | Z = -30
+ 
+Accelerometer: X = 568 | Y = -144 | Z = 15032
+Gyroscope: X = -4928 | Y = -301 | Z = -44
+ 
+Accelerometer: X = 572 | Y = -132 | Z = 15212
+Gyroscope: X = -4928 | Y = -305 | Z = -64
+ 
+Accelerometer: X = 716 | Y = -200 | Z = 15272
+Gyroscope: X = -4928 | Y = -305 | Z = -51
+ 
+Accelerometer: X = 752 | Y = -36 | Z = 15192
+Gyroscope: X = -4896 | Y = -268 | Z = -40
+ 
+Accelerometer: X = 600 | Y = -216 | Z = 15204
+Gyroscope: X = -4928 | Y = -314 | Z = -59
+ 
+Accelerometer: X = 620 | Y = -188 | Z = 15204
+Gyroscope: X = -4896 | Y = -328 | Z = -47
+ 
+Accelerometer: X = 500 | Y = -156 | Z = 15168
+Gyroscope: X = -4880 | Y = -270 | Z = -32
+ 
+Accelerometer: X = 544 | Y = 28 | Z = 15156
+Gyroscope: X = -4928 | Y = -297 | Z = -86
+ 
+Accelerometer: X = 668 | Y = -60 | Z = 15272
+Gyroscope: X = -4912 | Y = -299 | Z = -52
+ 
+Accelerometer: X = 684 | Y = -56 | Z = 15112
+Gyroscope: X = -4928 | Y = -281 | Z = -38
+ 
+Accelerometer: X = 732 | Y = -44 | Z = 15144
+Gyroscope: X = -4912 | Y = -290 | Z = -47
+ 
+Accelerometer: X = 680 | Y = -112 | Z = 15156
+Gyroscope: X = -4896 | Y = -276 | Z = -41
+ 
+Accelerometer: X = 652 | Y = -60 | Z = 15188
+Gyroscope: X = -4896 | Y = -292 | Z = -43
+ 
+Accelerometer: X = 612 | Y = -108 | Z = 15184
+Gyroscope: X = -4928 | Y = -310 | Z = -57
+ 
+Accelerometer: X = 628 | Y = -32 | Z = 15080
+Gyroscope: X = -4912 | Y = -292 | Z = -40
+ 
+Accelerometer: X = 688 | Y = -132 | Z = 15188
+Gyroscope: X = -4944 | Y = -310 | Z = -36
+ 
+Accelerometer: X = 616 | Y = -168 | Z = 15240
+Gyroscope: X = -4928 | Y = -287 | Z = -39
+ 
+Accelerometer: X = 568 | Y = -104 | Z = 15124
+Gyroscope: X = -4944 | Y = -297 | Z = -69
+ 
+Accelerometer: X = 684 | Y = -200 | Z = 15240
+Gyroscope: X = -4912 | Y = -302 | Z = -17
+ 
+Accelerometer: X = 476 | Y = -96 | Z = 15276
+Gyroscope: X = -4912 | Y = -306 | Z = -45
+ 
+Accelerometer: X = 556 | Y = -108 | Z = 14960
+Gyroscope: X = -4912 | Y = -296 | Z = -56
+ 
+Accelerometer: X = 580 | Y = -116 | Z = 15284
+Gyroscope: X = -4912 | Y = -290 | Z = -63
+ 
+Accelerometer: X = 628 | Y = -176 | Z = 15256
+Gyroscope: X = -4896 | Y = -276 | Z = -41
+ 
+Accelerometer: X = 580 | Y = -132 | Z = 15152
+Gyroscope: X = -4912 | Y = -287 | Z = -27
+ 
+Accelerometer: X = 508 | Y = -120 | Z = 15084
+Gyroscope: X = -4896 | Y = -303 | Z = -36
+ 
+Accelerometer: X = 572 | Y = -220 | Z = 15204
+Gyroscope: X = -4928 | Y = -291 | Z = -79
+ 
+Accelerometer: X = 652 | Y = -60 | Z = 15048
+Gyroscope: X = -4912 | Y = -274 | Z = -64
+ 
+Accelerometer: X = 672 | Y = -88 | Z = 15020
+Gyroscope: X = -4896 | Y = -288 | Z = -31
+ 
+Accelerometer: X = 572 | Y = -48 | Z = 15256
+Gyroscope: X = -4928 | Y = -332 | Z = -45
+ 
+Accelerometer: X = 588 | Y = -72 | Z = 15132
+Gyroscope: X = -4896 | Y = -318 | Z = -78
+ 
+Accelerometer: X = 584 | Y = -128 | Z = 15176
+Gyroscope: X = -4944 | Y = -302 | Z = -39
+ 
+Accelerometer: X = 576 | Y = -236 | Z = 15128
+Gyroscope: X = -4928 | Y = -289 | Z = -63
+ 
+Accelerometer: X = 764 | Y = -132 | Z = 15008
+Gyroscope: X = -4912 | Y = -285 | Z = -74
+ 
+Accelerometer: X = 536 | Y = -128 | Z = 15208
+Gyroscope: X = -4928 | Y = -315 | Z = -43
+ 
+Accelerometer: X = 620 | Y = -184 | Z = 15284
+Gyroscope: X = -4928 | Y = -286 | Z = -63
+ 
+Accelerometer: X = 576 | Y = -48 | Z = 15240
+Gyroscope: X = -4912 | Y = -277 | Z = -45
+ 
+Accelerometer: X = 540 | Y = -72 | Z = 15340
+Gyroscope: X = -4912 | Y = -286 | Z = -76
+ 
+Accelerometer: X = 564 | Y = -124 | Z = 15224
+Gyroscope: X = -4912 | Y = -296 | Z = -69
+ 
+Accelerometer: X = 604 | Y = -176 | Z = 15284
+Gyroscope: X = -4896 | Y = -306 | Z = -44
+ 
+Accelerometer: X = 588 | Y = -72 | Z = 15140
+Gyroscope: X = -4896 | Y = -286 | Z = -50
+ 
+Accelerometer: X = 480 | Y = -72 | Z = 15248
+Gyroscope: X = -4912 | Y = -295 | Z = -49
+ 
+Accelerometer: X = 564 | Y = -108 | Z = 15192
+Gyroscope: X = -4912 | Y = -289 | Z = -73
+ 
+Accelerometer: X = 664 | Y = -172 | Z = 15164
+Gyroscope: X = -4944 | Y = -309 | Z = -48
+ 
+Accelerometer: X = 620 | Y = -172 | Z = 15252
+Gyroscope: X = -4896 | Y = -295 | Z = -43
+ 
+Accelerometer: X = 688 | Y = -56 | Z = 15188
+Gyroscope: X = -4896 | Y = -292 | Z = -59
+ 
+Accelerometer: X = 644 | Y = -148 | Z = 15248
+Gyroscope: X = -4928 | Y = -299 | Z = -45
+ 
+Accelerometer: X = 636 | Y = -164 | Z = 15184
+Gyroscope: X = -4928 | Y = -300 | Z = -41
+ 
+Accelerometer: X = 600 | Y = -68 | Z = 15248
+Gyroscope: X = -4928 | Y = -319 | Z = -58
+ 
+Accelerometer: X = 596 | Y = -172 | Z = 15208
+Gyroscope: X = -4928 | Y = -305 | Z = -62
+ 
+Accelerometer: X = 568 | Y = -180 | Z = 15284
+Gyroscope: X = -4944 | Y = -290 | Z = -70
+ 
+Accelerometer: X = 572 | Y = -136 | Z = 15144
+Gyroscope: X = -4896 | Y = -287 | Z = -28
+ 
+Accelerometer: X = 616 | Y = -28 | Z = 15276
+Gyroscope: X = -4896 | Y = -301 | Z = -57
+ 
+Accelerometer: X = 652 | Y = -172 | Z = 15140
+Gyroscope: X = -4928 | Y = -310 | Z = -27
+ 
+Accelerometer: X = 616 | Y = -16 | Z = 15188
+Gyroscope: X = -4896 | Y = -291 | Z = -48
+ 
+Accelerometer: X = 616 | Y = -56 | Z = 15200
+Gyroscope: X = -4896 | Y = -305 | Z = -55
+ 
+Accelerometer: X = 556 | Y = -172 | Z = 15344
+Gyroscope: X = -4912 | Y = -300 | Z = -79
+ 
+Accelerometer: X = 620 | Y = -64 | Z = 15196
+Gyroscope: X = -4960 | Y = -314 | Z = -44
+ 
+Accelerometer: X = 620 | Y = -112 | Z = 14996
+Gyroscope: X = -4912 | Y = -290 | Z = -50
+ 
+Accelerometer: X = 572 | Y = -180 | Z = 15296
+Gyroscope: X = -4944 | Y = -290 | Z = -66
+ 
+Accelerometer: X = 648 | Y = -108 | Z = 15184
+Gyroscope: X = -4912 | Y = -317 | Z = -47
+ 
+Accelerometer: X = 544 | Y = -140 | Z = 15156
+Gyroscope: X = -4912 | Y = -297 | Z = -65
+ 
+Accelerometer: X = 572 | Y = -92 | Z = 15288
+Gyroscope: X = -4928 | Y = -287 | Z = -61
+ 
+Accelerometer: X = 588 | Y = -148 | Z = 15104
+Gyroscope: X = -4912 | Y = -309 | Z = -61
+ 
+Accelerometer: X = 504 | Y = -112 | Z = 15144
+Gyroscope: X = -4912 | Y = -283 | Z = -57
+ 
+Accelerometer: X = 496 | Y = -220 | Z = 15172
+Gyroscope: X = -4912 | Y = -315 | Z = -68
+ 
+Accelerometer: X = 604 | Y = -132 | Z = 15284
+Gyroscope: X = -4880 | Y = -273 | Z = -39
+ 
+Accelerometer: X = 612 | Y = -136 | Z = 15124
+Gyroscope: X = -4880 | Y = -321 | Z = -53
+ 
+Accelerometer: X = 724 | Y = -88 | Z = 15224
+Gyroscope: X = -4912 | Y = -310 | Z = -54
+ 
+Accelerometer: X = 508 | Y = -232 | Z = 15232
+Gyroscope: X = -4928 | Y = -314 | Z = -52
+ 
+Accelerometer: X = 392 | Y = -120 | Z = 15572
+Gyroscope: X = -4912 | Y = -318 | Z = 0
+ 
+Accelerometer: X = 608 | Y = -76 | Z = 15156
+Gyroscope: X = -4928 | Y = -301 | Z = -60
+ 
+Accelerometer: X = 712 | Y = -108 | Z = 15200
+Gyroscope: X = -4896 | Y = -292 | Z = -31
+ 
+Accelerometer: X = 652 | Y = -72 | Z = 15280
+Gyroscope: X = -4864 | Y = -313 | Z = -56
+ 
+Accelerometer: X = 632 | Y = -92 | Z = 15212
+Gyroscope: X = -4896 | Y = -298 | Z = -51
+ 
+Accelerometer: X = 600 | Y = -196 | Z = 14992
+Gyroscope: X = -4896 | Y = -287 | Z = -26
+ 
+Accelerometer: X = 668 | Y = -60 | Z = 15148
+Gyroscope: X = -4944 | Y = -308 | Z = -43
+ 
+Accelerometer: X = 676 | Y = -124 | Z = 15172
+Gyroscope: X = -4896 | Y = -285 | Z = -31
+ 
+Accelerometer: X = 636 | Y = -124 | Z = 15228
+Gyroscope: X = -4912 | Y = -313 | Z = -56
+ 
+Accelerometer: X = 488 | Y = -96 | Z = 15204
+Gyroscope: X = -4944 | Y = -311 | Z = -35
+ 
+Accelerometer: X = 568 | Y = -88 | Z = 15144
+Gyroscope: X = -4912 | Y = -300 | Z = -53
+ 
+Accelerometer: X = 592 | Y = -76 | Z = 15200
+Gyroscope: X = -4896 | Y = -288 | Z = -55
+ 
+Accelerometer: X = 596 | Y = -140 | Z = 15180
+Gyroscope: X = -4928 | Y = -291 | Z = -42
+ 
+Accelerometer: X = 528 | Y = -132 | Z = 15236
+Gyroscope: X = -4912 | Y = -269 | Z = -57
+ 
+Accelerometer: X = 648 | Y = -124 | Z = 15080
+Gyroscope: X = -4928 | Y = -291 | Z = -37
+ 
+Accelerometer: X = 416 | Y = -56 | Z = 15136
+Gyroscope: X = -4896 | Y = -289 | Z = -39
+ 
+Accelerometer: X = 444 | Y = -188 | Z = 15172
+Gyroscope: X = -4912 | Y = -287 | Z = -51
+ 
+Accelerometer: X = 476 | Y = -136 | Z = 15224
+Gyroscope: X = -4912 | Y = -306 | Z = -49
+ 
+Accelerometer: X = 620 | Y = -128 | Z = 15204
+Gyroscope: X = -4896 | Y = -313 | Z = -31
+ 
+Accelerometer: X = 600 | Y = -16 | Z = 15256
+Gyroscope: X = -4928 | Y = -313 | Z = -57
+ 
+Accelerometer: X = 792 | Y = -128 | Z = 15184
+Gyroscope: X = -4912 | Y = -288 | Z = -61
+ 
+Accelerometer: X = 716 | Y = -76 | Z = 15148
+Gyroscope: X = -4896 | Y = -283 | Z = -38
+ 
+Accelerometer: X = 568 | Y = -116 | Z = 15248
+Gyroscope: X = -4912 | Y = -299 | Z = -31
+ 
+Accelerometer: X = 760 | Y = -152 | Z = 15180
+Gyroscope: X = -4912 | Y = -296 | Z = -50
+ 
+Accelerometer: X = 496 | Y = -80 | Z = 15296
+Gyroscope: X = -4896 | Y = -291 | Z = -52
+ 
+Accelerometer: X = 740 | Y = -152 | Z = 15112
+Gyroscope: X = -4912 | Y = -282 | Z = -75
+ 
+Accelerometer: X = 692 | Y = -112 | Z = 15204
+Gyroscope: X = -4912 | Y = -295 | Z = -35
+ 
+Accelerometer: X = 580 | Y = -116 | Z = 15220
+Gyroscope: X = -4880 | Y = -265 | Z = -48
+ 
+Accelerometer: X = 848 | Y = -112 | Z = 15260
+Gyroscope: X = -4912 | Y = -307 | Z = -53
+ 
+Accelerometer: X = 656 | Y = -44 | Z = 15088
+Gyroscope: X = -4912 | Y = -294 | Z = -55
+ 
+Accelerometer: X = 628 | Y = -40 | Z = 15096
+Gyroscope: X = -4912 | Y = -308 | Z = -50
+ 
+Accelerometer: X = 636 | Y = -124 | Z = 15076
+Gyroscope: X = -4912 | Y = -308 | Z = -43
+ 
+Accelerometer: X = 472 | Y = -124 | Z = 15216
+Gyroscope: X = -4880 | Y = -300 | Z = -47
+ 
+Accelerometer: X = 732 | Y = -132 | Z = 15220
+Gyroscope: X = -4928 | Y = -296 | Z = -48
+ 
+Accelerometer: X = 452 | Y = -124 | Z = 15144
+Gyroscope: X = -4912 | Y = -273 | Z = -41
+ 
+Accelerometer: X = 532 | Y = -148 | Z = 15332
+Gyroscope: X = -4912 | Y = -306 | Z = -65
+ 
+Accelerometer: X = 476 | Y = -112 | Z = 15184
+Gyroscope: X = -4912 | Y = -283 | Z = -45
+ 
+Accelerometer: X = 596 | Y = -56 | Z = 15112
+Gyroscope: X = -4880 | Y = -271 | Z = -51
+ 
+Accelerometer: X = 616 | Y = -272 | Z = 15268
+Gyroscope: X = -4896 | Y = -307 | Z = -69
+ 
+Accelerometer: X = 636 | Y = -172 | Z = 15132
+Gyroscope: X = -4896 | Y = -303 | Z = -55
+ 
+Accelerometer: X = 536 | Y = -132 | Z = 15048
+Gyroscope: X = -4928 | Y = -303 | Z = -53
+ 
+Accelerometer: X = 564 | Y = -68 | Z = 15188
+Gyroscope: X = -4912 | Y = -289 | Z = -43
+ 
+Accelerometer: X = 636 | Y = -224 | Z = 15088
+Gyroscope: X = -4912 | Y = -313 | Z = -45
+ 
+Accelerometer: X = 628 | Y = -88 | Z = 15136
+Gyroscope: X = -4880 | Y = -322 | Z = -57
+ 
+Accelerometer: X = 716 | Y = -188 | Z = 15080
+Gyroscope: X = -4880 | Y = -279 | Z = -44
+ 
+Accelerometer: X = 660 | Y = -40 | Z = 15060
+Gyroscope: X = -4912 | Y = -275 | Z = -38
+ 
+Accelerometer: X = 732 | Y = -84 | Z = 15072
+Gyroscope: X = -4912 | Y = -294 | Z = -51
+ 
+Accelerometer: X = 524 | Y = -100 | Z = 15340
+Gyroscope: X = -4912 | Y = -325 | Z = -27
+ 
+Accelerometer: X = 452 | Y = -40 | Z = 15116
+Gyroscope: X = -4912 | Y = -291 | Z = -39
+ 
+Accelerometer: X = 532 | Y = -140 | Z = 15116
+Gyroscope: X = -4880 | Y = -303 | Z = -59
+ 
+Accelerometer: X = 480 | Y = -228 | Z = 15232
+Gyroscope: X = -4928 | Y = -301 | Z = -49
+ 
+Accelerometer: X = 700 | Y = -60 | Z = 15184
+Gyroscope: X = -4928 | Y = -272 | Z = -50
+ 
+Accelerometer: X = 484 | Y = -12 | Z = 15036
+Gyroscope: X = -4928 | Y = -289 | Z = -57
+ 
+Accelerometer: X = 480 | Y = -140 | Z = 15084
+Gyroscope: X = -4896 | Y = -308 | Z = -37
+ 
+Accelerometer: X = 504 | Y = -88 | Z = 15200
+Gyroscope: X = -4928 | Y = -301 | Z = -41
+ 
+Accelerometer: X = 540 | Y = -100 | Z = 15128
+Gyroscope: X = -4928 | Y = -297 | Z = -42
+ 
+Accelerometer: X = 580 | Y = -120 | Z = 15312
+Gyroscope: X = -4928 | Y = -304 | Z = -14
+ 
+Accelerometer: X = 564 | Y = -196 | Z = 15296
+Gyroscope: X = -4912 | Y = -297 | Z = -48
+ 
+Accelerometer: X = 684 | Y = -64 | Z = 15112
+Gyroscope: X = -4880 | Y = -287 | Z = -27
+ 
+Accelerometer: X = 592 | Y = -100 | Z = 15096
+Gyroscope: X = -4912 | Y = -279 | Z = -36
+ 
+Accelerometer: X = 684 | Y = -24 | Z = 14996
+Gyroscope: X = -4912 | Y = -284 | Z = -58
+ 
+Accelerometer: X = 692 | Y = -172 | Z = 15160
+Gyroscope: X = -4880 | Y = -294 | Z = -55
+ 
+Accelerometer: X = 552 | Y = -4 | Z = 15140
+Gyroscope: X = -4928 | Y = -315 | Z = -60
+ 
+Accelerometer: X = 624 | Y = -152 | Z = 15400
+Gyroscope: X = -4928 | Y = -293 | Z = -32
+ 
+Accelerometer: X = 788 | Y = -152 | Z = 15112
+Gyroscope: X = -4896 | Y = -301 | Z = -41
+ 
+Accelerometer: X = 984 | Y = -180 | Z = 14760
+Gyroscope: X = -4896 | Y = -305 | Z = -13
+ 
+Accelerometer: X = 520 | Y = -104 | Z = 15040
+Gyroscope: X = -4896 | Y = -279 | Z = -27
+ 
+Accelerometer: X = 492 | Y = -64 | Z = 15048
+Gyroscope: X = -4944 | Y = -264 | Z = -47
+ 
+Accelerometer: X = 460 | Y = -132 | Z = 15248
+Gyroscope: X = -4912 | Y = -289 | Z = -47
+ 
+Accelerometer: X = 552 | Y = -288 | Z = 15168
+Gyroscope: X = -4912 | Y = -262 | Z = -33
+ 
+Accelerometer: X = 656 | Y = -24 | Z = 15236
+Gyroscope: X = -4896 | Y = -299 | Z = 4
+ 
+Accelerometer: X = 524 | Y = -72 | Z = 15312
+Gyroscope: X = -4896 | Y = -310 | Z = -38
+ 
+Accelerometer: X = 500 | Y = -84 | Z = 15328
+Gyroscope: X = -4928 | Y = -306 | Z = -48
+ 
+Accelerometer: X = 568 | Y = -104 | Z = 15192
+Gyroscope: X = -4896 | Y = -296 | Z = -58
+ 
+Accelerometer: X = 568 | Y = -172 | Z = 15084
+Gyroscope: X = -4896 | Y = -299 | Z = -79
+ 
+Accelerometer: X = 620 | Y = -108 | Z = 15292
+Gyroscope: X = -4896 | Y = -304 | Z = -14
+ 
+Accelerometer: X = 584 | Y = -116 | Z = 15136
+Gyroscope: X = -4928 | Y = -304 | Z = -61
+ 
+Accelerometer: X = 452 | Y = -148 | Z = 15196
+Gyroscope: X = -4928 | Y = -290 | Z = -92
+ 
+Accelerometer: X = 600 | Y = -156 | Z = 15232
+Gyroscope: X = -4880 | Y = -290 | Z = -52
+ 
+Accelerometer: X = 772 | Y = -68 | Z = 15208
+Gyroscope: X = -4960 | Y = -284 | Z = -62
+ 
+Accelerometer: X = 556 | Y = 48 | Z = 15184
+Gyroscope: X = -4896 | Y = -274 | Z = -60
+ 
+Accelerometer: X = 604 | Y = -164 | Z = 15292
+Gyroscope: X = -4896 | Y = -291 | Z = -36
+ 
+Accelerometer: X = 700 | Y = -116 | Z = 15208
+Gyroscope: X = -4928 | Y = -319 | Z = -67
+ 
+Accelerometer: X = 692 | Y = -4 | Z = 15212
+Gyroscope: X = -4896 | Y = -309 | Z = -38
+ 
+Accelerometer: X = 592 | Y = -88 | Z = 15204
+Gyroscope: X = -4928 | Y = -286 | Z = -32
+ 
+Accelerometer: X = 540 | Y = -76 | Z = 15280
+Gyroscope: X = -4928 | Y = -305 | Z = -43
+ 
+Accelerometer: X = 512 | Y = -152 | Z = 15044
+Gyroscope: X = -4896 | Y = -284 | Z = -42
+ 
+Accelerometer: X = 588 | Y = -244 | Z = 15176
+Gyroscope: X = -4928 | Y = -276 | Z = -48
+ 
+Accelerometer: X = 580 | Y = -104 | Z = 15248
+Gyroscope: X = -4912 | Y = -312 | Z = -49
+ 
+Accelerometer: X = 624 | Y = -80 | Z = 15196
+Gyroscope: X = -4928 | Y = -293 | Z = -57
+ 
+Accelerometer: X = 656 | Y = -168 | Z = 15152
+Gyroscope: X = -4896 | Y = -308 | Z = -59
+ 
+Accelerometer: X = 492 | Y = -92 | Z = 15312
+Gyroscope: X = -4896 | Y = -293 | Z = -42
+ 
+Accelerometer: X = 696 | Y = -32 | Z = 15232
+Gyroscope: X = -4896 | Y = -314 | Z = -104
+ 
+Accelerometer: X = 544 | Y = -108 | Z = 15220
+Gyroscope: X = -4896 | Y = -302 | Z = -60
+ 
+Accelerometer: X = 592 | Y = -160 | Z = 15368
+Gyroscope: X = -4928 | Y = -299 | Z = -48
+ 
+Accelerometer: X = 668 | Y = -68 | Z = 15236
+Gyroscope: X = -4928 | Y = -290 | Z = -47
+ 
+Accelerometer: X = 396 | Y = -124 | Z = 14936
+Gyroscope: X = -4912 | Y = -308 | Z = -45
+ 
+Accelerometer: X = 600 | Y = -96 | Z = 15300
+Gyroscope: X = -4880 | Y = -272 | Z = -50
+ 
+Accelerometer: X = 688 | Y = -292 | Z = 15300
+Gyroscope: X = -4912 | Y = -305 | Z = -41
+ 
+Accelerometer: X = 552 | Y = -96 | Z = 15376
+Gyroscope: X = -4928 | Y = -294 | Z = -50
+ 
+Accelerometer: X = 556 | Y = -176 | Z = 15148
+Gyroscope: X = -4944 | Y = -290 | Z = -56
+ 
+Accelerometer: X = 648 | Y = -108 | Z = 15276
+Gyroscope: X = -4912 | Y = -283 | Z = -37
+ 
+Accelerometer: X = 536 | Y = -36 | Z = 15248
+Gyroscope: X = -4928 | Y = -288 | Z = -21
+ 
+Accelerometer: X = 572 | Y = -132 | Z = 15068
+Gyroscope: X = -4912 | Y = -302 | Z = -38
+ 
+Accelerometer: X = 752 | Y = -140 | Z = 15216
+Gyroscope: X = -4912 | Y = -298 | Z = -51
+ 
+Accelerometer: X = 756 | Y = -96 | Z = 15148
+Gyroscope: X = -4896 | Y = -300 | Z = -44
+ 
+Accelerometer: X = 532 | Y = -104 | Z = 15044
+Gyroscope: X = -4896 | Y = -300 | Z = -87
+ 
+Accelerometer: X = 472 | Y = -120 | Z = 15164
+Gyroscope: X = -4880 | Y = -301 | Z = -46
+ 
+Accelerometer: X = 692 | Y = -124 | Z = 15080
+Gyroscope: X = -4912 | Y = -320 | Z = -39
+ 
+Accelerometer: X = 644 | Y = -120 | Z = 15148
+Gyroscope: X = -4896 | Y = -299 | Z = -51
+ 
+Accelerometer: X = 612 | Y = -72 | Z = 15292
+Gyroscope: X = -4896 | Y = -313 | Z = -37
+ 
+Accelerometer: X = 600 | Y = -152 | Z = 15084
+Gyroscope: X = -4864 | Y = -287 | Z = -61
+ 
+Accelerometer: X = 744 | Y = 20 | Z = 15324
+Gyroscope: X = -4880 | Y = -294 | Z = -51
+ 
+Accelerometer: X = 100 | Y = -288 | Z = 15204
+Gyroscope: X = -4912 | Y = -306 | Z = -37
+ 
+Accelerometer: X = 600 | Y = -40 | Z = 15296
+Gyroscope: X = -4944 | Y = -307 | Z = -56
+ 
+Accelerometer: X = 592 | Y = -24 | Z = 15144
+Gyroscope: X = -4896 | Y = -284 | Z = -42
+ 
+Accelerometer: X = 592 | Y = -104 | Z = 15152
+Gyroscope: X = -4928 | Y = -314 | Z = -41
+ 
+Accelerometer: X = 632 | Y = -116 | Z = 15336
+Gyroscope: X = -4896 | Y = -317 | Z = -40
+ 
+Accelerometer: X = 380 | Y = -168 | Z = 15084
+Gyroscope: X = -4912 | Y = -309 | Z = -83
+ 
+Accelerometer: X = 616 | Y = -20 | Z = 15156
+Gyroscope: X = -4880 | Y = -299 | Z = -53
+ 
+Accelerometer: X = 600 | Y = -60 | Z = 15236
+Gyroscope: X = -4896 | Y = -301 | Z = -28
+ 
+Accelerometer: X = 588 | Y = -120 | Z = 15160
+Gyroscope: X = -4848 | Y = -299 | Z = -42
+ 
+Accelerometer: X = 380 | Y = -44 | Z = 15156
+Gyroscope: X = -4928 | Y = -293 | Z = -60
+ 
+Accelerometer: X = 528 | Y = -164 | Z = 15112
+Gyroscope: X = -4896 | Y = -275 | Z = -36
+ 
+Accelerometer: X = 680 | Y = -40 | Z = 15308
+Gyroscope: X = -4896 | Y = -283 | Z = -71
+ 
+Accelerometer: X = 768 | Y = -96 | Z = 15072
+Gyroscope: X = -4928 | Y = -287 | Z = -37
+ 
+Accelerometer: X = 652 | Y = -100 | Z = 15224
+Gyroscope: X = -4912 | Y = -300 | Z = -37
+ 
+Accelerometer: X = 636 | Y = -132 | Z = 15096
+Gyroscope: X = -4896 | Y = -309 | Z = -63
+ 
+Accelerometer: X = 452 | Y = -104 | Z = 15336
+Gyroscope: X = -4896 | Y = -315 | Z = -41
+ 
+Accelerometer: X = 664 | Y = -152 | Z = 15232
+Gyroscope: X = -4912 | Y = -281 | Z = -30
+ 
+Accelerometer: X = 472 | Y = -156 | Z = 15120
+Gyroscope: X = -4880 | Y = -293 | Z = -86
+ 
+Accelerometer: X = 608 | Y = -60 | Z = 15120
+Gyroscope: X = -4896 | Y = -309 | Z = -45
+ 
+Accelerometer: X = 652 | Y = -188 | Z = 15168
+Gyroscope: X = -4896 | Y = -310 | Z = -33
+ 
+Accelerometer: X = 648 | Y = -112 | Z = 15048
+Gyroscope: X = -4896 | Y = -301 | Z = -59
+ 
+Accelerometer: X = 644 | Y = -80 | Z = 15240
+Gyroscope: X = -4928 | Y = -318 | Z = -67
+ 
+Accelerometer: X = 644 | Y = -132 | Z = 15204
+Gyroscope: X = -4912 | Y = -299 | Z = -44
+ 
+Accelerometer: X = 696 | Y = 8 | Z = 15064
+Gyroscope: X = -4912 | Y = -306 | Z = -29
+ 
+Accelerometer: X = 532 | Y = -76 | Z = 15132
+Gyroscope: X = -4912 | Y = -286 | Z = -38
+ 
+Accelerometer: X = 544 | Y = -120 | Z = 15308
+Gyroscope: X = -4928 | Y = -296 | Z = -32
+ 
+Accelerometer: X = 548 | Y = 24 | Z = 15140
+Gyroscope: X = -4928 | Y = -295 | Z = -66
+ 
+Accelerometer: X = 808 | Y = -8 | Z = 15604
+Gyroscope: X = -4896 | Y = -306 | Z = 14
+ 
+Accelerometer: X = 580 | Y = -176 | Z = 15056
+Gyroscope: X = -4896 | Y = -312 | Z = -18
+ 
+Accelerometer: X = 528 | Y = -144 | Z = 15372
+Gyroscope: X = -4928 | Y = -281 | Z = -68
+ 
+Accelerometer: X = 644 | Y = -216 | Z = 15140
+Gyroscope: X = -4928 | Y = -293 | Z = -54
+ 
+Accelerometer: X = 588 | Y = -168 | Z = 15084
+Gyroscope: X = -4928 | Y = -297 | Z = -62
+ 
+Accelerometer: X = 688 | Y = -64 | Z = 15312
+Gyroscope: X = -4896 | Y = -314 | Z = -39
+ 
+Accelerometer: X = 660 | Y = -152 | Z = 15144
+Gyroscope: X = -4912 | Y = -290 | Z = -58
+ 
+Accelerometer: X = 548 | Y = -124 | Z = 14892
+Gyroscope: X = -4944 | Y = -292 | Z = -78
+ 
+Accelerometer: X = 680 | Y = -28 | Z = 15132
+Gyroscope: X = -4912 | Y = -299 | Z = -79
+ 
+Accelerometer: X = 608 | Y = -92 | Z = 15240
+Gyroscope: X = -4880 | Y = -319 | Z = -42
+ 
+Accelerometer: X = 540 | Y = -48 | Z = 15148
+Gyroscope: X = -4880 | Y = -257 | Z = -47
+ 
+Accelerometer: X = 576 | Y = -200 | Z = 15152
+Gyroscope: X = -4880 | Y = -293 | Z = -61
+ 
+Accelerometer: X = 788 | Y = -52 | Z = 14668
+Gyroscope: X = -4912 | Y = -314 | Z = -77
+ 
+Accelerometer: X = 664 | Y = -160 | Z = 15200
+Gyroscope: X = -4848 | Y = -310 | Z = -40
+ 
+Accelerometer: X = 680 | Y = -84 | Z = 15264
+Gyroscope: X = -4912 | Y = -278 | Z = -51
+ 
+Accelerometer: X = 660 | Y = -160 | Z = 15160
+Gyroscope: X = -4896 | Y = -311 | Z = -47
+ 
+Accelerometer: X = 688 | Y = -132 | Z = 15356
+Gyroscope: X = -4896 | Y = -305 | Z = -64
+ 
+Accelerometer: X = 784 | Y = -116 | Z = 15064
+Gyroscope: X = -4928 | Y = -309 | Z = -64
+ 
+Accelerometer: X = 500 | Y = -136 | Z = 15096
+Gyroscope: X = -4912 | Y = -291 | Z = -51
+ 
+Accelerometer: X = 692 | Y = -24 | Z = 15072
+Gyroscope: X = -4880 | Y = -322 | Z = -56
+ 
+Accelerometer: X = 708 | Y = -36 | Z = 15288
+Gyroscope: X = -4912 | Y = -294 | Z = -59
+ 
+Accelerometer: X = 548 | Y = -120 | Z = 14876
+Gyroscope: X = -4896 | Y = -298 | Z = -43
+ 
+Accelerometer: X = 572 | Y = -208 | Z = 15228
+Gyroscope: X = -4896 | Y = -269 | Z = -37
+ 
+Accelerometer: X = 668 | Y = -60 | Z = 15096
+Gyroscope: X = -4928 | Y = -292 | Z = -82
+ 
+Accelerometer: X = 460 | Y = -156 | Z = 15252
+Gyroscope: X = -4928 | Y = -283 | Z = -51
+ 
+Accelerometer: X = 536 | Y = -164 | Z = 15176
+Gyroscope: X = -4912 | Y = -288 | Z = -49
+ 
+Accelerometer: X = 636 | Y = -152 | Z = 15168
+Gyroscope: X = -4928 | Y = -273 | Z = -44
+ 
+Accelerometer: X = 632 | Y = -60 | Z = 15128
+Gyroscope: X = -4896 | Y = -279 | Z = -50
+ 
+Accelerometer: X = 632 | Y = -172 | Z = 15076
+Gyroscope: X = -4928 | Y = -298 | Z = -64
+ 
+Accelerometer: X = 652 | Y = -40 | Z = 15148
+Gyroscope: X = -4896 | Y = -278 | Z = -30
+ 
+Accelerometer: X = 612 | Y = -32 | Z = 15224
+Gyroscope: X = -4864 | Y = -301 | Z = -47
+ 
+Accelerometer: X = 600 | Y = -260 | Z = 15124
+Gyroscope: X = -4880 | Y = -299 | Z = -37
+ 
+Accelerometer: X = 612 | Y = -212 | Z = 15144
+Gyroscope: X = -4928 | Y = -275 | Z = -67
+ 
+Accelerometer: X = 800 | Y = -132 | Z = 15284
+Gyroscope: X = -4896 | Y = -291 | Z = -46
+ 
+Accelerometer: X = 744 | Y = -104 | Z = 15176
+Gyroscope: X = -4928 | Y = -295 | Z = -61
+ 
+Accelerometer: X = 724 | Y = -36 | Z = 15192
+Gyroscope: X = -4880 | Y = -306 | Z = -52
+ 
+Accelerometer: X = 668 | Y = -104 | Z = 15152
+Gyroscope: X = -4912 | Y = -282 | Z = -43
+ 
+Accelerometer: X = 704 | Y = -200 | Z = 15084
+Gyroscope: X = -4896 | Y = -323 | Z = -66
+ 
+Accelerometer: X = 680 | Y = -112 | Z = 15184
+Gyroscope: X = -4896 | Y = -290 | Z = -44
+ 
+Accelerometer: X = 532 | Y = -8 | Z = 15124
+Gyroscope: X = -4896 | Y = -295 | Z = -67
+ 
+Accelerometer: X = 664 | Y = -16 | Z = 15192
+Gyroscope: X = -4896 | Y = -278 | Z = -31
+ 
+Accelerometer: X = 596 | Y = -140 | Z = 15084
+Gyroscope: X = -4928 | Y = -276 | Z = -49
+ 
+Accelerometer: X = 628 | Y = -76 | Z = 15316
+Gyroscope: X = -4928 | Y = -312 | Z = -67
+ 
+Accelerometer: X = 652 | Y = -68 | Z = 15328
+Gyroscope: X = -4928 | Y = -285 | Z = -38
+ 
+Accelerometer: X = 632 | Y = -64 | Z = 15096
+Gyroscope: X = -4928 | Y = -298 | Z = -53
+ 
+Accelerometer: X = 640 | Y = -52 | Z = 15308
+Gyroscope: X = -4896 | Y = -303 | Z = -56
+ 
+Accelerometer: X = 536 | Y = -152 | Z = 15212
+Gyroscope: X = -4912 | Y = -281 | Z = -53
+ 
+Accelerometer: X = 636 | Y = -192 | Z = 15156
+Gyroscope: X = -4896 | Y = -297 | Z = -31
+ 
+Accelerometer: X = 628 | Y = -112 | Z = 15364
+Gyroscope: X = -4928 | Y = -292 | Z = -65
+ 
+Accelerometer: X = 604 | Y = -176 | Z = 15096
+Gyroscope: X = -4912 | Y = -313 | Z = -53
+ 
+Accelerometer: X = 732 | Y = -116 | Z = 15216
+Gyroscope: X = -4912 | Y = -296 | Z = -46
+ 
+Accelerometer: X = 748 | Y = -172 | Z = 15180
+Gyroscope: X = -4912 | Y = -289 | Z = -65
+ 
+Accelerometer: X = 600 | Y = -52 | Z = 14908
+Gyroscope: X = -4912 | Y = -270 | Z = -55
+ 
+Accelerometer: X = 616 | Y = -108 | Z = 15164
+Gyroscope: X = -4880 | Y = -292 | Z = -56
+ 
+Accelerometer: X = 976 | Y = 256 | Z = 14828
+Gyroscope: X = -4928 | Y = -302 | Z = -162
+ 
+Accelerometer: X = 588 | Y = -84 | Z = 15216
+Gyroscope: X = -4896 | Y = -282 | Z = -37
+ 
+Accelerometer: X = 620 | Y = -148 | Z = 15100
+Gyroscope: X = -4912 | Y = -306 | Z = -52
+ 
+Accelerometer: X = 752 | Y = -88 | Z = 15064
+Gyroscope: X = -4880 | Y = -291 | Z = -45
+ 
+Accelerometer: X = 600 | Y = 60 | Z = 15036
+Gyroscope: X = -4880 | Y = -291 | Z = -23
+ 
+Accelerometer: X = 512 | Y = -152 | Z = 15104
+Gyroscope: X = -4864 | Y = -281 | Z = -52
+ 
+Accelerometer: X = 288 | Y = 0 | Z = 15232
+Gyroscope: X = -4912 | Y = -295 | Z = -32
+ 
+Accelerometer: X = 584 | Y = -44 | Z = 15156
+Gyroscope: X = -4912 | Y = -315 | Z = -31
+ 
+Accelerometer: X = 572 | Y = -132 | Z = 15180
+Gyroscope: X = -4912 | Y = -274 | Z = -49
+ 
+Accelerometer: X = 604 | Y = -64 | Z = 15264
+Gyroscope: X = -4880 | Y = -298 | Z = -53
+ 
+Accelerometer: X = 456 | Y = -236 | Z = 15176
+Gyroscope: X = -4912 | Y = -292 | Z = -39
+ 
+Accelerometer: X = 620 | Y = -140 | Z = 15120
+Gyroscope: X = -4896 | Y = -310 | Z = -50
+ 
+Accelerometer: X = 400 | Y = 4 | Z = 14936
+Gyroscope: X = -4928 | Y = -306 | Z = -91
+ 
+Accelerometer: X = 380 | Y = -132 | Z = 15256
+Gyroscope: X = -4896 | Y = -307 | Z = -105
+ 
+Accelerometer: X = 460 | Y = 0 | Z = 15328
+Gyroscope: X = -4912 | Y = -322 | Z = -70
+ 
+Accelerometer: X = 628 | Y = -172 | Z = 15292
+Gyroscope: X = -4880 | Y = -306 | Z = -60
+ 
+Accelerometer: X = 700 | Y = -292 | Z = 15244
+Gyroscope: X = -4928 | Y = -308 | Z = -39
+ 
+Accelerometer: X = 752 | Y = -260 | Z = 15200
+Gyroscope: X = -4896 | Y = -294 | Z = -30
+ 
+Accelerometer: X = 620 | Y = -116 | Z = 15040
+Gyroscope: X = -4896 | Y = -279 | Z = -67
+ 
+Accelerometer: X = 584 | Y = -124 | Z = 15144
+Gyroscope: X = -4896 | Y = -290 | Z = -49
+ 
+Accelerometer: X = 468 | Y = -116 | Z = 15232
+Gyroscope: X = -4896 | Y = -310 | Z = -43
+ 
+Accelerometer: X = 636 | Y = -136 | Z = 15136
+Gyroscope: X = -4896 | Y = -305 | Z = -58
+ 
+Accelerometer: X = 748 | Y = -132 | Z = 15192
+Gyroscope: X = -4912 | Y = -288 | Z = -40
+ 
+Accelerometer: X = 680 | Y = -172 | Z = 14884
+Gyroscope: X = -4928 | Y = -305 | Z = -57
+ 
+Accelerometer: X = 628 | Y = -128 | Z = 15164
+Gyroscope: X = -4928 | Y = -283 | Z = -59
+ 
+Accelerometer: X = 776 | Y = 16 | Z = 14904
+Gyroscope: X = -4880 | Y = -292 | Z = -46
+ 
+Accelerometer: X = 672 | Y = -64 | Z = 15352
+Gyroscope: X = -4896 | Y = -306 | Z = -59
+ 
+Accelerometer: X = 632 | Y = -156 | Z = 15244
+Gyroscope: X = -4928 | Y = -288 | Z = -52
+ 
+Accelerometer: X = 428 | Y = -72 | Z = 15192
+Gyroscope: X = -4896 | Y = -283 | Z = -57
+ 
+Accelerometer: X = 556 | Y = -128 | Z = 15220
+Gyroscope: X = -4896 | Y = -291 | Z = -80
+ 
+Accelerometer: X = 560 | Y = -112 | Z = 15264
+Gyroscope: X = -4928 | Y = -319 | Z = -49
+ 
+Accelerometer: X = 448 | Y = -72 | Z = 15240
+Gyroscope: X = -4896 | Y = -311 | Z = -71
+ 
+Accelerometer: X = 536 | Y = -136 | Z = 14900
+Gyroscope: X = -4896 | Y = -274 | Z = -43
+ 
+Accelerometer: X = 580 | Y = -156 | Z = 15148
+Gyroscope: X = -4928 | Y = -299 | Z = -49
+ 
+Accelerometer: X = 528 | Y = -220 | Z = 15060
+Gyroscope: X = -4896 | Y = -287 | Z = -69
+ 
+Accelerometer: X = 556 | Y = -208 | Z = 15384
+Gyroscope: X = -4896 | Y = -277 | Z = -56
+ 
+Accelerometer: X = 624 | Y = -164 | Z = 15348
+Gyroscope: X = -4912 | Y = -283 | Z = -17
+ 
+Accelerometer: X = 432 | Y = -16 | Z = 15216
+Gyroscope: X = -4912 | Y = -293 | Z = -73
+ 
+Accelerometer: X = 484 | Y = -84 | Z = 15204
+Gyroscope: X = -4928 | Y = -288 | Z = -66
+ 
+Accelerometer: X = 564 | Y = -40 | Z = 15164
+Gyroscope: X = -4880 | Y = -302 | Z = -49
+ 
+Accelerometer: X = 528 | Y = -164 | Z = 15084
+Gyroscope: X = -4912 | Y = -274 | Z = -26
+ 
+Accelerometer: X = 572 | Y = -96 | Z = 14968
+Gyroscope: X = -4896 | Y = -294 | Z = -61
+ 
+Accelerometer: X = 492 | Y = -128 | Z = 15404
+Gyroscope: X = -4928 | Y = -299 | Z = -64
+ 
+Accelerometer: X = 684 | Y = -120 | Z = 15228
+Gyroscope: X = -4880 | Y = -294 | Z = -69
+ 
+Accelerometer: X = 512 | Y = -96 | Z = 15172
+Gyroscope: X = -4896 | Y = -295 | Z = -55
+ 
+Accelerometer: X = 568 | Y = -88 | Z = 15264
+Gyroscope: X = -4912 | Y = -278 | Z = -75
+ 
+Accelerometer: X = 620 | Y = -132 | Z = 15276
+Gyroscope: X = -4880 | Y = -303 | Z = -57
+ 
+Accelerometer: X = 572 | Y = 0 | Z = 15044
+Gyroscope: X = -4896 | Y = -317 | Z = -48
+ 
+Accelerometer: X = 704 | Y = -72 | Z = 15272
+Gyroscope: X = -4880 | Y = -286 | Z = -47
+ 
+Accelerometer: X = 668 | Y = -48 | Z = 15492
+Gyroscope: X = -4880 | Y = -289 | Z = -3
+ 
+Accelerometer: X = 604 | Y = -76 | Z = 15140
+Gyroscope: X = -4880 | Y = -294 | Z = -71
+ 
+Accelerometer: X = 592 | Y = -196 | Z = 15212
+Gyroscope: X = -4912 | Y = -308 | Z = -47
+ 
+Accelerometer: X = 644 | Y = -216 | Z = 15116
+Gyroscope: X = -4912 | Y = -331 | Z = -62
+ 
+Accelerometer: X = 816 | Y = -128 | Z = 15172
+Gyroscope: X = -4912 | Y = -334 | Z = 1
+ 
+Accelerometer: X = 484 | Y = -36 | Z = 15400
+Gyroscope: X = -4896 | Y = -292 | Z = -77
+ 
+Accelerometer: X = 508 | Y = -88 | Z = 15152
+Gyroscope: X = -4896 | Y = -300 | Z = -53
+ 
+Accelerometer: X = 580 | Y = -84 | Z = 15104
+Gyroscope: X = -4928 | Y = -261 | Z = -48
+ 
+Accelerometer: X = 644 | Y = -156 | Z = 15204
+Gyroscope: X = -4928 | Y = -307 | Z = -50
+ 
+Accelerometer: X = 452 | Y = -148 | Z = 15104
+Gyroscope: X = -4896 | Y = -296 | Z = -73
+ 
+Accelerometer: X = 528 | Y = -108 | Z = 15116
+Gyroscope: X = -4896 | Y = -301 | Z = -63
+ 
+Accelerometer: X = 796 | Y = -92 | Z = 14892
+Gyroscope: X = -4896 | Y = -311 | Z = -32
+ 
+Accelerometer: X = 600 | Y = -148 | Z = 15084
+Gyroscope: X = -4896 | Y = -290 | Z = -67
+ 
+Accelerometer: X = 656 | Y = -116 | Z = 15220
+Gyroscope: X = -4880 | Y = -296 | Z = -37
+ 
+Accelerometer: X = 564 | Y = -120 | Z = 15176
+Gyroscope: X = -4896 | Y = -312 | Z = -67
+ 
+Accelerometer: X = 656 | Y = -48 | Z = 15216
+Gyroscope: X = -4912 | Y = -281 | Z = -42
+ 
+Accelerometer: X = 588 | Y = -32 | Z = 15132
+Gyroscope: X = -4880 | Y = -297 | Z = -56
+ 
+Accelerometer: X = 640 | Y = -148 | Z = 15096
+Gyroscope: X = -4896 | Y = -292 | Z = -59
+ 
+Accelerometer: X = 600 | Y = -136 | Z = 15216
+Gyroscope: X = -4864 | Y = -303 | Z = -38
+ 
+Accelerometer: X = 580 | Y = -168 | Z = 15212
+Gyroscope: X = -4896 | Y = -299 | Z = -48
+ 
+Accelerometer: X = 704 | Y = -120 | Z = 15076
+Gyroscope: X = -4896 | Y = -301 | Z = -55
+ 
+Accelerometer: X = 416 | Y = -84 | Z = 15324
+Gyroscope: X = -4896 | Y = -302 | Z = -55
+ 
+Accelerometer: X = 692 | Y = -64 | Z = 15096
+Gyroscope: X = -4896 | Y = -299 | Z = -54
+ 
+Accelerometer: X = 584 | Y = -256 | Z = 15048
+Gyroscope: X = -4896 | Y = -294 | Z = -57
+ 
+Accelerometer: X = 596 | Y = 4 | Z = 14980
+Gyroscope: X = -4896 | Y = -287 | Z = -110
+ 
+Accelerometer: X = 608 | Y = -148 | Z = 15156
+Gyroscope: X = -4896 | Y = -297 | Z = -27
+ 
+Accelerometer: X = 636 | Y = -40 | Z = 15212
+Gyroscope: X = -4928 | Y = -315 | Z = -67
+ 
+Accelerometer: X = 652 | Y = -244 | Z = 15336
+Gyroscope: X = -4896 | Y = -267 | Z = -70
+ 
+Accelerometer: X = 544 | Y = -100 | Z = 15212
+Gyroscope: X = -4896 | Y = -304 | Z = -50
+ 
+Accelerometer: X = 684 | Y = -132 | Z = 15164
+Gyroscope: X = -4896 | Y = -289 | Z = -32
+ 
+Accelerometer: X = 580 | Y = -120 | Z = 15188
+Gyroscope: X = -4912 | Y = -305 | Z = -47
+ 
+Accelerometer: X = 764 | Y = -36 | Z = 15268
+Gyroscope: X = -4880 | Y = -284 | Z = -34
+ 
+Accelerometer: X = 492 | Y = -156 | Z = 15012
+Gyroscope: X = -4880 | Y = -301 | Z = -45
+ 
+Accelerometer: X = 580 | Y = -56 | Z = 15084
+Gyroscope: X = -4912 | Y = -274 | Z = -52
+ 
+Accelerometer: X = 664 | Y = -136 | Z = 15284
+Gyroscope: X = -4880 | Y = -295 | Z = -23
+ 
+Accelerometer: X = 604 | Y = -48 | Z = 15244
+Gyroscope: X = -4896 | Y = -294 | Z = -91
+ 
+Accelerometer: X = 592 | Y = -136 | Z = 15268
+Gyroscope: X = -4896 | Y = -293 | Z = -18
+ 
+Accelerometer: X = 732 | Y = -168 | Z = 15428
+Gyroscope: X = -4896 | Y = -307 | Z = -18
+ 
+Accelerometer: X = 556 | Y = -80 | Z = 15216
+Gyroscope: X = -4896 | Y = -330 | Z = -49
+ 
+Accelerometer: X = 552 | Y = -120 | Z = 15284
+Gyroscope: X = -4896 | Y = -273 | Z = -73
+ 
+Accelerometer: X = 572 | Y = -88 | Z = 15196
+Gyroscope: X = -4896 | Y = -282 | Z = -56
+ 
+Accelerometer: X = 572 | Y = -144 | Z = 15296
+Gyroscope: X = -4880 | Y = -299 | Z = -45
+ 
+Accelerometer: X = 636 | Y = -168 | Z = 15196
+Gyroscope: X = -4912 | Y = -306 | Z = -59
+ 
+Accelerometer: X = 664 | Y = -172 | Z = 15172
+Gyroscope: X = -4880 | Y = -311 | Z = -55
+ 
+Accelerometer: X = 584 | Y = -180 | Z = 15108
+Gyroscope: X = -4880 | Y = -290 | Z = -41
+ 
+Accelerometer: X = 580 | Y = -164 | Z = 15248
+Gyroscope: X = -4912 | Y = -289 | Z = -51
+ 
+Accelerometer: X = 600 | Y = -184 | Z = 15096
+Gyroscope: X = -4880 | Y = -296 | Z = -63
+ 
+Accelerometer: X = 564 | Y = -88 | Z = 15036
+Gyroscope: X = -4880 | Y = -301 | Z = -51
+ 
+Accelerometer: X = 588 | Y = -108 | Z = 15200
+Gyroscope: X = -4880 | Y = -311 | Z = -39
+ 
+Accelerometer: X = 616 | Y = -76 | Z = 15144
+Gyroscope: X = -4928 | Y = -290 | Z = -33
+ 
+Accelerometer: X = 608 | Y = -72 | Z = 15264
+Gyroscope: X = -4880 | Y = -307 | Z = -17
+ 
+Accelerometer: X = 564 | Y = -204 | Z = 15224
+Gyroscope: X = -4880 | Y = -275 | Z = -45
+ 
+Accelerometer: X = 540 | Y = -72 | Z = 15384
+Gyroscope: X = -4912 | Y = -281 | Z = -26
+ 
+Accelerometer: X = 628 | Y = -84 | Z = 15204
+Gyroscope: X = -4912 | Y = -289 | Z = -55
+ 
+Accelerometer: X = 652 | Y = -200 | Z = 15264
+Gyroscope: X = -4912 | Y = -303 | Z = -53
+ 
+Accelerometer: X = 528 | Y = -108 | Z = 15200
+Gyroscope: X = -4912 | Y = -290 | Z = -30
+ 
+Accelerometer: X = 588 | Y = -148 | Z = 15160
+Gyroscope: X = -4912 | Y = -305 | Z = -37
+ 
+Accelerometer: X = 588 | Y = -164 | Z = 15076
+Gyroscope: X = -4864 | Y = -290 | Z = -43
+ 
+Accelerometer: X = 596 | Y = -116 | Z = 15276
+Gyroscope: X = -4880 | Y = -300 | Z = -32
+ 
+Accelerometer: X = 656 | Y = -88 | Z = 15160
+Gyroscope: X = -4928 | Y = -321 | Z = -64
+ 
+Accelerometer: X = 528 | Y = -140 | Z = 15324
+Gyroscope: X = -4880 | Y = -311 | Z = -31
+ 
+Accelerometer: X = 584 | Y = -64 | Z = 15260
+Gyroscope: X = -4880 | Y = -287 | Z = -51
+ 
+Accelerometer: X = 668 | Y = -116 | Z = 15132
+Gyroscope: X = -4880 | Y = -310 | Z = -61
+ 
+Accelerometer: X = 644 | Y = -128 | Z = 15204
+Gyroscope: X = -4880 | Y = -299 | Z = -26
+ 
+Accelerometer: X = 600 | Y = -124 | Z = 15160
+Gyroscope: X = -4912 | Y = -323 | Z = -57
+ 
+Accelerometer: X = 708 | Y = -4 | Z = 15220
+Gyroscope: X = -4864 | Y = -326 | Z = -47
+ 
+Accelerometer: X = 568 | Y = -164 | Z = 15292
+Gyroscope: X = -4896 | Y = -302 | Z = -72
+ 
+Accelerometer: X = 564 | Y = -176 | Z = 15164
+Gyroscope: X = -4896 | Y = -300 | Z = -52
+ 
+Accelerometer: X = 604 | Y = -100 | Z = 15104
+Gyroscope: X = -4912 | Y = -298 | Z = -53
+ 
+Accelerometer: X = 612 | Y = -108 | Z = 15196
+Gyroscope: X = -4896 | Y = -296 | Z = -67
+ 
+Accelerometer: X = 636 | Y = -104 | Z = 15196
+Gyroscope: X = -4928 | Y = -318 | Z = -38
+ 
+Accelerometer: X = 536 | Y = -88 | Z = 15148
+Gyroscope: X = -4864 | Y = -303 | Z = -52
+ 
+Accelerometer: X = 600 | Y = -144 | Z = 15220
+Gyroscope: X = -4880 | Y = -303 | Z = -50
+ 
+Accelerometer: X = 664 | Y = -148 | Z = 15156
+Gyroscope: X = -4896 | Y = -338 | Z = -66
+ 
+Accelerometer: X = 488 | Y = -172 | Z = 15268
+Gyroscope: X = -4896 | Y = -309 | Z = -58
+ 
+Accelerometer: X = 572 | Y = -164 | Z = 15292
+Gyroscope: X = -4912 | Y = -307 | Z = -31
+ 
+Accelerometer: X = 440 | Y = -184 | Z = 15244
+Gyroscope: X = -4896 | Y = -275 | Z = -39
+ 
+Accelerometer: X = 520 | Y = -84 | Z = 15160
+Gyroscope: X = -4896 | Y = -288 | Z = -58
+ 
+Accelerometer: X = 612 | Y = -168 | Z = 15100
+Gyroscope: X = -4896 | Y = -299 | Z = -33
+ 
+Accelerometer: X = 564 | Y = -108 | Z = 15236
+Gyroscope: X = -4896 | Y = -299 | Z = -27
+ 
+Accelerometer: X = 592 | Y = -48 | Z = 15240
+Gyroscope: X = -4896 | Y = -308 | Z = -55
+ 
+Accelerometer: X = 612 | Y = -92 | Z = 15232
+Gyroscope: X = -4880 | Y = -273 | Z = -62
+ 
+Accelerometer: X = 536 | Y = -180 | Z = 15148
+Gyroscope: X = -4880 | Y = -290 | Z = -67
+ 
+Accelerometer: X = 632 | Y = -96 | Z = 15268
+Gyroscope: X = -4928 | Y = -321 | Z = -73
+ 
+Accelerometer: X = 556 | Y = -124 | Z = 15100
+Gyroscope: X = -4864 | Y = -302 | Z = -50
+ 
+Accelerometer: X = 552 | Y = -56 | Z = 15176
+Gyroscope: X = -4864 | Y = -300 | Z = -36
+ 
+Accelerometer: X = 548 | Y = -180 | Z = 15140
+Gyroscope: X = -4896 | Y = -303 | Z = -49
+ 
+Accelerometer: X = 580 | Y = -144 | Z = 15048
+Gyroscope: X = -4880 | Y = -313 | Z = -43
+ 
+Accelerometer: X = 580 | Y = -8 | Z = 15096
+Gyroscope: X = -4912 | Y = -305 | Z = -21
+ 
+Accelerometer: X = 552 | Y = -140 | Z = 15172
+Gyroscope: X = -4880 | Y = -295 | Z = -31
+ 
+Accelerometer: X = 408 | Y = -116 | Z = 15196
+Gyroscope: X = -4912 | Y = -280 | Z = -54
+ 
+Accelerometer: X = 680 | Y = -112 | Z = 15160
+Gyroscope: X = -4880 | Y = -284 | Z = -41
+ 
+Accelerometer: X = 704 | Y = -76 | Z = 15184
+Gyroscope: X = -4880 | Y = -290 | Z = -53
+ 
+Accelerometer: X = 688 | Y = -132 | Z = 15120
+Gyroscope: X = -4896 | Y = -291 | Z = -51
+ 
+Accelerometer: X = 616 | Y = -180 | Z = 15196
+Gyroscope: X = -4912 | Y = -298 | Z = -56
+ 
+Accelerometer: X = 460 | Y = -152 | Z = 15196
+Gyroscope: X = -4896 | Y = -284 | Z = -49
+ 
+Accelerometer: X = 556 | Y = -124 | Z = 15284
+Gyroscope: X = -4912 | Y = -291 | Z = -44
+ 
+Accelerometer: X = 644 | Y = -36 | Z = 15160
+Gyroscope: X = -4896 | Y = -278 | Z = -20
+ 
+Accelerometer: X = 584 | Y = -12 | Z = 15220
+Gyroscope: X = -4880 | Y = -297 | Z = -17
+ 
+Accelerometer: X = 668 | Y = -120 | Z = 15076
+Gyroscope: X = -4864 | Y = -302 | Z = -64
+ 
+Accelerometer: X = 640 | Y = -104 | Z = 15280
+Gyroscope: X = -4912 | Y = -318 | Z = -62
+ 
+Accelerometer: X = 596 | Y = -148 | Z = 15176
+Gyroscope: X = -4880 | Y = -307 | Z = -43
+ 
+Accelerometer: X = 612 | Y = -136 | Z = 15156
+Gyroscope: X = -4912 | Y = -303 | Z = -73
+ 
+Accelerometer: X = 456 | Y = -64 | Z = 15176
+Gyroscope: X = -4896 | Y = -269 | Z = -66
+ 
+Accelerometer: X = 656 | Y = -112 | Z = 15544
+Gyroscope: X = -4864 | Y = -295 | Z = -26
+ 
+Accelerometer: X = 612 | Y = -132 | Z = 15076
+Gyroscope: X = -4880 | Y = -283 | Z = -43
+ 
+Accelerometer: X = 640 | Y = -112 | Z = 15208
+Gyroscope: X = -4896 | Y = -287 | Z = -47
+ 
+Accelerometer: X = 668 | Y = -156 | Z = 15056
+Gyroscope: X = -4864 | Y = -280 | Z = -58
+ 
+Accelerometer: X = 604 | Y = -52 | Z = 15180
+Gyroscope: X = -4896 | Y = -321 | Z = -56
+ 
+Accelerometer: X = 580 | Y = -184 | Z = 15128
+Gyroscope: X = -4880 | Y = -289 | Z = -48
+ 
+Accelerometer: X = 544 | Y = -92 | Z = 15260
+Gyroscope: X = -4880 | Y = -290 | Z = -37
+ 
+Accelerometer: X = 544 | Y = -96 | Z = 15200
+Gyroscope: X = -4880 | Y = -297 | Z = -53
+ 
+Accelerometer: X = 496 | Y = -112 | Z = 15112
+Gyroscope: X = -4880 | Y = -303 | Z = -67
+ 
+Accelerometer: X = 652 | Y = -244 | Z = 15168
+Gyroscope: X = -4896 | Y = -300 | Z = -49
+ 
+Accelerometer: X = 584 | Y = 32 | Z = 15132
+Gyroscope: X = -4928 | Y = -308 | Z = -58
+ 
+Accelerometer: X = 516 | Y = -116 | Z = 15252
+Gyroscope: X = -4880 | Y = -291 | Z = -50
+ 
+Accelerometer: X = 496 | Y = -156 | Z = 15132
+Gyroscope: X = -4912 | Y = -282 | Z = -45
+ 
+Accelerometer: X = 500 | Y = -112 | Z = 15156
+Gyroscope: X = -4896 | Y = -300 | Z = -45
+ 
+Accelerometer: X = 652 | Y = -28 | Z = 15256
+Gyroscope: X = -4848 | Y = -280 | Z = -45
+ 
+Accelerometer: X = 652 | Y = -16 | Z = 15236
+Gyroscope: X = -4880 | Y = -313 | Z = -38
+ 
+Accelerometer: X = 632 | Y = -60 | Z = 15104
+Gyroscope: X = -4880 | Y = -289 | Z = -53
+ 
+Accelerometer: X = 704 | Y = -44 | Z = 15216
+Gyroscope: X = -4864 | Y = -302 | Z = -37
+ 
+Accelerometer: X = 624 | Y = -164 | Z = 15236
+Gyroscope: X = -4896 | Y = -292 | Z = -36
+ 
+Accelerometer: X = 692 | Y = -176 | Z = 15108
+Gyroscope: X = -4896 | Y = -314 | Z = -56
+ 
+Accelerometer: X = 488 | Y = -148 | Z = 15168
+Gyroscope: X = -4896 | Y = -302 | Z = -50
+ 
+Accelerometer: X = 612 | Y = -128 | Z = 15072
+Gyroscope: X = -4864 | Y = -316 | Z = -49
+ 
+Accelerometer: X = 580 | Y = -144 | Z = 15080
+Gyroscope: X = -4928 | Y = -312 | Z = -39
+ 
+Accelerometer: X = 680 | Y = -136 | Z = 15176
+Gyroscope: X = -4880 | Y = -305 | Z = -50
+ 
+Accelerometer: X = 708 | Y = -92 | Z = 15244
+Gyroscope: X = -4912 | Y = -301 | Z = -46
+ 
+Accelerometer: X = 692 | Y = -160 | Z = 15228
+Gyroscope: X = -4880 | Y = -308 | Z = -45
+ 
+Accelerometer: X = 592 | Y = -196 | Z = 15240
+Gyroscope: X = -4912 | Y = -293 | Z = -42
+ 
+Accelerometer: X = 592 | Y = -172 | Z = 15204
+Gyroscope: X = -4880 | Y = -284 | Z = -38
+ 
+Accelerometer: X = 648 | Y = -88 | Z = 15104
+Gyroscope: X = -4912 | Y = -283 | Z = -60
+ 
+Accelerometer: X = 624 | Y = -104 | Z = 15196
+Gyroscope: X = -4880 | Y = -302 | Z = -53
+ 
+Accelerometer: X = 644 | Y = -68 | Z = 15124
+Gyroscope: X = -4896 | Y = -296 | Z = -36
+ 
+Accelerometer: X = 636 | Y = -20 | Z = 15172
+Gyroscope: X = -4864 | Y = -298 | Z = -73
+ 
+Accelerometer: X = 540 | Y = -160 | Z = 15260
+Gyroscope: X = -4896 | Y = -309 | Z = -29
+ 
+Accelerometer: X = 544 | Y = -72 | Z = 15256
+Gyroscope: X = -4896 | Y = -326 | Z = -41
+ 
+Accelerometer: X = 568 | Y = -188 | Z = 15180
+Gyroscope: X = -4928 | Y = -296 | Z = -40
+ 
+Accelerometer: X = 592 | Y = -156 | Z = 15140
+Gyroscope: X = -4912 | Y = -300 | Z = -57
+ 
+Accelerometer: X = 556 | Y = -180 | Z = 14932
+Gyroscope: X = -4880 | Y = -294 | Z = -35
+ 
+Accelerometer: X = 512 | Y = -100 | Z = 15284
+Gyroscope: X = -4848 | Y = -277 | Z = -57
+ 
+Accelerometer: X = 560 | Y = -164 | Z = 15124
+Gyroscope: X = -4912 | Y = -289 | Z = -44
+ 
+Accelerometer: X = 660 | Y = -80 | Z = 15208
+Gyroscope: X = -4864 | Y = -300 | Z = -40
+ 
+Accelerometer: X = 528 | Y = -172 | Z = 14972
+Gyroscope: X = -4864 | Y = -291 | Z = -76
+ 
+Accelerometer: X = 704 | Y = -116 | Z = 15180
+Gyroscope: X = -4880 | Y = -304 | Z = -33
+ 
+Accelerometer: X = 676 | Y = -104 | Z = 15056
+Gyroscope: X = -4912 | Y = -313 | Z = -58
+ 
+Accelerometer: X = 536 | Y = -176 | Z = 15120
+Gyroscope: X = -4896 | Y = -296 | Z = -41
+ 
+Accelerometer: X = 648 | Y = -156 | Z = 15204
+Gyroscope: X = -4896 | Y = -291 | Z = -35
+ 
+Accelerometer: X = 652 | Y = -144 | Z = 15156
+Gyroscope: X = -4928 | Y = -273 | Z = -60
+ 
+Accelerometer: X = 632 | Y = -124 | Z = 15268
+Gyroscope: X = -4880 | Y = -284 | Z = -56
+ 
+Accelerometer: X = 764 | Y = -44 | Z = 15248
+Gyroscope: X = -4880 | Y = -281 | Z = -34
+ 
+Accelerometer: X = 572 | Y = -44 | Z = 15140
+Gyroscope: X = -4896 | Y = -295 | Z = -39
+ 
+Accelerometer: X = 588 | Y = -112 | Z = 15228
+Gyroscope: X = -4864 | Y = -289 | Z = -77
+ 
+Accelerometer: X = 624 | Y = -28 | Z = 15152
+Gyroscope: X = -4896 | Y = -289 | Z = -57
+ 
+Accelerometer: X = 652 | Y = -140 | Z = 15268
+Gyroscope: X = -4880 | Y = -303 | Z = -46
+ 
+Accelerometer: X = 652 | Y = -108 | Z = 15228
+Gyroscope: X = -4864 | Y = -294 | Z = -40
+ 
+Accelerometer: X = 548 | Y = -76 | Z = 15204
+Gyroscope: X = -4896 | Y = -304 | Z = -45
+ 
+Accelerometer: X = 668 | Y = -72 | Z = 15260
+Gyroscope: X = -4864 | Y = -293 | Z = -46
+ 
+Accelerometer: X = 656 | Y = -140 | Z = 15196
+Gyroscope: X = -4848 | Y = -311 | Z = -44
+ 
+Accelerometer: X = 608 | Y = -92 | Z = 15156
+Gyroscope: X = -4880 | Y = -301 | Z = -42
+ 
+Accelerometer: X = 664 | Y = -148 | Z = 15244
+Gyroscope: X = -4896 | Y = -291 | Z = -75
+ 
+Accelerometer: X = 552 | Y = -80 | Z = 15168
+Gyroscope: X = -4880 | Y = -320 | Z = -57
+ 
+Accelerometer: X = 676 | Y = -80 | Z = 15188
+Gyroscope: X = -4848 | Y = -287 | Z = -55
+ 
+Accelerometer: X = 496 | Y = -104 | Z = 15104
+Gyroscope: X = -4880 | Y = -307 | Z = -67
+ 
+Accelerometer: X = 612 | Y = -212 | Z = 15248
+Gyroscope: X = -4880 | Y = -320 | Z = -57
+ 
+Accelerometer: X = 484 | Y = -72 | Z = 15248
+Gyroscope: X = -4896 | Y = -296 | Z = -51
+ 
+Accelerometer: X = 676 | Y = -128 | Z = 15016
+Gyroscope: X = -4896 | Y = -300 | Z = -64
+ 
+Accelerometer: X = 588 | Y = -92 | Z = 15148
+Gyroscope: X = -4864 | Y = -298 | Z = -53
+ 
+Accelerometer: X = 676 | Y = -128 | Z = 15176
+Gyroscope: X = -4896 | Y = -287 | Z = -47
+ 
+Accelerometer: X = 716 | Y = -180 | Z = 15164
+Gyroscope: X = -4864 | Y = -289 | Z = -49
+ 
+Accelerometer: X = 864 | Y = -204 | Z = 15024
+Gyroscope: X = -4896 | Y = -297 | Z = -105
+ 
+Accelerometer: X = 1156 | Y = -152 | Z = 14864
+Gyroscope: X = -4896 | Y = -348 | Z = 111
+ 
+Accelerometer: X = 1164 | Y = -648 | Z = 15348
+Gyroscope: X = -4912 | Y = -296 | Z = -95
+ 

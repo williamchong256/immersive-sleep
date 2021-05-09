@@ -1,0 +1,12 @@
+
+/** My thought is that each payload can be a single JSON file consisting of the
+ *  following organization. That way, data can be easily parsed by sensor, and it
+ *  can be easily encoded using the JSON library for ESP/arduino.
+
+
+{"pulse_ox":[
+  { "IR":"57382", "RED":"57363" },
+  { "IR":"68309", "RED":"732593" },
+  ... ,
+  { "IR":"674553", "RED":"729314" }
+]}

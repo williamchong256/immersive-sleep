@@ -10,13 +10,21 @@ linktocsv=  "https://raw.githubusercontent.com/williamchong256/immersive-sleep/d
 rawData = pd.read_csv(linktocsv, skiprows=1000)
 
 singleColumn = pd.DataFrame(rawData)
-IR = singleColumn[singleColumn.columns[0]].head(1000)
-Red = singleColumn[singleColumn.columns[1]].head(1000)
 
-redValue = (max(Red) - min(Red))/min(Red)
-IRValue = (max(IR)-min(IR))/min(IR)
-ratio = redValue/IRValue
-#if ratio > 1 , >85% SpO2
+IR = singleColumn[singleColumn.columns[0]].head(10000)
+Red = singleColumn[singleColumn.columns[1]].head(10000)
+
+
+rootmeanRed = np.sqrt(((sum(Red**2))/len(Red)))
+rootmeanIR = np.sqrt(((sum(IR**2))/len(IR)))
+
+sumofsquaresRed = sum((Red-(np.mean(Red)))**2)/(len(Red)-1)
+sumofsquaresIR= sum((IR-(np.mean(IR)))**2)/(len(IR)-1)
+
+ratio = (rootmeanRed/sumofsquaresRed)/(rootmeanIR/sumofsquaresIR)
+oxygenSaturation = (((-45.06*ratio)*(ratio/10000))+(30.354*(ratio/100))) + 94.845
+print(oxygenSaturation)
+
 
 singleColumn = singleColumn[singleColumn.columns[0]]
 singleColumn= singleColumn.head(45000)

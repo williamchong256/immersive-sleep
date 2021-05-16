@@ -1,93 +1,64 @@
 import * as React from 'react';
+import { ScrollView } from 'react-native';
 import {
-  Dimensions, ScrollView,
-} from 'react-native';
-import { LineChart, BarChart, ProgressChart } from 'react-native-chart-kit';
-import { sampleData } from './sampleData.json';
-import {
-  CardTitle, DiagnosticsCard, DiagnosticsScroll, PageTitle,
+  BodyText, CardTitle, DiagnosticsCard, DiagnosticsScroll, PageTitle,
 } from './Themes';
 
 export default function DiagnosticsTab() {
-  const daysOfTheWeek = sampleData.map((user) => user.key);
-  const heartRateDiagnostics = sampleData.map((user) => user.heartRate);
-  const durationDiagnostics = sampleData.map((user) => user.duration);
-  const breathingDiagnostics = sampleData.map((user) => user.breathing);
+  const [showCond1, setshowCond1] = React.useState(true);
+  const [showCond2, setshowCond2] = React.useState(true);
+  const [showCond3, setshowCond3] = React.useState(true);
+  const [showCond4, setshowCond4] = React.useState(true);
+  const [showPred1, setshowPred1] = React.useState(true);
+  const [showPred2, setshowPred2] = React.useState(true);
+  const [showPred3, setshowPred3] = React.useState(true);
 
   return (
     <DiagnosticsScroll>
       <ScrollView showsVerticalScrollIndicator={false}>
         <PageTitle data>Diagnostics</PageTitle>
+        { showCond1 && (
+          <DiagnosticsCard>
+            <CardTitle>Condition 1</CardTitle>
+            <BodyText>Additional Info for Condition 1</BodyText>
+          </DiagnosticsCard>
+        )}
+        { showCond2 && (
         <DiagnosticsCard>
-          <CardTitle>Heart Rate Analysis</CardTitle>
-          <LineChart
-            data={{ labels: daysOfTheWeek, datasets: [{ data: heartRateDiagnostics }] }}
-            height={200}
-            width={Dimensions.get('window').width - 60}
-            fromZero
-            withShadow={false}
-            chartConfig={{
-              backgroundGradientFrom: '#F9F6FF',
-              backgroundGradientTo: '#F9F6FF',
-              color: () => 'rgba(0,0,0,1)',
-            }}
-            style={{ borderRadius: 10 }}
-          />
+          <CardTitle>Condition 2</CardTitle>
+          <BodyText>Additional Info for Condition 2</BodyText>
         </DiagnosticsCard>
-        <DiagnosticsCard>
-          <CardTitle>Breathing Analysis</CardTitle>
-          <LineChart
-            data={{ labels: daysOfTheWeek, datasets: [{ data: breathingDiagnostics }] }}
-            height={200}
-            width={Dimensions.get('window').width - 60}
-            fromZero
-            withShadow={false}
-            chartConfig={{
-              backgroundGradientFrom: '#F9F6FF',
-              backgroundGradientTo: '#F9F6FF',
-              color: () => 'rgba(0,0,0,1)',
-            }}
-            style={{ borderRadius: 10 }}
-          />
-        </DiagnosticsCard>
-        <DiagnosticsCard>
-          <CardTitle>Sleep Duration</CardTitle>
-          <BarChart
-            data={{ labels: daysOfTheWeek, datasets: [{ data: durationDiagnostics }] }}
-            height={200}
-            width={Dimensions.get('window').width - 60}
-            withShadow={false}
-            withInnerLines={false}
-            withHorizontalLabels={false}
-            showValuesOnTopOfBars
-            fromZero
-            chartConfig={{
-              backgroundGradientFrom: '#F9F6FF',
-              backgroundGradientTo: '#F9F6FF',
-              barPercentage: 0.8,
-              decimalPlaces: 0,
-              color: () => 'rgba(0,0,0,1)',
-            }}
-            style={{ borderRadius: 10, paddingRight: 0 }}
-          />
-        </DiagnosticsCard>
-        <DiagnosticsCard>
-          <CardTitle>Sleep Cycles</CardTitle>
-          <ProgressChart
-            data={{ labels: ['Deep:', 'REM:', 'Light:'], data: [0.55, 0.35, 0.75] }}
-            height={200}
-            width={Dimensions.get('window').width - 60}
-            fromZero
-            strokeWidth={15}
-            chartConfig={{
-              backgroundGradientFrom: '#F9F6FF',
-              backgroundGradientTo: '#F9F6FF',
-              color: (opacity = 1) => `rgba(166, 205, 240, ${opacity})`,
-              labelColor: () => 'rgba(0,0,0,1)',
-            }}
-            style={{ borderRadius: 10 }}
-          />
-        </DiagnosticsCard>
+        )}
+        { showCond3 && (
+          <DiagnosticsCard>
+            <CardTitle>Condition 3</CardTitle>
+            <BodyText>Additional Info for Condition 3</BodyText>
+          </DiagnosticsCard>
+        )}
+        { showCond4 && (
+          <DiagnosticsCard>
+            <CardTitle>Condition 4</CardTitle>
+            <BodyText>Additional Info for Condition 4</BodyText>
+          </DiagnosticsCard>
+        )}
+        { showPred1 && (
+          <DiagnosticsCard center>
+            <CardTitle>Prediction 1</CardTitle>
+            <BodyText>Additional Info for Prediction 1</BodyText>
+          </DiagnosticsCard>
+        )}
+        { showPred2 && (
+          <DiagnosticsCard center>
+            <CardTitle>Prediction 2</CardTitle>
+            <BodyText>Additional Info for Prediction 2</BodyText>
+          </DiagnosticsCard>
+        )}
+        { showPred3 && (
+          <DiagnosticsCard center>
+            <CardTitle>Prediction 3</CardTitle>
+            <BodyText>Additional Info for Prediction 3</BodyText>
+          </DiagnosticsCard>
+        )}
       </ScrollView>
     </DiagnosticsScroll>
   );

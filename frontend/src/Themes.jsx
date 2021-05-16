@@ -83,7 +83,7 @@ export const CardText = styled.Text`
 export const DiagnosticsCard = styled(CardView)`
     padding: 20px;
     paddingTop: 0px;
-    background-color: #CFDFF7;
+    background-color: ${(props) => (props.center ? '#F9F6FF' : '#CFDFF7')};;
     align-items: center;
     margin-right: 15px;
     margin-left: 15px;

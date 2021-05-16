@@ -61,7 +61,7 @@ Avalueforseizure = 300
 Gvalueforseizure = 100
 seizure = False
 
-if (len(changeInAcceleration) > positionofMaxA + 1):
+if ((len(changeInAcceleration) > positionofMaxA + 1) & (len(changeinGyroscope) > positionofMaxG + 1)):
     if ((changeInAcceleration[positionofMaxA+1] > Avalueforseizure) & (changeInAcceleration[positionofMaxA-1] > Avalueforseizure) & 
     (changeinGyroscope[positionofMaxG+1] > Gvalueforseizure) & (changeinGyroscope[positionofMaxG-1] > Gvalueforseizure)):
         seizure = True

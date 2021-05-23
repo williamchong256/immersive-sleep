@@ -125,7 +125,7 @@ export const HomeCardTitle = styled.Text`
 `;
 
 // Styles for Data & Detailed Data pages:
-export const DataView = styled.View`
+export const DataView = styled.SafeAreaView`
     flex: 1;
     background-color: white;
     align-items: stretch;

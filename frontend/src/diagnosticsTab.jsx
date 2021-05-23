@@ -5,18 +5,18 @@ import {
 } from './Themes';
 
 export default function DiagnosticsTab() {
-  const [showCond1, setshowCond1] = React.useState(true);
-  const [showCond2, setshowCond2] = React.useState(true);
-  const [showCond3, setshowCond3] = React.useState(true);
-  const [showPred1, setshowPred1] = React.useState(true);
-  const [showPred2, setshowPred2] = React.useState(true);
-  const [showPred3, setshowPred3] = React.useState(true);
+  const showPneumonia = true;
+  const showTachycardia = true;
+  const showBradycardia = true;
+  const showBreathing = true;
+  const showREM = true;
+  const showSeizures = true;
 
   return (
     <DiagnosticsScroll>
       <ScrollView showsVerticalScrollIndicator={false}>
         <PageTitle data>Diagnostics</PageTitle>
-        { showCond1 && (
+        { showPneumonia && (
           <DiagnosticsCard>
             <CardTitle>Pneumonia</CardTitle>
             <BodyText signin>
@@ -24,7 +24,7 @@ export default function DiagnosticsTab() {
             </BodyText>
           </DiagnosticsCard>
         )}
-        { showCond2 && (
+        { showTachycardia && (
         <DiagnosticsCard>
           <CardTitle>Tachycardia</CardTitle>
           <BodyText signin>
@@ -32,7 +32,7 @@ export default function DiagnosticsTab() {
           </BodyText>
         </DiagnosticsCard>
         )}
-        { showCond3 && (
+        { showBradycardia && (
           <DiagnosticsCard>
             <CardTitle>Bradycardia</CardTitle>
             <BodyText signin>
@@ -40,7 +40,7 @@ export default function DiagnosticsTab() {
             </BodyText>
           </DiagnosticsCard>
         )}
-        { showPred1 && (
+        { showBreathing && (
           <DiagnosticsCard center>
             <CardTitle>Breathing Rate</CardTitle>
             <BodyText signin>
@@ -48,7 +48,7 @@ export default function DiagnosticsTab() {
             </BodyText>
           </DiagnosticsCard>
         )}
-        { showPred2 && (
+        { showREM && (
           <DiagnosticsCard center>
             <CardTitle>REM Sleep</CardTitle>
             <BodyText signin>
@@ -56,7 +56,7 @@ export default function DiagnosticsTab() {
             </BodyText>
           </DiagnosticsCard>
         )}
-        { showPred3 && (
+        { showSeizures && (
           <DiagnosticsCard center>
             <CardTitle>Seizures/Head Tremors</CardTitle>
             <BodyText signin>

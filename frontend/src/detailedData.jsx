@@ -97,15 +97,20 @@ function DetailedData({ navigation, route }) {
       })();
     }
   }, [item, value]));
+
+  const days = ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday'];
+  const d = new Date(item.date);
+  const dayName = days[d.getDay()];
+
   return (
   // Simple example of displaying data based in route
     <DataView>
       <ScrollView showsVerticalScrollIndicator={false}>
         <LinearGradient colors={['#F9F6FF', '#CFDFF7']} style={{ flex: 1, padding: 20 }}>
-          <PageTitle detaileddata>{item.date}</PageTitle>
+          <PageTitle detaileddata>{dayName}</PageTitle>
 
           <DataPointView>
-            <Subheading>{item.duration}</Subheading>
+            <Subheading>{item.date}</Subheading>
           </DataPointView>
 
           <DataPointView>

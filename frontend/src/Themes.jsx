@@ -174,6 +174,7 @@ export const SignInButtonContainer = styled(ButtonContainer)`
     height: 40px;
     width: 325px;
     align-content: center;
+    align-self: center;
     padding: 0px;
     margin-bottom: 10px;
 `;

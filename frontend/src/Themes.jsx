@@ -24,7 +24,7 @@ export const PageView = styled.View`
 export const BodyText = styled.Text`
     font-weight: 300;
     font-size: 15px;
-    line-height: ${(props) => (props.signin ? '15px' : '35px')};
+    line-height: ${(props) => (props.signin ? '20px' : '35px')};
     letter-spacing: -0.24px;
     color: black;
     align-self: ${(props) => (props.center ? 'center' : 'flex-start')};

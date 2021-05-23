@@ -8,7 +8,6 @@ export default function DiagnosticsTab() {
   const [showCond1, setshowCond1] = React.useState(true);
   const [showCond2, setshowCond2] = React.useState(true);
   const [showCond3, setshowCond3] = React.useState(true);
-  const [showCond4, setshowCond4] = React.useState(true);
   const [showPred1, setshowPred1] = React.useState(true);
   const [showPred2, setshowPred2] = React.useState(true);
   const [showPred3, setshowPred3] = React.useState(true);
@@ -19,44 +18,50 @@ export default function DiagnosticsTab() {
         <PageTitle data>Diagnostics</PageTitle>
         { showCond1 && (
           <DiagnosticsCard>
-            <CardTitle>Condition 1</CardTitle>
-            <BodyText>Additional Info for Condition 1</BodyText>
+            <CardTitle>Pneumonia</CardTitle>
+            <BodyText signin>
+              The symptoms you seem to be exhibiting are correlated with pneumonia.
+            </BodyText>
           </DiagnosticsCard>
         )}
         { showCond2 && (
         <DiagnosticsCard>
-          <CardTitle>Condition 2</CardTitle>
-          <BodyText>Additional Info for Condition 2</BodyText>
+          <CardTitle>Tachycardia</CardTitle>
+          <BodyText signin>
+            Your heart rate is indicative of that seen in tachycardia.
+          </BodyText>
         </DiagnosticsCard>
         )}
         { showCond3 && (
           <DiagnosticsCard>
-            <CardTitle>Condition 3</CardTitle>
-            <BodyText>Additional Info for Condition 3</BodyText>
-          </DiagnosticsCard>
-        )}
-        { showCond4 && (
-          <DiagnosticsCard>
-            <CardTitle>Condition 4</CardTitle>
-            <BodyText>Additional Info for Condition 4</BodyText>
+            <CardTitle>Bradycardia</CardTitle>
+            <BodyText signin>
+              Your heart rate is indicative of that seen in bradycardia.
+            </BodyText>
           </DiagnosticsCard>
         )}
         { showPred1 && (
           <DiagnosticsCard center>
-            <CardTitle>Prediction 1</CardTitle>
-            <BodyText>Additional Info for Prediction 1</BodyText>
+            <CardTitle>Breathing Rate</CardTitle>
+            <BodyText signin>
+              Your breathing rate is showing a concerning trend.
+            </BodyText>
           </DiagnosticsCard>
         )}
         { showPred2 && (
           <DiagnosticsCard center>
-            <CardTitle>Prediction 2</CardTitle>
-            <BodyText>Additional Info for Prediction 2</BodyText>
+            <CardTitle>REM Sleep</CardTitle>
+            <BodyText signin>
+              Your sleep time in REM is going down.
+            </BodyText>
           </DiagnosticsCard>
         )}
         { showPred3 && (
           <DiagnosticsCard center>
-            <CardTitle>Prediction 3</CardTitle>
-            <BodyText>Additional Info for Prediction 3</BodyText>
+            <CardTitle>Seizures/Head Tremors</CardTitle>
+            <BodyText signin>
+              Analysis of your sleep indicates head tremors or seizures during sleep
+            </BodyText>
           </DiagnosticsCard>
         )}
       </ScrollView>

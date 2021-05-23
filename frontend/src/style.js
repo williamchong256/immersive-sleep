@@ -78,6 +78,7 @@ const styles = StyleSheet.create({
     borderRadius: 5,
     opacity: 0.5,
     marginLeft: 5,
+    marginBottom: 10,
     backgroundColor: '#fff',
     alignItems: 'stretch',
     justifyContent: 'flex-start',

@@ -24,7 +24,7 @@ export const PageView = styled.View`
 export const BodyText = styled.Text`
     font-weight: 300;
     font-size: 15px;
-    line-height: ${(props) => (props.signin ? '15px' : '35px')};
+    line-height: ${(props) => (props.signin ? '20px' : '35px')};
     letter-spacing: -0.24px;
     color: black;
     align-self: ${(props) => (props.center ? 'center' : 'flex-start')};
@@ -83,7 +83,7 @@ export const CardText = styled.Text`
 export const DiagnosticsCard = styled(CardView)`
     padding: 20px;
     paddingTop: 0px;
-    background-color: #CFDFF7;
+    background-color: ${(props) => (props.center ? '#F9F6FF' : '#CFDFF7')};;
     align-items: center;
     margin-right: 15px;
     margin-left: 15px;
@@ -125,7 +125,7 @@ export const HomeCardTitle = styled.Text`
 `;
 
 // Styles for Data & Detailed Data pages:
-export const DataView = styled.View`
+export const DataView = styled.SafeAreaView`
     flex: 1;
     background-color: white;
     align-items: stretch;

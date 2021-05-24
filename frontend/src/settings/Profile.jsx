@@ -7,7 +7,6 @@ import { SignIn } from '../amplify/AmplifyAuth';
 import {
   BodyText, ProfileView, PageTitle, ProfilePointView, Subheading, SignInButton,
 } from '../Themes';
-import styles from '../style';
 
 const profilePic = require('../../assets/default-profile.jpg');
 
@@ -85,7 +84,7 @@ function UserData() {
 
   return (
     <ProfileView>
-      <LinearGradient colors={['#F9F6FF', '#CFDFF7']} style={styles.profile}>
+      <LinearGradient colors={['#F9F6FF', '#CFDFF7']} style={{ flex: 1, padding: 20 }}>
 
         <ProfilePointView profile>
           {/* Placeholder image */}
@@ -97,7 +96,7 @@ function UserData() {
           />
           <ProfilePointView>
             <PageTitle profile>{user.name}</PageTitle>
-            <Subheading profile>{username}</Subheading>
+            <Subheading profile>{`@${username}`}</Subheading>
           </ProfilePointView>
         </ProfilePointView>
 

@@ -32,7 +32,7 @@ function renderData({ item }, navigation) {
       })}
       >
         <CardTitle data>{dayName}</CardTitle>
-        <Subheading>{item.date}</Subheading>
+        <Subheading profile>{item.date}</Subheading>
         <DataPointView>
           <BodyText>
             {`Duration: ${item.duration}`}

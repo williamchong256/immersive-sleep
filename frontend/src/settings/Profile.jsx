@@ -1,13 +1,12 @@
 import * as React from 'react';
 import { Auth, DataStore } from 'aws-amplify';
-import { View, Image, Button } from 'react-native';
+import { View, Image } from 'react-native';
 import { LinearGradient } from 'expo-linear-gradient';
 import RNPickerSelect from 'react-native-picker-select';
 import { SignIn } from '../amplify/AmplifyAuth';
 import {
-  BodyText, ProfileView, PageTitle, ProfilePointView, Subheading,
+  BodyText, ProfileView, PageTitle, ProfilePointView, Subheading, SignInButton,
 } from '../Themes';
-import styles from '../style';
 
 const profilePic = require('../../assets/default-profile.jpg');
 
@@ -85,7 +84,7 @@ function UserData() {
 
   return (
     <ProfileView>
-      <LinearGradient colors={['#F9F6FF', '#CFDFF7']} style={styles.profile}>
+      <LinearGradient colors={['#F9F6FF', '#CFDFF7']} style={{ flex: 1, padding: 20 }}>
 
         <ProfilePointView profile>
           {/* Placeholder image */}
@@ -97,7 +96,7 @@ function UserData() {
           />
           <ProfilePointView>
             <PageTitle profile>{user.name}</PageTitle>
-            <Subheading profile>{username}</Subheading>
+            <Subheading profile>{`@${username}`}</Subheading>
           </ProfilePointView>
         </ProfilePointView>
 
@@ -126,7 +125,7 @@ function UserData() {
         </ProfilePointView>
 
         <ProfilePointView>
-          <Button title="Sign out" onPress={logout} />
+          <SignInButton title="Sign out" onPress={logout} />
         </ProfilePointView>
       </LinearGradient>
 

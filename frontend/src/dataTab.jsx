@@ -8,7 +8,7 @@ import gql from 'graphql-tag';
 import DetailedData from './detailedData';
 import {
   BodyText, CardTitle, CardView, DataPointView, DataScrollView,
-  PageTitle,
+  PageTitle, Subheading,
 } from './Themes';
 import styles from './style';
 import * as queries from './graphql/queries';
@@ -17,6 +17,10 @@ import Context from './Context';
 
 // Handles the rendering of each item in data of FlatList
 function renderData({ item }, navigation) {
+  const days = ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday'];
+  const d = new Date(item.date);
+  const dayName = days[d.getDay()];
+
   return (
     <CardView data>
       {/*
@@ -27,8 +31,8 @@ function renderData({ item }, navigation) {
         id: item.id,
       })}
       >
-        <CardTitle data>{item.date}</CardTitle>
-
+        <CardTitle data>{dayName}</CardTitle>
+        <Subheading profile>{item.date}</Subheading>
         <DataPointView>
           <BodyText>
             {`Duration: ${item.duration}`}

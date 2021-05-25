@@ -7,7 +7,7 @@ import RNDateTimePicker from '@react-native-community/datetimepicker';
 import AsyncStorage from '@react-native-async-storage/async-storage';
 import { useFocusEffect } from '@react-navigation/native';
 import {
-  PreferencesView, CardTitle, PreferencesTitle,
+  PreferencesView, CardTitle,
 } from '../Themes';
 
 function Preferences() {
@@ -51,7 +51,6 @@ function Preferences() {
 
   return (
     <LinearGradient colors={['#F9F6FF', '#CFDFF7']} style={{ flex: 1, padding: 20 }}>
-      <PreferencesTitle>Preferences</PreferencesTitle>
       <PreferencesView>
         <CardTitle>Dark Mode</CardTitle>
         <Switch
